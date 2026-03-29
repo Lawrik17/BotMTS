@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
-  "download_url": "https://github.com/USER/REPO/releases/download/v1.2.0/AdminClient.exe",
+  "version": "0.0.0.1",
+  "download_url": "https://github.com/Lawrik17/BotMTS/releases/download/123/AdminClient.exe",
   "release_notes": "- Добавлено окно синхронизации\n- Исправлен баг с подключением"
 }
