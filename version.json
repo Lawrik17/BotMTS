@@ -3,11 +3,11 @@
  "files": [
 {
  "name": "AdminClient.exe",
- "download_url": "https://github.com/USER/REPO/releases/download/v1.2.0/AdminClient.exe"
+ "download_url": "https://github.com/Lawrik17/BotMTS/releases/download/123/AdminClient.exe"
 },
 {
  "name": "AdminClient.dll",
- "download_url": "https://github.com/USER/REPO/releases/download/v1.2.0/AdminClient.dll"
+ "download_url": "https://github.com/Lawrik17/BotMTS/releases/download/123/AdminClient.dll"
 }
 ],
  "release_notes": "- Добавлено окно синхронизации\n- Исправлен баг с подключением"
