@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0.3",
+  "version": "0.0.0.4",
   "download_url": "https://github.com/Lawrik17/BotMTS/releases/download/123/AdminClient.exe",
   "download_dll_url": "https://github.com/Lawrik17/BotMTS/releases/download/123/AdminClient.dll",
   "release_notes": "- Добавлено окно синхронизации\n- Исправлен баг с подключением"
