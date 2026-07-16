@@ -1,10 +1,10 @@
 {
-        "appId": "6D6X6",
-        "version": "2.5.1.0",
-        "minimumVersion": "0.0.0.0",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-2.5.1.0-r2/6D6X6-2.5.1.0.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-hidden-20260716/Updater.exe",
-        "sha256": "671b0ab794c753ff9cebd77b9d20c647a21fb4c0ea667608f028c4c5426c2ace",
-        "releaseNotes": "Полный пакет 6D6X6 2.5.1.0: исправлена версия EXE/DLL, updater автоматически повышает права для обновления клиента и 6D6X6Service",
-        "files": []
+  "appId": "6D6X6",
+  "version": "2.5.1.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-2.5.1.0-r2/6D6X6-2.5.1.0.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
+  "sha256": "671b0ab794c753ff9cebd77b9d20c647a21fb4c0ea667608f028c4c5426c2ace",
+  "releaseNotes": "Полный пакет 6D6X6 2.5.1.0: исправлена версия EXE/DLL, обновление Launcher, Apps и службы, добавлены принудительная установка и журнал Updater.log",
+  "files": []
 }
