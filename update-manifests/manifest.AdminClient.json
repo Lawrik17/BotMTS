@@ -1,0 +1,10 @@
+{
+  "appId": "AdminClient",
+  "version": "0.0.0.6",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.6/AdminClient-0.0.0.6.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.6/Updater.exe",
+  "sha256": "e143782581986436819f9676d47743210271af6c622f6be2bc1f499aabe43b25",
+  "releaseNotes": "Обновление AdminClient и его зависимостей",
+  "files": []
+}
