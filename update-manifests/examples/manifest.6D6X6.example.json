@@ -1,0 +1,10 @@
+{
+  "appId": "6D6X6",
+  "version": "0.2.5.0",
+  "minimumVersion": "0.2.4.1",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-0.2.5.0/6D6X6-0.2.5.0.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-0.2.5.0/Updater.exe",
+  "sha256": "PASTE_SHA256_OF_6D6X6_ZIP_HERE",
+  "releaseNotes": "Обновление клиента 6D6X6, Launcher, Apps и 6D6X6Service",
+  "files": []
+}
