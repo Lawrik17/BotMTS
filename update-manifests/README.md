@@ -18,9 +18,9 @@
 
 | Что обновляем | Где вписать ссылку | Ссылка (raw) |
 |---|---|---|
-| Клиент 6D6X6 | BotStats → «URL манифеста обновлений 6D6X6» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/main/update-manifests/manifest.6D6X6.json` |
-| Сервер BotStats | BotStats → «URL манифеста обновлений BotStats» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/main/update-manifests/manifest.BotStatsMTS.json` |
-| AdminClient | AdminClient → «Пакетное обновление» → «URL манифеста AdminClient» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/main/update-manifests/manifest.AdminClient.json` |
+| Клиент 6D6X6 | BotStats → «URL манифеста обновлений 6D6X6» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/refs/heads/main/update-manifests/manifest.6D6X6.json` |
+| Сервер BotStats | BotStats → «URL манифеста обновлений BotStats» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/refs/heads/main/update-manifests/manifest.BotStatsMTS.json` |
+| AdminClient | AdminClient → «Пакетное обновление» → «URL манифеста AdminClient» | `https://raw.githubusercontent.com/Lawrik17/BotMTS/refs/heads/main/update-manifests/manifest.AdminClient.json` |
 
 ---
 
