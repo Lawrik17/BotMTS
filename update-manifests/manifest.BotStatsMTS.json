@@ -1,10 +1,10 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.0",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.0/BotStatsMTS-1.0.1.0.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.0/Updater.exe",
-  "sha256": "f43524a11b55e9db9183492170faa71b83f911d89c7db8cfe2b02217058ee19",
-  "releaseNotes": "Обновление BotStats и его зависимостей",
-  "files": []
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.0",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.0/BotStatsMTS-1.0.1.0.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.0/Updater.exe",
+    "sha256": "f43524a11b55e9db9183492170faa71b83f911d89c7db8cfef2b02217058ee19",
+    "releaseNotes": "Обновление BotStats и его зависимостей",
+    "files": []
 }
