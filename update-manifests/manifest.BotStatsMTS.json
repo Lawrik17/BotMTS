@@ -1,10 +1,10 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.4",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/BotStatsMTS-1.0.1.4.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
-  "sha256": "f3a613a97484e17ea96eedc3137e328853a603f06cb3ee1c2f6cc980898a6e30",
-  "releaseNotes": "BotStats MTS 1.0.1.4: общий экран характеристик ПК, SMART физических дисков, корректное копирование данных и управление сетевым адаптером",
-  "files": []
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.4",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/BotStatsMTS-1.0.1.4.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "f3a613a97484e17ea96eedc3137e328853a603f06cb3ee1c2f6cc980898a6e30",
+    "releaseNotes": "BotStats MTS 1.0.1.4: общий экран характеристик ПК, SMART физических дисков, корректное копирование данных и управление сетевым адаптером",
+    "files": []
 }
