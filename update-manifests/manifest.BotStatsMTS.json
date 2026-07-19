@@ -1,10 +1,10 @@
 {
-          "appId": "BotStatsMTS",
-          "version": "1.0.1.7",
-          "minimumVersion": "1.0.0.0",
-          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-monitoring-fix-20260719/BotStatsMTS-1.0.1.7.zip",
-          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-          "sha256": "1b09b4f54e6299531f2c482388b238c2af909c93ed232eadc452667685c6bbed",
-          "releaseNotes": "BotStats MTS 1.0.1.7: исправлено падение при открытии мониторинга ПК; общая карточка использует совместимые ресурсы темы, а ошибки отдельных экранов больше не закрывают сервер.",
-          "files": []
+            "appId": "BotStatsMTS",
+            "version": "1.0.1.8",
+            "minimumVersion": "1.0.0.0",
+            "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/BotStatsMTS-1.0.1.8.zip",
+            "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+            "sha256": "efcd053090bf7dd01943a4e3d58b5741c943cdba42269ba41c5d5e1847b6d0bd",
+            "releaseNotes": "BotStats MTS 1.0.1.8: карточка ПК убирает фиктивные диски ':', нормализует буквы томов и удаляет дубликаты iSCSI.",
+            "files": []
 }
