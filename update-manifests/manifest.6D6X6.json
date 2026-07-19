@@ -1,10 +1,10 @@
 {
-  "appId": "6D6X6",
-  "version": "2.5.3.0",
-  "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/6D6X6-2.5.3.0.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
-  "sha256": "01d98d30cdc576c58794e5ddfd2640f520e7f15a56ff0970a157669812bd5e93",
-  "releaseNotes": "6D6X6 2.5.3.0: подробные данные физических дисков и SMART, управление сетевым адаптером, исправленное копирование характеристик и полный проверенный пакет Service/Apps/Launcher",
-  "files": []
+    "appId": "6D6X6",
+    "version": "2.5.3.0",
+    "minimumVersion": "0.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/6D6X6-2.5.3.0.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "01d98d30cdc576c58794e5ddfd2640f520e7f15a56ff0970a157669812bd5e93",
+    "releaseNotes": "6D6X6 2.5.3.0: подробные данные физических дисков и SMART, управление сетевым адаптером, исправленное копирование характеристик и полный проверенный пакет Service/Apps/Launcher",
+    "files": []
 }
