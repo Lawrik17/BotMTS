@@ -1,10 +1,10 @@
 {
-    "appId": "AdminClient",
-    "version": "0.0.0.7",
-    "minimumVersion": "0.0.0.5",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/AdminClient-0.0.0.7.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-    "sha256": "9f21cade317d1a011235de40e5b45e196af3538f60a39a1fc22f74d9b3f5e99f",
-    "releaseNotes": "AdminClient 0.0.0.7: общий экран характеристик ПК, SMART физических дисков, корректное копирование данных и управление сетевым адаптером",
-    "files": []
+      "appId": "AdminClient",
+      "version": "0.0.0.8",
+      "minimumVersion": "0.0.0.5",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-fix-20260719/AdminClient-0.0.0.8.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+      "sha256": "936dfb5931031f9371747e0fc1c2cde8f02ac42cadc59ffd90ec26b8c69de6db",
+      "releaseNotes": "AdminClient 0.0.0.8: обновлён общий экран характеристик ПК и сетевое управление адаптером.",
+      "files": []
 }
