@@ -1,10 +1,10 @@
 {
-      "appId": "6D6X6",
-      "version": "2.5.4.0",
-      "minimumVersion": "0.0.0.0",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-fix-20260719/6D6X6-2.5.4.0.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "ca494c33d25a0af18bdf5f31406ad190e03892a816f0a4b939553b39aebce17c",
-      "releaseNotes": "6D6X6 2.5.4.0: исправлено сопоставление физических и iSCSI-дисков, сбор SMART и управление сетевым адаптером через службу.",
-      "files": []
+        "appId": "6D6X6",
+        "version": "2.5.5.0",
+        "minimumVersion": "0.0.0.0",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/6D6X6-2.5.5.0.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "7dc04f9f3ed132544b6e323fcc94f2be4fb0baf656ac3ae6e972300f32d6765a",
+        "releaseNotes": "6D6X6 2.5.5.0: исправлены буквы физических и iSCSI-томов; разделы без буквы больше не передаются как фиктивные диски с именем ':' и размером 0 GB.",
+        "files": []
 }
