@@ -1,10 +1,10 @@
 {
-      "appId": "BotStatsMTS",
-      "version": "1.0.1.5",
-      "minimumVersion": "1.0.0.0",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-fix-20260719/BotStatsMTS-1.0.1.5.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "1fabe4ec641748095e3d69a5ed110a54296ef9353e1aa978949f4c11b49e0161",
-      "releaseNotes": "BotStats MTS 1.0.1.5: обновлён общий экран характеристик ПК и сетевое управление адаптером.",
-      "files": []
+        "appId": "BotStatsMTS",
+        "version": "1.0.1.6",
+        "minimumVersion": "1.0.0.0",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/telegram-session-fix-20260719/BotStatsMTS-1.0.1.6.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "9300083069118b7e9d27cd6c58e381fc22958063735aff030cbc85d897150529",
+        "releaseNotes": "BotStats MTS 1.0.1.6: устранены повторные Telegram-записи восстановления канала; heartbeat больше не запускает повторную сверку активной сессии каждые 15 секунд.",
+        "files": []
 }
