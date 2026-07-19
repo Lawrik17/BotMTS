@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.6",
+  "version": "0.0.0.7",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.6/AdminClient-0.0.0.6.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/AdminClient-0.0.0.7.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
-  "sha256": "e143782581986436819f9676d47743210271af6c622f6be2bc1f499aabe43b25",
-  "releaseNotes": "Обновление AdminClient и его зависимостей",
+  "sha256": "9f21cade317d1a011235de40e5b45e196af3538f60a39a1fc22f74d9b3f5e99f",
+  "releaseNotes": "AdminClient 0.0.0.7: общий экран характеристик ПК, SMART физических дисков, корректное копирование данных и управление сетевым адаптером",
   "files": []
 }
