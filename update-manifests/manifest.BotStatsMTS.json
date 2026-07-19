@@ -1,10 +1,10 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.1",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.1/BotStatsMTS-1.0.1.1.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
-  "sha256": "6fda504c97f3b44b5e8df0d8b6a4eb4ebc78abe294a673601a7cdaa7e024c770",
-  "releaseNotes": "BotStats MTS 1.0.1.1: плавное обновление списка ПК, актуальные общие экраны и скрытый фоновый Updater",
-  "files": []
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.3",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.3/BotStatsMTS-1.0.1.3.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-tls-20260716/Updater.exe",
+    "sha256": "c5d2f8be60c2f0f504ae168b0f8fe5e058ad57a8ae2dd836a78afe555eebc89f",
+    "releaseNotes": "BotStats MTS 1.0.1.3: стабильный учёт подключений ПК, удаление зависших каналов и корректное переподключение клиентов",
+    "files": []
 }
