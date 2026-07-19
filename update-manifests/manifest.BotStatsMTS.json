@@ -1,10 +1,10 @@
 {
-            "appId": "BotStatsMTS",
-            "version": "1.0.1.8",
-            "minimumVersion": "1.0.0.0",
-            "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/BotStatsMTS-1.0.1.8.zip",
-            "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-            "sha256": "efcd053090bf7dd01943a4e3d58b5741c943cdba42269ba41c5d5e1847b6d0bd",
-            "releaseNotes": "BotStats MTS 1.0.1.8: карточка ПК убирает фиктивные диски ':', нормализует буквы томов и удаляет дубликаты iSCSI.",
-            "files": []
+  "appId": "BotStatsMTS",
+  "version": "1.0.1.9",
+  "minimumVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/BotStatsMTS-1.0.1.9.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "b58efca7d6bc93a2ba8cc5b4022e57d33a6be0883bd0da30de4a7684f623bd0c",
+  "releaseNotes": "BotStats MTS 1.0.1.9: карточка ПК показывает аппаратные ошибки сетевых адаптеров и позволяет восстановить 10Gb-адаптер через клиентскую службу.",
+  "files": []
 }
