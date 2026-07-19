@@ -1,10 +1,10 @@
 {
-        "appId": "6D6X6",
-        "version": "2.5.5.0",
-        "minimumVersion": "0.0.0.0",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/6D6X6-2.5.5.0.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "7dc04f9f3ed132544b6e323fcc94f2be4fb0baf656ac3ae6e972300f32d6765a",
-        "releaseNotes": "6D6X6 2.5.5.0: исправлены буквы физических и iSCSI-томов; разделы без буквы больше не передаются как фиктивные диски с именем ':' и размером 0 GB.",
-        "files": []
+  "appId": "6D6X6",
+  "version": "2.5.6.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/6D6X6-2.5.6.0.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "31aa839a1fd5fae7ce8b4ad935b96e3fc25d5eef0f98f4913acd754d3c053b01",
+  "releaseNotes": "6D6X6 2.5.6.0: добавлена диагностика состояния сетевых адаптеров и восстановление 10Gb-адаптера через службу с правами LocalSystem.",
+  "files": []
 }
