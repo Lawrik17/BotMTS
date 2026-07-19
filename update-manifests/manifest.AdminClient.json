@@ -1,10 +1,10 @@
 {
-      "appId": "AdminClient",
-      "version": "0.0.0.8",
-      "minimumVersion": "0.0.0.5",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-fix-20260719/AdminClient-0.0.0.8.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "936dfb5931031f9371747e0fc1c2cde8f02ac42cadc59ffd90ec26b8c69de6db",
-      "releaseNotes": "AdminClient 0.0.0.8: обновлён общий экран характеристик ПК и сетевое управление адаптером.",
-      "files": []
+        "appId": "AdminClient",
+        "version": "0.0.0.9",
+        "minimumVersion": "0.0.0.5",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/AdminClient-0.0.0.9.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "dd6257c92d9409923ea343c5d033134fa92b772202ba919c8a236cfb0f010af5",
+        "releaseNotes": "AdminClient 0.0.0.9: карточка ПК убирает фиктивные диски ':', нормализует буквы томов и удаляет дубликаты iSCSI.",
+        "files": []
 }
