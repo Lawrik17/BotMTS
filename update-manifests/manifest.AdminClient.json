@@ -1,10 +1,10 @@
 {
-        "appId": "AdminClient",
-        "version": "0.0.0.9",
-        "minimumVersion": "0.0.0.5",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/disk-volume-fix-20260719/AdminClient-0.0.0.9.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "dd6257c92d9409923ea343c5d033134fa92b772202ba919c8a236cfb0f010af5",
-        "releaseNotes": "AdminClient 0.0.0.9: карточка ПК убирает фиктивные диски ':', нормализует буквы томов и удаляет дубликаты iSCSI.",
-        "files": []
+  "appId": "AdminClient",
+  "version": "0.0.0.10",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/AdminClient-0.0.0.10.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "5e8508b2d2e198693501f27cb58e11525979086e8359f5b1270f5d3f18ce0b11",
+  "releaseNotes": "AdminClient 0.0.0.10: карточка ПК показывает аппаратные ошибки сетевых адаптеров и позволяет восстановить 10Gb-адаптер через клиентскую службу.",
+  "files": []
 }
