@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.10",
+  "version": "0.0.0.11",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/AdminClient-0.0.0.10.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/AdminClient-0.0.0.11.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "5e8508b2d2e198693501f27cb58e11525979086e8359f5b1270f5d3f18ce0b11",
-  "releaseNotes": "AdminClient 0.0.0.10: карточка ПК показывает аппаратные ошибки сетевых адаптеров и позволяет восстановить 10Gb-адаптер через клиентскую службу.",
+  "sha256": "46fc4ddb7ce80b51d1c1e27ee730c5c6e93e7a2398c9cb698ff806c25aa0788e",
+  "releaseNotes": "AdminClient 0.0.0.11: общий экран AutoLogin получил EA-only проверку офлайн-лицензий выбранного ПК.",
   "files": []
 }

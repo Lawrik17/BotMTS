@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.9",
+  "version": "1.0.1.10",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/BotStatsMTS-1.0.1.9.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/BotStatsMTS-1.0.1.10.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "b58efca7d6bc93a2ba8cc5b4022e57d33a6be0883bd0da30de4a7684f623bd0c",
-  "releaseNotes": "BotStats MTS 1.0.1.9: карточка ПК показывает аппаратные ошибки сетевых адаптеров и позволяет восстановить 10Gb-адаптер через клиентскую службу.",
+  "sha256": "c59f8abe71a66eb47d734d8b87b247b4d69e9fa7c86af48d0b469f87754a9e45",
+  "releaseNotes": "BotStats MTS 1.0.1.10: добавлена удалённая EA-only проверка офлайн-лицензий с уведомлениями и безопасной обработкой проблемного ПК.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.6.0",
+  "version": "2.5.7.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/network-driver-recovery-20260720/6D6X6-2.5.6.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/6D6X6-2.5.7.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "31aa839a1fd5fae7ce8b4ad935b96e3fc25d5eef0f98f4913acd754d3c053b01",
-  "releaseNotes": "6D6X6 2.5.6.0: добавлена диагностика состояния сетевых адаптеров и восстановление 10Gb-адаптера через службу с правами LocalSystem.",
+  "sha256": "e05d4bbf0f8473e9f7a68c0885d67d735aeb37a34c08d5c534d349207f62141f",
+  "releaseNotes": "6D6X6 2.5.7.0: EA-only проверка офлайн-лицензий запускает только совпавшие игры из раздела «Установленные игры» и точно связывает кнопку запуска со строкой игры.",
   "files": []
 }
