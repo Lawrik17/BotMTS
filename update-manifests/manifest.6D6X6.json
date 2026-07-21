@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.7.0",
+  "version": "2.5.8.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/6D6X6-2.5.7.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-maintenance-20260722/6D6X6-2.5.8.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "e05d4bbf0f8473e9f7a68c0885d67d735aeb37a34c08d5c534d349207f62141f",
-  "releaseNotes": "6D6X6 2.5.7.0: EA-only проверка офлайн-лицензий запускает только совпавшие игры из раздела «Установленные игры» и точно связывает кнопку запуска со строкой игры.",
+  "sha256": "2d09dc0eca42ccc7d0a3727f34fbe2602369455d6ea15aa9b550a7ff3b5c6197",
+  "releaseNotes": "6D6X6 2.5.8.0: долговечная автоматическая проверка лицензий EA переживает обе перезагрузки, последовательно обновляет все проблемные игры и возвращает ПК под защиту.",
   "files": []
 }

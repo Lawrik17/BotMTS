@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.10",
+  "version": "1.0.1.11",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/BotStatsMTS-1.0.1.10.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-maintenance-20260722/BotStatsMTS-1.0.1.11.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "c59f8abe71a66eb47d734d8b87b247b4d69e9fa7c86af48d0b469f87754a9e45",
-  "releaseNotes": "BotStats MTS 1.0.1.10: добавлена удалённая EA-only проверка офлайн-лицензий с уведомлениями и безопасной обработкой проблемного ПК.",
+  "sha256": "3b24dbce98bee475e0727e8007681ebb132df4adcf59250afbb224c2c2b412c4",
+  "releaseNotes": "BotStats MTS 1.0.1.11: ночная очередь обслуживания лицензий EA хранит ожидающие, пройденные и ошибочные ПК, не запускает ПК повторно и реплицируется между Server A/B.",
   "files": []
 }

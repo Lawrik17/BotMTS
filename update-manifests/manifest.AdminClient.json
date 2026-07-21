@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.11",
+  "version": "0.0.0.12",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-audit-20260721/AdminClient-0.0.0.11.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-maintenance-20260722/AdminClient-0.0.0.12.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "46fc4ddb7ce80b51d1c1e27ee730c5c6e93e7a2398c9cb698ff806c25aa0788e",
-  "releaseNotes": "AdminClient 0.0.0.11: общий экран AutoLogin получил EA-only проверку офлайн-лицензий выбранного ПК.",
+  "sha256": "2bea83aa14d06da39ad456cdd5be380081983a8b90f1e6ed08ebecb2900b2ce1",
+  "releaseNotes": "AdminClient 0.0.0.12: общие настройки получили расписание автоматической проверки EA и время онлайн-запуска каждой проблемной игры.",
   "files": []
 }
