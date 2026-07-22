@@ -1,9 +1,9 @@
 {
-          "appId": "BotStatsMTS",
-          "version": "1.0.1.15",
-          "minimumVersion": "1.0.0.0",
-          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-multiselect-20260722/BotStatsMTS-1.0.1.15.zip",
-          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-          "sha256": "25f98e0b87ed68154e5a7ab0636c6dcff41facaad1d19d57f4ef26f85ed57fc7",
-          "releaseNotes": "BotStats MTS 1.0.1.15: в управлении сервером исправлены подписи списков, добавлены фильтр и множественный выбор подключений iSCSI и таргетов с пакетным выполнением команд. Встроена служба управления 1.0.1.2."
+    "appId":  "BotStatsMTS",
+    "version":  "1.0.1.16",
+    "minimumVersion":  "1.0.0.0",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/server-management-target-bases-20260722/BotStatsMTS-1.0.1.16.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256":  "04c0b493c4e30c85cb207b6c53e3272e45745ece09bc645c2f1441c1d9b809db",
+    "releaseNotes":  "BotStats MTS 1.0.1.16: фильтр таргетов по имени и базовому диску, пакетное обновление клонов с индивидуальными базовыми VHDX, результат каждой операции и удаление записей из истории удалённых групп. Встроена служба управления 1.0.1.3."
 }

@@ -1,9 +1,9 @@
 {
-        "appId": "AdminClient",
-        "version": "0.0.0.15",
-        "minimumVersion": "0.0.0.5",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-multiselect-20260722/AdminClient-0.0.0.15.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "ddc434d8f53a490c8294bdfe510846cddecbfe9493983f5da643a112d750d9d5",
-        "releaseNotes": "AdminClient 0.0.0.15: в общем экране управления Server A/B исправлены подписи списков, добавлены фильтр и множественный выбор подключений iSCSI и таргетов с пакетными командами."
+    "appId":  "AdminClient",
+    "version":  "0.0.0.16",
+    "minimumVersion":  "0.0.0.5",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/server-management-target-bases-20260722/AdminClient-0.0.0.16.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256":  "c2e7b3a02b6ba5a3b1a9050f7b1a8703a85d2785183454162bd57f183d36755a",
+    "releaseNotes":  "AdminClient 0.0.0.16: фильтр таргетов по имени и базовому диску, пакетное обновление клонов с индивидуальными базовыми VHDX, результат каждой операции и удаление записей из истории удалённых групп."
 }
