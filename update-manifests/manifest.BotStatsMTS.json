@@ -1,9 +1,9 @@
 {
-    "appId": "BotStatsMTS",
-    "version": "1.0.1.12",
-    "minimumVersion": "1.0.0.0",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-fix-20260722/BotStatsMTS-1.0.1.12.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-    "sha256": "97fb7aae52c8299fff6e00756b5eef150875e016ddc4b4456f5c5f8de0e9f029",
-    "releaseNotes": "BotStats MTS 1.0.1.12: исправлена страница управления сервером, безопасно обрабатываются отсутствующие свойства iSCSI, PowerShell-обмен переведён на UTF-8."
+      "appId": "BotStatsMTS",
+      "version": "1.0.1.13",
+      "minimumVersion": "1.0.0.0",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-legacy-state-fix-20260722/BotStatsMTS-1.0.1.13.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+      "sha256": "bf5ab754c6a3cf6da4d128153ce7551297a190975a89660d778ebd23cfd3b12f",
+      "releaseNotes": "BotStats MTS 1.0.1.13: мониторинг Server A/B устойчив к старым неполным записям iSCSI без TargetName, DiskPath и ParentDiskPath; агент управления обновлён до 1.0.1.1."
 }
