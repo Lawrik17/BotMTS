@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.9.0",
+  "version": "2.5.10.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-settings-game-delivery-20260722/6D6X6-2.5.9.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-full-audit-20260722/6D6X6-2.5.10.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "4184ee00da483a6eeac7729ecd45ca8b4c82319daf118befd169b87802f48488",
-  "releaseNotes": "6D6X6 2.5.9.0: клиент сообщает серверу подтверждённое состояние MTS Fog Play и поддерживает удалённый выбор путей для загрузок игр; полный пакет включает Apps, службу и helper-лаунчеры.",
+  "sha256": "f4f9e937e8c18b2495da10e08c131f625a8002ff6f8948674add67ac2756ec6b",
+  "releaseNotes": "6D6X6 2.5.10.0: проверка лицензий EA проходит все установленные игры и собирает полный список EC:204. Заморозка снимается только после успешной проверки всех игр без пропусков; после перезагрузки лицензии обновляются по очереди. Полный пакет включает Apps, службу и helper-лаунчеры.",
   "files": []
 }
