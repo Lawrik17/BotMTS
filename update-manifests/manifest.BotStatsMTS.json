@@ -1,9 +1,9 @@
 {
-    "appId":  "BotStatsMTS",
-    "version":  "1.0.1.17",
-    "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/runtime-settings-game-delivery-20260722/BotStatsMTS-1.0.1.17.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-    "sha256":  "b1b3c2618d9af1dff0c6222ee1243028e99cb6ed55b5316504f637457a1dae58",
-    "releaseNotes":  "BotStats MTS 1.0.1.17: отдельная вкладка управления Windows Server, настройки 6D6X по выбранному ПК, индикатор реально запущенного MTS Fog Play и удалённый выбор путей в загрузках игр. Встроена служба управления 1.0.1.3."
+  "appId": "BotStatsMTS",
+  "version": "1.0.1.18",
+  "minimumVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-full-audit-20260722/BotStatsMTS-1.0.1.18.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "3fdae147affe64e07c770ba9bec98331a179a2079c44520fa8240a0ddc4ba5dc",
+  "releaseNotes": "BotStats MTS 1.0.1.18: операция проверки лицензий EA хранит полный список EC:204 до перезагрузки, не снимает заморозку при ошибках или пропусках и автоматически продолжает обновление лицензий после возвращения клиента."
 }
