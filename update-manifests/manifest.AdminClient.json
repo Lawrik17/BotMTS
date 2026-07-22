@@ -1,9 +1,9 @@
 {
-  "appId": "AdminClient",
-  "version": "0.0.0.18",
-  "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-full-audit-20260722/AdminClient-0.0.0.18.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "4017420698fd2b5ccc8e8306f4ad4cc53a92943f12f98473e4fa09d711ce7095",
-  "releaseNotes": "AdminClient 0.0.0.18: обновлён сетевой контракт проверки лицензий EA для полного прохода по играм и безопасного продолжения операции после перезагрузки клиента."
+    "appId": "AdminClient",
+    "version": "0.0.0.20",
+    "minimumVersion": "0.0.0.5",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-ui-20260722/AdminClient-0.0.0.20.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "8411e45a7eaeb1239d83d12c1219e38689c0271c1851c1b715f957cf4b503c2b",
+    "releaseNotes": "AdminClient 0.0.0.20: исправлены обновление адаптера источника, отображение серверов и фильтров, выравнивание каталога и диалог выбора папки в разделе загрузок игр."
 }
