@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.8.0",
+  "version": "2.5.9.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-maintenance-20260722/6D6X6-2.5.8.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-settings-game-delivery-20260722/6D6X6-2.5.9.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "2d09dc0eca42ccc7d0a3727f34fbe2602369455d6ea15aa9b550a7ff3b5c6197",
-  "releaseNotes": "6D6X6 2.5.8.0: долговечная автоматическая проверка лицензий EA переживает обе перезагрузки, последовательно обновляет все проблемные игры и возвращает ПК под защиту.",
+  "sha256": "4184ee00da483a6eeac7729ecd45ca8b4c82319daf118befd169b87802f48488",
+  "releaseNotes": "6D6X6 2.5.9.0: клиент сообщает серверу подтверждённое состояние MTS Fog Play и поддерживает удалённый выбор путей для загрузок игр; полный пакет включает Apps, службу и helper-лаунчеры.",
   "files": []
 }

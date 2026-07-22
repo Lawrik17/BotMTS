@@ -1,9 +1,9 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.16",
+    "version":  "0.0.0.17",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/server-management-target-bases-20260722/AdminClient-0.0.0.16.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/runtime-settings-game-delivery-20260722/AdminClient-0.0.0.17.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-    "sha256":  "c2e7b3a02b6ba5a3b1a9050f7b1a8703a85d2785183454162bd57f183d36755a",
-    "releaseNotes":  "AdminClient 0.0.0.16: фильтр таргетов по имени и базовому диску, пакетное обновление клонов с индивидуальными базовыми VHDX, результат каждой операции и удаление записей из истории удалённых групп."
+    "sha256":  "5154ffa71ca32b8d2165010067853dd8b1586b1bfc54e0c0795baee3a94974a4",
+    "releaseNotes":  "AdminClient 0.0.0.17: настройки BotStats для Server A/B, индикатор запущенного MTS Fog Play, обновлённые таблицы и удалённый выбор дисков, папок и torrent-файлов в загрузках игр."
 }
