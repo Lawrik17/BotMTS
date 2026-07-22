@@ -1,9 +1,9 @@
 {
-      "appId": "AdminClient",
-      "version": "0.0.0.21",
-      "minimumVersion": "0.0.0.5",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/byrut-candidate-fix-20260722/AdminClient-0.0.0.21.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "1add8991eab32abc85b79bf653a0b7253d6009c3f50e7650a86892acaa9018ea",
-      "releaseNotes": "AdminClient 0.0.0.21: обновлен общий экран кандидатов релизов после исправления источника Byrut; отображается одна актуальная версия игры с корректной датой обновления."
+        "appId": "AdminClient",
+        "version": "0.0.0.22",
+        "minimumVersion": "0.0.0.5",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-resolver-20260723/AdminClient-0.0.0.22.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "b586b510660012d12674af0fa70dff2c4c243a5eb4f4a6bfd7e573a3683b6434",
+        "releaseNotes": "AdminClient 0.0.0.22: обновлены общие экраны BotStats, управление сервером, загрузки игр и сбор отзывов; включены актуальные сетевые контракты для EA-лицензий."
 }
