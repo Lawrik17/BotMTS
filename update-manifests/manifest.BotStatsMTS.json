@@ -1,9 +1,9 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.18",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-full-audit-20260722/BotStatsMTS-1.0.1.18.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "3fdae147affe64e07c770ba9bec98331a179a2079c44520fa8240a0ddc4ba5dc",
-  "releaseNotes": "BotStats MTS 1.0.1.18: операция проверки лицензий EA хранит полный список EC:204 до перезагрузки, не снимает заморозку при ошибках или пропусках и автоматически продолжает обновление лицензий после возвращения клиента."
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.20",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-ui-20260722/BotStatsMTS-1.0.1.20.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "175c178be508e34a4847667253350fdf4b7b3e42b7fd8c740715f19223542d7f",
+    "releaseNotes": "BotStats MTS 1.0.1.20: исправлены обновление адаптера источника, отображение серверов и фильтров, выравнивание каталога и диалог выбора папки в разделе загрузок игр."
 }
