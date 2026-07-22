@@ -1,9 +1,9 @@
 {
-    "appId": "AdminClient",
-    "version": "0.0.0.13",
-    "minimumVersion": "0.0.0.5",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-fix-20260722/AdminClient-0.0.0.13.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-    "sha256": "332bce78fd5cccafb44d32443d181cf8a6a2b87a888b7cbd712a3c1b2955d641",
-    "releaseNotes": "AdminClient 0.0.0.13: порядок и значки разделов загрузки игр и управления сервером приведены к BotStats, исправлено сетевое открытие управления сервером."
+      "appId": "AdminClient",
+      "version": "0.0.0.14",
+      "minimumVersion": "0.0.0.5",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-ui-alert-20260722/AdminClient-0.0.0.14.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+      "sha256": "539d342cc7d093ada51dabd0efb2a2890be7a7fb1b30ca84ca4bc3dfd25348e8",
+      "releaseNotes": "AdminClient 0.0.0.14: единый обновлённый экран управления Server A/B, понятные состояния iSCSI и обслуживание выбранных объектов."
 }
