@@ -1,9 +1,9 @@
 {
-      "appId": "AdminClient",
-      "version": "0.0.0.14",
-      "minimumVersion": "0.0.0.5",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-ui-alert-20260722/AdminClient-0.0.0.14.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "539d342cc7d093ada51dabd0efb2a2890be7a7fb1b30ca84ca4bc3dfd25348e8",
-      "releaseNotes": "AdminClient 0.0.0.14: единый обновлённый экран управления Server A/B, понятные состояния iSCSI и обслуживание выбранных объектов."
+        "appId": "AdminClient",
+        "version": "0.0.0.15",
+        "minimumVersion": "0.0.0.5",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-multiselect-20260722/AdminClient-0.0.0.15.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "ddc434d8f53a490c8294bdfe510846cddecbfe9493983f5da643a112d750d9d5",
+        "releaseNotes": "AdminClient 0.0.0.15: в общем экране управления Server A/B исправлены подписи списков, добавлены фильтр и множественный выбор подключений iSCSI и таргетов с пакетными командами."
 }
