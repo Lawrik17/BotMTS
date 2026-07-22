@@ -1,10 +1,10 @@
 {
-  "appId": "6D6X6",
-  "version": "2.5.10.0",
-  "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-full-audit-20260722/6D6X6-2.5.10.0.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "f4f9e937e8c18b2495da10e08c131f625a8002ff6f8948674add67ac2756ec6b",
-  "releaseNotes": "6D6X6 2.5.10.0: проверка лицензий EA проходит все установленные игры и собирает полный список EC:204. Заморозка снимается только после успешной проверки всех игр без пропусков; после перезагрузки лицензии обновляются по очереди. Полный пакет включает Apps, службу и helper-лаунчеры.",
-  "files": []
+    "appId": "6D6X6",
+    "version": "2.5.11.0",
+    "minimumVersion": "0.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-resolver-20260723/6D6X6-2.5.11.0.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "6beef69839025419b0870f0e12d52fa212149f815cf156dd6cb6589d0711a1de",
+    "releaseNotes": "6D6X6 2.5.11.0: EA-игры определяются одновременно по базе MTS UserGame.db, InstallData, путям и журналам EA; добавлено ожидание появления данных. Во время EA-сценария окна независимо запущенного Steam мягко сворачиваются и больше не перехватывают фокус. Полный пакет включает Apps, службу и helper-лаунчеры.",
+    "files": []
 }
