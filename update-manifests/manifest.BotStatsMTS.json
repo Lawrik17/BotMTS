@@ -1,9 +1,9 @@
 {
-        "appId": "BotStatsMTS",
-        "version": "1.0.1.14",
-        "minimumVersion": "1.0.0.0",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-ui-alert-20260722/BotStatsMTS-1.0.1.14.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "7df3955baa4384a789ea4913cea5dd88e0ce56bec3371698c3bfd8f3e775a4c5",
-        "releaseNotes": "BotStats MTS 1.0.1.14: обновлён общий экран управления сервером, исправлены состояния iSCSI и порталы; предупреждение о диске появляется только при остатке 50 ГБ или меньше. Встроена служба управления 1.0.1.2."
+          "appId": "BotStatsMTS",
+          "version": "1.0.1.15",
+          "minimumVersion": "1.0.0.0",
+          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-multiselect-20260722/BotStatsMTS-1.0.1.15.zip",
+          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+          "sha256": "25f98e0b87ed68154e5a7ab0636c6dcff41facaad1d19d57f4ef26f85ed57fc7",
+          "releaseNotes": "BotStats MTS 1.0.1.15: в управлении сервером исправлены подписи списков, добавлены фильтр и множественный выбор подключений iSCSI и таргетов с пакетным выполнением команд. Встроена служба управления 1.0.1.2."
 }
