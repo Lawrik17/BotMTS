@@ -1,10 +1,9 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.11",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-maintenance-20260722/BotStatsMTS-1.0.1.11.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "3b24dbce98bee475e0727e8007681ebb132df4adcf59250afbb224c2c2b412c4",
-  "releaseNotes": "BotStats MTS 1.0.1.11: ночная очередь обслуживания лицензий EA хранит ожидающие, пройденные и ошибочные ПК, не запускает ПК повторно и реплицируется между Server A/B.",
-  "files": []
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.12",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-fix-20260722/BotStatsMTS-1.0.1.12.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+    "sha256": "97fb7aae52c8299fff6e00756b5eef150875e016ddc4b4456f5c5f8de0e9f029",
+    "releaseNotes": "BotStats MTS 1.0.1.12: исправлена страница управления сервером, безопасно обрабатываются отсутствующие свойства iSCSI, PowerShell-обмен переведён на UTF-8."
 }
