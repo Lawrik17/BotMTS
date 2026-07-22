@@ -1,9 +1,9 @@
 {
-      "appId": "BotStatsMTS",
-      "version": "1.0.1.21",
-      "minimumVersion": "1.0.0.0",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/byrut-candidate-fix-20260722/BotStatsMTS-1.0.1.21.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-      "sha256": "90ff9e92b864a61929a1a59a775407fc94d1cdd6473e1e6dc60d71bb6911f514",
-      "releaseNotes": "BotStats MTS 1.0.1.21: исправлен выбор актуального релиза Byrut. Для обычных игр берется одна последняя версия, сетевые издания исключаются, для GOG учитываются только GOG-раздачи, дата кандидата берется из поля «Обновлено»."
+        "appId": "BotStatsMTS",
+        "version": "1.0.1.22",
+        "minimumVersion": "1.0.0.0",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-resolver-20260723/BotStatsMTS-1.0.1.22.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+        "sha256": "cc1681b8206dffeff84492c485b71f1d64d91c664849374596f037925df2f7b1",
+        "releaseNotes": "BotStats MTS 1.0.1.22: добавлены надёжное обнаружение установленных EA-игр по нескольким источникам, сбор отзывов с фильтрами и экспортом выбранных данных, а также последние исправления общих экранов и серверного управления."
 }
