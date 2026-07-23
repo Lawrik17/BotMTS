@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.24",
+  "version": "0.0.0.25",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-list-offline-20260723/AdminClient-0.0.0.24.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-reliability-20260723/AdminClient-0.0.0.25.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "d09136b2249f1702e2aa92f2a9f7e4d8654d46f7411e945139f0a0dcbc904d07",
-  "releaseNotes": "AdminClient 0.0.0.24: временно недоступные ПК остаются в списке с приглушённой строкой и статусом «Офлайн», а пинговая перезагрузка показывает точную причину в колонке «Действие»."
+  "sha256": "8a1e5e46463772b62caad6c0febcdf0294056c196cc8dab8f83e98f588180dd8",
+  "releaseNotes": "AdminClient 0.0.0.25: единое зелёное выделение и современные кнопки в медиа, базе данных и Steam; офлайн-ПК сохраняют естественный порядок; удалённые скриншоты и видео ожидаются по фактической длительности записи и показывают понятные ошибки."
 }

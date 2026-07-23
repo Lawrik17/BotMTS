@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.24",
+  "version": "1.0.1.25",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-list-offline-20260723/BotStatsMTS-1.0.1.24.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-reliability-20260723/BotStatsMTS-1.0.1.25.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "0dcea1dbf2b8cc549ab982843e9c9d0dcc3fb033c9bfee4565734a6eec4b8187",
-  "releaseNotes": "BotStats MTS 1.0.1.24: временно недоступные ПК остаются в списке с приглушённой строкой и статусом «Офлайн», а пинговая перезагрузка показывает точную причину в колонке «Действие»."
+  "sha256": "911332f407f59f5c4ebef75fe30ac7dbcf1e601132b0e3ecb1837d3e3b468d97",
+  "releaseNotes": "BotStats MTS 1.0.1.25: единое зелёное выделение и современные кнопки в медиа, базе данных и Steam; офлайн-ПК сохраняют естественный порядок; исправлена передача скриншотов и длительных видеозаписей, включая маршрут Server A/B."
 }
