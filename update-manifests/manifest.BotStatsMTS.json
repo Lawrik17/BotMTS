@@ -1,9 +1,9 @@
 {
-          "appId": "BotStatsMTS",
-          "version": "1.0.1.23",
-          "minimumVersion": "1.0.0.0",
-          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-menu-mts-20260723/BotStatsMTS-1.0.1.23.zip",
-          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-          "sha256": "c669c4071f8071bc9885701188e7137ffd426e9d6bae00b085e2b95c8d96720f",
-          "releaseNotes": "BotStats MTS 1.0.1.23: добавлены получение и копирование прямой ссылки MTS, точечный запрос текущей игры и единое оформление контекстного меню и экрана синхронизации."
+  "appId": "BotStatsMTS",
+  "version": "1.0.1.24",
+  "minimumVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-list-offline-20260723/BotStatsMTS-1.0.1.24.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "0dcea1dbf2b8cc549ab982843e9c9d0dcc3fb033c9bfee4565734a6eec4b8187",
+  "releaseNotes": "BotStats MTS 1.0.1.24: временно недоступные ПК остаются в списке с приглушённой строкой и статусом «Офлайн», а пинговая перезагрузка показывает точную причину в колонке «Действие»."
 }
