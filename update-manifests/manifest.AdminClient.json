@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.26",
+  "version": "0.0.0.27",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/AdminClient-0.0.0.26.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-transport-complete-20260723/AdminClient-0.0.0.27.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "34d982a6a0a32d3c5ffdbcf4f037963fc9b9fdb22631c1666e353bb5f68a9b85",
-  "releaseNotes": "AdminClient 0.0.0.26: обновлён универсальный Updater. После подтверждённого запуска новой версии старые папки .update_backup_* удаляются с повторами и скрытой отложенной очисткой при временной блокировке файлов."
+  "sha256": "3cb680a1ab677d8078758ae3cc962ca996b0c412698a49042757eb6d3301e546",
+  "releaseNotes": "AdminClient 0.0.0.27: исправлены получение и проверка прямых media-ответов BotStats, точная передача ошибок и приём MP4 через Server A/B."
 }
