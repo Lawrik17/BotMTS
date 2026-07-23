@@ -1,9 +1,9 @@
 {
-        "appId": "AdminClient",
-        "version": "0.0.0.22",
-        "minimumVersion": "0.0.0.5",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-resolver-20260723/AdminClient-0.0.0.22.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "b586b510660012d12674af0fa70dff2c4c243a5eb4f4a6bfd7e573a3683b6434",
-        "releaseNotes": "AdminClient 0.0.0.22: обновлены общие экраны BotStats, управление сервером, загрузки игр и сбор отзывов; включены актуальные сетевые контракты для EA-лицензий."
+          "appId": "AdminClient",
+          "version": "0.0.0.23",
+          "minimumVersion": "0.0.0.5",
+          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-menu-mts-20260723/AdminClient-0.0.0.23.zip",
+          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+          "sha256": "23b782dc79186d8dc733ebf4400d60edf46bca3983c4c6caec4ea46301a67638",
+          "releaseNotes": "AdminClient 0.0.0.23: добавлены сетевые команды получения ссылки MTS и текущей игры, а контекстное меню и выделение синхронизации приведены к общей теме."
 }
