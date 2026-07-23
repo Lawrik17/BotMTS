@@ -1,9 +1,9 @@
 {
-          "appId": "AdminClient",
-          "version": "0.0.0.23",
-          "minimumVersion": "0.0.0.5",
-          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-menu-mts-20260723/AdminClient-0.0.0.23.zip",
-          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-          "sha256": "23b782dc79186d8dc733ebf4400d60edf46bca3983c4c6caec4ea46301a67638",
-          "releaseNotes": "AdminClient 0.0.0.23: добавлены сетевые команды получения ссылки MTS и текущей игры, а контекстное меню и выделение синхронизации приведены к общей теме."
+  "appId": "AdminClient",
+  "version": "0.0.0.24",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-list-offline-20260723/AdminClient-0.0.0.24.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+  "sha256": "d09136b2249f1702e2aa92f2a9f7e4d8654d46f7411e945139f0a0dcbc904d07",
+  "releaseNotes": "AdminClient 0.0.0.24: временно недоступные ПК остаются в списке с приглушённой строкой и статусом «Офлайн», а пинговая перезагрузка показывает точную причину в колонке «Действие»."
 }
