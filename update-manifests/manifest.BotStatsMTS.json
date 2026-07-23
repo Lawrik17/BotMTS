@@ -1,9 +1,9 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.26",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/BotStatsMTS-1.0.1.26.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5c859d5876bf86d518a39b24978345383957295f3de39330ba0f6c164b442bd9",
-  "releaseNotes": "BotStats MTS 1.0.1.26: обновлён универсальный Updater. После подтверждённого запуска новой версии старые папки .update_backup_* удаляются с повторами и скрытой отложенной очисткой при временной блокировке файлов."
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.27",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-transport-complete-20260723/BotStatsMTS-1.0.1.27.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+    "sha256": "86361d39befbef38b494e8260f8090dd26858ae44d199642c138870d094a9fa5",
+    "releaseNotes": "BotStats MTS 1.0.1.27: исправлен прямой транспорт скриншотов и видео в AdminClient, включая маршрутизацию через Server A/B. Увеличен безопасный предел peer-кадра для MP4 до 64 МБ."
 }
