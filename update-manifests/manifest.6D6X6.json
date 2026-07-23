@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.15.0",
+  "version": "2.5.16.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/settings-recovery-20260723/6D6X6-2.5.15.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/6D6X6-2.5.16.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a6f044b188ff5f383226f4e679f717e525f63c0f9fb13bfebcc5419413d981dd",
-  "releaseNotes": "6D6X6 2.5.15.0: AppSettings.ini сохраняется атомарно с резервной копией; оборванный JSON автоматически восстанавливается без потери существующих настроек. Полный пакет содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "9d4991261fc847a5b9d69060f0283d6f399e5edb3c827977b164e87b1e51fca4",
+  "releaseNotes": "6D6X6 2.5.16.0: клиент поддерживает удаление распределённых torrent-заданий и очистку служебного состояния MonoTorrent без удаления скачанных файлов. Полный пакет содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
