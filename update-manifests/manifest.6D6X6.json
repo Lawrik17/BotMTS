@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.12.0",
+  "version": "2.5.13.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-reliability-20260723/6D6X6-2.5.12.0.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "0c6711d2a0dd15b9fc1b10b5c1b2a3d344ede6132610bb0663f625519041ed37",
-  "releaseNotes": "6D6X6 2.5.12.0: скриншоты передаются как компактный JPEG; запись видео корректно проходит через клиент, службу и Server A/B без преждевременного таймаута. Полный пакет включает Apps, launcher, службу и все зависимости.",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/6D6X6-2.5.13.0.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "13c0973fe043002a347f6c2827c4d9d08e3ad8187fb1ff2104c40a9ec486020d",
+  "releaseNotes": "6D6X6 2.5.13.0: Updater после подтверждённого запуска новой версии гарантированно очищает старые папки .update_backup_*; при блокировке файлов запускается скрытый повторный cleanup-процесс. Полный пакет включает Apps, launcher, службу и все зависимости.",
   "files": []
 }

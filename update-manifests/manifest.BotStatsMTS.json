@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.25",
+  "version": "1.0.1.26",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-reliability-20260723/BotStatsMTS-1.0.1.25.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-  "sha256": "911332f407f59f5c4ebef75fe30ac7dbcf1e601132b0e3ecb1837d3e3b468d97",
-  "releaseNotes": "BotStats MTS 1.0.1.25: единое зелёное выделение и современные кнопки в медиа, базе данных и Steam; офлайн-ПК сохраняют естественный порядок; исправлена передача скриншотов и длительных видеозаписей, включая маршрут Server A/B."
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/BotStatsMTS-1.0.1.26.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "5c859d5876bf86d518a39b24978345383957295f3de39330ba0f6c164b442bd9",
+  "releaseNotes": "BotStats MTS 1.0.1.26: обновлён универсальный Updater. После подтверждённого запуска новой версии старые папки .update_backup_* удаляются с повторами и скрытой отложенной очисткой при временной блокировке файлов."
 }
