@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.28",
+  "version": "0.0.0.29",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/settings-recovery-20260723/AdminClient-0.0.0.28.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/AdminClient-0.0.0.29.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "879797ed6bc6bb2d3d985f4f4a76a685c40f37d6d8b9e26a2a84b280fa224938",
-  "releaseNotes": "AdminClient 0.0.0.28: полный совместимый пакет для общего релиза с BotStats MTS 1.0.1.28 и 6D6X6 2.5.15.0."
+  "sha256": "51cbc55ecc0461dd456b22c9dee4ffc0ff2f85b25be0893fe3f7882a43fb31b2",
+  "releaseNotes": "AdminClient 0.0.0.29: общий экран загрузок игр позволяет удалять старые torrent-задания на Server A, Server B и 6D6X, сохраняя скачанные файлы."
 }
