@@ -1,9 +1,9 @@
 {
-        "appId": "BotStatsMTS",
-        "version": "1.0.1.22",
-        "minimumVersion": "1.0.0.0",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-resolver-20260723/BotStatsMTS-1.0.1.22.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
-        "sha256": "cc1681b8206dffeff84492c485b71f1d64d91c664849374596f037925df2f7b1",
-        "releaseNotes": "BotStats MTS 1.0.1.22: добавлены надёжное обнаружение установленных EA-игр по нескольким источникам, сбор отзывов с фильтрами и экспортом выбранных данных, а также последние исправления общих экранов и серверного управления."
+          "appId": "BotStatsMTS",
+          "version": "1.0.1.23",
+          "minimumVersion": "1.0.0.0",
+          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-menu-mts-20260723/BotStatsMTS-1.0.1.23.zip",
+          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/hardware-20260719/Updater.exe",
+          "sha256": "c669c4071f8071bc9885701188e7137ffd426e9d6bae00b085e2b95c8d96720f",
+          "releaseNotes": "BotStats MTS 1.0.1.23: добавлены получение и копирование прямой ссылки MTS, точечный запрос текущей игры и единое оформление контекстного меню и экрана синхронизации."
 }
