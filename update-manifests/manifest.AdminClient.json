@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.27",
+  "version": "0.0.0.28",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-transport-complete-20260723/AdminClient-0.0.0.27.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/settings-recovery-20260723/AdminClient-0.0.0.28.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3cb680a1ab677d8078758ae3cc962ca996b0c412698a49042757eb6d3301e546",
-  "releaseNotes": "AdminClient 0.0.0.27: исправлены получение и проверка прямых media-ответов BotStats, точная передача ошибок и приём MP4 через Server A/B."
+  "sha256": "879797ed6bc6bb2d3d985f4f4a76a685c40f37d6d8b9e26a2a84b280fa224938",
+  "releaseNotes": "AdminClient 0.0.0.28: полный совместимый пакет для общего релиза с BotStats MTS 1.0.1.28 и 6D6X6 2.5.15.0."
 }
