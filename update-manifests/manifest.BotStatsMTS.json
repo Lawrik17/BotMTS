@@ -1,9 +1,9 @@
 {
-    "appId": "BotStatsMTS",
-    "version": "1.0.1.27",
-    "minimumVersion": "1.0.0.0",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-transport-complete-20260723/BotStatsMTS-1.0.1.27.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256": "86361d39befbef38b494e8260f8090dd26858ae44d199642c138870d094a9fa5",
-    "releaseNotes": "BotStats MTS 1.0.1.27: исправлен прямой транспорт скриншотов и видео в AdminClient, включая маршрутизацию через Server A/B. Увеличен безопасный предел peer-кадра для MP4 до 64 МБ."
+  "appId": "BotStatsMTS",
+  "version": "1.0.1.28",
+  "minimumVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/settings-recovery-20260723/BotStatsMTS-1.0.1.28.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "4404ac9705a474318c1f05649780e354f5984f0dcf800e57b2e5df065f347810",
+  "releaseNotes": "BotStats MTS 1.0.1.28: полный совместимый пакет для общего релиза с 6D6X6 2.5.15.0; сохранены ServerManagement.Agent и все зависимости."
 }
