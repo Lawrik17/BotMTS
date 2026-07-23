@@ -1,9 +1,9 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.28",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/settings-recovery-20260723/BotStatsMTS-1.0.1.28.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "4404ac9705a474318c1f05649780e354f5984f0dcf800e57b2e5df065f347810",
-  "releaseNotes": "BotStats MTS 1.0.1.28: полный совместимый пакет для общего релиза с 6D6X6 2.5.15.0; сохранены ServerManagement.Agent и все зависимости."
+    "appId": "BotStatsMTS",
+    "version": "1.0.1.29",
+    "minimumVersion": "1.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/BotStatsMTS-1.0.1.29.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+    "sha256": "4a16da5f93c55e7b4389696f73dbe3d8f84a2f52a52b81e385f5e2b95445bcd1",
+    "releaseNotes": "BotStats MTS 1.0.1.29: в очереди загрузок игр добавлено безопасное удаление старых torrent-заданий на локальном и удалённых узлах без удаления скачанных файлов."
 }
