@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.13.0",
+  "version": "2.5.14.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/6D6X6-2.5.13.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/media-transport-complete-20260723/6D6X6-2.5.14.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "13c0973fe043002a347f6c2827c4d9d08e3ad8187fb1ff2104c40a9ec486020d",
-  "releaseNotes": "6D6X6 2.5.13.0: Updater после подтверждённого запуска новой версии гарантированно очищает старые папки .update_backup_*; при блокировке файлов запускается скрытый повторный cleanup-процесс. Полный пакет включает Apps, launcher, службу и все зависимости.",
+  "sha256": "fdb902b66e31f8b8e0ad21a8538cca5ac5b1a70c187b39ddd4d7d5dd8187170d",
+  "releaseNotes": "6D6X6 2.5.14.0: увеличен IPC-лимит службы для передачи видео до 16 МБ и сохранён полный пакет Apps, launcher, службы и всех зависимостей.",
   "files": []
 }
