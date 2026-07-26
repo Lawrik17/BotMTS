@@ -1,9 +1,9 @@
 {
-      "appId": "BotStatsMTS",
-      "version": "1.0.1.30",
-      "minimumVersion": "1.0.0.0",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/BotStatsMTS-1.0.1.30.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-      "sha256": "f3ac1544eb22a8ed6a8f5ee106cf9c9abf63bdae48a064490879ca185441e64b",
-      "releaseNotes": "BotStats MTS 1.0.1.30: автоматизирован полный цикл обновления игр — поиск релизов, torrent-загрузка без раздачи после завершения, установка или распаковка из папки Install, проверка результата и очистка временных файлов. Исправлены повторный запуск MonoTorrent, параллельное изменение заданий и управление кандидатами."
+        "appId": "BotStatsMTS",
+        "version": "1.0.1.31",
+        "minimumVersion": "1.0.0.0",
+        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/BotStatsMTS-1.0.1.31.zip",
+        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+        "sha256": "40dd2cd3d241f7bfeba234c2f0ecb52fbb7443ad452659f6c160f55f0f937d26",
+        "releaseNotes": "BotStats MTS 1.0.1.31: добавлены отдельные настройки технических Telegram-уведомлений. Ошибки EA, AutoLogin и обновления игр направляются в техническую тему, а закрытые тревоги автоматически удаляются после подтверждённого восстановления. Состояние сообщений сохраняется между перезапусками."
 }
