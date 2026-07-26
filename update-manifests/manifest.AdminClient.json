@@ -1,9 +1,9 @@
 {
-    "appId": "AdminClient",
-    "version": "0.0.0.30",
-    "minimumVersion": "0.0.0.5",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/AdminClient-0.0.0.30.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256": "816ec234e7de3759b759a1fbe6a27d5c6f7dfd42ced5e37a6857ef801c3ffb94",
-    "releaseNotes": "AdminClient 0.0.0.30: общий экран загрузок игр поддерживает автоматический цикл обновления, живой прогресс и скорость, очистку кандидатов и старых заданий, множественный выбор игр и удаление каталогов с диска."
+      "appId": "AdminClient",
+      "version": "0.0.0.31",
+      "minimumVersion": "0.0.0.5",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/AdminClient-0.0.0.31.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+      "sha256": "e1bd769ef9423575c25232876c84a90cb3a2e4a4dc1e830fc71bd8eb43824915",
+      "releaseNotes": "AdminClient 0.0.0.31: обновлены общие модели и настройки технических Telegram-уведомлений для надёжной обработки EA-лицензий и AutoLogin через BotStats."
 }
