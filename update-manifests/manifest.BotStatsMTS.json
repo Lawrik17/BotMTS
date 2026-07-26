@@ -1,9 +1,9 @@
 {
-          "appId": "BotStatsMTS",
-          "version": "1.0.1.32",
-          "minimumVersion": "1.0.0.0",
-          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ui-polish-20260726/BotStatsMTS-1.0.1.32.zip",
-          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-          "sha256": "96c3e60485a008fed9626abe85513350dc3ed69cac9c18dee05c941a74ac332f",
-          "releaseNotes": "BotStats MTS 1.0.1.32: выровнены значки и массовые действия списка ПК, упорядочено контекстное меню, улучшены настройки IP и 6D6X-клиентов. В сборе отзывов фильтры собраны в одну строку и добавлена карточка отзывов с оценкой выше 3."
+  "appId": "BotStatsMTS",
+  "version": "1.0.1.33",
+  "minimumVersion": "1.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-snapshot-current-game-20260726/BotStatsMTS-1.0.1.33.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "f9a46fa00cae31a1014d1543b118033568653c658995817a337480bc6bd348f3",
+  "releaseNotes": "BotStats MTS 1.0.1.33: список ПК получает актуальный снимок FogPlay с ценой мерчанта, ценой игрока, пингом и состоянием платформы. Ручное назначение цены сразу отражается в списке, а общий 25-минутный цикл подтверждает значения без дополнительного запроса к сайту. Команда получения игры теперь обновляет активную сессию по свежему ответу клиента."
 }

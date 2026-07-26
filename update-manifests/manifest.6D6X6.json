@@ -1,10 +1,10 @@
 {
-      "appId": "6D6X6",
-      "version": "2.5.18.0",
-      "minimumVersion": "0.0.0.0",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/6D6X6-2.5.18.0.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-      "sha256": "50d239fa2cee689c91bc662f26fbf04067650312b6dbacf0dc082b79c309bca8",
-      "releaseNotes": "6D6X6 2.5.18.0: проверка лицензий EA ждёт готовности окна до трёх минут, повторно проходит пропущенные игры и надёжнее находит установленные игры по журналам, манифестам, реестру и локальной базе. Добавлено подтверждение успешного входа AutoLogin для закрытия технических тревог. Полный пакет содержит Apps, launcher, службу и все зависимости.",
-      "files": []
+  "appId": "6D6X6",
+  "version": "2.5.19.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-snapshot-current-game-20260726/6D6X6-2.5.19.0.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "2042711adb77df8cf29a8d18c783e33f25a4b6149de6d37c50278599c43c0158",
+  "releaseNotes": "6D6X6 2.5.19.0: команда получения текущей игры выполняет свежую проверку запущенных процессов и больше не возвращает сохранённое устаревшее название. Полный пакет содержит Apps, launcher, службу и все зависимости.",
+  "files": []
 }
