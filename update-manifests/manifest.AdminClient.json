@@ -1,9 +1,9 @@
 {
-  "appId": "AdminClient",
-  "version": "0.0.0.29",
-  "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/AdminClient-0.0.0.29.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "51cbc55ecc0461dd456b22c9dee4ffc0ff2f85b25be0893fe3f7882a43fb31b2",
-  "releaseNotes": "AdminClient 0.0.0.29: общий экран загрузок игр позволяет удалять старые torrent-задания на Server A, Server B и 6D6X, сохраняя скачанные файлы."
+    "appId": "AdminClient",
+    "version": "0.0.0.30",
+    "minimumVersion": "0.0.0.5",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/AdminClient-0.0.0.30.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+    "sha256": "816ec234e7de3759b759a1fbe6a27d5c6f7dfd42ced5e37a6857ef801c3ffb94",
+    "releaseNotes": "AdminClient 0.0.0.30: общий экран загрузок игр поддерживает автоматический цикл обновления, живой прогресс и скорость, очистку кандидатов и старых заданий, множественный выбор игр и удаление каталогов с диска."
 }
