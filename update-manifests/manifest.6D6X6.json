@@ -1,10 +1,10 @@
 {
-    "appId": "6D6X6",
-    "version": "2.5.17.0",
-    "minimumVersion": "0.0.0.0",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/6D6X6-2.5.17.0.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256": "132165ae50b7e424f381fb09e88687d185b5e941d9ea11d51e18d43966c21d44",
-    "releaseNotes": "6D6X6 2.5.17.0: узел доставки игр поддерживает автоматическую загрузку, установку или распаковку обновлений, проверку результата и очистку временной папки Install. Полный пакет содержит Apps, launcher, службу и все зависимости.",
-    "files": []
+      "appId": "6D6X6",
+      "version": "2.5.18.0",
+      "minimumVersion": "0.0.0.0",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/6D6X6-2.5.18.0.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+      "sha256": "50d239fa2cee689c91bc662f26fbf04067650312b6dbacf0dc082b79c309bca8",
+      "releaseNotes": "6D6X6 2.5.18.0: проверка лицензий EA ждёт готовности окна до трёх минут, повторно проходит пропущенные игры и надёжнее находит установленные игры по журналам, манифестам, реестру и локальной базе. Добавлено подтверждение успешного входа AutoLogin для закрытия технических тревог. Полный пакет содержит Apps, launcher, службу и все зависимости.",
+      "files": []
 }
