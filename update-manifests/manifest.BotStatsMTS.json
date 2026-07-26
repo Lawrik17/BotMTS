@@ -1,9 +1,9 @@
 {
-        "appId": "BotStatsMTS",
-        "version": "1.0.1.31",
-        "minimumVersion": "1.0.0.0",
-        "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/BotStatsMTS-1.0.1.31.zip",
-        "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-        "sha256": "40dd2cd3d241f7bfeba234c2f0ecb52fbb7443ad452659f6c160f55f0f937d26",
-        "releaseNotes": "BotStats MTS 1.0.1.31: добавлены отдельные настройки технических Telegram-уведомлений. Ошибки EA, AutoLogin и обновления игр направляются в техническую тему, а закрытые тревоги автоматически удаляются после подтверждённого восстановления. Состояние сообщений сохраняется между перезапусками."
+          "appId": "BotStatsMTS",
+          "version": "1.0.1.32",
+          "minimumVersion": "1.0.0.0",
+          "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ui-polish-20260726/BotStatsMTS-1.0.1.32.zip",
+          "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+          "sha256": "96c3e60485a008fed9626abe85513350dc3ed69cac9c18dee05c941a74ac332f",
+          "releaseNotes": "BotStats MTS 1.0.1.32: выровнены значки и массовые действия списка ПК, упорядочено контекстное меню, улучшены настройки IP и 6D6X-клиентов. В сборе отзывов фильтры собраны в одну строку и добавлена карточка отзывов с оценкой выше 3."
 }
