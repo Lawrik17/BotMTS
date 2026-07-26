@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.35",
+  "version": "1.0.1.36",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-status-priority-20260726/BotStatsMTS-1.0.1.35.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-stability-20260726-195548/BotStatsMTS-1.0.1.36.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a4be50d96491844ec43b9c5619311ef84767e2b90b23fcb000cae1464c61af61",
-  "releaseNotes": "BotStats MTS 1.0.1.35: живые статусы и активные сессии имеют приоритет над 25-минутным снимком сайта. Снимок остаётся резервом и продолжает обновлять цены и пинг."
+  "sha256": "c2e49471edfd1f62fecabb1ec9cc7afe78348d15f7f01e997648e0337947c9e8",
+  "releaseNotes": "BotStats MTS 1.0.1.36: сохранение активной игры и сессии стало устойчивее, EA-сообщения переживают перезапуск, улучшено сопоставление IP через существующий Keenetic и исправлена раскладка файлов игровых обновлений."
 }

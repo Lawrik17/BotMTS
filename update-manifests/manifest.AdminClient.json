@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.35",
+  "version": "0.0.0.36",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-status-priority-20260726/AdminClient-0.0.0.35.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-stability-20260726-195548/AdminClient-0.0.0.36.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "58193c8b8c70e4c39bd31a5a41ac48edcbb5363d277329b4c47f5f2bd3ff4173",
-  "releaseNotes": "AdminClient 0.0.0.35: живые статусы и активные сессии имеют приоритет над 25-минутным снимком сайта. Снимок остаётся резервом и продолжает обновлять цены и пинг."
+  "sha256": "00adfc33f2316b74607478e730178aedd875d4e22e5f013d4b2a6116fb0a9c4a",
+  "releaseNotes": "AdminClient 0.0.0.36: общий список ПК показывает состояние готовности iSCSI и получает стабилизированные данные активной игры и сессии."
 }

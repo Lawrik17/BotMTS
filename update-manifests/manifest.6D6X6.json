@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.20.0",
+  "version": "2.5.21.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mts-update-service-mode-20260726/6D6X6-2.5.20.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-stability-20260726-195548/6D6X6-2.5.21.0-full.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2a5e40d5942a9bed007b7ee72998b0d665c2d2cdd6de6499779091cdd4686c7e",
-  "releaseNotes": "6D6X6 2.5.20.0: пакет синхронизирован с общей сетевой моделью команды принудительного обновления MTS. Полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "a4c6d159d544a64167a520e787a65329227d29438228228e69facb86373fdee7",
+  "releaseNotes": "6D6X6 2.5.21.0: стабилизировано определение текущей игры и добавлена передача состояния готовности iSCSI. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
