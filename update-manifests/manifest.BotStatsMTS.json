@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.34",
+  "version": "1.0.1.35",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mts-update-service-mode-20260726/BotStatsMTS-1.0.1.34.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-status-priority-20260726/BotStatsMTS-1.0.1.35.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "6eb35ab0aa01c9608dbac35f6e77aefa345dd88b33c5f15098cd5ac38c195f15",
-  "releaseNotes": "BotStats MTS 1.0.1.34: в общем меню ПК добавлена команда «Обновить MTS», использующая существующий принудительный маршрут обновления клиента MTS. Статус платформы «Сервисный режим» отображается нейтральным серым цветом."
+  "sha256": "a4be50d96491844ec43b9c5619311ef84767e2b90b23fcb000cae1464c61af61",
+  "releaseNotes": "BotStats MTS 1.0.1.35: живые статусы и активные сессии имеют приоритет над 25-минутным снимком сайта. Снимок остаётся резервом и продолжает обновлять цены и пинг."
 }
