@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.33",
+  "version": "1.0.1.34",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-snapshot-current-game-20260726/BotStatsMTS-1.0.1.33.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mts-update-service-mode-20260726/BotStatsMTS-1.0.1.34.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f9a46fa00cae31a1014d1543b118033568653c658995817a337480bc6bd348f3",
-  "releaseNotes": "BotStats MTS 1.0.1.33: список ПК получает актуальный снимок FogPlay с ценой мерчанта, ценой игрока, пингом и состоянием платформы. Ручное назначение цены сразу отражается в списке, а общий 25-минутный цикл подтверждает значения без дополнительного запроса к сайту. Команда получения игры теперь обновляет активную сессию по свежему ответу клиента."
+  "sha256": "6eb35ab0aa01c9608dbac35f6e77aefa345dd88b33c5f15098cd5ac38c195f15",
+  "releaseNotes": "BotStats MTS 1.0.1.34: в общем меню ПК добавлена команда «Обновить MTS», использующая существующий принудительный маршрут обновления клиента MTS. Статус платформы «Сервисный режим» отображается нейтральным серым цветом."
 }

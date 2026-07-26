@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.33",
+  "version": "0.0.0.34",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-snapshot-current-game-20260726/AdminClient-0.0.0.33.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mts-update-service-mode-20260726/AdminClient-0.0.0.34.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "56ae52dccd598967849eb7bdde3968b0e67fcb9d3b2b8d86c5ae68900fca0c9b",
-  "releaseNotes": "AdminClient 0.0.0.33: общий список ПК показывает актуальные значения FogPlay — состояние платформы, обе цены и пинг. Ручное получение игры немедленно обновляет строку выбранного ПК."
+  "sha256": "dc3ad885a6e411ac5897061d45372611329b6fc16339b358976c02e42492f9f7",
+  "releaseNotes": "AdminClient 0.0.0.34: в общем меню ПК добавлена сетевая команда «Обновить MTS» с фирменным значком. Статус платформы «Сервисный режим» отображается нейтральным серым цветом."
 }

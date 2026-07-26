@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.19.0",
+  "version": "2.5.20.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-snapshot-current-game-20260726/6D6X6-2.5.19.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mts-update-service-mode-20260726/6D6X6-2.5.20.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2042711adb77df8cf29a8d18c783e33f25a4b6149de6d37c50278599c43c0158",
-  "releaseNotes": "6D6X6 2.5.19.0: команда получения текущей игры выполняет свежую проверку запущенных процессов и больше не возвращает сохранённое устаревшее название. Полный пакет содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "2a5e40d5942a9bed007b7ee72998b0d665c2d2cdd6de6499779091cdd4686c7e",
+  "releaseNotes": "6D6X6 2.5.20.0: пакет синхронизирован с общей сетевой моделью команды принудительного обновления MTS. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
