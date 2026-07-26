@@ -1,9 +1,9 @@
 {
-      "appId": "AdminClient",
-      "version": "0.0.0.31",
-      "minimumVersion": "0.0.0.5",
-      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-reliability-20260726/AdminClient-0.0.0.31.zip",
-      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-      "sha256": "e1bd769ef9423575c25232876c84a90cb3a2e4a4dc1e830fc71bd8eb43824915",
-      "releaseNotes": "AdminClient 0.0.0.31: обновлены общие модели и настройки технических Telegram-уведомлений для надёжной обработки EA-лицензий и AutoLogin через BotStats."
+  "appId": "AdminClient",
+  "version": "0.0.0.32",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ui-polish-20260726/AdminClient-0.0.0.32.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "6612544a82655d03bd854a8e34a9e19f213e19a9db7c2bf79efef7784449b06a",
+  "releaseNotes": "AdminClient 0.0.0.32: интерфейс списка ПК и настроек приведён к общему виду BotStats. Улучшены фильтры и показатели сбора отзывов, а команды контекстного меню ПК расположены логическими группами."
 }
