@@ -1,10 +1,10 @@
 {
-  "appId": "6D6X6",
-  "version": "2.5.16.0",
-  "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/6D6X6-2.5.16.0.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "9d4991261fc847a5b9d69060f0283d6f399e5edb3c827977b164e87b1e51fca4",
-  "releaseNotes": "6D6X6 2.5.16.0: клиент поддерживает удаление распределённых torrent-заданий и очистку служебного состояния MonoTorrent без удаления скачанных файлов. Полный пакет содержит Apps, launcher, службу и все зависимости.",
-  "files": []
+    "appId": "6D6X6",
+    "version": "2.5.17.0",
+    "minimumVersion": "0.0.0.0",
+    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/6D6X6-2.5.17.0.zip",
+    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+    "sha256": "132165ae50b7e424f381fb09e88687d185b5e941d9ea11d51e18d43966c21d44",
+    "releaseNotes": "6D6X6 2.5.17.0: узел доставки игр поддерживает автоматическую загрузку, установку или распаковку обновлений, проверку результата и очистку временной папки Install. Полный пакет содержит Apps, launcher, службу и все зависимости.",
+    "files": []
 }
