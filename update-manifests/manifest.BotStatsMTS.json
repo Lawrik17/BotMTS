@@ -1,9 +1,9 @@
 {
-    "appId": "BotStatsMTS",
-    "version": "1.0.1.29",
-    "minimumVersion": "1.0.0.0",
-    "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/torrent-delete-20260724/BotStatsMTS-1.0.1.29.zip",
-    "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256": "4a16da5f93c55e7b4389696f73dbe3d8f84a2f52a52b81e385f5e2b95445bcd1",
-    "releaseNotes": "BotStats MTS 1.0.1.29: в очереди загрузок игр добавлено безопасное удаление старых torrent-заданий на локальном и удалённых узлах без удаления скачанных файлов."
+      "appId": "BotStatsMTS",
+      "version": "1.0.1.30",
+      "minimumVersion": "1.0.0.0",
+      "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-auto-20260726/BotStatsMTS-1.0.1.30.zip",
+      "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+      "sha256": "f3ac1544eb22a8ed6a8f5ee106cf9c9abf63bdae48a064490879ca185441e64b",
+      "releaseNotes": "BotStats MTS 1.0.1.30: автоматизирован полный цикл обновления игр — поиск релизов, torrent-загрузка без раздачи после завершения, установка или распаковка из папки Install, проверка результата и очистка временных файлов. Исправлены повторный запуск MonoTorrent, параллельное изменение заданий и управление кандидатами."
 }
