@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.36",
+  "version": "1.0.1.37",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-stability-20260726-195548/BotStatsMTS-1.0.1.36.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-fixes-20260727-015101/BotStatsMTS-1.0.1.37.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c2e49471edfd1f62fecabb1ec9cc7afe78348d15f7f01e997648e0337947c9e8",
-  "releaseNotes": "BotStats MTS 1.0.1.36: сохранение активной игры и сессии стало устойчивее, EA-сообщения переживают перезапуск, улучшено сопоставление IP через существующий Keenetic и исправлена раскладка файлов игровых обновлений."
+  "sha256": "4faf0e58872bdadf91e46d18cb8a47dea0d79ed1065c6aa55e1e3f5d74f06642",
+  "releaseNotes": "BotStats MTS 1.0.1.37: согласована серверная обработка актуального состояния игры и обновлены общие контракты списка ПК для клиента 6D6X6 2.5.22.0."
 }

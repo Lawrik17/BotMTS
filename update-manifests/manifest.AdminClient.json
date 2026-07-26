@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.36",
+  "version": "0.0.0.37",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-stability-20260726-195548/AdminClient-0.0.0.36.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-fixes-20260727-015101/AdminClient-0.0.0.37.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "00adfc33f2316b74607478e730178aedd875d4e22e5f013d4b2a6116fb0a9c4a",
-  "releaseNotes": "AdminClient 0.0.0.36: общий список ПК показывает состояние готовности iSCSI и получает стабилизированные данные активной игры и сессии."
+  "sha256": "d9d3562e2ec74d1504de95557b11de0e00b155df908e17e174ebdddf3a717708",
+  "releaseNotes": "AdminClient 0.0.0.37: общий список ПК согласован с обновлёнными контрактами состояния игры и клиента 6D6X6 2.5.22.0."
 }
