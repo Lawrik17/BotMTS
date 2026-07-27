@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.37",
+  "version": "1.0.1.38",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-fixes-20260727-015101/BotStatsMTS-1.0.1.37.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-20260727-111005/BotStatsMTS-1.0.1.38.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "4faf0e58872bdadf91e46d18cb8a47dea0d79ed1065c6aa55e1e3f5d74f06642",
-  "releaseNotes": "BotStats MTS 1.0.1.37: согласована серверная обработка актуального состояния игры и обновлены общие контракты списка ПК для клиента 6D6X6 2.5.22.0."
+  "sha256": "abf386836d459e0b9a4e8f25e2752a86f122506a9ba29cabfe29be4213117392",
+  "releaseNotes": "BotStats MTS 1.0.1.38: исправлено развёртывание обновлений без вложенной папки Игра/Игра, добавлены массовые действия очереди установки и статус автоматической проверки обновлений на дашборде."
 }

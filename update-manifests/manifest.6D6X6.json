@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.22.0",
+  "version": "2.5.23.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/runtime-fixes-20260727-015101/6D6X6-2.5.22.0-full.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-20260727-111005/6D6X6-2.5.23.0-full.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "e69116dac1e941e98191588973053c240191d9334a2432b13f20fe2a8fa44df5",
-  "releaseNotes": "6D6X6 2.5.22.0: определение текущей игры использует точное сопоставление EXE и свежий снимок процессов, игнорирует устаревший кэш и подтверждает смену игры двумя проверками. Исправлен выбор UserGame.db для текущего профиля. Полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "19476832fd9eb7ab0259415c8a2558790b8bc76fa68972cabd39daf9438fcc90",
+  "releaseNotes": "6D6X6 2.5.23.0: обновлён узел развёртывания игр, добавлено удаление завершённых заданий и поддержка массового управления очередью. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
