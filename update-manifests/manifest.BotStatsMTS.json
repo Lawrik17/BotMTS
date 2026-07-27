@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.38",
+  "version": "1.0.1.39",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-20260727-111005/BotStatsMTS-1.0.1.38.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/reviews-20260728/BotStatsMTS-1.0.1.39.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "abf386836d459e0b9a4e8f25e2752a86f122506a9ba29cabfe29be4213117392",
-  "releaseNotes": "BotStats MTS 1.0.1.38: исправлено развёртывание обновлений без вложенной папки Игра/Игра, добавлены массовые действия очереди установки и статус автоматической проверки обновлений на дашборде."
+  "sha256": "59d5382c8c1f6f30732cf67a57799352cc2ac0c6a444ec2a26e9e0ec0d302826",
+  "releaseNotes": "BotStats MTS 1.0.1.39: полный и мягкий сбор отзывов используют единый источник; сбор сохраняет новые отзывы и останавливается при встрече уже сохранённых; ночной отчёт формируется за предыдущий день; отзывы в Telegram сгруппированы по ПК и корректно делятся по лимиту сообщения."
 }
