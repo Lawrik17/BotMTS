@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.38",
+  "version": "0.0.0.39",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-20260727-111005/AdminClient-0.0.0.38.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/reviews-20260728/AdminClient-0.0.0.39.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "06ab6d32f3c9f09414efa5eebac2f7fd480a6cff6270d7b7ee5b716704ffc864",
-  "releaseNotes": "AdminClient 0.0.0.38: добавлены множественный выбор и массовые действия в очереди установки, а на дашборд выведен статус автоматической проверки обновлений игр."
+  "sha256": "de5bf84e2fb255d162a91218b18fb7d9d267ca78f85680ad468c30ef027a36c9",
+  "releaseNotes": "AdminClient 0.0.0.39: включены актуальные общие экраны и последние исправления интерфейса Shared.UI."
 }
