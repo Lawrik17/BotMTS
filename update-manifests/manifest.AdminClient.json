@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.40",
+  "version": "0.0.0.41",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botsettings-update-20260728-033938/AdminClient-0.0.0.40.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/dashboard-health-20260728-235210/AdminClient-0.0.0.41.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "6c72d7574e66b77d2b3cee8a89a075c5e5f04c3c185cf5b0121129843e7cde6d",
-  "releaseNotes": "AdminClient 0.0.0.40: в настройках отображаются версии Server A и Server B и добавлен удалённый запуск обновления выбранного BotStats; исправлены ручные задания установки игр и размеры элементов общего экрана."
+  "sha256": "425ceece40fabe955a8b3bbdb6a5237a86f7688f00745499089c406ee6bc2938",
+  "releaseNotes": "AdminClient 0.0.0.41: общий дашборд получил сортировку и прокрутку активных сессий, расчёт текущей выручки и число занятых ПК; обновлены общие экраны мониторинга и управления."
 }

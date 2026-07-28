@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.23.0",
+  "version": "2.5.24.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-20260727-111005/6D6X6-2.5.23.0-full.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/dashboard-health-20260728-235210/6D6X6-2.5.24.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "19476832fd9eb7ab0259415c8a2558790b8bc76fa68972cabd39daf9438fcc90",
-  "releaseNotes": "6D6X6 2.5.23.0: обновлён узел развёртывания игр, добавлено удаление завершённых заданий и поддержка массового управления очередью. Полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "d5bb3feb89407199730d1f291663ab9a82db478176692a52f7e325a114b4ca8a",
+  "releaseNotes": "6D6X6 2.5.24.0: мониторинг iSCSI учитывает отсутствие входящего трафика на 10-гигабитном адаптере и запускает существующее восстановление сети; в метрики добавлены суммарные принятые и отправленные байты. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }

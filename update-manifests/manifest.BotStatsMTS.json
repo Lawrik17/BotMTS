@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.40",
+  "version": "1.0.1.41",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botsettings-update-20260728-033938/BotStatsMTS-1.0.1.40.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/dashboard-health-20260728-235210/BotStatsMTS-1.0.1.41.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "40731173fa64e5cf6a5fc2cdd2f587fd3babef731628c1823806589b4d6c5425",
-  "releaseNotes": "BotStats MTS 1.0.1.40: в настройках отображается фактическая версия выбранного BotStats и доступно его удалённое обновление; исправлено ручное добавление заданий установки игр; кнопка подготовки установки приведена к нормальному размеру."
+  "sha256": "dc4e9b3311bd9ae43feaea0f830c642b5075a2437b2c28f656c29a10bd19f3b0",
+  "releaseNotes": "BotStats MTS 1.0.1.41: активные сессии на дашборде отсортированы по длительности, прокручиваются и показывают текущую выручку; в заголовке списка ПК отображается число занятых; исправлены развёртывание игр, резервное копирование и маршрутизация уведомлений AutoLogin."
 }
