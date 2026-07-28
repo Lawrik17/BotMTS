@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.41",
+  "version": "1.0.1.42",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/dashboard-health-20260728-235210/BotStatsMTS-1.0.1.41.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-autologin-20260729-0135/BotStatsMTS-1.0.1.42.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "dc4e9b3311bd9ae43feaea0f830c642b5075a2437b2c28f656c29a10bd19f3b0",
-  "releaseNotes": "BotStats MTS 1.0.1.41: активные сессии на дашборде отсортированы по длительности, прокручиваются и показывают текущую выручку; в заголовке списка ПК отображается число занятых; исправлены развёртывание игр, резервное копирование и маршрутизация уведомлений AutoLogin."
+  "sha256": "d2877997f8412015502b4c143c4b8bb79d4ec97e159ee912b20ae8865754aa6e",
+  "releaseNotes": "BotStats MTS 1.0.1.42: добавлены общие экраны почтовых аккаунтов и почтовых кодов, импорт настроек BotAssist и новый индикатор AutoLogin в списке ПК; исправлены остановка полного сбора отзывов и развёртывание пакетов с совпадающими путями."
 }

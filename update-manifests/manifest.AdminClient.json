@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.41",
+  "version": "0.0.0.42",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/dashboard-health-20260728-235210/AdminClient-0.0.0.41.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-autologin-20260729-0135/AdminClient-0.0.0.42.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "425ceece40fabe955a8b3bbdb6a5237a86f7688f00745499089c406ee6bc2938",
-  "releaseNotes": "AdminClient 0.0.0.41: общий дашборд получил сортировку и прокрутку активных сессий, расчёт текущей выручки и число занятых ПК; обновлены общие экраны мониторинга и управления."
+  "sha256": "3a256998a05f23a21ea65b2a2bbf96c07be9c7cdaa7adb586081e64ad62ab867",
+  "releaseNotes": "AdminClient 0.0.0.42: добавлены общие экраны почтовых аккаунтов и почтовых кодов, новый индикатор AutoLogin в списке ПК и обновлён общий интерфейс управления."
 }
