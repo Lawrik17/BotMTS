@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.44",
+  "version": "1.0.1.46",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-base-disk-20260729/BotStatsMTS-1.0.1.44.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-installer-safe-20260730-v46/BotStatsMTS-1.0.1.46.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "66ccd569477bd380ae6bbe8a60d4c385a7076f34e6957c5419fffcaf8ce55d4e",
-  "releaseNotes": "BotStats MTS 1.0.1.44: исправлено определение базового VHDX для iSCSI-клонов. Таргеты GameX*.002.vhdx корректно связываются с единым GreenVD.vhdx в том же каталоге. В комплекте ServerManagement.Agent 1.0.1.4."
+  "sha256": "efd7add36c2bd34fcad6baf6ebda11ef7a19ee088b4742a815cdc7b6f647315d",
+  "releaseNotes": "BotStats MTS 1.0.1.46: Inno Setup без рекламных компонентов устанавливается автоматически. Установщики с маркерами Яндекс, Bing, Mail.ru, browser или toolbar переводятся в ручной режим. Игровые задачи установщика больше не отключаются пустым TASKS."
 }

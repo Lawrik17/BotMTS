@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.44",
+  "version": "0.0.0.46",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-base-disk-20260729/AdminClient-0.0.0.44.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-installer-safe-20260730-v46/AdminClient-0.0.0.46.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5a110253536c41f514cc6a316251a570367bd5c08e0a83f8ca13a7cf51e9450f",
-  "releaseNotes": "AdminClient 0.0.0.44: совместимая сборка для исправленного управления iSCSI и отображения общего базового диска GreenVD.vhdx."
+  "sha256": "c7ceb56f98924dbdb4cf4e0b3686c13c0fd91d4e8a4150ea76dc479bd3f350e5",
+  "releaseNotes": "AdminClient 0.0.0.46: совместимая сборка общего интерфейса загрузки игр для автоматической установки проверенных Inno Setup-пакетов."
 }
