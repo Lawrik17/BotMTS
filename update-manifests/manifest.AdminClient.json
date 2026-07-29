@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.42",
+  "version": "0.0.0.43",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-autologin-20260729-0135/AdminClient-0.0.0.42.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-codes-reviews-20260729-031102/AdminClient-0.0.0.43.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3a256998a05f23a21ea65b2a2bbf96c07be9c7cdaa7adb586081e64ad62ab867",
-  "releaseNotes": "AdminClient 0.0.0.42: добавлены общие экраны почтовых аккаунтов и почтовых кодов, новый индикатор AutoLogin в списке ПК и обновлён общий интерфейс управления."
+  "sha256": "02bf12421f72ff645962ebcc12e147d69dca0de5c44362cce48a78ef64eeaab0",
+  "releaseNotes": "AdminClient 0.0.0.43: раздел «Почтовые коды» вынесен в левое меню; статусы почтовых подключений и журнал кодов обновляются автоматически."
 }

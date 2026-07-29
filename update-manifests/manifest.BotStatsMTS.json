@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.42",
+  "version": "1.0.1.43",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-autologin-20260729-0135/BotStatsMTS-1.0.1.42.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-codes-reviews-20260729-031102/BotStatsMTS-1.0.1.43.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d2877997f8412015502b4c143c4b8bb79d4ec97e159ee912b20ae8865754aa6e",
-  "releaseNotes": "BotStats MTS 1.0.1.42: добавлены общие экраны почтовых аккаунтов и почтовых кодов, импорт настроек BotAssist и новый индикатор AutoLogin в списке ПК; исправлены остановка полного сбора отзывов и развёртывание пакетов с совпадающими путями."
+  "sha256": "5572a0c7406a6bbfe6a3396c8c68b3419813a39c4d083905b5f753f2be8f22c3",
+  "releaseNotes": "BotStats MTS 1.0.1.43: раздел «Почтовые коды» вынесен в левое меню; статусы почтовых подключений и коды обновляются автоматически; ручной полный сбор публикует новые отзывы в Telegram сгруппированными сообщениями."
 }
