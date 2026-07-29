@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.43",
+  "version": "0.0.0.44",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-codes-reviews-20260729-031102/AdminClient-0.0.0.43.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/server-management-base-disk-20260729/AdminClient-0.0.0.44.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "02bf12421f72ff645962ebcc12e147d69dca0de5c44362cce48a78ef64eeaab0",
-  "releaseNotes": "AdminClient 0.0.0.43: раздел «Почтовые коды» вынесен в левое меню; статусы почтовых подключений и журнал кодов обновляются автоматически."
+  "sha256": "5a110253536c41f514cc6a316251a570367bd5c08e0a83f8ca13a7cf51e9450f",
+  "releaseNotes": "AdminClient 0.0.0.44: совместимая сборка для исправленного управления iSCSI и отображения общего базового диска GreenVD.vhdx."
 }
