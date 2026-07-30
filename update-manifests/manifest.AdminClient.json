@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.47",
+  "version": "0.0.0.48",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-window-restore-20260730-v47/AdminClient-0.0.0.47.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-package-path-20260730-v48/AdminClient-0.0.0.48.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "256e4c4558742c31d3d083bfb8233112daed9b892e10d76cbc1f127381280751",
-  "releaseNotes": "AdminClient 0.0.0.47: совместимая административная сборка для BotStats MTS 1.0.1.47."
+  "sha256": "2e74525826c0551a3e84c0a410d9bda3d1ec4e30b7b906c1ec97cb0ff3e48ea0",
+  "releaseNotes": "AdminClient 0.0.0.48: в настройках загрузки игр отображается сохранённый путь, разрешён выбор корня диска, фоновое обновление больше не сбрасывает введённый путь."
 }
