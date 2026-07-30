@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.48",
+  "version": "0.0.0.49",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-package-path-20260730-v48/AdminClient-0.0.0.48.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-focus-game-delivery-20260730-v49/AdminClient-0.0.0.49.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2e74525826c0551a3e84c0a410d9bda3d1ec4e30b7b906c1ec97cb0ff3e48ea0",
-  "releaseNotes": "AdminClient 0.0.0.48: в настройках загрузки игр отображается сохранённый путь, разрешён выбор корня диска, фоновое обновление больше не сбрасывает введённый путь."
+  "sha256": "677456e77671f0cf6f2a2792de5273d446eed6a11b6c6f22a23116d85d2145f7",
+  "releaseNotes": "AdminClient 0.0.0.49: общий экран управления загрузкой игр содержит актуальные исправления путей; сохранённый путь отображается и не сбрасывается фоновым обновлением."
 }

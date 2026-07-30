@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.48",
+  "version": "1.0.1.49",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-package-path-20260730-v48/BotStatsMTS-1.0.1.48.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-focus-game-delivery-20260730-v49/BotStatsMTS-1.0.1.49.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "446b3a0f937dff3d175ae0a525e5150661c9ea33b3bb31566cc7ef884f33e46f",
-  "releaseNotes": "BotStats MTS 1.0.1.48: в настройках загрузки игр отображается сохранённый путь, разрешён выбор корня диска, фоновое обновление больше не сбрасывает введённый путь."
+  "sha256": "099946c256d09bdf71415f781b2c793e3174e4d6e1df18813e2ebf3590dfbde8",
+  "releaseNotes": "BotStats MTS 1.0.1.49: включены актуальные исправления настроек и путей загрузки игр; сохранённый путь отображается и не сбрасывается фоновым обновлением."
 }
