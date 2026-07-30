@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.46",
+  "version": "0.0.0.47",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-installer-safe-20260730-v46/AdminClient-0.0.0.46.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-window-restore-20260730-v47/AdminClient-0.0.0.47.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c7ceb56f98924dbdb4cf4e0b3686c13c0fd91d4e8a4150ea76dc479bd3f350e5",
-  "releaseNotes": "AdminClient 0.0.0.46: совместимая сборка общего интерфейса загрузки игр для автоматической установки проверенных Inno Setup-пакетов."
+  "sha256": "256e4c4558742c31d3d083bfb8233112daed9b892e10d76cbc1f127381280751",
+  "releaseNotes": "AdminClient 0.0.0.47: совместимая административная сборка для BotStats MTS 1.0.1.47."
 }

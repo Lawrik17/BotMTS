@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.46",
+  "version": "1.0.1.47",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-installer-safe-20260730-v46/BotStatsMTS-1.0.1.46.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-window-restore-20260730-v47/BotStatsMTS-1.0.1.47.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "efd7add36c2bd34fcad6baf6ebda11ef7a19ee088b4742a815cdc7b6f647315d",
-  "releaseNotes": "BotStats MTS 1.0.1.46: Inno Setup без рекламных компонентов устанавливается автоматически. Установщики с маркерами Яндекс, Bing, Mail.ru, browser или toolbar переводятся в ручной режим. Игровые задачи установщика больше не отключаются пустым TASKS."
+  "sha256": "2c2583edbd659e68fcda2d2bb419925097e4ca7d25c067df782229ff37adb1f8",
+  "releaseNotes": "BotStats MTS 1.0.1.47: совместимая серверная сборка для клиента 6D6X6 2.5.26.0 и общего транспорта AutoLogin."
 }

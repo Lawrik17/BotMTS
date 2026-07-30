@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.25.0",
+  "version": "2.5.26.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/mail-autologin-20260729-0135/6D6X6-2.5.25.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-window-restore-20260730-v47/6D6X6-2.5.26.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "78af0f43537b1872f485ebb415aee96b97fc9379f5bdbb22488db7769f1c6152",
-  "releaseNotes": "6D6X6 2.5.25.0: обновлены общий транспорт состояния AutoLogin и комплект зависимостей; полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "a399f302de0a5fd439d8d6b303d3e103c948a7ee162d50e0ed5962dafc7c50d0",
+  "releaseNotes": "6D6X6 2.5.26.0: EA app надёжно восстанавливается из скрытого и свёрнутого состояния перед проверкой лицензий и включением автономного режима. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
