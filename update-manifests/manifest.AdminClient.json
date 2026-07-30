@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.50",
+  "version": "0.0.0.51",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-dashboard-20260730-v50/AdminClient-0.0.0.50.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-update-routing-20260731-v51/AdminClient-0.0.0.51.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "51268da76880c80d01b7bd0e70991f2af7662d6b52979c05d4f89d207ef1098b",
-  "releaseNotes": "AdminClient 0.0.0.50: ручная проверка лицензий EA запускается независимо от общего цикла; в дашборд добавлены обратный отсчёт и прогресс проверки лицензий EA."
+  "sha256": "df7b6fd4b50fc85f08d7b2eba05092a9e9db89ef3e3a453c1baae7f84e000aad",
+  "releaseNotes": "AdminClient 0.0.0.51: совместимая сборка для BotStats MTS 1.0.1.51."
 }

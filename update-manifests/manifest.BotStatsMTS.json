@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.50",
+  "version": "1.0.1.51",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-dashboard-20260730-v50/BotStatsMTS-1.0.1.50.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-update-routing-20260731-v51/BotStatsMTS-1.0.1.51.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "130191b30d1091c88e1c21df1d92069dd473e29edd11741f54e0deca22fd61a3",
-  "releaseNotes": "BotStats MTS 1.0.1.50: ручная проверка лицензий EA запускается независимо от общего ночного цикла; в дашборд добавлены обратный отсчёт и прогресс проверки лицензий EA."
+  "sha256": "adebd57eba864a1b118fa4fd2dd528383b039c8bfa4bcaf5652f2d022cc03de4",
+  "releaseNotes": "BotStats MTS 1.0.1.51: обновления существующих игр распознаются по EXE установленной игры. Готовые игровые файлы загружаются прямо в текущий каталог; временный диск используется только для архивов и установщиков."
 }
