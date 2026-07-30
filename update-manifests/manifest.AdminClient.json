@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.49",
+  "version": "0.0.0.50",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-focus-game-delivery-20260730-v49/AdminClient-0.0.0.49.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-dashboard-20260730-v50/AdminClient-0.0.0.50.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "677456e77671f0cf6f2a2792de5273d446eed6a11b6c6f22a23116d85d2145f7",
-  "releaseNotes": "AdminClient 0.0.0.49: общий экран управления загрузкой игр содержит актуальные исправления путей; сохранённый путь отображается и не сбрасывается фоновым обновлением."
+  "sha256": "51268da76880c80d01b7bd0e70991f2af7662d6b52979c05d4f89d207ef1098b",
+  "releaseNotes": "AdminClient 0.0.0.50: ручная проверка лицензий EA запускается независимо от общего цикла; в дашборд добавлены обратный отсчёт и прогресс проверки лицензий EA."
 }

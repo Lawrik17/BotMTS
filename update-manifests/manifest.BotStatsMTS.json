@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.49",
+  "version": "1.0.1.50",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-focus-game-delivery-20260730-v49/BotStatsMTS-1.0.1.49.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-dashboard-20260730-v50/BotStatsMTS-1.0.1.50.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "099946c256d09bdf71415f781b2c793e3174e4d6e1df18813e2ebf3590dfbde8",
-  "releaseNotes": "BotStats MTS 1.0.1.49: включены актуальные исправления настроек и путей загрузки игр; сохранённый путь отображается и не сбрасывается фоновым обновлением."
+  "sha256": "130191b30d1091c88e1c21df1d92069dd473e29edd11741f54e0deca22fd61a3",
+  "releaseNotes": "BotStats MTS 1.0.1.50: ручная проверка лицензий EA запускается независимо от общего ночного цикла; в дашборд добавлены обратный отсчёт и прогресс проверки лицензий EA."
 }
