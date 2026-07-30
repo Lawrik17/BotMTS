@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.28.0",
+  "version": "2.5.29.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-foreground-fallback-20260730-v50/6D6X6-2.5.28.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-login-restore-20260730-v51/6D6X6-2.5.29.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3e1f117e27f0d8fcb38c682da5037e9634446042b3a9341451f62498d1eda5ca",
-  "releaseNotes": "6D6X6 2.5.28.0: EA AutoLogin больше не останавливает ввод логина и пароля, если Windows не назначила окно формальным foreground. Активация окна выполняется без агрессивных кликов, TopMost и Alt-трюков; видимого развёрнутого окна достаточно для продолжения сценария. Полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "03d1d004971099f028a6eff951fc5a6b62b8e084fcdce4c8e7e8b928c57e7d2a",
+  "releaseNotes": "6D6X6 2.5.29.0: восстановлена проверенная последовательность входа EA из версии 2.5.25.0. Удалён блокирующий барьер активации окна, из-за которого сценарий останавливался сразу после запуска EA app и не доходил до ввода логина. Новые сценарии почтового кода, автономного режима и проверки лицензий сохранены. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
