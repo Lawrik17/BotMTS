@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.52",
+  "version": "0.0.0.53",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-manual-audit-20260731-v52/AdminClient-0.0.0.52.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-complete-audit-20260801-v59/AdminClient-0.0.0.53.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a608cf242dc450ea0c06538ac200101984f947d54fb5ebcc3ae85ec309254410",
-  "releaseNotes": "AdminClient 0.0.0.52: ручная проверка лицензий EA запускается сразу на выбранном ПК через BotStats и выполняет полный сценарий обслуживания независимо от общего ночного цикла."
+  "sha256": "f90bafd6781b087ac80c697394ff7c0f4c5074f7457ee36a8185db75a0df7eac",
+  "releaseNotes": "AdminClient 0.0.0.53: обновлена совместимость с раздельными ручным и ночным сценариями проверки лицензий EA. Кнопка проверки запускает независимое обслуживание выбранного ПК через BotStats и не блокируется общей ночной очередью."
 }
