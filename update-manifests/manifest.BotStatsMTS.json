@@ -1,9 +1,9 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.51",
+  "version": "1.0.1.52",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-update-routing-20260731-v51/BotStatsMTS-1.0.1.51.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-manual-audit-20260731-v52/BotStatsMTS-1.0.1.52.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "adebd57eba864a1b118fa4fd2dd528383b039c8bfa4bcaf5652f2d022cc03de4",
-  "releaseNotes": "BotStats MTS 1.0.1.51: обновления существующих игр распознаются по EXE установленной игры. Готовые игровые файлы загружаются прямо в текущий каталог; временный диск используется только для архивов и установщиков."
+  "sha256": "e2aeaf5ecc0a3f312c390df0c419712303b6c4366bfaec85a10390bea5eacff1",
+  "releaseNotes": "BotStats MTS 1.0.1.52: ручная проверка лицензий EA запускается сразу на выбранном ПК и не ожидает общий ночной цикл. Сохранён полный сценарий обслуживания: скрытие ПК, проверка всех игр, снятие заморозки при EC:204, продолжение после перезагрузки, обновление лицензий онлайн, возврат в автономный режим, заморозка и открытие ПК на сайте."
 }

@@ -1,9 +1,9 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.51",
+  "version": "0.0.0.52",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-update-routing-20260731-v51/AdminClient-0.0.0.51.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-manual-audit-20260731-v52/AdminClient-0.0.0.52.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "df7b6fd4b50fc85f08d7b2eba05092a9e9db89ef3e3a453c1baae7f84e000aad",
-  "releaseNotes": "AdminClient 0.0.0.51: совместимая сборка для BotStats MTS 1.0.1.51."
+  "sha256": "a608cf242dc450ea0c06538ac200101984f947d54fb5ebcc3ae85ec309254410",
+  "releaseNotes": "AdminClient 0.0.0.52: ручная проверка лицензий EA запускается сразу на выбранном ПК через BotStats и выполняет полный сценарий обслуживания независимо от общего ночного цикла."
 }
