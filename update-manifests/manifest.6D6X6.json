@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.31.0",
+  "version": "2.5.32.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-card-audit-20260731-v53/6D6X6-2.5.31.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-card-audit-20260731-v54/6D6X6-2.5.32.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "309ee6f513c3d44f5f4763f52a2782c85d510a4757209311b07fd6cc04459ff7",
-  "releaseNotes": "6D6X6 2.5.31.0: проверка лицензий EA заранее сопоставляет каждую установленную карточку с игрой и точным EXE. Каждая карточка проверяется один раз за проход; числовые версии FC, F1 и NFL больше не смешиваются; повторный поиск после перестройки окна EA остаётся привязан к исходной карточке. Полный архив содержит Apps, launcher, службу и все зависимости.",
+  "sha256": "1bbaee2d2145f8fe7167cca902223e3652cb317352c7a7c4952f2da063ee1c62",
+  "releaseNotes": "6D6X6 2.5.32.0: исправлен ложный пропуск EA SPORTS FC 24 после проверки соседней игры. Аудит ждёт догрузку всех карточек, устойчиво узнаёт ту же карточку после перестройки QML и при её временном исчезновении запускает только заранее сопоставленный точный EXE. Каждая игра по-прежнему проверяется один раз, а FC 24/25/26 не смешиваются. Полный архив содержит Apps, launcher, службу и все зависимости.",
   "files": []
 }
