@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.54",
+  "version": "0.0.0.55",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-detection-server-management-20260801-v60/AdminClient-0.0.0.54.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-mafile-recovery-20260802-v63/AdminClient-0.0.0.55.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f81a6e11ed102fe5b71e606dcaef6863abd4381783f04b017133ed8be748dd0f",
-  "releaseNotes": "AdminClient 0.0.0.54: обновлена совместимость с управлением Server A / Server B, увеличенным списком таргетов и фактическими состояниями iSCSI-порталов. Включены общие исправления интерфейса управления сервером.",
+  "sha256": "28b7dbb4bee3ae16410792a2cd23c9a643678c739fa6fbda34aa8e728926feb9",
+  "releaseNotes": "AdminClient 0.0.0.55: добавлен массовый импорт Steam maFile, отображение предупреждения о необходимости повторного входа и ввода пароля, а также безопасное восстановление списка аккаунтов после временных ошибок чтения.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.54",
+  "version": "1.0.1.55",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-detection-server-management-20260801-v60/BotStatsMTS-1.0.1.54.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-mafile-recovery-20260802-v63/BotStatsMTS-1.0.1.55.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "1f8af6796fb6e3da21f3a2b4956a2023a6babc1a7de682805cdeafde61515dae",
-  "releaseNotes": "BotStats MTS 1.0.1.54: расширен список таргетов в управлении сервером, а состояние iSCSI-порталов берётся из фактического состояния Windows Server. В сборку включены общие исправления управления сервером и совместимость с новым клиентом 6D6X6.",
+  "sha256": "c8ba611c49b73a6b2786a3fc4b18aa59b9d4f0b20e05e028bb5249326e9357a4",
+  "releaseNotes": "BotStats MTS 1.0.1.55: исправлено исчезновение Steam-аккаунтов при временной ошибке чтения, добавлено восстановление списка из maFile и резервной копии, массовый импорт maFile и отметка о необходимости повторного входа с вводом пароля.",
   "files": []
 }
