@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.38.0",
+  "version": "2.5.39.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-detection-server-management-20260801-v60/6D6X6-2.5.38.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-process-confirmation-20260801-v62/6D6X6-2.5.39.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "47ad53c004b1b22b7aa8240233a78fcf5e715ec3a43f1fb3c952f369202436f1",
-  "releaseNotes": "6D6X6 2.5.38.0: определение запущенной игры теперь сначала сверяет полный путь EXE. Резервное сопоставление по имени процесса используется только при отсутствии пути и только для однозначного имени. Перед каждой сессией библиотека игр перечитывается, а сохранённая текущая игра повторно проверяется. Это исключает ложные подмены, например EA SPORTS FC на Crimson Desert или Civilization.",
+  "sha256": "65a51958a926aebb7e9afa2aa46565964a4196068124ae3822ed44ecd315e433",
+  "releaseNotes": "6D6X6 2.5.39.0: проверка лицензий EA подтверждает запуск по точному пути EXE, а когда Windows временно не отдаёт MainModule.FileName — по новому PID и точному имени процесса. Если путь доступен и не совпадает, чужой процесс по-прежнему отклоняется. Закрытие игр, контроль EC:204 и порядок прохода не изменены.",
   "files": []
 }
