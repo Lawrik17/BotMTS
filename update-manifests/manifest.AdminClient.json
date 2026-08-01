@@ -1,9 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.53",
+  "version": "0.0.0.54",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-complete-audit-20260801-v59/AdminClient-0.0.0.53.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-detection-server-management-20260801-v60/AdminClient-0.0.0.54.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f90bafd6781b087ac80c697394ff7c0f4c5074f7457ee36a8185db75a0df7eac",
-  "releaseNotes": "AdminClient 0.0.0.53: обновлена совместимость с раздельными ручным и ночным сценариями проверки лицензий EA. Кнопка проверки запускает независимое обслуживание выбранного ПК через BotStats и не блокируется общей ночной очередью."
+  "sha256": "f81a6e11ed102fe5b71e606dcaef6863abd4381783f04b017133ed8be748dd0f",
+  "releaseNotes": "AdminClient 0.0.0.54: обновлена совместимость с управлением Server A / Server B, увеличенным списком таргетов и фактическими состояниями iSCSI-порталов. Включены общие исправления интерфейса управления сервером.",
+  "files": []
 }

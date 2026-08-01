@@ -1,9 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.53",
+  "version": "1.0.1.54",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-complete-audit-20260801-v59/BotStatsMTS-1.0.1.53.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-detection-server-management-20260801-v60/BotStatsMTS-1.0.1.54.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f4b4c3af34081a114cdf85764cb6630338113cdccaa706cd991de4d548e55e37",
-  "releaseNotes": "BotStats MTS 1.0.1.53: ручная и автоматическая проверки лицензий EA полностью разделены и используют независимые сохраняемые состояния. Ручная команда сразу обслуживает выбранный ПК, а ночной цикл продолжает собственную очередь. После перезапуска BotStats оба сценария восстанавливаются со своего шага. При EC:204 сервер ожидает полный офлайн-проход, затем управляет перезагрузкой, онлайн-запуском всех игр, возвратом EA в автономный режим, заморозкой и открытием ПК на сайте."
+  "sha256": "1f8af6796fb6e3da21f3a2b4956a2023a6babc1a7de682805cdeafde61515dae",
+  "releaseNotes": "BotStats MTS 1.0.1.54: расширен список таргетов в управлении сервером, а состояние iSCSI-порталов берётся из фактического состояния Windows Server. В сборку включены общие исправления управления сервером и совместимость с новым клиентом 6D6X6.",
+  "files": []
 }
