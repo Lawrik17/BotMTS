@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.40.0",
+  "version": "2.5.41.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-runtime-icons-20260802-v64/6D6X6-2.5.40.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-reviews-20260803-v65/6D6X6-2.5.41.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "bd9dcee50d0ebef34a9e634d4d7ecea8016350a9cee33b87f4c9f3a660a540c7",
-  "releaseNotes": "6D6X6 2.5.40.0: добавлены подтверждаемые клиентом состояния проверки и обновления лицензий EA, обработка EC:10007, пропуск игр, требующих обновления, и надёжное завершение игр при обновлении лицензий.",
+  "sha256": "8e11dd4d80746081a695bcd174bbd389bc621bd781b8ca1f2713fbf19aaa904d",
+  "releaseNotes": "6D6X6 2.5.41.0: совместимая клиентская сборка с обновлённым общим контрактом управления загрузкой игр; пакет включает службу, launcher и Apps.",
   "files": []
 }

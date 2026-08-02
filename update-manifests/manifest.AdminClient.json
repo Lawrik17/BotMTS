@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.56",
+  "version": "0.0.0.57",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-runtime-icons-20260802-v64/AdminClient-0.0.0.56.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-reviews-20260803-v65/AdminClient-0.0.0.57.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "ec5bef35741f0a31753ac674bc7017417198428f2cc3839b123157947be50a33",
-  "releaseNotes": "AdminClient 0.0.0.56: в списке ПК добавлены отдельные иконки проверки и обновления лицензий EA, новый значок AutoLogin и подсказки; состояния синхронизируются через BotStats.",
+  "sha256": "d95cb6cdc944af0c66a7299d558ede096c7207cf625f17f2904853c859a7f1a1",
+  "releaseNotes": "AdminClient 0.0.0.57: в настройках загрузки игр доступен общий выключатель модуля; состояние применяется на выбранном BotStats без перезапуска.",
   "files": []
 }
