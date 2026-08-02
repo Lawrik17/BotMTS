@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.55",
+  "version": "1.0.1.56",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-mafile-recovery-20260802-v63/BotStatsMTS-1.0.1.55.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-runtime-icons-20260802-v64/BotStatsMTS-1.0.1.56.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c8ba611c49b73a6b2786a3fc4b18aa59b9d4f0b20e05e028bb5249326e9357a4",
-  "releaseNotes": "BotStats MTS 1.0.1.55: исправлено исчезновение Steam-аккаунтов при временной ошибке чтения, добавлено восстановление списка из maFile и резервной копии, массовый импорт maFile и отметка о необходимости повторного входа с вводом пароля.",
+  "sha256": "bae5c37caec9e75aa853b4e014e3bf2948f5286ddd7e79a8987ead408d69a21f",
+  "releaseNotes": "BotStats MTS 1.0.1.56: в списке ПК добавлены отдельные иконки проверки и обновления лицензий EA, новый значок AutoLogin и подсказки; состояния приходят от 6D6X.",
   "files": []
 }

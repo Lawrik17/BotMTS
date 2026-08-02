@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.39.0",
+  "version": "2.5.40.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-process-confirmation-20260801-v62/6D6X6-2.5.39.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-runtime-icons-20260802-v64/6D6X6-2.5.40.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "65a51958a926aebb7e9afa2aa46565964a4196068124ae3822ed44ecd315e433",
-  "releaseNotes": "6D6X6 2.5.39.0: проверка лицензий EA подтверждает запуск по точному пути EXE, а когда Windows временно не отдаёт MainModule.FileName — по новому PID и точному имени процесса. Если путь доступен и не совпадает, чужой процесс по-прежнему отклоняется. Закрытие игр, контроль EC:204 и порядок прохода не изменены.",
+  "sha256": "bd9dcee50d0ebef34a9e634d4d7ecea8016350a9cee33b87f4c9f3a660a540c7",
+  "releaseNotes": "6D6X6 2.5.40.0: добавлены подтверждаемые клиентом состояния проверки и обновления лицензий EA, обработка EC:10007, пропуск игр, требующих обновления, и надёжное завершение игр при обновлении лицензий.",
   "files": []
 }

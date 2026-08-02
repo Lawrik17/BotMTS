@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.55",
+  "version": "0.0.0.56",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-mafile-recovery-20260802-v63/AdminClient-0.0.0.55.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-license-runtime-icons-20260802-v64/AdminClient-0.0.0.56.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "28b7dbb4bee3ae16410792a2cd23c9a643678c739fa6fbda34aa8e728926feb9",
-  "releaseNotes": "AdminClient 0.0.0.55: добавлен массовый импорт Steam maFile, отображение предупреждения о необходимости повторного входа и ввода пароля, а также безопасное восстановление списка аккаунтов после временных ошибок чтения.",
+  "sha256": "ec5bef35741f0a31753ac674bc7017417198428f2cc3839b123157947be50a33",
+  "releaseNotes": "AdminClient 0.0.0.56: в списке ПК добавлены отдельные иконки проверки и обновления лицензий EA, новый значок AutoLogin и подсказки; состояния синхронизируются через BotStats.",
   "files": []
 }
