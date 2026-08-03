@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.41.0",
+  "version": "2.5.42.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-reviews-20260803-v65/6D6X6-2.5.41.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-2.5.42.0/6D6X6-2.5.42.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "8e11dd4d80746081a695bcd174bbd389bc621bd781b8ca1f2713fbf19aaa904d",
-  "releaseNotes": "6D6X6 2.5.41.0: совместимая клиентская сборка с обновлённым общим контрактом управления загрузкой игр; пакет включает службу, launcher и Apps.",
+  "sha256": "90bcb4e34ea71cdbee2447b5fd99835673b3e1ee7073c19afc3032e1976c8012",
+  "releaseNotes": "6D6X6 2.5.42.0: статус AutoLogin подтверждается текущей сессией EA; детектор обновления привязан к точной карточке игры; зависший launcher EA Javelin Anticheat безопасно завершается после тайм-аута.",
   "files": []
 }
