@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.57",
+  "version": "0.0.0.58",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-reviews-20260803-v65/AdminClient-0.0.0.57.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-runtime-icons-20260804-v66/AdminClient-0.0.0.58.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d95cb6cdc944af0c66a7299d558ede096c7207cf625f17f2904853c859a7f1a1",
-  "releaseNotes": "AdminClient 0.0.0.57: в настройках загрузки игр доступен общий выключатель модуля; состояние применяется на выбранном BotStats без перезапуска.",
+  "sha256": "7a7d4af98796f38c738914b5d8f24ec320a5a6960cc82d64657b0f806a1e167a",
+  "releaseNotes": "AdminClient 0.0.0.58: исправлено периодическое исчезновение значков MTS, Defender, iSCSI и AutoLogin в списке ПК. Ожидающий подтверждения AutoLogin отображается нейтральным индикатором вместо пустого места или ложного зелёного статуса.",
   "files": []
 }

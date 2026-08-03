@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.57",
+  "version": "1.0.1.58",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-reviews-20260803-v65/BotStatsMTS-1.0.1.57.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-runtime-icons-20260804-v66/BotStatsMTS-1.0.1.58.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "8d77f68f9d0ac4ea1e171732a496855a68c01dd5772915df936d1dcdb62a56d4",
-  "releaseNotes": "BotStats MTS 1.0.1.57: добавлен общий выключатель загрузки и обновления игр с применением без перезапуска; плановый Telegram-отчёт по отзывам публикует только отзывы за календарный день запуска сбора, даже если сбор завершился после полуночи.",
+  "sha256": "e3c7e20fa6bf860da5897ca5bc1f358e3ca3f7cbb0cfed26dab0e1b617b04995",
+  "releaseNotes": "BotStats MTS 1.0.1.58: состояния значков MTS, Defender, iSCSI и AutoLogin теперь сразу участвуют в синхронизации Server A / Server B и не теряются при обновлении списка ПК. Для AutoLogin добавлен нейтральный индикатор ожидания подтверждения текущей сессии EA без ложного зелёного статуса.",
   "files": []
 }
