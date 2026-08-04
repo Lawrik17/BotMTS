@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.59",
+  "version": "1.0.1.60",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-runtime-icons-stability-20260804-v67/BotStatsMTS-1.0.1.59.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/BotStatsMTS-1.0.1.60.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "fcd49f9df3d9c2e1649700fc1be70d94ae8a796c27003e8fc9ecfda82f0f8e43",
-  "releaseNotes": "BotStats MTS 1.0.1.59: временный неполный снимок списка ПК больше не сбрасывает подтверждённое состояние iSCSI и не заставляет значок дисков мигать. Явное состояние NotReady по-прежнему сразу скрывает значок при реальном отключении дисков.",
+  "sha256": "c2da418c6cfff612877b82e9139e18d0112dca3525cd65a3da25974c14a28846",
+  "releaseNotes": "BotStats MTS 1.0.1.60: безопасная работа Server A при потере Server B, quorum/witness и fencing; поколение общих снимков; репликация game_server.db, административных изменений, загрузок игр, почтового состояния, AdminAlert и истории чата; контролируемый возврат управления на Server A.",
   "files": []
 }

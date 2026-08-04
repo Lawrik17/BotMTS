@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.59",
+  "version": "0.0.0.60",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/pc-runtime-icons-stability-20260804-v67/AdminClient-0.0.0.59.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/AdminClient-0.0.0.60.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "0ce8f9535279ed3a8ec8a823ef2dceb63505bae34708c232e4ee91ee6931cb80",
-  "releaseNotes": "AdminClient 0.0.0.59: подтверждённый iSCSI-значок больше не исчезает на одном промежуточном обновлении списка. Реальное состояние NotReady остаётся приоритетным и отображается без задержки.",
+  "sha256": "f001c6722dff095a30798ffcee8c36d2651b7ec298cd51d9e62d2bbfd08b80c8",
+  "releaseNotes": "AdminClient 0.0.0.60: совместимость с поколениями кластерных снимков, безопасным переключением Server A/Server B, репликацией административного состояния и контролируемым handback на основной сервер.",
   "files": []
 }

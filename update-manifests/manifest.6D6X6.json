@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.42.0",
+  "version": "2.5.43.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x6-2.5.42.0/6D6X6-2.5.42.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/6D6X6-2.5.43.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "90bcb4e34ea71cdbee2447b5fd99835673b3e1ee7073c19afc3032e1976c8012",
-  "releaseNotes": "6D6X6 2.5.42.0: статус AutoLogin подтверждается текущей сессией EA; детектор обновления привязан к точной карточке игры; зависший launcher EA Javelin Anticheat безопасно завершается после тайм-аута.",
+  "sha256": "2bdbf487db2528710ef1b7acf5ff9612e2d50875600abaf4e3bc3d2639f2fa45",
+  "releaseNotes": "6D6X6 2.5.43.0: совместимый общий сетевой контракт для отказоустойчивой пары Server A/Server B; клиент, служба, Apps и launcher собраны единым пакетом.",
   "files": []
 }
