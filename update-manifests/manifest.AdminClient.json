@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.60",
+  "version": "0.0.0.61",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/AdminClient-0.0.0.60.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/AdminClient-0.0.0.61.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f001c6722dff095a30798ffcee8c36d2651b7ec298cd51d9e62d2bbfd08b80c8",
-  "releaseNotes": "AdminClient 0.0.0.60: совместимость с поколениями кластерных снимков, безопасным переключением Server A/Server B, репликацией административного состояния и контролируемым handback на основной сервер.",
+  "sha256": "faef3a51f6fcfed5bb38736afd0c31f456b6c4dc76d0359905abf8a8d097c5e1",
+  "releaseNotes": "AdminClient 0.0.0.61: общий GameRemote.Viewer для списка ПК и раздела удалённого рабочего стола; прямое WebRTC-подключение, подтверждение занятого ПК и корректное освобождение управляющей сессии.",
   "files": []
 }

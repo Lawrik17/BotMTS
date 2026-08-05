@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.43.0",
+  "version": "2.5.44.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/6D6X6-2.5.43.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/6D6X6-2.5.44.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2bdbf487db2528710ef1b7acf5ff9612e2d50875600abaf4e3bc3d2639f2fa45",
-  "releaseNotes": "6D6X6 2.5.43.0: совместимый общий сетевой контракт для отказоустойчивой пары Server A/Server B; клиент, служба, Apps и launcher собраны единым пакетом.",
+  "sha256": "dc1d2cf81e4a1b8a326b7c6220c4e899c6b91237d1347c36bf4e9b6f730ea254",
+  "releaseNotes": "6D6X6 2.5.44.0: новый GameRemote.Host запускается службой в интерактивном или winlogon-сеансе; прямой WebRTC-транспорт, DXGI/H.264, звук WASAPI и удалённый ввод включены в единый пакет. Старый UDP/WS-маршрут удалён.",
   "files": []
 }

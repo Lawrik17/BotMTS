@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.60",
+  "version": "1.0.1.61",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/cluster-failover-replication-20260804-v68/BotStatsMTS-1.0.1.60.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/BotStatsMTS-1.0.1.61.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c2da418c6cfff612877b82e9139e18d0112dca3525cd65a3da25974c14a28846",
-  "releaseNotes": "BotStats MTS 1.0.1.60: безопасная работа Server A при потере Server B, quorum/witness и fencing; поколение общих снимков; репликация game_server.db, административных изменений, загрузок игр, почтового состояния, AdminAlert и истории чата; контролируемый возврат управления на Server A.",
+  "sha256": "376dce4bbecfe456985c5e6b86170e51bdc24a6b837a152fb17b0964d9ca33d5",
+  "releaseNotes": "BotStats MTS 1.0.1.61: общий GameRemote.Viewer, одноразовые токены, подтверждение подключения к занятому ПК, журнал удалённых сессий и прямое WebRTC-соединение без передачи видео через BotStats.",
   "files": []
 }
