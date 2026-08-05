@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.44.0",
+  "version": "2.5.45.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/6D6X6-2.5.44.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/direct-webrtc-20260806-v70/6D6X6-2.5.45.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "dc1d2cf81e4a1b8a326b7c6220c4e899c6b91237d1347c36bf4e9b6f730ea254",
-  "releaseNotes": "6D6X6 2.5.44.0: новый GameRemote.Host запускается службой в интерактивном или winlogon-сеансе; прямой WebRTC-транспорт, DXGI/H.264, звук WASAPI и удалённый ввод включены в единый пакет. Старый UDP/WS-маршрут удалён.",
+  "sha256": "21c6c6a1aee4e41c8c35000b7c307e149f3254c3cdb6110ac901d31348fe4857",
+  "releaseNotes": "6D6X6 2.5.45.0: для GameRemote.Host назначается постоянный UDP-порт по номеру ПК, служба создаёт точное правило Windows Firewall и передаёт порт WebRTC-хосту. Добавлена настройка порта удалённого рабочего стола.",
   "files": []
 }

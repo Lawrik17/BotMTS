@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.61",
+  "version": "0.0.0.62",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/AdminClient-0.0.0.61.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/direct-webrtc-20260806-v70/AdminClient-0.0.0.62.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "faef3a51f6fcfed5bb38736afd0c31f456b6c4dc76d0359905abf8a8d097c5e1",
-  "releaseNotes": "AdminClient 0.0.0.61: общий GameRemote.Viewer для списка ПК и раздела удалённого рабочего стола; прямое WebRTC-подключение, подтверждение занятого ПК и корректное освобождение управляющей сессии.",
+  "sha256": "c69c8a0f2371fcedf0f720f00870b4994dbdfeca311a0317189757d5c713b653",
+  "releaseNotes": "AdminClient 0.0.0.62: прямое WebRTC-подключение использует закреплённый UDP-порт выбранного ПК; в окне удалённого рабочего стола отображаются состояние ICE и целевой порт.",
   "files": []
 }

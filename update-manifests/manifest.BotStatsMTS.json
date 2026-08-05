@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.61",
+  "version": "1.0.1.62",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-webrtc-20260805-v69/BotStatsMTS-1.0.1.61.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/direct-webrtc-20260806-v70/BotStatsMTS-1.0.1.62.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "376dce4bbecfe456985c5e6b86170e51bdc24a6b837a152fb17b0964d9ca33d5",
-  "releaseNotes": "BotStats MTS 1.0.1.61: общий GameRemote.Viewer, одноразовые токены, подтверждение подключения к занятому ПК, журнал удалённых сессий и прямое WebRTC-соединение без передачи видео через BotStats.",
+  "sha256": "2ceb03095fb0c2e3408b7641b8a8d7732c3345d09cac6cd2e5c05b85998f8718",
+  "releaseNotes": "BotStats MTS 1.0.1.62: прямое WebRTC-подключение использует закреплённый UDP-порт каждого ПК; в окне удалённого рабочего стола отображаются состояние ICE и целевой порт. TURN не требуется при настроенном прямом маршруте.",
   "files": []
 }
