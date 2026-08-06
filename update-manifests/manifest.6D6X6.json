@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.46.0",
+  "version": "2.5.47.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/protocol-compat-hotfix-20260806-v71/6D6X6-2.5.46.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-fallback-20260806-v72/6D6X6-2.5.47.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "e1a59085f8042d02f92d064709ee1952c2a6c9f87b34427255d0c4c9f64bb665",
-  "releaseNotes": "6D6X6 2.5.46.0: добавлен исправленный CommonModels.dll с сохранёнными числовыми кодами команд; пакет включает службу и GameRemote.Host.",
+  "sha256": "47fda12e80661e426327bad3a37de98fbcc65e83419ef5f1bb6492627f767fa0",
+  "releaseNotes": "6D6X6 2.5.47.0: исправлен ранний выход GameRemote.Host. Добавлены явные права IPC, резервный запуск хоста в пользовательском токене, контроль кода завершения и журнал C:\\ProgramData\\6D6X6\\Logs\\GameRemote.Host.log.",
   "files": []
 }
