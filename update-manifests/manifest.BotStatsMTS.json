@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.62",
+  "version": "1.0.1.63",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/direct-webrtc-20260806-v70/BotStatsMTS-1.0.1.62.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/protocol-compat-hotfix-20260806-v71/BotStatsMTS-1.0.1.63.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2ceb03095fb0c2e3408b7641b8a8d7732c3345d09cac6cd2e5c05b85998f8718",
-  "releaseNotes": "BotStats MTS 1.0.1.62: прямое WebRTC-подключение использует закреплённый UDP-порт каждого ПК; в окне удалённого рабочего стола отображаются состояние ICE и целевой порт. TURN не требуется при настроенном прямом маршруте.",
+  "sha256": "6338fc51a78f72772bcc9aecab8ad998ad86cd3e80e00860db5a28ce8b60463c",
+  "releaseNotes": "BotStats MTS 1.0.1.63: восстановлена числовая совместимость команд со старыми клиентами 6D6X6 2.5.43. Доступ к SettingsBot.ini синхронизирован, запись выполняется атомарно с повторными попытками.",
   "files": []
 }

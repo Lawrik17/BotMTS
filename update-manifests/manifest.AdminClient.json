@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.62",
+  "version": "0.0.0.63",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/direct-webrtc-20260806-v70/AdminClient-0.0.0.62.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/protocol-compat-hotfix-20260806-v71/AdminClient-0.0.0.63.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c69c8a0f2371fcedf0f720f00870b4994dbdfeca311a0317189757d5c713b653",
-  "releaseNotes": "AdminClient 0.0.0.62: прямое WebRTC-подключение использует закреплённый UDP-порт выбранного ПК; в окне удалённого рабочего стола отображаются состояние ICE и целевой порт.",
+  "sha256": "759cf835d5fd75296907ec72495cb6f0c2e54b917672fdddd40dbdf6b8af1763",
+  "releaseNotes": "AdminClient 0.0.0.63: восстановлена числовая совместимость административных команд с клиентами 6D6X6 2.5.43 и новее.",
   "files": []
 }
