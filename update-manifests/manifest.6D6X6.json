@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.52.0",
+  "version": "2.5.53.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-runtime-fix-20260806-v77/6D6X6-2.5.52.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-session-launch-fix-20260806-v78/6D6X6-2.5.53.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "6e14fe547a7b053b2b82132cb40d18b3ada5a3f58245807d260758821abf5de1",
-  "releaseNotes": "6D6X6 2.5.52.0: GameRemote.Host поставляется как полный self-contained каталог без ранней распаковки single-file; добавлены проверка runtime-файлов, резервный запуск через dotnet, корректное окружение пользовательской сессии и диагностика в C:\\6D6X\\Logs.",
+  "sha256": "7d75dba91d7b6cc8627e2a2bb32ab26f26e4912c4ff13be4a4a95903c747803a",
+  "releaseNotes": "6D6X6 2.5.53.0: GameRemote.Host запускается в точной Windows-сессии подключённого пользовательского агента; устранено недопустимое наследование дескрипторов между session 0 и пользовательской сессией, вызывавшее 0xC0000142 до входа в Main; ранняя диагностика запуска теперь всегда записывается в C:\\6D6X\\Logs\\GameRemote.Host.log; исправлен резервный выбор WTS-сессии.",
   "files": []
 }
