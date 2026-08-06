@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.64",
+  "version": "1.0.1.65",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/service-presence-startup-20260806-v73/BotStatsMTS-1.0.1.64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-lan-fix-20260806-v74/BotStatsMTS-1.0.1.65-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "e3bd6d6238f10e5d98a684ba5231291b9cba8425343a4c63651eea85d2f80778",
-  "releaseNotes": "BotStats MTS 1.0.1.64: устранено зависание старого статуса «Занят» после запуска службы. BotStats дожидается пользовательского агента и повторяет локальную проверку состояния, не теряя сигнал его готовности.",
+  "sha256": "ae53b09f92d876a69fe8b1972e50688dfb78b1bde59f7914b5137253c5886bea",
+  "releaseNotes": "BotStats MTS 1.0.1.65: комплект совместим с исправленным локальным WebRTC-подключением GameRemote и новым полным пакетом 6D6X6.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.63",
+  "version": "0.0.0.64",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/protocol-compat-hotfix-20260806-v71/AdminClient-0.0.0.63.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-lan-fix-20260806-v74/AdminClient-0.0.0.64-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "759cf835d5fd75296907ec72495cb6f0c2e54b917672fdddd40dbdf6b8af1763",
-  "releaseNotes": "AdminClient 0.0.0.63: восстановлена числовая совместимость административных команд с клиентами 6D6X6 2.5.43 и новее.",
+  "sha256": "33ce8cad3bc974adf09f2d1537854c58617ca5b4a35c7376e090dfc9275ee16e",
+  "releaseNotes": "AdminClient 0.0.0.64: комплект совместим с исправленным локальным WebRTC-подключением GameRemote.",
   "files": []
 }

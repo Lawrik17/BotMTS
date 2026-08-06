@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.48.0",
+  "version": "2.5.49.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/service-presence-startup-20260806-v73/6D6X6-2.5.48.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-lan-fix-20260806-v74/6D6X6-2.5.49.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d5d12a11ec87e87d289c9b20c491edb28e0a2897c444ac7289866803b859fec5",
-  "releaseNotes": "6D6X6 2.5.48.0: после подключения пользовательского агента первые два достоверных отчёта о состоянии сессии отправляются с коротким интервалом. Это быстро снимает устаревший статус «Занят», сохраняя защиту из двух подтверждений.",
+  "sha256": "905b2dafa88f480188c94a82f54c6f3d939bb30be26914c53c3ecc55b32387a3",
+  "releaseNotes": "6D6X6 2.5.49.0: исправлен локальный WebRTC GameRemote: корректный UDP-диапазон, выбор сетевого интерфейса, запуск Host в активной сессии, надёжный IPC и автономный runtime Host.",
   "files": []
 }
