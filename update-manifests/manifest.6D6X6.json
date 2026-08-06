@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.49.0",
+  "version": "2.5.50.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-lan-fix-20260806-v74/6D6X6-2.5.49.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-startup-fix-20260806-v75/6D6X6-2.5.50.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "905b2dafa88f480188c94a82f54c6f3d939bb30be26914c53c3ecc55b32387a3",
-  "releaseNotes": "6D6X6 2.5.49.0: исправлен локальный WebRTC GameRemote: корректный UDP-диапазон, выбор сетевого интерфейса, запуск Host в активной сессии, надёжный IPC и автономный runtime Host.",
+  "sha256": "f786bbd09780e0ab882ab3dd42aef8e984e6edd0404ee88895e78440c7cd206f",
+  "releaseNotes": "6D6X6 2.5.50.0: GameRemote.Host поставляется единым самодостаточным EXE; лог запуска перенесён в C:\\6D6X\\Logs; служба сообщает точный код раннего завершения Host и не использует старую дублирующую сборку.",
   "files": []
 }
