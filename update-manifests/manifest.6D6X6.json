@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.51.0",
+  "version": "2.5.52.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-stdio-fix-20260806-v76/6D6X6-2.5.51.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-runtime-fix-20260806-v77/6D6X6-2.5.52.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "775296ee7f1310846422e53c049a1cf347216cfd8dbcdaf2ce3dc2c87fabf3d5",
-  "releaseNotes": "6D6X6 2.5.51.0: исправлен ранний сбой GameRemote.Host 0xC0000142 — служба передаёт процессу полный корректный набор стандартных дескрипторов; stdin подключён к NUL, диагностика остаётся в C:\\6D6X\\Logs.",
+  "sha256": "6e14fe547a7b053b2b82132cb40d18b3ada5a3f58245807d260758821abf5de1",
+  "releaseNotes": "6D6X6 2.5.52.0: GameRemote.Host поставляется как полный self-contained каталог без ранней распаковки single-file; добавлены проверка runtime-файлов, резервный запуск через dotnet, корректное окружение пользовательской сессии и диагностика в C:\\6D6X\\Logs.",
   "files": []
 }
