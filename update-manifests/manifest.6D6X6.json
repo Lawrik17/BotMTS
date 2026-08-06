@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.47.0",
+  "version": "2.5.48.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-fallback-20260806-v72/6D6X6-2.5.47.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/service-presence-startup-20260806-v73/6D6X6-2.5.48.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "47fda12e80661e426327bad3a37de98fbcc65e83419ef5f1bb6492627f767fa0",
-  "releaseNotes": "6D6X6 2.5.47.0: исправлен ранний выход GameRemote.Host. Добавлены явные права IPC, резервный запуск хоста в пользовательском токене, контроль кода завершения и журнал C:\\ProgramData\\6D6X6\\Logs\\GameRemote.Host.log.",
+  "sha256": "d5d12a11ec87e87d289c9b20c491edb28e0a2897c444ac7289866803b859fec5",
+  "releaseNotes": "6D6X6 2.5.48.0: после подключения пользовательского агента первые два достоверных отчёта о состоянии сессии отправляются с коротким интервалом. Это быстро снимает устаревший статус «Занят», сохраняя защиту из двух подтверждений.",
   "files": []
 }
