@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.53.0",
+  "version": "2.5.54.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-session-launch-fix-20260806-v78/6D6X6-2.5.53.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-console-bootstrap-fix-20260806-v79/6D6X6-2.5.54.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "7d75dba91d7b6cc8627e2a2bb32ab26f26e4912c4ff13be4a4a95903c747803a",
-  "releaseNotes": "6D6X6 2.5.53.0: GameRemote.Host запускается в точной Windows-сессии подключённого пользовательского агента; устранено недопустимое наследование дескрипторов между session 0 и пользовательской сессией, вызывавшее 0xC0000142 до входа в Main; ранняя диагностика запуска теперь всегда записывается в C:\\6D6X\\Logs\\GameRemote.Host.log; исправлен резервный выбор WTS-сессии.",
+  "sha256": "53af07cf1c70ad715dfd9fe5080fc119899b28441c8a963aa0aa39615c15d380",
+  "releaseNotes": "6D6X6 2.5.54.0: GameRemote.Host собран как Windows GUI-процесс и больше не зависит от консоли службы; служба запускает Host и резервный dotnet-процесс со скрытой, но полноценной консолью вместо CREATE_NO_WINDOW, устраняя ранние сбои 0xC0000142 и 0xC0000409 до входа в Main. Сохранены запуск в точной сессии agent-HELLO и ранняя диагностика в C:\\6D6X\\Logs\\GameRemote.Host.log.",
   "files": []
 }
