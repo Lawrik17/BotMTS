@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.64",
+  "version": "0.0.0.65",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-lan-fix-20260806-v74/AdminClient-0.0.0.64-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-lan-ice-20260807-v81/AdminClient-0.0.0.65-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "33ce8cad3bc974adf09f2d1537854c58617ca5b4a35c7376e090dfc9275ee16e",
-  "releaseNotes": "AdminClient 0.0.0.64: комплект совместим с исправленным локальным WebRTC-подключением GameRemote.",
+  "sha256": "b4c3a811f8d9debdb0a8a1095e57e3ddd7e124188216ad163d010873b15ca341",
+  "releaseNotes": "AdminClient 0.0.0.65: Viewer передаёт WebRTC реальный LAN-адрес без mDNS-маскировки, ведёт подробный ICE-журнал и ограничивает автоматический повтор подключения.",
   "files": []
 }
