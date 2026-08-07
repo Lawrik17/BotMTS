@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.54.0",
+  "version": "2.5.55.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-console-bootstrap-fix-20260806-v79/6D6X6-2.5.54.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-user-agent-launch-fix-20260807-v80/6D6X6-2.5.55.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "53af07cf1c70ad715dfd9fe5080fc119899b28441c8a963aa0aa39615c15d380",
-  "releaseNotes": "6D6X6 2.5.54.0: GameRemote.Host собран как Windows GUI-процесс и больше не зависит от консоли службы; служба запускает Host и резервный dotnet-процесс со скрытой, но полноценной консолью вместо CREATE_NO_WINDOW, устраняя ранние сбои 0xC0000142 и 0xC0000409 до входа в Main. Сохранены запуск в точной сессии agent-HELLO и ранняя диагностика в C:\\6D6X\\Logs\\GameRemote.Host.log.",
+  "sha256": "5e3c1312a1522d41841b3d2e195a2ce894fb558321b4f65b671fb36f55e1901c",
+  "releaseNotes": "6D6X6 2.5.55.0: исправлен запуск GameRemote.Host в интерактивном рабочем столе. Служба передаёт HOST_START уже работающему пользовательскому агенту 6D6X через локальный IPC, а агент запускает framework-dependent Host обычным Process.Start в своей реальной Windows-сессии. Маршрут через CreateProcessAsUser сохранён только для winlogon без пользовательского агента. Это устраняет повторяющиеся падения 0xC0000142 и 0xC0000409 до managed Main; добавлены коррелированный ответ запуска и точная диагностика route=user-agent/dotnet-agent.",
   "files": []
 }
