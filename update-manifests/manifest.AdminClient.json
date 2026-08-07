@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.65",
+  "version": "0.0.0.66",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-lan-ice-20260807-v81/AdminClient-0.0.0.65-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-video-pipeline-20260807-v83/AdminClient-0.0.0.66-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b4c3a811f8d9debdb0a8a1095e57e3ddd7e124188216ad163d010873b15ca341",
-  "releaseNotes": "AdminClient 0.0.0.65: Viewer передаёт WebRTC реальный LAN-адрес без mDNS-маскировки, ведёт подробный ICE-журнал и ограничивает автоматический повтор подключения.",
+  "sha256": "76ca54a6026d533cc737f36fec31c369f96a5f2d07790461b409784c27a7d09b",
+  "releaseNotes": "AdminClient 0.0.0.66: Viewer удалённого рабочего стола различает подключение канала управления и фактическое воспроизведение видео, показывает состояние декодера и передаёт подробную диагностику медиатракта.",
   "files": []
 }

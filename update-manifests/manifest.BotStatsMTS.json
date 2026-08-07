@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.67",
+  "version": "1.0.1.68",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-answer-contract-20260807-v82/BotStatsMTS-1.0.1.67-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-video-pipeline-20260807-v83/BotStatsMTS-1.0.1.68-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f55bd8c7a4bbe699b1e881346c8f77d10445722727f3cc0b66526a507690edfe",
-  "releaseNotes": "BotStats MTS 1.0.1.67: защищённый WebRTC-ответ Host теперь передаётся через BotStats без потери SessionId, одноразового токена и SDP; ошибки запуска Host возвращаются Viewer явно.",
+  "sha256": "c11e55b624628e60902bacb0b191f599fabe36a19182d5ab262cd9559293c761",
+  "releaseNotes": "BotStats MTS 1.0.1.68: Viewer удалённого рабочего стола различает подключение канала управления и фактическое воспроизведение видео, показывает состояние декодера и передаёт подробную диагностику медиатракта.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.55.0",
+  "version": "2.5.56.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-user-agent-launch-fix-20260807-v80/6D6X6-2.5.55.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-video-pipeline-20260807-v83/6D6X6-2.5.56.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5e3c1312a1522d41841b3d2e195a2ce894fb558321b4f65b671fb36f55e1901c",
-  "releaseNotes": "6D6X6 2.5.55.0: исправлен запуск GameRemote.Host в интерактивном рабочем столе. Служба передаёт HOST_START уже работающему пользовательскому агенту 6D6X через локальный IPC, а агент запускает framework-dependent Host обычным Process.Start в своей реальной Windows-сессии. Маршрут через CreateProcessAsUser сохранён только для winlogon без пользовательского агента. Это устраняет повторяющиеся падения 0xC0000142 и 0xC0000409 до managed Main; добавлены коррелированный ответ запуска и точная диагностика route=user-agent/dotnet-agent.",
+  "sha256": "1ff46683c188ca69c8f8b85b47f8f3794ac0b0172dad311ce3b65cdb72b95330",
+  "releaseNotes": "6D6X6 2.5.56.0: исправлена передача изображения в GameRemote. Захват рабочего стола преобразуется в NV12 и кодируется Media Foundation в корректный H.264 Annex-B поток; исправлены COM-вызовы DXGI и Media Foundation, добавлены диагностика первого кадра и точная упаковка актуального GameRemote.Host.",
   "files": []
 }
