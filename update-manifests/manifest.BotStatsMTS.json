@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.69",
+  "version": "1.0.1.70",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-files-20260807-v84/BotStatsMTS-1.0.1.69-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-low-latency-20260807-v85/BotStatsMTS-1.0.1.70-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "02fdb69e9a1624f3a1675d337a463d75f4544977db50b504892a5e0c7a5c43e2",
-  "releaseNotes": "BotStats MTS 1.0.1.69: удалённый рабочий стол получил полный захват клавиатуры и мыши, удалённый курсор, настройки качества и звука, системный звук и отдельное окно защищённой передачи файлов, папок и буфера обмена.",
+  "sha256": "5d82b82e71ff27cb54b005ac1607f7ee6edd5982a401007130000d66eb3ffb22",
+  "releaseNotes": "BotStats MTS 1.0.1.70: курсор GameRemote стал полноценным системным указателем с локальным предсказанием и больше не блокирует видеозахват; ввод коалесцируется без очереди, а системный звук передаётся равномерными 20-мс кадрами без перегрузки видеопотока.",
   "files": []
 }

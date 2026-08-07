@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.57.0",
+  "version": "2.5.58.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-files-20260807-v84/6D6X6-2.5.57.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-low-latency-20260807-v85/6D6X6-2.5.58.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "9b1694865a666368bb8543f536d10371cd66830741c2e12f138467eb252139e0",
-  "releaseNotes": "6D6X6 2.5.57.0: GameRemote Host передаёт системный звук, полный ввод, удалённый курсор и файлы; служба поддерживает безопасную последовательность Ctrl+Alt+Del, а актуальный Host упакован вместе с клиентом.",
+  "sha256": "79ae6ebcb388028945bf3b035296123739905cda3dc2d7073b0e7bf859bbc42c",
+  "releaseNotes": "6D6X6 2.5.58.0: GameRemote Host вынес телеметрию курсора из DXGI-конвейера и ограничил WASAPI/Opus до 50 пакетов в секунду, устраняя рывки и пикселизацию видео при звуке. Служба автоматически открывает через UPnP четыре UDP-порта только на время удалённого сеанса и удаляет mappings после отключения.",
   "files": []
 }

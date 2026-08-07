@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.67",
+  "version": "0.0.0.68",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-files-20260807-v84/AdminClient-0.0.0.67-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-low-latency-20260807-v85/AdminClient-0.0.0.68-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "25051748ba1782459bc5fb442552b12f0a44e48b6dbede250875055a06184dbe",
-  "releaseNotes": "AdminClient 0.0.0.67: удалённый рабочий стол получил полный захват клавиатуры и мыши, удалённый курсор, настройки качества и звука, системный звук и отдельное окно защищённой передачи файлов, папок и буфера обмена.",
+  "sha256": "31b2d19412c9836caee21a88e34b06a8f761cb44e4783e8e1875604797c50424",
+  "releaseNotes": "AdminClient 0.0.0.68: курсор GameRemote стал полноценным системным указателем с локальным предсказанием и больше не блокирует видеозахват; ввод коалесцируется без очереди, а системный звук передаётся равномерными 20-мс кадрами без перегрузки видеопотока.",
   "files": []
 }
