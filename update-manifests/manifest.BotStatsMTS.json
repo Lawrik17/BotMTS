@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.66",
+  "version": "1.0.1.67",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-lan-ice-20260807-v81/BotStatsMTS-1.0.1.66-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-answer-contract-20260807-v82/BotStatsMTS-1.0.1.67-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "258b6ce0e842d143fef9b489cf866274370ff0f6a927fb40a08d6e2d9c855e1f",
-  "releaseNotes": "BotStats MTS 1.0.1.66: Viewer передаёт WebRTC реальный LAN-адрес без mDNS-маскировки, ведёт подробный ICE-журнал и ограничивает автоматический повтор подключения.",
+  "sha256": "f55bd8c7a4bbe699b1e881346c8f77d10445722727f3cc0b66526a507690edfe",
+  "releaseNotes": "BotStats MTS 1.0.1.67: защищённый WebRTC-ответ Host теперь передаётся через BotStats без потери SessionId, одноразового токена и SDP; ошибки запуска Host возвращаются Viewer явно.",
   "files": []
 }
