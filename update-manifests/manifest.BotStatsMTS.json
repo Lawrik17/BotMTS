@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.70",
+  "version": "1.0.1.71",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-low-latency-20260807-v85/BotStatsMTS-1.0.1.70-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-upnp-endpoints-20260808-v86/BotStatsMTS-1.0.1.71-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5d82b82e71ff27cb54b005ac1607f7ee6edd5982a401007130000d66eb3ffb22",
-  "releaseNotes": "BotStats MTS 1.0.1.70: курсор GameRemote стал полноценным системным указателем с локальным предсказанием и больше не блокирует видеозахват; ввод коалесцируется без очереди, а системный звук передаётся равномерными 20-мс кадрами без перегрузки видеопотока.",
+  "sha256": "c0260ae740862c5676d4e25a948f42eb8afd12d5dd3f318e27c35d55868142a6",
+  "releaseNotes": "BotStats MTS 1.0.1.71: GameRemote передаёт Viewer фактически выбранный защищённый WebRTC-адрес, учитывает внешний UDP endpoint из UPnP и точнее сообщает этап прямого подключения между провайдерами.",
   "files": []
 }

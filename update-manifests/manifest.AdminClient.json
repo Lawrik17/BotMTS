@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.68",
+  "version": "0.0.0.69",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-low-latency-20260807-v85/AdminClient-0.0.0.68-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-upnp-endpoints-20260808-v86/AdminClient-0.0.0.69-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "31b2d19412c9836caee21a88e34b06a8f761cb44e4783e8e1875604797c50424",
-  "releaseNotes": "AdminClient 0.0.0.68: курсор GameRemote стал полноценным системным указателем с локальным предсказанием и больше не блокирует видеозахват; ввод коалесцируется без очереди, а системный звук передаётся равномерными 20-мс кадрами без перегрузки видеопотока.",
+  "sha256": "daee3c095eed5a7d6bc274a09651601ecd65cdf91ae8836f2aae588aa8367a47",
+  "releaseNotes": "AdminClient 0.0.0.69: GameRemote использует фактически выбранный защищённый WebRTC endpoint и показывает точный этап прямого UDP-подключения, включая адрес, опубликованный через UPnP.",
   "files": []
 }
