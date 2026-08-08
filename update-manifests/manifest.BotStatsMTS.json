@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.73",
+  "version": "1.0.1.74",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-input-audio-latency-20260808-v89/BotStatsMTS-1.0.1.73-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/BotStatsMTS-1.0.1.74-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "dc9ff4a5853e02e881d614375dd868358fbd6de582a41d1c4aefaf5d00f0bdce",
-  "releaseNotes": "BotStats MTS 1.0.1.73: reduced GameRemote mouse latency while music is playing over provider links. Pointer input now uses a short low-latency queue and ignores stale host coordinates; video playback uses the minimum practical jitter buffer.",
+  "sha256": "600dd9704fe106304d9d22a1586a0ba1e0be0f28295321afae9283274224e8c0",
+  "releaseNotes": "BotStats MTS 1.0.1.74: removes the duplicate local cursor by migrating old Viewer settings to the native DXGI cursor. LAN and Internet routes now use separate audio jitter profiles, while Viewer logs include live RTT and available incoming bitrate for provider diagnostics.",
   "files": []
 }

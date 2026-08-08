@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.62.0",
+  "version": "2.5.63.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-input-audio-latency-20260808-v89/6D6X6-2.5.62.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/6D6X6-2.5.63.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "51a25229a6b3a4b89ad1913c4a6411c0386a694a124d933310ac5ad0e326d04d",
-  "releaseNotes": "6D6X6 2.5.62.0: reduced GameRemote mouse latency while music is playing over provider links. Host cursor telemetry is sent every 16 ms with input acknowledgements, stale cursor rollback is suppressed, and old buffered audio beyond 60 ms is discarded while keeping 96 kbps Opus quality. Includes the service, GameRemote.Host, CaptureWorker and all runtime dependencies."
+  "sha256": "cdb9e149d8d83e9b87be055a5608186bc7e1bbb330a0bf26193d4c80a544048c",
+  "releaseNotes": "6D6X6 2.5.63.0: keeps the selected full bitrate on LAN and caps public provider routes at 8 Mbps to prevent video bursts from delaying mouse input. WASAPI audio now waits for a complete 20 ms Opus frame instead of padding partial frames with silence, uses packet-loss FEC, and keeps route-specific 60/80 ms buffers. Includes service, GameRemote.Host, CaptureWorker and all dependencies."
 }

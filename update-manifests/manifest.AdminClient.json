@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.71",
+  "version": "0.0.0.72",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-input-audio-latency-20260808-v89/AdminClient-0.0.0.71-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/AdminClient-0.0.0.72-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "ca7001f65b660c92168e19b76f1d267dad7d5a91b1ad6aea37ca97e399f4303e",
-  "releaseNotes": "AdminClient 0.0.0.71: reduced GameRemote mouse latency while music is playing over provider links. Pointer input now uses a short low-latency queue and ignores stale host coordinates; video playback uses the minimum practical jitter buffer.",
+  "sha256": "178572c5c009a8f6c7abe3857a21a220d69ee8911339d1692cc0d032c46a839d",
+  "releaseNotes": "AdminClient 0.0.0.72: removes the duplicate local cursor by migrating old Viewer settings to the native DXGI cursor. LAN and Internet routes now use separate audio jitter profiles, while Viewer logs include live RTT and available incoming bitrate for provider diagnostics.",
   "files": []
 }
