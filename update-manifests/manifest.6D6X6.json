@@ -1,10 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.60.0",
+  "version": "2.5.61.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-streaming-fixes-20260808-v87/6D6X6-2.5.60.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-dxgi-device-hotfix-20260808-v88/6D6X6-2.5.61.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "75fb85471a5b7e364ec920ce02d227cfd7645cf5194bedcfc7fbcbf4c49a9e7e",
-  "releaseNotes": "6D6X6 2.5.60.0: обновлены служба и GameRemote.Host, снижена задержка видео, стабилизированы звук и ввод, исправлено повторное прямое подключение через UPnP. В архив включён CaptureWorker и полный набор зависимостей.",
-  "files": []
+  "sha256": "2fa8f01788ddd29e5f08b1c9a6833fd8e55a5ef9f11761ad18ad77355b638798",
+  "releaseNotes": "6D6X6 2.5.61.0: исправлен неверный IID IDXGIDevice, из-за которого DXGI-захват завершался ошибкой 0x80004002 как в локальной сети, так и через интернет. Захват DXGI и аппаратное H.264-кодирование проверены встроенным media self-test. В архив включены служба, GameRemote.Host, CaptureWorker и полный набор зависимостей."
 }
