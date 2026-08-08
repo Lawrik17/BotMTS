@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.61.0",
+  "version": "2.5.62.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-dxgi-device-hotfix-20260808-v88/6D6X6-2.5.61.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-input-audio-latency-20260808-v89/6D6X6-2.5.62.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2fa8f01788ddd29e5f08b1c9a6833fd8e55a5ef9f11761ad18ad77355b638798",
-  "releaseNotes": "6D6X6 2.5.61.0: исправлен неверный IID IDXGIDevice, из-за которого DXGI-захват завершался ошибкой 0x80004002 как в локальной сети, так и через интернет. Захват DXGI и аппаратное H.264-кодирование проверены встроенным media self-test. В архив включены служба, GameRemote.Host, CaptureWorker и полный набор зависимостей."
+  "sha256": "51a25229a6b3a4b89ad1913c4a6411c0386a694a124d933310ac5ad0e326d04d",
+  "releaseNotes": "6D6X6 2.5.62.0: reduced GameRemote mouse latency while music is playing over provider links. Host cursor telemetry is sent every 16 ms with input acknowledgements, stale cursor rollback is suppressed, and old buffered audio beyond 60 ms is discarded while keeping 96 kbps Opus quality. Includes the service, GameRemote.Host, CaptureWorker and all runtime dependencies."
 }

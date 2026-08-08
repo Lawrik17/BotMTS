@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.70",
+  "version": "0.0.0.71",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-streaming-fixes-20260808-v87/AdminClient-0.0.0.70-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-input-audio-latency-20260808-v89/AdminClient-0.0.0.71-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "aa109a71b89ac09f3a649a6f5582c574a76d293bfec91a815bda6b47de9acca4",
-  "releaseNotes": "AdminClient 0.0.0.70: стабилизировано прямое WebRTC-подключение GameRemote, улучшены отзывчивость видео, передача мыши и клавиатуры, звук и повторное подключение через актуальный UPnP endpoint.",
+  "sha256": "ca7001f65b660c92168e19b76f1d267dad7d5a91b1ad6aea37ca97e399f4303e",
+  "releaseNotes": "AdminClient 0.0.0.71: reduced GameRemote mouse latency while music is playing over provider links. Pointer input now uses a short low-latency queue and ignores stale host coordinates; video playback uses the minimum practical jitter buffer.",
   "files": []
 }
