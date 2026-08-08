@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.75",
+  "version": "0.0.0.76",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-live-quality-reconnect-20260809-v93/AdminClient-0.0.0.75-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-reconnect-20260809-v94/AdminClient-0.0.0.76-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "7d1ded6b52c0a0ecfa98ed1023d2350e4c6c967501dc91c74b1098a1c480ce31",
-  "releaseNotes": "AdminClient 0.0.0.75: polished GameRemote toolbar, file manager and quality dialog. Adds separate local/provider bitrate, live video quality updates without breaking audio, remote reboot and persistent automatic reconnect after a client PC restart.",
+  "sha256": "bd05fa63f2a19aa2c6ae1e4b13b628ab72503ef76072c2ba3c1ec5eada3c7245",
+  "releaseNotes": "AdminClient 0.0.0.76: GameRemote now keeps retrying after a remote PC reboot until the new Host is authenticated and restores the stream without a manual reconnect. Also fixes remote file-channel readiness, shows target/current FPS, and removes the default rectangular focus highlight from toolbar buttons.",
   "files": []
 }
