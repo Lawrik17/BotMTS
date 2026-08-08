@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.59.0",
+  "version": "2.5.60.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-upnp-endpoints-20260808-v86/6D6X6-2.5.59.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-streaming-fixes-20260808-v87/6D6X6-2.5.60.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f43b08a8cd7e2697fb5da29185ac6c640af75a7bddfcb77cae0770b2b6700386",
-  "releaseNotes": "6D6X6 2.5.59.0: служба публикует реальный внешний UDP endpoint, полученный через временное UPnP-сопоставление, передаёт его в защищённый WebRTC-ответ и удаляет сопоставление после сеанса. Расширено журналирование выбранных локальных и внешних адресов для диагностики прямого подключения.",
+  "sha256": "75fb85471a5b7e364ec920ce02d227cfd7645cf5194bedcfc7fbcbf4c49a9e7e",
+  "releaseNotes": "6D6X6 2.5.60.0: обновлены служба и GameRemote.Host, снижена задержка видео, стабилизированы звук и ввод, исправлено повторное прямое подключение через UPnP. В архив включён CaptureWorker и полный набор зависимостей.",
   "files": []
 }

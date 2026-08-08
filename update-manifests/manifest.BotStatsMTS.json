@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.71",
+  "version": "1.0.1.72",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-upnp-endpoints-20260808-v86/BotStatsMTS-1.0.1.71-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-streaming-fixes-20260808-v87/BotStatsMTS-1.0.1.72-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c0260ae740862c5676d4e25a948f42eb8afd12d5dd3f318e27c35d55868142a6",
-  "releaseNotes": "BotStats MTS 1.0.1.71: GameRemote передаёт Viewer фактически выбранный защищённый WebRTC-адрес, учитывает внешний UDP endpoint из UPnP и точнее сообщает этап прямого подключения между провайдерами.",
+  "sha256": "bb6dfed495559ad2047ef892691b847e38f98e2636b19e9794b462e0fcbceaab",
+  "releaseNotes": "BotStats MTS 1.0.1.72: стабилизировано прямое WebRTC-подключение GameRemote, улучшены отзывчивость видео, передача мыши и клавиатуры, звук и повторное подключение через актуальный UPnP endpoint.",
   "files": []
 }
