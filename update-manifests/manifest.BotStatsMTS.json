@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.76",
+  "version": "1.0.1.77",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-multi-admin-20260809-v92/BotStatsMTS-1.0.1.76-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-live-quality-reconnect-20260809-v93/BotStatsMTS-1.0.1.77-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "632dd20c6fdf13735e27cd0395be667d823962e3f6d8acf8ac78ae41a2f3a692",
-  "releaseNotes": "BotStats MTS 1.0.1.76: GameRemote supports up to three simultaneous administrators with shared control, participant notifications, occupied-PC confirmation and isolated signaling sessions. File transfers use a separate reliable channel with progress and integrity checks.",
+  "sha256": "38a0f95333a4464ff8d6ee87c2ef2b4b31f478f8fdf493d8c9d90c1645b10596",
+  "releaseNotes": "BotStats MTS 1.0.1.77: redesigned GameRemote controls and quality settings, separate local/provider bitrate and live video quality changes without reconnecting. Adds remote reboot and persistent reconnect that keeps the viewer open while the PC restarts and automatically restores the session.",
   "files": []
 }

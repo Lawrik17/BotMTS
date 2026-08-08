@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.74",
+  "version": "0.0.0.75",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-multi-admin-20260809-v92/AdminClient-0.0.0.74-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-live-quality-reconnect-20260809-v93/AdminClient-0.0.0.75-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "149032b1969c33332fec7bd349bc3bb69b9fa2a0ca54e0609948b8036a7361b3",
-  "releaseNotes": "AdminClient 0.0.0.74: redesigned GameRemote controls, shared native cursor and simultaneous control for up to three administrators. Adds participant list and join/leave notifications, a two-pane file manager, drag-and-drop, clipboard file paste, transfer progress and true audio mute.",
+  "sha256": "7d1ded6b52c0a0ecfa98ed1023d2350e4c6c967501dc91c74b1098a1c480ce31",
+  "releaseNotes": "AdminClient 0.0.0.75: polished GameRemote toolbar, file manager and quality dialog. Adds separate local/provider bitrate, live video quality updates without breaking audio, remote reboot and persistent automatic reconnect after a client PC restart.",
   "files": []
 }
