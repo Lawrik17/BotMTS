@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.74",
+  "version": "1.0.1.75",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/BotStatsMTS-1.0.1.74-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-audio-cadence-p3-20260809-v91/BotStatsMTS-1.0.1.75-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "600dd9704fe106304d9d22a1586a0ba1e0be0f28295321afae9283274224e8c0",
-  "releaseNotes": "BotStats MTS 1.0.1.74: removes the duplicate local cursor by migrating old Viewer settings to the native DXGI cursor. LAN and Internet routes now use separate audio jitter profiles, while Viewer logs include live RTT and available incoming bitrate for provider diagnostics.",
+  "sha256": "0e8165b3c6cc184fae0f572f56868b82a0b30742a68dd312db1773d8f843045d",
+  "releaseNotes": "BotStats MTS 1.0.1.75: correctly recognizes a low-RTT LAN prflx route when the browser hides the remote ICE address. LAN and provider routes now receive separate audio playback profiles, while existing RTT and bitrate diagnostics remain available.",
   "files": []
 }

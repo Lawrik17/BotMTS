@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.72",
+  "version": "0.0.0.73",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/AdminClient-0.0.0.72-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-audio-cadence-p3-20260809-v91/AdminClient-0.0.0.73-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "178572c5c009a8f6c7abe3857a21a220d69ee8911339d1692cc0d032c46a839d",
-  "releaseNotes": "AdminClient 0.0.0.72: removes the duplicate local cursor by migrating old Viewer settings to the native DXGI cursor. LAN and Internet routes now use separate audio jitter profiles, while Viewer logs include live RTT and available incoming bitrate for provider diagnostics.",
+  "sha256": "6ce4aa36a3f2cc03b19b5489a10801a331c4bbed5d6c725017ad5dce253a52dd",
+  "releaseNotes": "AdminClient 0.0.0.73: correctly recognizes a low-RTT LAN prflx route when the browser hides the remote ICE address. LAN and provider routes now receive separate audio playback profiles, while existing RTT and bitrate diagnostics remain available.",
   "files": []
 }

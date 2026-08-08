@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.63.0",
+  "version": "2.5.64.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-route-audio-cursor-20260808-v90/6D6X6-2.5.63.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-audio-cadence-p3-20260809-v91/6D6X6-2.5.64.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "cdb9e149d8d83e9b87be055a5608186bc7e1bbb330a0bf26193d4c80a544048c",
-  "releaseNotes": "6D6X6 2.5.63.0: keeps the selected full bitrate on LAN and caps public provider routes at 8 Mbps to prevent video bursts from delaying mouse input. WASAPI audio now waits for a complete 20 ms Opus frame instead of padding partial frames with silence, uses packet-loss FEC, and keeps route-specific 60/80 ms buffers. Includes service, GameRemote.Host, CaptureWorker and all dependencies."
+  "sha256": "a4d7eb682ee0cfcd2cd4da26e5a43f162485f41277bd7bbecadaa552fd9a49b2",
+  "releaseNotes": "6D6X6 2.5.64.0: caps public provider routes at 6.5 Mbps to reduce the remaining P3 input delay. Audio starts with a 40 ms prebuffer and can emit up to three complete Opus packets after a delayed scheduler tick, avoiding brief pauses followed by accelerated playback. Stale audio thresholds are now 220 ms on LAN and 140 ms on Internet routes. Includes service, GameRemote.Host, CaptureWorker and all dependencies."
 }
