@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.75",
+  "version": "1.0.1.76",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-audio-cadence-p3-20260809-v91/BotStatsMTS-1.0.1.75-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-multi-admin-20260809-v92/BotStatsMTS-1.0.1.76-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "0e8165b3c6cc184fae0f572f56868b82a0b30742a68dd312db1773d8f843045d",
-  "releaseNotes": "BotStats MTS 1.0.1.75: correctly recognizes a low-RTT LAN prflx route when the browser hides the remote ICE address. LAN and provider routes now receive separate audio playback profiles, while existing RTT and bitrate diagnostics remain available.",
+  "sha256": "632dd20c6fdf13735e27cd0395be667d823962e3f6d8acf8ac78ae41a2f3a692",
+  "releaseNotes": "BotStats MTS 1.0.1.76: GameRemote supports up to three simultaneous administrators with shared control, participant notifications, occupied-PC confirmation and isolated signaling sessions. File transfers use a separate reliable channel with progress and integrity checks.",
   "files": []
 }

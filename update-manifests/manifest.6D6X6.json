@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.64.0",
+  "version": "2.5.65.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-audio-cadence-p3-20260809-v91/6D6X6-2.5.64.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-multi-admin-20260809-v92/6D6X6-2.5.65.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a4d7eb682ee0cfcd2cd4da26e5a43f162485f41277bd7bbecadaa552fd9a49b2",
-  "releaseNotes": "6D6X6 2.5.64.0: caps public provider routes at 6.5 Mbps to reduce the remaining P3 input delay. Audio starts with a 40 ms prebuffer and can emit up to three complete Opus packets after a delayed scheduler tick, avoiding brief pauses followed by accelerated playback. Stale audio thresholds are now 220 ms on LAN and 140 ms on Internet routes. Includes service, GameRemote.Host, CaptureWorker and all dependencies."
+  "sha256": "6ac4af4772c1a46de66e3ab01d64500ff429da2761fcdff86af4731512f41ed0",
+  "releaseNotes": "6D6X6 2.5.65.0: GameRemote service hosts up to three isolated administrator sessions with separate pipes and UDP ports while all viewers share the native Windows cursor. Adds reliable file operations and transfers, participant events, improved session cleanup and non-overlapping automatic UPnP port ranges. Includes service, GameRemote.Host, CaptureWorker and all dependencies."
 }
