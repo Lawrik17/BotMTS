@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.69.0",
+  "version": "2.5.70.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-rtp-resilience-20260809-v98/6D6X6-2.5.69.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-selfcontained-20260809-v99/6D6X6-2.5.70.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "361b753723c121c59588600c9f9baefd1ce295e276cd4ea362edc3d1efa01293",
-  "releaseNotes": "6D6X6 2.5.69.0: GameRemote sends encoded H.264 frames through a bounded RTP worker queue so a slow Internet route cannot stall DXGI capture or Media Foundation. Queue pressure drops stale frames and recovers from a new key frame. Includes the service, GameRemote.Host, CaptureWorker and all dependencies."
+  "sha256": "47953710b0001076a19ffecd4bc2d25eae35fd9ac28a8d08a9e9c2531732cd30",
+  "releaseNotes": "6D6X6 2.5.70.0: fixes incomplete GameRemote.Host deployment. The package now contains the full self-contained win-x64 runtime, including hostfxr.dll, hostpolicy.dll and coreclr.dll. The build fails automatically if any required Host runtime file is missing."
 }
