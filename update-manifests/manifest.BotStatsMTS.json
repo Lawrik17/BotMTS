@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.81",
+  "version": "1.0.1.82",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-answer-routing-20260809-v97/BotStatsMTS-1.0.1.81-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-rtp-resilience-20260809-v98/BotStatsMTS-1.0.1.82-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "7023309a2fe1760a84cf8d2f96a022661056d467b3fe702c8c627cbff54a3b97",
-  "releaseNotes": "BotStats MTS 1.0.1.81: GameRemote accepts direct and transport-wrapped protected Host answers, keeps the one-time token mandatory, reports the exact rejected field and allows more time for local and interserver Host negotiation.",
+  "sha256": "7dc19df279953354896a2abb321954376de4a56e27f6dde550f50dfca87b28cd",
+  "releaseNotes": "BotStats MTS 1.0.1.82: includes the resilient Viewer transport and preserves failed 6D service responses as real errors instead of attempting to parse Russian error text as WebRTC JSON.",
   "files": []
 }

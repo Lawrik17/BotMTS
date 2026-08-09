@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.78",
+  "version": "0.0.0.79",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-answer-routing-20260809-v97/AdminClient-0.0.0.78-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-rtp-resilience-20260809-v98/AdminClient-0.0.0.79-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "6677550871813c0ddf9081cfb8678b2c1fe52c4074a83203865c82e849fe3569",
-  "releaseNotes": "AdminClient 0.0.0.78: GameRemote reports whether the Viewer window is active so background rendering cannot reduce the Host FPS. Every previously authenticated Viewer now keeps reconnecting independently after a remote PC reboot, including simultaneous administrator sessions.",
+  "sha256": "5856655cc00a60f324937ee1b2e329c5fc6e1a5ccca1b7f7b42dbac9b21e92e5",
+  "releaseNotes": "AdminClient 0.0.0.79: GameRemote allows up to 20 seconds for ICE candidate gathering and 35 seconds for P3 route checking, and requests a recovery key frame when video bytes arrive without decoded-frame progress.",
   "files": []
 }
