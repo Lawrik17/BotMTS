@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.80",
+  "version": "1.0.1.81",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-focus-reconnect-20260809-v96/BotStatsMTS-1.0.1.80-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-answer-routing-20260809-v97/BotStatsMTS-1.0.1.81-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "86e54799b7f9aecfe477d893fec9338a1635609e84cb1e16eef5fa3b78f1cccc",
-  "releaseNotes": "BotStats MTS 1.0.1.80: GameRemote reports whether the Viewer window is active so background rendering cannot reduce the Host FPS. Every previously authenticated Viewer now keeps reconnecting independently after a remote PC reboot, including simultaneous administrator sessions.",
+  "sha256": "7023309a2fe1760a84cf8d2f96a022661056d467b3fe702c8c627cbff54a3b97",
+  "releaseNotes": "BotStats MTS 1.0.1.81: GameRemote accepts direct and transport-wrapped protected Host answers, keeps the one-time token mandatory, reports the exact rejected field and allows more time for local and interserver Host negotiation.",
   "files": []
 }

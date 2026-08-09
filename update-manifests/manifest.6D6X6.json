@@ -2,8 +2,8 @@
   "appId": "6D6X6",
   "version": "2.5.68.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-focus-reconnect-20260809-v96/6D6X6-2.5.68.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-answer-routing-20260809-v97/6D6X6-2.5.68.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "9c67f8f1b51179af8b3de09cbade5db95f156b6428a5712056e275cc6aa53834",
+  "sha256": "e8c9657ce980398f7329a2ed77611bdea5e46184a79999766eaf534e9e6d0075",
   "releaseNotes": "6D6X6 2.5.68.0: GameRemote ignores background Viewer rendering throttling, restores the requested interactive FPS when the window becomes active and uses a faster same-resolution BGRA-to-NV12 conversion. Includes the service, full self-contained GameRemote.Host folder, CaptureWorker and all dependencies."
 }

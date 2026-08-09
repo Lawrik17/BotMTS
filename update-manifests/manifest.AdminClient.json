@@ -2,9 +2,9 @@
   "appId": "AdminClient",
   "version": "0.0.0.78",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-focus-reconnect-20260809-v96/AdminClient-0.0.0.78-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-host-answer-routing-20260809-v97/AdminClient-0.0.0.78-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b4182ee6e6512d71d58dac7900607467f807ce8fcfec50a790632ccf93b4f065",
+  "sha256": "6677550871813c0ddf9081cfb8678b2c1fe52c4074a83203865c82e849fe3569",
   "releaseNotes": "AdminClient 0.0.0.78: GameRemote reports whether the Viewer window is active so background rendering cannot reduce the Host FPS. Every previously authenticated Viewer now keeps reconnecting independently after a remote PC reboot, including simultaneous administrator sessions.",
   "files": []
 }
