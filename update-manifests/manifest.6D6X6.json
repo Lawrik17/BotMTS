@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.72.0",
+  "version": "2.5.73.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-win11-rtp-20260809-v101/6D6X6-2.5.72.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-win11-input-20260809-v102/6D6X6-2.5.73.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "1bda5984fc49bfe795b7edea3bb669f4978aa398deaeea6052b358c05f0e0a2b",
-  "releaseNotes": "6D6X6 2.5.72.0: fixes the long first-frame delay on Windows 11 by priming the synchronous Media Foundation H.264 encoder when DXGI returns only one static frame. RTP queue recovery now keeps the newest encoded frame flowing while requesting a key frame instead of starving the Viewer. Five-second diagnostics now separate capture, H.264 and RTP send timing with avgRtp and maxRtp metrics. Windows 10 keeps the existing media path."
+  "sha256": "74132254d9e089e3b9465ef44c3e5accf8827830eb060ba6b39e0f847aee8abf",
+  "releaseNotes": "6D6X6 2.5.73.0: fixes severe low FPS on Windows 11 caused by reusing one Media Foundation input sample while the H.264 transform could still retain it. Every submitted NV12 frame now owns a separate IMFMediaBuffer and IMFSample, preventing corruption of dependent H.264 frames that Chromium previously discarded. The working DXGI capture, RTP queue, WebRTC routing, audio and Windows 10 paths are unchanged."
 }
