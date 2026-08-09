@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.80",
+  "version": "0.0.0.81",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-profile-20260809-v103/AdminClient-0.0.0.80-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-auto-20260809-v104/AdminClient-0.0.0.81-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "8c283f6c823efd94fdd5dd506f1181a73176ad9ae94df1518792b09114c3ff7e",
-  "releaseNotes": "AdminClient 0.0.0.80: includes the H.264 profile-compatible GameRemote Viewer and reports true decoded FPS together with received/decoded frame deltas, key frames, discarded packets, NACK, PLI and FIR counters for end-to-end diagnostics.",
+  "sha256": "5375fe12ea32a19ad2669db168006694977c6a83999b76f7b8937cf8adbff5ab",
+  "releaseNotes": "AdminClient 0.0.0.81: GameRemote Viewer automatically switches between the cursor embedded in video and the low-latency synthetic cursor announced by Host. This removes double cursors and keeps pointer movement responsive without forcing unchanged desktop frames through H.264. Existing decoded-FPS and WebRTC diagnostics are retained.",
   "files": []
 }

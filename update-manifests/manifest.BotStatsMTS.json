@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.83",
+  "version": "1.0.1.84",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-profile-20260809-v103/BotStatsMTS-1.0.1.83-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-auto-20260809-v104/BotStatsMTS-1.0.1.84-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "900fa877c882864360d5421342719ae9570463dad43b4ba3ec081b9d018ed0c7",
-  "releaseNotes": "BotStats MTS 1.0.1.83: includes the H.264 profile-compatible GameRemote Viewer and reports true decoded FPS together with received/decoded frame deltas, key frames, discarded packets, NACK, PLI and FIR counters for end-to-end diagnostics.",
+  "sha256": "d1666aaca99dcfe2a96b791e36e6936ddc37a01aa389df2822b2dc77555cea20",
+  "releaseNotes": "BotStats MTS 1.0.1.84: GameRemote Viewer automatically switches between the cursor embedded in video and the low-latency synthetic cursor announced by Host. This removes double cursors and keeps pointer movement responsive without forcing unchanged desktop frames through H.264. Existing decoded-FPS and WebRTC diagnostics are retained.",
   "files": []
 }
