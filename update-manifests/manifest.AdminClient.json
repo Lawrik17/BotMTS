@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.76",
+  "version": "0.0.0.77",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-reconnect-20260809-v94/AdminClient-0.0.0.76-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-fps-files-toolbar-20260809-v95/AdminClient-0.0.0.77-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "bd05fa63f2a19aa2c6ae1e4b13b628ab72503ef76072c2ba3c1ec5eada3c7245",
-  "releaseNotes": "AdminClient 0.0.0.76: GameRemote now keeps retrying after a remote PC reboot until the new Host is authenticated and restores the stream without a manual reconnect. Also fixes remote file-channel readiness, shows target/current FPS, and removes the default rectangular focus highlight from toolbar buttons.",
+  "sha256": "10fe9cf5ded0a730fa1a673e56af4cf933ce47ab47de14dac219b59151eeb074",
+  "releaseNotes": "AdminClient 0.0.0.77: GameRemote toolbar buttons no longer show the default Windows blue focus rectangle. Remote file browsing reliably displays drives, ordinary files and hidden folders after the 6D6X Host update, while video feedback uses the stabilized adaptive FPS controller.",
   "files": []
 }

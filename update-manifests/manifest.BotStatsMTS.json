@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.78",
+  "version": "1.0.1.79",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-viewer-reconnect-20260809-v94/BotStatsMTS-1.0.1.78-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-fps-files-toolbar-20260809-v95/BotStatsMTS-1.0.1.79-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "fb42479895dd62a3562a70b1683299eeced5d2d5bc80b999ba72d0290d62edfa",
-  "releaseNotes": "BotStats MTS 1.0.1.78: GameRemote now keeps retrying after a remote PC reboot until the new Host is authenticated and restores the stream without a manual reconnect. Also fixes remote file-channel readiness, shows target/current FPS, and removes the default rectangular focus highlight from toolbar buttons.",
+  "sha256": "00d6cd2a5ccbf10dedaba211481137d9aa01358ec6407400fec23998b5878893",
+  "releaseNotes": "BotStats MTS 1.0.1.79: GameRemote toolbar buttons no longer show the default Windows blue focus rectangle. Remote file browsing reliably displays drives, ordinary files and hidden folders after the 6D6X Host update, while video feedback uses the stabilized adaptive FPS controller.",
   "files": []
 }
