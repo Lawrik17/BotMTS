@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.73.0",
+  "version": "2.5.74.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-win11-input-20260809-v102/6D6X6-2.5.73.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-profile-20260809-v103/6D6X6-2.5.74.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "74132254d9e089e3b9465ef44c3e5accf8827830eb060ba6b39e0f847aee8abf",
-  "releaseNotes": "6D6X6 2.5.73.0: fixes severe low FPS on Windows 11 caused by reusing one Media Foundation input sample while the H.264 transform could still retain it. Every submitted NV12 frame now owns a separate IMFMediaBuffer and IMFSample, preventing corruption of dependent H.264 frames that Chromium previously discarded. The working DXGI capture, RTP queue, WebRTC routing, audio and Windows 10 paths are unchanged."
+  "sha256": "b5807cf53cd1c31daff87f4bfc5e61498087ab3f49c087039ae2cc6a32adb1cf",
+  "releaseNotes": "6D6X6 2.5.74.0: fixes the remaining Windows 11 FPS collapse across the full H.264 path. WebRTC now negotiates one exact packetization-mode=1 Constrained Baseline format, Media Foundation emits the matching 42C032 SPS, and Host validates the first key frame against the SDP before streaming. This prevents Chromium from accepting RTP bytes but discarding dependent frames because the advertised and actual H.264 profiles differed. DXGI capture, audio, input and existing network routes are unchanged."
 }

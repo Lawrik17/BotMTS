@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.79",
+  "version": "0.0.0.80",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-rtp-resilience-20260809-v98/AdminClient-0.0.0.79-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-profile-20260809-v103/AdminClient-0.0.0.80-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5856655cc00a60f324937ee1b2e329c5fc6e1a5ccca1b7f7b42dbac9b21e92e5",
-  "releaseNotes": "AdminClient 0.0.0.79: GameRemote allows up to 20 seconds for ICE candidate gathering and 35 seconds for P3 route checking, and requests a recovery key frame when video bytes arrive without decoded-frame progress.",
+  "sha256": "8c283f6c823efd94fdd5dd506f1181a73176ad9ae94df1518792b09114c3ff7e",
+  "releaseNotes": "AdminClient 0.0.0.80: includes the H.264 profile-compatible GameRemote Viewer and reports true decoded FPS together with received/decoded frame deltas, key frames, discarded packets, NACK, PLI and FIR counters for end-to-end diagnostics.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.82",
+  "version": "1.0.1.83",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-rtp-resilience-20260809-v98/BotStatsMTS-1.0.1.82-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-profile-20260809-v103/BotStatsMTS-1.0.1.83-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "7dc19df279953354896a2abb321954376de4a56e27f6dde550f50dfca87b28cd",
-  "releaseNotes": "BotStats MTS 1.0.1.82: includes the resilient Viewer transport and preserves failed 6D service responses as real errors instead of attempting to parse Russian error text as WebRTC JSON.",
+  "sha256": "900fa877c882864360d5421342719ae9570463dad43b4ba3ec081b9d018ed0c7",
+  "releaseNotes": "BotStats MTS 1.0.1.83: includes the H.264 profile-compatible GameRemote Viewer and reports true decoded FPS together with received/decoded frame deltas, key frames, discarded packets, NACK, PLI and FIR counters for end-to-end diagnostics.",
   "files": []
 }
