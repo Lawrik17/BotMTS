@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.81",
+  "version": "0.0.0.83",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-auto-20260809-v104/AdminClient-0.0.0.81-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-offline-iscsi-uptime-20260809-v106/AdminClient-0.0.0.83-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5375fe12ea32a19ad2669db168006694977c6a83999b76f7b8937cf8adbff5ab",
-  "releaseNotes": "AdminClient 0.0.0.81: GameRemote Viewer automatically switches between the cursor embedded in video and the low-latency synthetic cursor announced by Host. This removes double cursors and keeps pointer movement responsive without forcing unchanged desktop frames through H.264. Existing decoded-FPS and WebRTC diagnostics are retained.",
+  "sha256": "b11e5951dc6b9ea8362ae6dc1f0ebb4f0aa2cec0bd4ef28dd8bde42ff019b184",
+  "releaseNotes": "AdminClient 0.0.0.83: добавлена общая настройка фонового поддержания EA-авторизации. В списке ПК время «Онлайн» отображается от последней загрузки Windows, а для старых клиентов сохраняется совместимый резервный расчёт.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.84",
+  "version": "1.0.1.86",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-auto-20260809-v104/BotStatsMTS-1.0.1.84-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-offline-iscsi-uptime-20260809-v106/BotStatsMTS-1.0.1.86-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d1666aaca99dcfe2a96b791e36e6936ddc37a01aa389df2822b2dc77555cea20",
-  "releaseNotes": "BotStats MTS 1.0.1.84: GameRemote Viewer automatically switches between the cursor embedded in video and the low-latency synthetic cursor announced by Host. This removes double cursors and keeps pointer movement responsive without forcing unchanged desktop frames through H.264. Existing decoded-FPS and WebRTC diagnostics are retained.",
+  "sha256": "a8ca03b031fc5e6621e6eda97bebe0650ba5090bad6e1f96fbbcc4d1dd17ccf6",
+  "releaseNotes": "BotStats MTS 1.0.1.86: в настройках AutoLogin добавлено включённое по умолчанию поддержание EA-авторизации в автономном режиме. Время «Онлайн» в списке ПК теперь считается от загрузки Windows и реплицируется между Server A и Server B.",
   "files": []
 }
