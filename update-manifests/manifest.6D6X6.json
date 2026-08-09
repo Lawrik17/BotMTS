@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.79.0",
+  "version": "2.5.80.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-20260809-v109/6D6X6-2.5.79.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-ea-freshness-20260810-v110/6D6X6-2.5.80.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "89a1ed20e1d79924a4358f8a32fa590afdbd70f5e0719436a9a78b3c25a59af7",
-  "releaseNotes": "6D6X6 2.5.79.0: добавлена компактная съёмка экрана для превью удалённых ПК с ограничением разрешения и качества. Полный пакет службы, CaptureWorker и GameRemote.Host включён в x64-архив."
+  "sha256": "15cce438cbe5dfabe3714cf49ca0f19f0f470c921f8941868243fb4c0d9bc2ee",
+  "releaseNotes": "6D6X6 2.5.80.0: фоновая проверка актуальности автономной EA-сессии закрывает тестовую игру тем же точным трёхпроходным алгоритмом, что и аудит лицензий. Учтены аргументы запуска; в архив включены служба, CaptureWorker и полный GameRemote.Host."
 }

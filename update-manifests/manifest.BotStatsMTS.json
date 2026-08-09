@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.89",
+  "version": "1.0.1.90",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-20260809-v109/BotStatsMTS-1.0.1.89-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-ea-freshness-20260810-v110/BotStatsMTS-1.0.1.90-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d0fde2c540e55b2377763faf11d2deaf984604576681ce7ce99e445bad00a3a5",
-  "releaseNotes": "BotStats MTS 1.0.1.89: раздел удалённого рабочего стола переведён на сетку ПК с компактными превью, состоянием, запущенной игрой и подключением двойным нажатием. Время онлайн теперь считается от последней загрузки Windows, а не от подключения к BotStats.",
+  "sha256": "c38f530c82c3c6531f69f31c40b5f31306b2bd0dd7bd662882ed93598a023e0a",
+  "releaseNotes": "BotStats MTS 1.0.1.90: плитки удалённого рабочего стола уменьшены до компактной сетки по шесть ПК в ряд. Статус остаётся только в верхней плашке, а под монитором показывается только запущенная игра.",
   "files": []
 }
