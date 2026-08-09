@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.71.0",
+  "version": "2.5.72.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-win11-pipeline-20260809-v100/6D6X6-2.5.71.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-win11-rtp-20260809-v101/6D6X6-2.5.72.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "e42b2af79c151011366864979a80b90c9eb97c9a4709c027e1518f8a5f9ef003",
-  "releaseNotes": "6D6X6 2.5.71.0: adds a Windows 11-specific low-latency media pipeline. DXGI capture no longer waits for BGRA-to-NV12 conversion and H.264 encoding; stale raw frames are replaced by the newest frame. The converter reads same-size BGRA frames once, Media Foundation input buffers are reused, and five-second capture/encode timing diagnostics were added. Windows 10 keeps the existing media path."
+  "sha256": "1bda5984fc49bfe795b7edea3bb669f4978aa398deaeea6052b358c05f0e0a2b",
+  "releaseNotes": "6D6X6 2.5.72.0: fixes the long first-frame delay on Windows 11 by priming the synchronous Media Foundation H.264 encoder when DXGI returns only one static frame. RTP queue recovery now keeps the newest encoded frame flowing while requesting a key frame instead of starving the Viewer. Five-second diagnostics now separate capture, H.264 and RTP send timing with avgRtp and maxRtp metrics. Windows 10 keeps the existing media path."
 }
