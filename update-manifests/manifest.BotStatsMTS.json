@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.87",
+  "version": "1.0.1.89",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/BotStatsMTS-1.0.1.87-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-20260809-v109/BotStatsMTS-1.0.1.89-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c78b2f0c36dc3a5f1bba59bb20ea1b2798ecd507bd5e8190c04752bc7b27af0a",
-  "releaseNotes": "BotStats MTS 1.0.1.87: каталог теперь показывает игровые папки даже без найденного EXE. Исправлены повторное развёртывание уже установленной версии, ложная ошибка параллельного изменения задания и вложенные папки вида Icarus\\Icarus при обновлении.",
+  "sha256": "d0fde2c540e55b2377763faf11d2deaf984604576681ce7ce99e445bad00a3a5",
+  "releaseNotes": "BotStats MTS 1.0.1.89: раздел удалённого рабочего стола переведён на сетку ПК с компактными превью, состоянием, запущенной игрой и подключением двойным нажатием. Время онлайн теперь считается от последней загрузки Windows, а не от подключения к BotStats.",
   "files": []
 }

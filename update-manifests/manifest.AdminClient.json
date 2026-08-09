@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.84",
+  "version": "0.0.0.86",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/AdminClient-0.0.0.84-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-20260809-v109/AdminClient-0.0.0.86-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "353bca963b64c70c479410192b8ce1ecb075cf11816dbfcd6246935b3b8506f4",
-  "releaseNotes": "AdminClient 0.0.0.84: обновлён общий контракт загрузки игр и синхронизация каталога, кандидатов и фактического состава торрент-заданий.",
+  "sha256": "04ede43ec4291dc28524a56dc9de0757a35653410ab370d58c84f81e9e6ad0a1",
+  "releaseNotes": "AdminClient 0.0.0.86: раздел удалённого рабочего стола переведён на сетку мониторов с превью, зелёным и оранжевым состояниями, названием запущенной игры и подключением двойным нажатием.",
   "files": []
 }

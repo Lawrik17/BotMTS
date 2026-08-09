@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.78.0",
+  "version": "2.5.79.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/6D6X6-2.5.78.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-20260809-v109/6D6X6-2.5.79.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c0da72edabde38467b13856afb98e7209b615315a261f111e75893dac60804fb",
-  "releaseNotes": "6D6X6 2.5.78.0: узел развёртывания учитывает фактический список файлов торрента, безопасно убирает единственную лишнюю папку-обёртку и сохраняет штатные вложенные каталоги игры. Полный пакет службы теперь гарантированно входит в чистую x64-сборку."
+  "sha256": "89a1ed20e1d79924a4358f8a32fa590afdbd70f5e0719436a9a78b3c25a59af7",
+  "releaseNotes": "6D6X6 2.5.79.0: добавлена компактная съёмка экрана для превью удалённых ПК с ограничением разрешения и качества. Полный пакет службы, CaptureWorker и GameRemote.Host включён в x64-архив."
 }
