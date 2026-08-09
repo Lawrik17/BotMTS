@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.67.0",
+  "version": "2.5.68.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-fps-files-toolbar-20260809-v95/6D6X6-2.5.67.0.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-focus-reconnect-20260809-v96/6D6X6-2.5.68.0.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "727ce91078d1787a4236fe92fddba73d0c778aafc05cc7708513f9f68edbc9ad",
-  "releaseNotes": "6D6X6 2.5.67.0: GameRemote no longer lowers an active LAN stream to 20 FPS after isolated jitter-buffer spikes. Remote file browsing now reliably returns drives, ordinary files and hidden folders. Includes the service, full GameRemote.Host folder, CaptureWorker and all dependencies."
+  "sha256": "9c67f8f1b51179af8b3de09cbade5db95f156b6428a5712056e275cc6aa53834",
+  "releaseNotes": "6D6X6 2.5.68.0: GameRemote ignores background Viewer rendering throttling, restores the requested interactive FPS when the window becomes active and uses a faster same-resolution BGRA-to-NV12 conversion. Includes the service, full self-contained GameRemote.Host folder, CaptureWorker and all dependencies."
 }
