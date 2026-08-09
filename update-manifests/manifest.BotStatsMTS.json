@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.86",
+  "version": "1.0.1.87",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-offline-iscsi-uptime-20260809-v106/BotStatsMTS-1.0.1.86-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/BotStatsMTS-1.0.1.87-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a8ca03b031fc5e6621e6eda97bebe0650ba5090bad6e1f96fbbcc4d1dd17ccf6",
-  "releaseNotes": "BotStats MTS 1.0.1.86: в настройках AutoLogin добавлено включённое по умолчанию поддержание EA-авторизации в автономном режиме. Время «Онлайн» в списке ПК теперь считается от загрузки Windows и реплицируется между Server A и Server B.",
+  "sha256": "c78b2f0c36dc3a5f1bba59bb20ea1b2798ecd507bd5e8190c04752bc7b27af0a",
+  "releaseNotes": "BotStats MTS 1.0.1.87: каталог теперь показывает игровые папки даже без найденного EXE. Исправлены повторное развёртывание уже установленной версии, ложная ошибка параллельного изменения задания и вложенные папки вида Icarus\\Icarus при обновлении.",
   "files": []
 }

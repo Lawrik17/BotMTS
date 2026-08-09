@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.77.0",
+  "version": "2.5.78.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-offline-iscsi-uptime-20260809-v106/6D6X6-2.5.77.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/6D6X6-2.5.78.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "70db095b306641b3391a7d477280ac953b489b527b303b55b0624f0a2e9fd656",
-  "releaseNotes": "6D6X6 2.5.77.0: служба автоматически запускает и контролирует MSiSCSI. Добавлена фоновая проверка EA-авторизации, тестовый запуск одной игры каждые 90 минут на свободном ПК и повторный вход после сброса автономной сессии. В BotStats передаётся реальное время загрузки Windows."
+  "sha256": "c0da72edabde38467b13856afb98e7209b615315a261f111e75893dac60804fb",
+  "releaseNotes": "6D6X6 2.5.78.0: узел развёртывания учитывает фактический список файлов торрента, безопасно убирает единственную лишнюю папку-обёртку и сохраняет штатные вложенные каталоги игры. Полный пакет службы теперь гарантированно входит в чистую x64-сборку."
 }

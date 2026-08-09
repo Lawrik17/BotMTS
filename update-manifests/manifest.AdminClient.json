@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.83",
+  "version": "0.0.0.84",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-offline-iscsi-uptime-20260809-v106/AdminClient-0.0.0.83-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/game-delivery-idempotency-20260809-v108/AdminClient-0.0.0.84-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b11e5951dc6b9ea8362ae6dc1f0ebb4f0aa2cec0bd4ef28dd8bde42ff019b184",
-  "releaseNotes": "AdminClient 0.0.0.83: добавлена общая настройка фонового поддержания EA-авторизации. В списке ПК время «Онлайн» отображается от последней загрузки Windows, а для старых клиентов сохраняется совместимый резервный расчёт.",
+  "sha256": "353bca963b64c70c479410192b8ce1ecb075cf11816dbfcd6246935b3b8506f4",
+  "releaseNotes": "AdminClient 0.0.0.84: обновлён общий контракт загрузки игр и синхронизация каталога, кандидатов и фактического состава торрент-заданий.",
   "files": []
 }
