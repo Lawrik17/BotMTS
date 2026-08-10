@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.88",
+  "version": "0.0.0.89",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/AdminClient-0.0.0.88-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-viewer-20260811-v112/AdminClient-0.0.0.89-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "e704e59a52882b6c8031befab7ed00547f65528d5275339cdcbae7cb6a130715",
-  "releaseNotes": "AdminClient 0.0.0.88: пересобран с актуальным общим контрактом EA для адресного обновления лицензии из часового контроля. В архив включены обновлённые CommonModels, GameRemote.Viewer и все зависимости клиента.",
+  "sha256": "2fe312b1e1c2b116aa5e77965b377a7b17a39cc21f6d991874b232d95ac090a2",
+  "releaseNotes": "AdminClient 0.0.0.89: исправлен запуск нативного GameRemote Viewer на Windows 11. Настройка видеодекодера больше не выполняется до создания видеотрека, а DXGI-очередь показа ограничена одним кадром для снижения задержки. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }

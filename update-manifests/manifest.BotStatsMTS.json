@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.91",
+  "version": "1.0.1.92",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/BotStatsMTS-1.0.1.91-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-viewer-20260811-v112/BotStatsMTS-1.0.1.92-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3c389d5b6c124a0c43399b77fd501ea1bb38d2f5c891d58aaf35e2fd0d925d49",
-  "releaseNotes": "BotStats MTS 1.0.1.91: BotStats принимает от часового контроля адресную операцию EC:204, сохраняет точную игру и продолжает обновление её лицензии после снятия защиты и перезагрузки. Ручной и плановый полный аудит остаются независимыми.",
+  "sha256": "54a8e46adf85eeb67debeebcb932f2cd56e1c6ad3bed7ef4ebe145c6e1a5a979",
+  "releaseNotes": "BotStats MTS 1.0.1.92: исправлен запуск нативного GameRemote Viewer на Windows 11. Настройка видеодекодера больше не выполняется до создания видеотрека, а DXGI-очередь показа ограничена одним кадром для снижения задержки. Архив включает полный .NET runtime и все зависимости.",
   "files": []
 }
