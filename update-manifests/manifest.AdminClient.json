@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.90",
+  "version": "0.0.0.91",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-lowlatency-20260811-v113/AdminClient-0.0.0.90-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sctp-20260811-v114/AdminClient-0.0.0.91-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "7c70591e56153c315ba24ebb94ccde95ed1b74b7086d4be5db134119b0afcac9",
-  "releaseNotes": "AdminClient 0.0.0.90: нативный GameRemote Viewer использует low-latency MFT-декодирование и показывает первый кадр сразу после первого полного H.264 access unit. Декодирование начинается с IDR, а локальный переход на резервный WebView больше не запускает лишнее переподключение удалённого сеанса. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "5fae96cfe9003421ede15a85da1c25400d473ec2d59847393f2eaa088c0b4fd1",
+  "releaseNotes": "AdminClient 0.0.0.91: устранена гонка запуска нативного GameRemote Viewer. Сначала открывается и подтверждается только управляющий WebRTC-канал, токен повторяется до ответа Host, а каналы ввода и файлов создаются после авторизации. Тайм-ауты авторизации и первого видеокадра разделены, поэтому Viewer больше не переключается на WebView из-за преждевременного ожидания. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }

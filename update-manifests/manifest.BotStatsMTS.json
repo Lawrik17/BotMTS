@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.93",
+  "version": "1.0.1.94",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-lowlatency-20260811-v113/BotStatsMTS-1.0.1.93-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sctp-20260811-v114/BotStatsMTS-1.0.1.94-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "70af68d9f8700622cc9e8c1162f3acf3bf7838ae64d5150909ca000bb8fc7e0b",
-  "releaseNotes": "BotStats MTS 1.0.1.93: нативный GameRemote Viewer использует low-latency MFT-декодирование и показывает первый кадр сразу после первого полного H.264 access unit. Декодирование начинается с IDR, а локальный переход на резервный WebView больше не запускает лишнее переподключение удалённого сеанса. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "58b042385e69d9b4beb610a663a7f077c86fa787ae941fe2d2da58c5020123f9",
+  "releaseNotes": "BotStats MTS 1.0.1.94: устранена гонка запуска нативного GameRemote Viewer. Сначала открывается и подтверждается только управляющий WebRTC-канал, токен повторяется до ответа Host, а каналы ввода и файлов создаются после авторизации. Тайм-ауты авторизации и первого видеокадра разделены, поэтому Viewer больше не переключается на WebView из-за преждевременного ожидания. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
