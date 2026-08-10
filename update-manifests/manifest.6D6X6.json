@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.81.0",
+  "version": "2.5.82.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/6D6X6-2.5.81.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-lowlatency-20260811-v113/6D6X6-2.5.82.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2a3e2ef320547e738bfc6622890c3a8bda754defcb1b291b5b15ce09ca9ef23f",
-  "releaseNotes": "6D6X6 2.5.81.0: часовой контроль EA по-прежнему проверяет только одну тестовую игру и не запускает полный круг. При EC:204 сохраняются точная игра, EXE и аргументы, после чего адресно обновляется только её лицензия. Улучшено точное сопоставление кнопки обновления с карточкой игры; EC:10008 обрабатывается через «Повтор» и AutoLogin."
+  "sha256": "a1ad1901a0efb7f08f90105c739df42b7259f9e2523255b2a0170cbd1aa66ff6",
+  "releaseNotes": "6D6X6 2.5.82.0: после часовой проверки EA тестовая игра закрывается по точному EXE и дочерним процессам, включая EA AntiCheat. Добавлен повторный контроль отсутствия процесса и резервное завершение через службу под SYSTEM. Архив включает полный .NET runtime, службу, GameRemote.Host и все зависимости."
 }

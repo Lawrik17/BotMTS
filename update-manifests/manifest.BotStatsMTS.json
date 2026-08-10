@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.92",
+  "version": "1.0.1.93",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-viewer-20260811-v112/BotStatsMTS-1.0.1.92-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-lowlatency-20260811-v113/BotStatsMTS-1.0.1.93-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "54a8e46adf85eeb67debeebcb932f2cd56e1c6ad3bed7ef4ebe145c6e1a5a979",
-  "releaseNotes": "BotStats MTS 1.0.1.92: исправлен запуск нативного GameRemote Viewer на Windows 11. Настройка видеодекодера больше не выполняется до создания видеотрека, а DXGI-очередь показа ограничена одним кадром для снижения задержки. Архив включает полный .NET runtime и все зависимости.",
+  "sha256": "70af68d9f8700622cc9e8c1162f3acf3bf7838ae64d5150909ca000bb8fc7e0b",
+  "releaseNotes": "BotStats MTS 1.0.1.93: нативный GameRemote Viewer использует low-latency MFT-декодирование и показывает первый кадр сразу после первого полного H.264 access unit. Декодирование начинается с IDR, а локальный переход на резервный WebView больше не запускает лишнее переподключение удалённого сеанса. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
