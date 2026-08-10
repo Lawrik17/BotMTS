@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.87",
+  "version": "0.0.0.88",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-ea-freshness-20260810-v110/AdminClient-0.0.0.87-win-anycpu.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/AdminClient-0.0.0.88-win-anycpu.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "04e80767644cf4dfed820f3c2a63529848effe86e6abd392ec6bd70007a76037",
-  "releaseNotes": "AdminClient 0.0.0.87: плитки удалённого рабочего стола уменьшены, статусы больше не дублируются под монитором. Для занятого ПК снизу отображается только название игры.",
+  "sha256": "e704e59a52882b6c8031befab7ed00547f65528d5275339cdcbae7cb6a130715",
+  "releaseNotes": "AdminClient 0.0.0.88: пересобран с актуальным общим контрактом EA для адресного обновления лицензии из часового контроля. В архив включены обновлённые CommonModels, GameRemote.Viewer и все зависимости клиента.",
   "files": []
 }
