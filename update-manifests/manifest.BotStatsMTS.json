@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.90",
+  "version": "1.0.1.91",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-ea-freshness-20260810-v110/BotStatsMTS-1.0.1.90-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/BotStatsMTS-1.0.1.91-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c38f530c82c3c6531f69f31c40b5f31306b2bd0dd7bd662882ed93598a023e0a",
-  "releaseNotes": "BotStats MTS 1.0.1.90: плитки удалённого рабочего стола уменьшены до компактной сетки по шесть ПК в ряд. Статус остаётся только в верхней плашке, а под монитором показывается только запущенная игра.",
+  "sha256": "3c389d5b6c124a0c43399b77fd501ea1bb38d2f5c891d58aaf35e2fd0d925d49",
+  "releaseNotes": "BotStats MTS 1.0.1.91: BotStats принимает от часового контроля адресную операцию EC:204, сохраняет точную игру и продолжает обновление её лицензии после снятия защиты и перезагрузки. Ручной и плановый полный аудит остаются независимыми.",
   "files": []
 }

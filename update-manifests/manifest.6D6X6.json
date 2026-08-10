@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.80.0",
+  "version": "2.5.81.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-desktop-grid-ea-freshness-20260810-v110/6D6X6-2.5.80.0-win-x64.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-hourly-targeted-license-20260810-v111/6D6X6-2.5.81.0-win-x64.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "15cce438cbe5dfabe3714cf49ca0f19f0f470c921f8941868243fb4c0d9bc2ee",
-  "releaseNotes": "6D6X6 2.5.80.0: фоновая проверка актуальности автономной EA-сессии закрывает тестовую игру тем же точным трёхпроходным алгоритмом, что и аудит лицензий. Учтены аргументы запуска; в архив включены служба, CaptureWorker и полный GameRemote.Host."
+  "sha256": "2a3e2ef320547e738bfc6622890c3a8bda754defcb1b291b5b15ce09ca9ef23f",
+  "releaseNotes": "6D6X6 2.5.81.0: часовой контроль EA по-прежнему проверяет только одну тестовую игру и не запускает полный круг. При EC:204 сохраняются точная игра, EXE и аргументы, после чего адресно обновляется только её лицензия. Улучшено точное сопоставление кнопки обновления с карточкой игры; EC:10008 обрабатывается через «Повтор» и AutoLogin."
 }
