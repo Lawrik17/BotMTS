@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.82.0",
+  "version": "2.5.83.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-lowlatency-20260811-v113/6D6X6-2.5.82.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sync-20260811-v116/6D6X6-2.5.83.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a1ad1901a0efb7f08f90105c739df42b7259f9e2523255b2a0170cbd1aa66ff6",
-  "releaseNotes": "6D6X6 2.5.82.0: после часовой проверки EA тестовая игра закрывается по точному EXE и дочерним процессам, включая EA AntiCheat. Добавлен повторный контроль отсутствия процесса и резервное завершение через службу под SYSTEM. Архив включает полный .NET runtime, службу, GameRemote.Host и все зависимости."
+  "sha256": "0cf8e37871067dd5eae7d3631fd9dd37452e1d1af15d29000e0553754e4f8f18",
+  "releaseNotes": "6D6X6 2.5.83.0: GameRemote.Host поддерживает постоянный видеотемп на Windows 10 и Windows 11 даже при статичном рабочем столе. Аппаратный NVENC/QSV/AMF тракт повторно отправляет последний GPU-кадр, когда DXGI не сообщает изменений, а программный тракт использует очередь только самого свежего кадра. FPS больше не зависит от кликов мышью; сетевой маршрут и пользовательские настройки качества не изменены. Архив включает полный .NET runtime, службу, CaptureWorker, GameRemote.Host и все зависимости."
 }

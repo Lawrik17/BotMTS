@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.95",
+  "version": "1.0.1.96",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-presentation-20260811-v115/BotStatsMTS-1.0.1.95-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sync-20260811-v116/BotStatsMTS-1.0.1.96-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "00dbd0b84ebd7d154161402d043e30cfb686c42f5a71b7d3fed29d2f487b7212",
-  "releaseNotes": "BotStats MTS 1.0.1.95: нативный удалённый рабочий стол сохраняет пропорции исходного экрана и добавляет чёрные поля без растягивания при любом размере окна. Восстановлен системный курсор с формой удалённого курсора; при включённом управлении мышь удерживается внутри видимой области трансляции и освобождается при выходе из режима. События мыши объединяются с интервалом 4 мс, чтобы игровые мыши с высокой частотой опроса не создавали просадки видеопотока. Исправлен запуск нативного Opus-звука до прихода первого пакета. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "dd701ddb11e9a95845e44bcd5636e135b367db0016e3c48f6a03b69f9f597f18",
+  "releaseNotes": "BotStats MTS 1.0.1.96: нативное изображение следует за размером окна и сохраняет пропорции удалённого экрана с чёрными полями вместо обрезки или растягивания. Клик по трансляции включает управление; курсор синхронизируется с подтверждённой позицией Host и удерживается внутри видимой области до освобождения управления. Звук переведён на WASAPI с устойчивым предварительным буфером и точечным удалением старого звука без полного сброса очереди. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
