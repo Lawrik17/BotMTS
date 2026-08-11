@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.95",
+  "version": "0.0.0.96",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-internet-20260811-v119/AdminClient-0.0.0.95-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-p2-stream-recovery-20260811-v120/AdminClient-0.0.0.96-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2db79030338b328d0ad66de485ec99c544471e12d941f0627a1d5cad2505a155",
-  "releaseNotes": "AdminClient 0.0.0.95: нативное удалённое подключение снова является первым маршрутом и корректно использует внешний IPv4:UDP, открытый через UPnP. При готовом UPnP-кандидате из SDP удаляются бесполезные IPv6-кандидаты, из-за которых первый интернет-сеанс мог зависнуть до ответа Host и перейти в WebView. Во время управления локальный указатель скрывается, а поверх нативного D3D-изображения отображается только курсор удалённого ПК с его актуальной формой и координатами. При освобождении управления локальный курсор восстанавливается. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "9401fbaca6c3eaddfdc310b33f7273bb46b71a312f50144c1f2a319d03abda01",
+  "releaseNotes": "AdminClient 0.0.0.96: исправлено зависание нативного удалённого рабочего стола после первого кадра через провайдера П2. Viewer контролирует сырые видеопакеты RTP и их последовательность, запрашивает новый IDR при потере сборки H.264 и передаёт Host фактический сигнал потерь для снижения битрейта без разрыва WebRTC. WebView2 используется только как последний резерв после нескольких безуспешных восстановлений. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }

@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.86.0",
+  "version": "2.5.87.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-internet-20260811-v119/6D6X6-2.5.86.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-p2-stream-recovery-20260811-v120/6D6X6-2.5.87.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3454a729511d97f233cb1533d4c3dc82ff8760a38c8774e433dbb2138eb081f2",
-  "releaseNotes": "6D6X6 2.5.86.0: исправлено нативное подключение удалённого рабочего стола через интернет. Служба явно сообщает Host, что внешний адрес получен из фактического UPnP-проброса; при таком маршруте Host не запускает дублирующий DNS-зависимый STUN. Ожидание setLocalDescription ограничено пятью секундами, после чего используется уже готовый SDP с UPnP-кандидатом вместо минутного зависания и перехода Viewer в WebView. Локальная сеть и медиатракт не изменялись. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
+  "sha256": "8f6dc5394792cab4243c3b9df97e0e26f16a53cffb842be90e777e1d45f332f0",
+  "releaseNotes": "6D6X6 2.5.87.0: исправлено зависание нативной трансляции после первого кадра. Host непрерывно контролирует выход H.264 после запуска; если аппаратный NVENC/QSV/AMF замолчал, без разрыва WebRTC заменяется только кодировщик на Media Foundation software pipeline. Запрос IDR от Viewer очищает устаревший кадр и восстанавливает поток, а сигнал потерь снижает битрейт раньше повторной отправки большого ключевого кадра. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
 }
