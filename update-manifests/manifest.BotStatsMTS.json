@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.97",
+  "version": "1.0.1.98",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-pointer-audio-20260811-v117/BotStatsMTS-1.0.1.97-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-internet-20260811-v119/BotStatsMTS-1.0.1.98-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5efb869b50d387b188bc4b0fa79f66cc9462bd9bc67af3c8bf9f46b6aff74455",
-  "releaseNotes": "BotStats MTS 1.0.1.97: исправлено точное совпадение координат мыши с удалённым экраном, включая масштабирование окна, несколько мониторов и виртуальный рабочий стол Windows. Для обычного рабочего стола по умолчанию включена абсолютная мышь; относительный режим оставлен отдельной настройкой для управления камерой в играх. Курсор теперь повторяет системную форму удалённого ПК, включая текстовый I-beam и копии системных курсоров. В аудиотракт добавлены Opus FEC/PLC, фильтрация дублей и небольшой устойчивый буфер для устранения хрипа при потерях пакетов. Видеотракт и его настройки не изменялись. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "fc65aaf8cd22cc076d9040a0a783204e4387d70e8e8a4910c4c2efcf61ad6526",
+  "releaseNotes": "BotStats MTS 1.0.1.98: нативное удалённое подключение снова является первым маршрутом и корректно использует внешний IPv4:UDP, открытый через UPnP. При готовом UPnP-кандидате из SDP удаляются бесполезные IPv6-кандидаты, из-за которых первый интернет-сеанс мог зависнуть до ответа Host и перейти в WebView. Во время управления локальный указатель скрывается, а поверх нативного D3D-изображения отображается только курсор удалённого ПК с его актуальной формой и координатами. При освобождении управления локальный курсор восстанавливается. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }

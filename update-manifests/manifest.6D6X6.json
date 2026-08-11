@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.85.0",
+  "version": "2.5.86.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-freshness-exact-close-20260811-v118/6D6X6-2.5.85.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-cursor-internet-20260811-v119/6D6X6-2.5.86.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "862dc99f37607771fd84db4db38254ccf256c5ded9505ccddb86706fcc9e40e9",
-  "releaseNotes": "6D6X6 2.5.85.0: исправлено завершение тестовой игры в часовой проверке актуальности автономной EA-сессии. Монитор ждёт появления точного EXE выбранной игры, после подтверждения запуска оставляет его работать 15 секунд и затем принудительно завершает этот PID вместе с деревом процессов. Закрытие выполняется локально и дополнительно службой от SYSTEM через taskkill /PID /T /F; после этого проверяется устойчивое отсутствие того же EXE. Полный аудит лицензий и видеотракт не изменялись. Архив включает полный .NET runtime, службу, CaptureWorker, полный GameRemote.Host и все зависимости."
+  "sha256": "3454a729511d97f233cb1533d4c3dc82ff8760a38c8774e433dbb2138eb081f2",
+  "releaseNotes": "6D6X6 2.5.86.0: исправлено нативное подключение удалённого рабочего стола через интернет. Служба явно сообщает Host, что внешний адрес получен из фактического UPnP-проброса; при таком маршруте Host не запускает дублирующий DNS-зависимый STUN. Ожидание setLocalDescription ограничено пятью секундами, после чего используется уже готовый SDP с UPnP-кандидатом вместо минутного зависания и перехода Viewer в WebView. Локальная сеть и медиатракт не изменялись. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
 }
