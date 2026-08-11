@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.96",
+  "version": "0.0.0.97",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-p2-stream-recovery-20260811-v120/AdminClient-0.0.0.96-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-latency-recovery-20260812-v121/AdminClient-0.0.0.97-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "9401fbaca6c3eaddfdc310b33f7273bb46b71a312f50144c1f2a319d03abda01",
-  "releaseNotes": "AdminClient 0.0.0.96: исправлено зависание нативного удалённого рабочего стола после первого кадра через провайдера П2. Viewer контролирует сырые видеопакеты RTP и их последовательность, запрашивает новый IDR при потере сборки H.264 и передаёт Host фактический сигнал потерь для снижения битрейта без разрыва WebRTC. WebView2 используется только как последний резерв после нескольких безуспешных восстановлений. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "2e4003ef5bf0dc82e9d17431fea4ae9b656719f5f83be75fa8daaf74fc55e913",
+  "releaseNotes": "AdminClient 0.0.0.97: устранено накопление кадров и скачки задержки до 200 мс в нативном Viewer. D3D11-показ больше не блокирует поток декодера ожиданием монитора: занятый кадр пропускается, поэтому на экране остаётся самое свежее изображение. При полной остановке RTP Viewer дважды создаёт новый ICE/Host-сеанс и только затем использует WebView2. Повторное подключение подтверждается новым кадром текущего сеанса, а не изображением от старого. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }
