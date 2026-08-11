@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.83.0",
+  "version": "2.5.84.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sync-20260811-v116/6D6X6-2.5.83.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-pointer-audio-20260811-v117/6D6X6-2.5.84.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "0cf8e37871067dd5eae7d3631fd9dd37452e1d1af15d29000e0553754e4f8f18",
-  "releaseNotes": "6D6X6 2.5.83.0: GameRemote.Host поддерживает постоянный видеотемп на Windows 10 и Windows 11 даже при статичном рабочем столе. Аппаратный NVENC/QSV/AMF тракт повторно отправляет последний GPU-кадр, когда DXGI не сообщает изменений, а программный тракт использует очередь только самого свежего кадра. FPS больше не зависит от кликов мышью; сетевой маршрут и пользовательские настройки качества не изменены. Архив включает полный .NET runtime, службу, CaptureWorker, GameRemote.Host и все зависимости."
+  "sha256": "519fd411fe2792ae783461914ee3f4c2ebcaf2dede0091f68f553abff6642102",
+  "releaseNotes": "6D6X6 2.5.84.0: GameRemote.Host переводит координаты мыши через фактическую область захваченного монитора и весь виртуальный рабочий стол Windows, поэтому позиция больше не смещается при масштабировании, нескольких мониторах и нестандартном расположении экрана. Host работает в DPI-aware режиме и передаёт точную системную форму курсора удалённого ПК, включая текстовый I-beam и копии системных курсоров. Видеотракт и его стабильные 60 FPS не изменялись. Архив включает полный .NET runtime, службу, CaptureWorker, полный GameRemote.Host и все зависимости."
 }

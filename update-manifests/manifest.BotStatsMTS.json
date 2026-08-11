@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.96",
+  "version": "1.0.1.97",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-sync-20260811-v116/BotStatsMTS-1.0.1.96-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-pointer-audio-20260811-v117/BotStatsMTS-1.0.1.97-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "dd701ddb11e9a95845e44bcd5636e135b367db0016e3c48f6a03b69f9f597f18",
-  "releaseNotes": "BotStats MTS 1.0.1.96: нативное изображение следует за размером окна и сохраняет пропорции удалённого экрана с чёрными полями вместо обрезки или растягивания. Клик по трансляции включает управление; курсор синхронизируется с подтверждённой позицией Host и удерживается внутри видимой области до освобождения управления. Звук переведён на WASAPI с устойчивым предварительным буфером и точечным удалением старого звука без полного сброса очереди. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "5efb869b50d387b188bc4b0fa79f66cc9462bd9bc67af3c8bf9f46b6aff74455",
+  "releaseNotes": "BotStats MTS 1.0.1.97: исправлено точное совпадение координат мыши с удалённым экраном, включая масштабирование окна, несколько мониторов и виртуальный рабочий стол Windows. Для обычного рабочего стола по умолчанию включена абсолютная мышь; относительный режим оставлен отдельной настройкой для управления камерой в играх. Курсор теперь повторяет системную форму удалённого ПК, включая текстовый I-beam и копии системных курсоров. В аудиотракт добавлены Opus FEC/PLC, фильтрация дублей и небольшой устойчивый буфер для устранения хрипа при потерях пакетов. Видеотракт и его настройки не изменялись. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
