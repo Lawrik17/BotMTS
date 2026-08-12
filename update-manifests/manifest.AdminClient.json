@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.101",
+  "version": "0.0.0.102",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-route-20260812-v126/AdminClient-0.0.0.101-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "4aadb6e74ce461e785beef2eecdd9244ceb09098a8595a2051a8df90430e6406",
-  "releaseNotes": "AdminClient 0.0.0.101: удаленный рабочий стол принимает окончательный тип маршрута от Host и не считает соединение между разными провайдерами локальным из-за совпадающих адресов 192.168.1.x. Архив включает полный .NET runtime, рабочий Updater и все зависимости клиента.",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-bootstrap-recovery-20260812-v127/AdminClient-0.0.0.102-win-x64-selfcontained.zip",
+  "updaterUrl": "",
+  "sha256": "883a1d7ab5abfc26c53a2a7646839fcbd5522de0d3e0d0a6e170751e43fe8665",
+  "releaseNotes": "AdminClient 0.0.0.102: исправлен запуск пакетного обновления при кратких разрывах соединения с GitHub. Bootstrap делает три попытки по HTTP/1.1 и при неудаче использует проверенный локальный Apps\\Updater.exe. Архив включает сам Updater, полный .NET runtime и все зависимости клиента.",
   "files": []
 }
