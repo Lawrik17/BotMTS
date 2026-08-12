@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.102",
+  "version": "0.0.0.103",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-bootstrap-recovery-20260812-v127/AdminClient-0.0.0.102-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/AdminClient-0.0.0.103-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "883a1d7ab5abfc26c53a2a7646839fcbd5522de0d3e0d0a6e170751e43fe8665",
-  "releaseNotes": "AdminClient 0.0.0.102: исправлен запуск пакетного обновления при кратких разрывах соединения с GitHub. Bootstrap делает три попытки по HTTP/1.1 и при неудаче использует проверенный локальный Apps\\Updater.exe. Архив включает сам Updater, полный .NET runtime и все зависимости клиента.",
+  "sha256": "a421c2bd3b38d163e28f485f241f6bb634f05d38116cd00b7e00b5d93d8c05f1",
+  "releaseNotes": "AdminClient 0.0.0.103: в удалённом рабочем столе добавлены профили изображения с настройкой яркости, контраста и насыщенности без разрыва потока. Нативный Viewer точнее подтверждает реальные потери RTP-пакетов и не запускает лишнюю IDR-петлю при обычной перестановке пакетов. Архив включает Updater, полный .NET runtime и все зависимости клиента.",
   "files": []
 }

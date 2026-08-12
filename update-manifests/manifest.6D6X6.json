@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.91.0",
+  "version": "2.5.92.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-route-20260812-v126/6D6X6-2.5.91.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/6D6X6-2.5.92.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "4f1e413b7cee51cba520a4ceb8c6855cb4f76ed69a1921913c93aeb38e457ac0",
-  "releaseNotes": "6D6X6 2.5.91.0: обработка мыши, клавиатуры и геймпада вынесена из callback WebRTC в отдельный неблокирующий конвейер, поэтому захват управления больше не должен останавливать видеопоток. Маршрут определяется по внешним ICE-адресам и отличает разные провайдеры даже при одинаковых локальных сетях 192.168.1.x. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
+  "sha256": "150ee33d427fa5a311edd4a673fcc805bd2126046c96f855aea7c1faf4b27bcf",
+  "releaseNotes": "6D6X6 2.5.92.0: GameRemote.Host защищает цепочку H.264 при перегрузке очереди — зависимые P-кадры после отброшенного кадра не отправляются, а поток восстанавливается свежим ключевым кадром. Это уменьшает краткие замирания и распад изображения при резких движениях. Архив включает полный .NET runtime, службу, свежий CaptureWorker, полный self-contained GameRemote.Host, AutoLogin-лаунчеры и все зависимости."
 }

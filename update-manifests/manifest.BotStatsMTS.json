@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.105",
+  "version": "1.0.1.106",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-bootstrap-recovery-20260812-v127/BotStatsMTS-1.0.1.105-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/BotStatsMTS-1.0.1.106-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "85408805e298c39ccb7c348fdcab5f6f13da9a1de36e0f1a348def3eef0c0ec9",
-  "releaseNotes": "BotStats MTS 1.0.1.105: bootstrap пакетного обновления устойчив к кратким разрывам GitHub, повторяет HTTP-запросы и использует проверенный локальный Apps\\Updater.exe. Архив включает сам Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "58b088ca809d6b5c53f5ac79f6045c163c27b4c3e38e0a2bc46c342d0c62b3cd",
+  "releaseNotes": "BotStats MTS 1.0.1.106: в удалённом рабочем столе добавлены профили изображения с настройкой яркости, контраста и насыщенности без разрыва потока. Нативный Viewer точнее подтверждает реальные потери RTP-пакетов и не запускает лишнюю IDR-петлю при обычной перестановке пакетов. Архив включает Updater, полный .NET runtime, self-contained ServerManagement.Agent и все зависимости.",
   "files": []
 }
