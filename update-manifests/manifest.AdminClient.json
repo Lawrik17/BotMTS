@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.98",
+  "version": "0.0.0.99",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-game-mode-recovery-20260812-v122/AdminClient-0.0.0.98-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/adminclient-apphost-fix-20260812-v124/AdminClient-0.0.0.99-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "232b55131747e68ac69dba32af8c95d23c29cdcce2b1938b495efccb074a43ae",
-  "releaseNotes": "AdminClient 0.0.0.98: нативный D3D11 Viewer очищает кадр предыдущего сеанса и синхронизирует swap chain с фактическим размером окна, поэтому изображение не смещается и не обрезается. При запуске игры, переходе в полноэкранный режим и смене видеорежима Viewer дольше ожидает восстановление кадров, не разрывая рабочий WebRTC-сеанс преждевременно. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "50d933bf607d75e6ef07b9302e396f0f3b67a13500931ec38d0d7b8bf9691ba5",
+  "releaseNotes": "AdminClient 0.0.0.99: исправлен пакет версии 98, в котором новый DLL был упакован со старым AdminClient.exe 0.0.0.97 и приложение завершалось с ошибкой загрузки CoreCLR. EXE и DLL теперь гарантированно имеют одну версию и проверены живым запуском после распаковки ZIP. Оставлены только русские языковые ресурсы; архив включает полный .NET runtime, рабочий Updater и все зависимости клиента.",
   "files": []
 }
