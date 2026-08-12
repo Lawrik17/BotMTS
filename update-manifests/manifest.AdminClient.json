@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.97",
+  "version": "0.0.0.98",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-latency-recovery-20260812-v121/AdminClient-0.0.0.97-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-game-mode-recovery-20260812-v122/AdminClient-0.0.0.98-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "2e4003ef5bf0dc82e9d17431fea4ae9b656719f5f83be75fa8daaf74fc55e913",
-  "releaseNotes": "AdminClient 0.0.0.97: устранено накопление кадров и скачки задержки до 200 мс в нативном Viewer. D3D11-показ больше не блокирует поток декодера ожиданием монитора: занятый кадр пропускается, поэтому на экране остаётся самое свежее изображение. При полной остановке RTP Viewer дважды создаёт новый ICE/Host-сеанс и только затем использует WebView2. Повторное подключение подтверждается новым кадром текущего сеанса, а не изображением от старого. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "232b55131747e68ac69dba32af8c95d23c29cdcce2b1938b495efccb074a43ae",
+  "releaseNotes": "AdminClient 0.0.0.98: нативный D3D11 Viewer очищает кадр предыдущего сеанса и синхронизирует swap chain с фактическим размером окна, поэтому изображение не смещается и не обрезается. При запуске игры, переходе в полноэкранный режим и смене видеорежима Viewer дольше ожидает восстановление кадров, не разрывая рабочий WebRTC-сеанс преждевременно. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.100",
+  "version": "1.0.1.101",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-native-latency-recovery-20260812-v121/BotStatsMTS-1.0.1.100-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-game-mode-recovery-20260812-v122/BotStatsMTS-1.0.1.101-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "36f4dd9fd3037d6e9dcd79d514cdee86f59eaa80ff6b3a7a437c8c1adcee7d7c",
-  "releaseNotes": "BotStats MTS 1.0.1.100: устранено накопление кадров и скачки задержки до 200 мс в нативном Viewer. D3D11-показ больше не блокирует декодирование, а остановившийся RTP восстанавливается двумя полными попытками нового ICE/Host-сеанса до перехода на WebView2. Первый кадр проверяется отдельно для каждого нового подключения. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "b5882036b049d4c9438ed245e6b13732a2635c06e496f2e871618d3f8f817714",
+  "releaseNotes": "BotStats MTS 1.0.1.101: нативный D3D11 Viewer очищает кадр предыдущего сеанса и синхронизирует swap chain с фактическим размером окна, поэтому изображение не смещается и не обрезается. При запуске игры, переходе в полноэкранный режим и смене видеорежима Viewer дольше ожидает восстановление кадров, не разрывая рабочий WebRTC-сеанс преждевременно. Архив включает полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
