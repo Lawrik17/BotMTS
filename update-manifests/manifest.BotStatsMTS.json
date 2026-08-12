@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.102",
+  "version": "1.0.1.104",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/telegram-autologin-20260812-v123/BotStatsMTS-1.0.1.102-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-route-20260812-v126/BotStatsMTS-1.0.1.104-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "774980ab3f077b7a0fd470f63d044cebf1c9c67fd642d7ff79df442236bac101",
-  "releaseNotes": "BotStats MTS 1.0.1.102: вкладка AutoLogin полностью продублирована в Telegram под кнопкой «Управление ПК». Доступны выбор подключённого ПК, просмотр состояния, общие параметры, управление лаунчерами, порядком запуска и аккаунтами, настройки EA, ручная проверка лицензий и повторный вход EA/Ubisoft. Пароли удаляются из чата сразу после обработки, права доступа и состояния разделены по Telegram-чатам. Архив включает полный .NET runtime, ServerManagement.Agent, Updater и все зависимости.",
+  "sha256": "0949f92f2a2c1d83995fcd17ef9a726ae92d9072e97997d00cb5f652deb06bda",
+  "releaseNotes": "BotStats MTS 1.0.1.104: удаленный рабочий стол принимает окончательный тип маршрута от Host и корректно показывает соединения между разными провайдерами как интернет-маршрут. Архив включает полный .NET runtime, ServerManagement.Agent, Updater и все зависимости.",
   "files": []
 }

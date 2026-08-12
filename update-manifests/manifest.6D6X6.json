@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.89.0",
+  "version": "2.5.91.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-game-mode-recovery-20260812-v122/6D6X6-2.5.89.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-control-route-20260812-v126/6D6X6-2.5.91.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "94d4e47532ee3391e58e96a4b085c2f50258b5f79a9d383d31e6b3157ae7a0e2",
-  "releaseNotes": "6D6X6 2.5.89.0: при запуске игры, переходе в полноэкранный режим или смене разрешения Host восстанавливает DXGI Desktop Duplication внутри текущего WebRTC-сеанса вместо его разрыва. Захват повторяется до 30 раз на время переключения видеорежима; watchdog не создаёт ложное переподключение, а программный кодировщик безопасно перестраивается при изменении размеров экрана. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
+  "sha256": "4f1e413b7cee51cba520a4ceb8c6855cb4f76ed69a1921913c93aeb38e457ac0",
+  "releaseNotes": "6D6X6 2.5.91.0: обработка мыши, клавиатуры и геймпада вынесена из callback WebRTC в отдельный неблокирующий конвейер, поэтому захват управления больше не должен останавливать видеопоток. Маршрут определяется по внешним ICE-адресам и отличает разные провайдеры даже при одинаковых локальных сетях 192.168.1.x. Архив включает полный .NET runtime, службу, CaptureWorker, полный self-contained GameRemote.Host и все зависимости."
 }
