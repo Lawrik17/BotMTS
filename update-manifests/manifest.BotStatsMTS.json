@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.106",
+  "version": "1.0.1.107",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/BotStatsMTS-1.0.1.106-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-recovery-20260813-v129/BotStatsMTS-1.0.1.107-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "58b088ca809d6b5c53f5ac79f6045c163c27b4c3e38e0a2bc46c342d0c62b3cd",
-  "releaseNotes": "BotStats MTS 1.0.1.106: в удалённом рабочем столе добавлены профили изображения с настройкой яркости, контраста и насыщенности без разрыва потока. Нативный Viewer точнее подтверждает реальные потери RTP-пакетов и не запускает лишнюю IDR-петлю при обычной перестановке пакетов. Архив включает Updater, полный .NET runtime, self-contained ServerManagement.Agent и все зависимости.",
+  "sha256": "ec3d5994e75240b1aa2954416058cfa05bc61fe5a5feeb2f12e1f67876e2ef71",
+  "releaseNotes": "BotStats MTS 1.0.1.107: устранены зависания и циклические переподключения GameRemote при запуске игр и быстром движении. H.264 кадры передаются в правильном порядке, восстановление выполняется одним ключевым кадром, а медленный администратор не задерживает остальных. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }

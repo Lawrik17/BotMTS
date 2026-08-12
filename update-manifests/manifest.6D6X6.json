@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.92.0",
+  "version": "2.5.93.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/6D6X6-2.5.92.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-recovery-20260813-v129/6D6X6-2.5.93.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "150ee33d427fa5a311edd4a673fcc805bd2126046c96f855aea7c1faf4b27bcf",
-  "releaseNotes": "6D6X6 2.5.92.0: GameRemote.Host защищает цепочку H.264 при перегрузке очереди — зависимые P-кадры после отброшенного кадра не отправляются, а поток восстанавливается свежим ключевым кадром. Это уменьшает краткие замирания и распад изображения при резких движениях. Архив включает полный .NET runtime, службу, свежий CaptureWorker, полный self-contained GameRemote.Host, AutoLogin-лаунчеры и все зависимости."
+  "sha256": "8a5016ebaf0d8134317576d45f2d77563ded80aa2d15f582e8e1622519ab44d0",
+  "releaseNotes": "6D6X6 2.5.93.0: исправлен H.264 тракт GameRemote при игре и высокой подвижности экрана. Зависимые кадры больше не отправляются после потери опорного кадра, восстановление выполняется по чистому IDR без цикла переподключений, а выбранный ICE-маршрут корректно отличает локальную сеть от соединения через провайдера. Архив включает полный .NET runtime, службу, CaptureWorker, self-contained GameRemote.Host и все зависимости."
 }

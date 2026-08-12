@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.103",
+  "version": "0.0.0.104",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-quality-latency-20260813-v128/AdminClient-0.0.0.103-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-recovery-20260813-v129/AdminClient-0.0.0.104-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "a421c2bd3b38d163e28f485f241f6bb634f05d38116cd00b7e00b5d93d8c05f1",
-  "releaseNotes": "AdminClient 0.0.0.103: в удалённом рабочем столе добавлены профили изображения с настройкой яркости, контраста и насыщенности без разрыва потока. Нативный Viewer точнее подтверждает реальные потери RTP-пакетов и не запускает лишнюю IDR-петлю при обычной перестановке пакетов. Архив включает Updater, полный .NET runtime и все зависимости клиента.",
+  "sha256": "f9048a61006f684e7b4f2f7e2b5566922513b44c458401c0c95ed9d932224f56",
+  "releaseNotes": "AdminClient 0.0.0.104: устранены задержка видеопотока относительно управления, повреждение изображения при быстром движении и преждевременное переподключение GameRemote. Изменение размера нативного D3D11 Viewer больше не блокирует показ. Архив включает локальный Updater, полный .NET runtime и все зависимости клиента.",
   "files": []
 }
