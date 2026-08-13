@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.108",
+  "version": "1.0.1.109",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-supervised-recovery-20260813-v130/BotStatsMTS-1.0.1.108-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-latest-frame-recovery-20260813-v131/BotStatsMTS-1.0.1.109-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "e3f9f75783742920f4100d0a23e600f043579b73ea622af8d6f1db903229cfcf",
-  "releaseNotes": "BotStats MTS 1.0.1.108: по результатам живого теста X16 устранены волнообразное движение и зависание нативного GameRemote при запуске игры. Viewer больше не запрашивает IDR при каждой обычной потере RTP и не отбрасывает готовые D3D11-кадры; зависший видеотракт автоматически пересоздаётся ограниченным новым сеансом. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "c0996c78e82146965b91604e532340f2cc18877737533abcea7a6eb1d056fc29",
+  "releaseNotes": "BotStats MTS 1.0.1.109: нативный Viewer выводит только самый свежий декодированный кадр через однокадровый буфер и больше не накапливает около 100 мс задержки перед D3D11 Present. Восстановление Host сохраняет текущее WebRTC-соединение вместо принудительного разрыва через 6 секунд. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }

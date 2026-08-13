@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.105",
+  "version": "0.0.0.106",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-supervised-recovery-20260813-v130/AdminClient-0.0.0.105-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-latest-frame-recovery-20260813-v131/AdminClient-0.0.0.106-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "d801886e2998ade602139b1f861292b82d00773c8acec4708e561590eb0767c6",
-  "releaseNotes": "AdminClient 0.0.0.105: по результатам живого теста X16 устранено отбрасывание примерно каждого четвёртого готового кадра нативным D3D11 Viewer. Обычная потеря RTP больше не запускает лишние тяжёлые IDR, а реально замолчавший видеотракт быстрее пересоздаёт прямой сеанс без ожидания старого тайм-аута. Архив включает локальный Updater, полный .NET runtime и все зависимости клиента.",
+  "sha256": "51e13b51b8c1748760b6f5dac1b8a422ed9f606428e00099f585a2c4609e41b3",
+  "releaseNotes": "AdminClient 0.0.0.106: нативный Viewer больше не накапливает внутреннюю очередь из нескольких декодированных кадров. Декодирование отделено от блокирующего D3D11 Present однокадровым буфером, поэтому на экран всегда выводится самый свежий кадр без задержки около 100 мс и без разрушения изображения. Архив включает локальный Updater, полный .NET runtime и все зависимости клиента.",
   "files": []
 }
