@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.107",
+  "version": "1.0.1.108",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-recovery-20260813-v129/BotStatsMTS-1.0.1.107-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-supervised-recovery-20260813-v130/BotStatsMTS-1.0.1.108-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "ec3d5994e75240b1aa2954416058cfa05bc61fe5a5feeb2f12e1f67876e2ef71",
-  "releaseNotes": "BotStats MTS 1.0.1.107: устранены зависания и циклические переподключения GameRemote при запуске игр и быстром движении. H.264 кадры передаются в правильном порядке, восстановление выполняется одним ключевым кадром, а медленный администратор не задерживает остальных. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "e3f9f75783742920f4100d0a23e600f043579b73ea622af8d6f1db903229cfcf",
+  "releaseNotes": "BotStats MTS 1.0.1.108: по результатам живого теста X16 устранены волнообразное движение и зависание нативного GameRemote при запуске игры. Viewer больше не запрашивает IDR при каждой обычной потере RTP и не отбрасывает готовые D3D11-кадры; зависший видеотракт автоматически пересоздаётся ограниченным новым сеансом. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }

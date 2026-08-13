@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.93.0",
+  "version": "2.5.94.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-h264-recovery-20260813-v129/6D6X6-2.5.93.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-supervised-recovery-20260813-v130/6D6X6-2.5.94.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "8a5016ebaf0d8134317576d45f2d77563ded80aa2d15f582e8e1622519ab44d0",
-  "releaseNotes": "6D6X6 2.5.93.0: исправлен H.264 тракт GameRemote при игре и высокой подвижности экрана. Зависимые кадры больше не отправляются после потери опорного кадра, восстановление выполняется по чистому IDR без цикла переподключений, а выбранный ICE-маршрут корректно отличает локальную сеть от соединения через провайдера. Архив включает полный .NET runtime, службу, CaptureWorker, self-contained GameRemote.Host и все зависимости."
+  "sha256": "5d143034c5b025a4e18ac7e2cfe3ccc5f5f44982303cd1f0e538db3bf872b51d",
+  "releaseNotes": "6D6X6 2.5.94.0: по результатам живого теста X16 Host больше не остаётся бесконечно в зависшем состоянии при запуске игры. Если чистый IDR не восстанавливает передачу, Host завершает только неисправный медиасеанс и позволяет Viewer создать новое прямое соединение; успешный ключевой кадр сбрасывает восстановление. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, self-contained GameRemote.Host и все зависимости."
 }
