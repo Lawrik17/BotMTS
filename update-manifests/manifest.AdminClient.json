@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.106",
+  "version": "0.0.0.107",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-latest-frame-recovery-20260813-v131/AdminClient-0.0.0.106-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-provider-stability-20260814-v132/AdminClient-0.0.0.107-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "51e13b51b8c1748760b6f5dac1b8a422ed9f606428e00099f585a2c4609e41b3",
-  "releaseNotes": "AdminClient 0.0.0.106: нативный Viewer больше не накапливает внутреннюю очередь из нескольких декодированных кадров. Декодирование отделено от блокирующего D3D11 Present однокадровым буфером, поэтому на экран всегда выводится самый свежий кадр без задержки около 100 мс и без разрушения изображения. Архив включает локальный Updater, полный .NET runtime и все зависимости клиента.",
+  "sha256": "bc5aeacb78b0fa52c59a1e486ad55b8b4faa799aaedd858683d2180529a91c98",
+  "releaseNotes": "AdminClient 0.0.0.107: нативный Viewer обнаруживает остановку видео даже на неподвижном экране, быстрее пересоздаёт зависший сеанс и игнорирует запоздалые события уже закрытого подключения. Архив включает локальный Updater, полный .NET runtime и все зависимости клиента.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.109",
+  "version": "1.0.1.110",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-latest-frame-recovery-20260813-v131/BotStatsMTS-1.0.1.109-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-provider-stability-20260814-v132/BotStatsMTS-1.0.1.110-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "c0996c78e82146965b91604e532340f2cc18877737533abcea7a6eb1d056fc29",
-  "releaseNotes": "BotStats MTS 1.0.1.109: нативный Viewer выводит только самый свежий декодированный кадр через однокадровый буфер и больше не накапливает около 100 мс задержки перед D3D11 Present. Восстановление Host сохраняет текущее WebRTC-соединение вместо принудительного разрыва через 6 секунд. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "e21673a7bd397df65d29f7b649262b5ac572e6d44a0c28818cefd250e496767b",
+  "releaseNotes": "BotStats MTS 1.0.1.110: удалённый рабочий стол устойчивее между P1/P2/P3: ограничены очереди старых кадров, добавлена адаптация по RTCP и автоматическое создание нового ICE/Host-сеанса при невосстановимом RTP-зависании. Несколько администраторов больше не раскачивают общий поток разными настройками. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }

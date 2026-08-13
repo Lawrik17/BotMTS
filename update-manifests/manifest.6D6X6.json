@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.95.0",
+  "version": "2.5.96.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-latest-frame-recovery-20260813-v131/6D6X6-2.5.95.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-provider-stability-20260814-v132/6D6X6-2.5.96.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "19d1ed087ec48aae976701e16f8eddd1082c01c465443c62a0a39270bb676b6b",
-  "releaseNotes": "6D6X6 2.5.95.0: восстановление видеопотока возвращено к устойчивому поведению 2.5.93 без принудительного разрыва WebRTC через 6 секунд. Host повторно запрашивает чистый IDR внутри текущего соединения и не создаёт лишние циклы переподключения при запуске игры. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, self-contained GameRemote.Host и все зависимости."
+  "sha256": "b9abf30fcc5752bf0b54f29d5f4806dfea5ba6a5d1becb1d67dd1e7cfab51418",
+  "releaseNotes": "6D6X6 2.5.96.0: Host ограничивает RTP-очереди, адаптирует битрейт по RTCP, прекращает бесконечный IDR-цикл и запрашивает новый сеанс после 10 секунд невосстановимого зависания. Общий поток нескольких администраторов защищён от повышения качества медленным маршрутом. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, self-contained GameRemote.Host и все зависимости."
 }
