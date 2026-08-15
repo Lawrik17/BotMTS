@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.110",
+  "version": "0.0.0.111",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-20260815-v135/AdminClient-0.0.0.110-win-x64-selfcontained.zip",
-  "updaterUrl": "",
-  "sha256": "bfabb058389c74b229118b0a30c4dd0495350197dc4b15af14e2662cb6824e75",
-  "releaseNotes": "AdminClient 0.0.0.110: выровнены поля путей Steam и EA, добавлено хранение нескольких дисков и папок без дублей. Каждый новый путь автоматически сохраняется и сразу сканируется на выбранном Server A или Server B; автоматическое сканирование только обнаруживает игры и не запускает обновление или установку. Архив включает полный .NET runtime и все зависимости клиента.",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-hotfix-20260816-v136/AdminClient-0.0.0.111-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "86e7f9573ee13f6173b8ab4fec2817f3a527cad4f94650be0a424598f0cf3000",
+  "releaseNotes": "AdminClient 0.0.0.111: исправлена структура пакета обновления — AdminClient.exe и зависимости находятся в корне ZIP и распаковываются штатным обновлятором. Возвращена обязательная загрузка Updater.exe. Сохранены выровненные поля Steam и EA, несколько дисков и папок без дублей и автоматическое безопасное сканирование каждого нового пути.",
   "files": []
 }

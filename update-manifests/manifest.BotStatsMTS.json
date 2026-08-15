@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.114",
+  "version": "1.0.1.115",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-20260815-v135/BotStatsMTS-1.0.1.114-win-x64-selfcontained.zip",
-  "updaterUrl": "",
-  "sha256": "14268ad19bb09053e43533f72058d1f9f304d377c601f147ced6d82a4461b687",
-  "releaseNotes": "BotStats MTS 1.0.1.114: выровнены поля путей Steam и EA, добавлено хранение нескольких дисков и папок без дублей. Каждый новый путь автоматически сохраняется и сразу сканируется на выбранном Server A или Server B; автоматическое сканирование только обнаруживает игры и не запускает обновление или установку. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-hotfix-20260816-v136/BotStatsMTS-1.0.1.115-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "b4eb4f730b8b66458973968ac72789b7ce7cad5008a61afbdf206511bf3f80ae",
+  "releaseNotes": "BotStats MTS 1.0.1.115: исправлена структура пакета обновления — BotStatsMTS.exe и зависимости находятся в корне ZIP и распаковываются штатным обновлятором. Возвращена обязательная загрузка Updater.exe. Сохранены выровненные поля Steam и EA, несколько дисков и папок без дублей и автоматическое безопасное сканирование каждого нового пути.",
   "files": []
 }
