@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.111",
+  "version": "1.0.1.112",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-soft-reviews-1.0.1.111/BotStatsMTS-1.0.1.111-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-server-updates-20260815-v133/BotStatsMTS-1.0.1.112-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "f4ad062852b145a63ef29f1ee405a0165a99ef78db6b74aff99e975ed8a118e0",
-  "releaseNotes": "BotStats MTS 1.0.1.111: мягкий сбор отзывов больше не принимает максимальную видимую кнопку плавающей пагинации за конец архива. Последняя страница определяется динамически по отсутствию перехода дальше; старое неподтверждённое завершение автоматически продолжается со следующей страницы без удаления уже собранных отзывов. Ошибки HTTP, потеря авторизации и отсутствие таблицы не засчитываются как завершение. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "f652288e70e025337105c399a04acb08a6ebbc1a17740dc183c079f21a93ca90",
+  "releaseNotes": "BotStats MTS 1.0.1.112: добавлен серверный мониторинг Steam-библиотек для Server A и Server B, точное сканирование libraryfolders.vdf и appmanifest, проверка buildid, локальная очередь SteamCMD и автоматический перебор доступных аккаунтов без передачи паролей по сети. Добавлена общая вкладка Steam в разделе Загрузка игр. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
