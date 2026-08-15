@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.97.0",
+  "version": "2.5.98.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-server-updates-20260815-v134/6D6X6-2.5.97.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-package-layout-hotfix-20260816-v137/6D6X6-2.5.98.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "cf8e8b9c3e0d2be0f596ac4821b4c434fdd2b51c91dfbb38402e841376b3b15e",
-  "releaseNotes": "6D6X6 2.5.97.0: пакет пересобран с актуальными исправлениями удалённой трансляции и клиентского обмена. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, AutoLogin-помощники, self-contained GameRemote.Host и все зависимости."
+  "sha256": "ffec5f518f9100619a66c586900ac9350409099b05c1e4820b0b39158de3536f",
+  "releaseNotes": "6D6X6 2.5.98.0: исправлена структура пакета обновления — 6D6X6.exe и все зависимости находятся непосредственно в корне ZIP. Архив полностью проверен штатной распаковкой .NET и включает службу, CaptureWorker, Updater, AutoLogin-помощники, self-contained GameRemote.Host и полный runtime."
 }
