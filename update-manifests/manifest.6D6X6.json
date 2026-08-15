@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.96.0",
+  "version": "2.5.97.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-provider-stability-20260814-v132/6D6X6-2.5.96.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-server-updates-20260815-v134/6D6X6-2.5.97.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b9abf30fcc5752bf0b54f29d5f4806dfea5ba6a5d1becb1d67dd1e7cfab51418",
-  "releaseNotes": "6D6X6 2.5.96.0: Host ограничивает RTP-очереди, адаптирует битрейт по RTCP, прекращает бесконечный IDR-цикл и запрашивает новый сеанс после 10 секунд невосстановимого зависания. Общий поток нескольких администраторов защищён от повышения качества медленным маршрутом. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, self-contained GameRemote.Host и все зависимости."
+  "sha256": "cf8e8b9c3e0d2be0f596ac4821b4c434fdd2b51c91dfbb38402e841376b3b15e",
+  "releaseNotes": "6D6X6 2.5.97.0: пакет пересобран с актуальными исправлениями удалённой трансляции и клиентского обмена. Архив включает полный .NET runtime, службу, CaptureWorker, Updater, AutoLogin-помощники, self-contained GameRemote.Host и все зависимости."
 }

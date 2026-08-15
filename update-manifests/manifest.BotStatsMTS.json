@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.112",
+  "version": "1.0.1.113",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/steam-server-updates-20260815-v133/BotStatsMTS-1.0.1.112-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-server-updates-20260815-v134/BotStatsMTS-1.0.1.113-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "f652288e70e025337105c399a04acb08a6ebbc1a17740dc183c079f21a93ca90",
-  "releaseNotes": "BotStats MTS 1.0.1.112: добавлен серверный мониторинг Steam-библиотек для Server A и Server B, точное сканирование libraryfolders.vdf и appmanifest, проверка buildid, локальная очередь SteamCMD и автоматический перебор доступных аккаунтов без передачи паролей по сети. Добавлена общая вкладка Steam в разделе Загрузка игр. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "b9f9c72134add5686b45a24498907cb08c765d02028335d6de31fb07c2690b55",
+  "releaseNotes": "BotStats MTS 1.0.1.113: добавлен серверный контроль обновлений EA для Server A и Server B, сканирование выбранных папок и дисков, расписание проверок, точное сопоставление карточек, обработка автономного режима и EC:10007, сохраняемая очередь и контроль Менеджера загрузок. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
