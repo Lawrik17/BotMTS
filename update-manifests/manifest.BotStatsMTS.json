@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.110",
+  "version": "1.0.1.111",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/gameremote-provider-stability-20260814-v132/BotStatsMTS-1.0.1.110-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-soft-reviews-1.0.1.111/BotStatsMTS-1.0.1.111-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "e21673a7bd397df65d29f7b649262b5ac572e6d44a0c28818cefd250e496767b",
-  "releaseNotes": "BotStats MTS 1.0.1.110: удалённый рабочий стол устойчивее между P1/P2/P3: ограничены очереди старых кадров, добавлена адаптация по RTCP и автоматическое создание нового ICE/Host-сеанса при невосстановимом RTP-зависании. Несколько администраторов больше не раскачивают общий поток разными настройками. Архив включает локальный Updater, полный .NET runtime, ServerManagement.Agent и все зависимости.",
+  "sha256": "f4ad062852b145a63ef29f1ee405a0165a99ef78db6b74aff99e975ed8a118e0",
+  "releaseNotes": "BotStats MTS 1.0.1.111: мягкий сбор отзывов больше не принимает максимальную видимую кнопку плавающей пагинации за конец архива. Последняя страница определяется динамически по отсутствию перехода дальше; старое неподтверждённое завершение автоматически продолжается со следующей страницы без удаления уже собранных отзывов. Ошибки HTTP, потеря авторизации и отсутствие таблицы не засчитываются как завершение. Архив содержит полный .NET runtime, ServerManagement.Agent и все зависимости.",
   "files": []
 }
