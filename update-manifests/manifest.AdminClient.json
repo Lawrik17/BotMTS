@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.109",
+  "version": "0.0.0.110",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/ea-server-updates-20260815-v134/AdminClient-0.0.0.109-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-20260815-v135/AdminClient-0.0.0.110-win-x64-selfcontained.zip",
   "updaterUrl": "",
-  "sha256": "01d093683dc1a0ccd1fc3ae1dff7874804d8321badde5b6b0042dd127ada9610",
-  "releaseNotes": "AdminClient 0.0.0.109: в разделе Загрузка игр добавлена общая вкладка EA с выбором Server A или Server B, настройками расписания, путями сканирования, состояниями игр, прогрессом и ручным запуском точной очереди обновлений. Архив включает полный .NET runtime и все зависимости клиента.",
+  "sha256": "bfabb058389c74b229118b0a30c4dd0495350197dc4b15af14e2662cb6824e75",
+  "releaseNotes": "AdminClient 0.0.0.110: выровнены поля путей Steam и EA, добавлено хранение нескольких дисков и папок без дублей. Каждый новый путь автоматически сохраняется и сразу сканируется на выбранном Server A или Server B; автоматическое сканирование только обнаруживает игры и не запускает обновление или установку. Архив включает полный .NET runtime и все зависимости клиента.",
   "files": []
 }
