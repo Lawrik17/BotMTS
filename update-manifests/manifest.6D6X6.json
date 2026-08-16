@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.98.0",
+  "version": "2.5.99.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-package-layout-hotfix-20260816-v137/6D6X6-2.5.98.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "ffec5f518f9100619a66c586900ac9350409099b05c1e4820b0b39158de3536f",
-  "releaseNotes": "6D6X6 2.5.98.0: исправлена структура пакета обновления — 6D6X6.exe и все зависимости находятся непосредственно в корне ZIP. Архив полностью проверен штатной распаковкой .NET и включает службу, CaptureWorker, Updater, AutoLogin-помощники, self-contained GameRemote.Host и полный runtime."
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-session0-hotfix-20260816-v138/6D6X6-2.5.99.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-session0-hotfix-20260816-v138/Updater.exe",
+  "sha256": "cd7608609ae8ee1747b0ab9feeabe8391626b4d2223bf51f2d1c9ea23f9ecf96",
+  "releaseNotes": "6D6X6 2.5.99.0: исправлен запуск после пакетного обновления. Updater больше не создаёт клиент в служебной session 0, служба запускает user-agent только в интерактивной сессии, а упаковщик всегда берёт свежие RID-сборки службы и CaptureWorker. Это устраняет падение GameRemote.Host с 0xC0000142 после обновления."
 }
