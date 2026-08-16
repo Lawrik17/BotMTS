@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.116",
+  "version": "1.0.1.120",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-cursor-display-wake-20260816-v141/BotStatsMTS-1.0.1.116-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.103.0-admin-0.0.0.114-botstats-1.0.1.120/BotStatsMTS-1.0.1.120-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "0f66caa1948e386bee9fa211b0d25727b060f580c4f50ca0fbeb3d78086a85b1",
-  "releaseNotes": "BotStats MTS 1.0.1.116: восстановлен удалённый курсор, когда DXGI передаёт его отдельно от изображения. Режим выбирается сигналом Host, поэтому встроенный в кадр курсор не дублируется.",
+  "sha256": "f4cf0871471d4efb2d3154672ac3bfd1427e33a614b6c5beb3830026dad1865e",
+  "releaseNotes": "BotStats MTS 1.0.1.120: сканирование Steam сохраняет настройки до запуска, корректно получает установленные игры с выбранных дисков и включает актуальные исправления интерфейса загрузки игр и отзывов.",
   "files": []
 }

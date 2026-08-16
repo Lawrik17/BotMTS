@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.112",
+  "version": "0.0.0.114",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-cursor-display-wake-20260816-v141/AdminClient-0.0.0.112-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.103.0-admin-0.0.0.114-botstats-1.0.1.120/AdminClient-0.0.0.114-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b6bf751a902ffa25e0f6523f1035dcec0396a4c9fbee3a50367d278a138a150f",
-  "releaseNotes": "AdminClient 0.0.0.112: восстановлен удалённый курсор, когда DXGI передаёт его отдельно от изображения. Режим выбирается сигналом Host, поэтому встроенный в кадр курсор не дублируется.",
+  "sha256": "c20e15a9fec5d36efd3558d89906ed4ad861964e0261e995c90f19443a1aeeed",
+  "releaseNotes": "AdminClient 0.0.0.114: сканирование Steam сохраняет выбранный сервер, диски и путь steamcmd до запуска; исправлено отображение результатов каталога и дат отзывов.",
   "files": []
 }
