@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.99.0",
+  "version": "2.5.100.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-session0-hotfix-20260816-v138/6D6X6-2.5.99.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-session0-hotfix-20260816-v138/Updater.exe",
-  "sha256": "cd7608609ae8ee1747b0ab9feeabe8391626b4d2223bf51f2d1c9ea23f9ecf96",
-  "releaseNotes": "6D6X6 2.5.99.0: исправлен запуск после пакетного обновления. Updater больше не создаёт клиент в служебной session 0, служба запускает user-agent только в интерактивной сессии, а упаковщик всегда берёт свежие RID-сборки службы и CaptureWorker. Это устраняет падение GameRemote.Host с 0xC0000142 после обновления."
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-update-restart-fix-20260816-v139/6D6X6-2.5.100.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-update-restart-fix-20260816-v139/Updater.exe",
+  "sha256": "658c0320fb4093fa18b509c01e71a4289ed04a600b1b7d5847a72669baaa7cee",
+  "releaseNotes": "6D6X6 2.5.100.0: исправлен перезапуск клиента после пакетного обновления. Если служба не подняла интерактивный user-agent, Updater выполняет подтверждённый резервный запуск 6D6X6.exe в пользовательской сессии. Полный пакет содержит согласованные свежие версии клиента, Service, GameRemote.Host и CaptureWorker; ошибочно установленная папка .release удаляется после успешного запуска."
 }
