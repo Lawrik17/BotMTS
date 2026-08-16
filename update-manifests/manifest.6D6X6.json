@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.101.0",
+  "version": "2.5.102.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/6D6X6-2.5.101.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-cursor-display-wake-20260816-v141/6D6X6-2.5.102.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "638057b33b02245cbf0aceadd586f7e0cd28ff9931a9464d23646aac072ea5fa",
-  "releaseNotes": "6D6X6 2.5.101.0: Updater немедленно запускает 6D6X6.exe в своей интерактивной пользовательской сессии после обновления и не ждёт периодического прохода службы. Ручной процесс больше не приписывается службе; одновременная попытка службы корректно распознаётся как уже работающий user-agent. Полный пакет содержит согласованные версии клиента, Service, GameRemote.Host и CaptureWorker."
+  "sha256": "1594c53da48720fa6c4057c4aabacc8f8c2e64739b6fce71ef7a7d667bcdead4",
+  "releaseNotes": "6D6X6 2.5.102.0: GameRemote.Host на время активной трансляции удерживает дисплей и DWM в рабочем состоянии, устраняя падение FPS, которое исчезало при параллельном подключении RDP. Сессия Windows не переключается, MTS RemotePlay не отключается. Полный пакет содержит согласованные версии клиента, Service, GameRemote.Host и CaptureWorker."
 }

@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.111",
+  "version": "0.0.0.112",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/library-roots-autoscan-hotfix-20260816-v136/AdminClient-0.0.0.111-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/remote-cursor-display-wake-20260816-v141/AdminClient-0.0.0.112-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "86e7f9573ee13f6173b8ab4fec2817f3a527cad4f94650be0a424598f0cf3000",
-  "releaseNotes": "AdminClient 0.0.0.111: исправлена структура пакета обновления — AdminClient.exe и зависимости находятся в корне ZIP и распаковываются штатным обновлятором. Возвращена обязательная загрузка Updater.exe. Сохранены выровненные поля Steam и EA, несколько дисков и папок без дублей и автоматическое безопасное сканирование каждого нового пути.",
+  "sha256": "b6bf751a902ffa25e0f6523f1035dcec0396a4c9fbee3a50367d278a138a150f",
+  "releaseNotes": "AdminClient 0.0.0.112: восстановлен удалённый курсор, когда DXGI передаёт его отдельно от изображения. Режим выбирается сигналом Host, поэтому встроенный в кадр курсор не дублируется.",
   "files": []
 }
