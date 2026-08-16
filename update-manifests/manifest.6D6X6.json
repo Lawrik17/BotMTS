@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.100.0",
+  "version": "2.5.101.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-update-restart-fix-20260816-v139/6D6X6-2.5.100.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-update-restart-fix-20260816-v139/Updater.exe",
-  "sha256": "658c0320fb4093fa18b509c01e71a4289ed04a600b1b7d5847a72669baaa7cee",
-  "releaseNotes": "6D6X6 2.5.100.0: исправлен перезапуск клиента после пакетного обновления. Если служба не подняла интерактивный user-agent, Updater выполняет подтверждённый резервный запуск 6D6X6.exe в пользовательской сессии. Полный пакет содержит согласованные свежие версии клиента, Service, GameRemote.Host и CaptureWorker; ошибочно установленная папка .release удаляется после успешного запуска."
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/6D6X6-2.5.101.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
+  "sha256": "638057b33b02245cbf0aceadd586f7e0cd28ff9931a9464d23646aac072ea5fa",
+  "releaseNotes": "6D6X6 2.5.101.0: Updater немедленно запускает 6D6X6.exe в своей интерактивной пользовательской сессии после обновления и не ждёт периодического прохода службы. Ручной процесс больше не приписывается службе; одновременная попытка службы корректно распознаётся как уже работающий user-agent. Полный пакет содержит согласованные версии клиента, Service, GameRemote.Host и CaptureWorker."
 }
