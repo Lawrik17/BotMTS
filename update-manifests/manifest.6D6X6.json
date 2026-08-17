@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.106.0",
+  "version": "2.5.107.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.106.0-admin-0.0.0.117-botstats-1.0.1.123/6D6X6-2.5.106.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.107.0-admin-0.0.0.117-botstats-1.0.1.124/6D6X6-2.5.107.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "1d900a3c93ff92e75f96e7243f4ba6ac7e759b9ee4a7971210417f62fc1bed1e",
-  "releaseNotes": "6D6X6 2.5.106.0: устранены редкие микроподлагивания и ложные разрывы после ранее отброшенного видеокадра. Watchdog теперь учитывает только живую очередь RTP, короткие пики отправки выдерживаются без немедленного сброса H.264-цепочки, а в телеметрию добавлены текущая очередь, активная отправка и состояние восстановления."
+  "sha256": "b56dc31f7dee12abf6125f1af081af94598bafb7bc90baac7032451c50dd5968",
+  "releaseNotes": "6D6X6 2.5.107.0: исправлен запуск клиентского агента после обновления. При повышении прав предыдущий процесс заранее освобождает single-instance mutex, поэтому elevated-копия больше не завершается сразу. Служба контролирует реальное IPC-подключение, а не только наличие PID, и через 60 секунд перезапускает зависший интерактивный агент. Архив собран заново полным self-contained пакетом и проверен запуском после распаковки."
 }

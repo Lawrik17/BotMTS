@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.123",
+  "version": "1.0.1.124",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.106.0-admin-0.0.0.117-botstats-1.0.1.123/BotStatsMTS-1.0.1.123-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.107.0-admin-0.0.0.117-botstats-1.0.1.124/BotStatsMTS-1.0.1.124-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "3ebc4fa6e15d2d9c6857e77cb890ec4ee7acd2cc6854c74df0a832f1e911f6b7",
-  "releaseNotes": "BotStats MTS 1.0.1.123: согласованный пакет Viewer для 6D6X6 2.5.106.0; управление сеансом и прямой WebRTC-маршрут сохранены без изменений.",
+  "sha256": "eb3ea2fed8a85c088f72c40ba53f7a51f0806593b0d02eb1dd9a173edab225d5",
+  "releaseNotes": "BotStats MTS 1.0.1.124: после подтверждённого автоматического входа ПК снова открывается на сайте, если его скрыл именно AutoLogin. Ручное скрытие и скрытие другим процессом не снимаются. Владелец операции сохраняется в кластерном состоянии Server A/B.",
   "files": []
 }

@@ -2,9 +2,9 @@
   "appId": "AdminClient",
   "version": "0.0.0.117",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.106.0-admin-0.0.0.117-botstats-1.0.1.123/AdminClient-0.0.0.117-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.107.0-admin-0.0.0.117-botstats-1.0.1.124/AdminClient-0.0.0.117-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
   "sha256": "8119a926d33c9f2552566be3a65f510ff4b828cffbf336e232b927787e236cc8",
-  "releaseNotes": "AdminClient 0.0.0.117: согласованный пакет Viewer для 6D6X6 2.5.106.0; параметры управления, звука и прямого соединения сохранены без изменений.",
+  "releaseNotes": "AdminClient 0.0.0.117: неизменённый согласованный пакет для 6D6X6 2.5.107.0 и BotStats MTS 1.0.1.124.",
   "files": []
 }
