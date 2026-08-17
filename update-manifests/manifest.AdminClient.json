@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.114",
+  "version": "0.0.0.115",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.103.0-admin-0.0.0.114-botstats-1.0.1.120/AdminClient-0.0.0.114-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.104.0-admin-0.0.0.115-botstats-1.0.1.121/AdminClient-0.0.0.115-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c20e15a9fec5d36efd3558d89906ed4ad861964e0261e995c90f19443a1aeeed",
-  "releaseNotes": "AdminClient 0.0.0.114: сканирование Steam сохраняет выбранный сервер, диски и путь steamcmd до запуска; исправлено отображение результатов каталога и дат отзывов.",
+  "sha256": "57dc779ed25f376c85dfc2e88d40a4de3472b5479874cea3daaec71cbd6778b3",
+  "releaseNotes": "AdminClient 0.0.0.115: ввод удалённого рабочего стола вынесен из UI-потока, движения мыши объединяются без накопления задержки, координата и клик передаются строго по порядку, а курсор больше не создаёт лишнюю нагрузку на D3D11 Viewer.",
   "files": []
 }

@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.103.0",
+  "version": "2.5.104.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.103.0-admin-0.0.0.114-botstats-1.0.1.120/6D6X6-2.5.103.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.104.0-admin-0.0.0.115-botstats-1.0.1.121/6D6X6-2.5.104.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "463711580aef8cca75fd133e80688406562422c3f062f31973c00c8938681183",
-  "releaseNotes": "6D6X6 2.5.103.0: удалённый курсор передаётся отдельным низкозадержечным каналом сразу после запуска DXGI. Сборка полностью пересоздаёт GameRemote.Host и проверяет его хэш и runtime-файлы перед упаковкой."
+  "sha256": "51b5eb9c142a255f15d60a4f7f59254df612f911382834bfbba36cadfd89b696",
+  "releaseNotes": "6D6X6 2.5.104.0: исправлена регрессия удалённого управления — восстановлено корректное определение режима курсора DXGI, снижена нагрузка курсорной телеметрии и добавлен контроль живого WebRTC-канала без ложных переподключений."
 }
