@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.104.0",
+  "version": "2.5.105.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.104.0-admin-0.0.0.115-botstats-1.0.1.121/6D6X6-2.5.104.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.105.0-admin-0.0.0.116-botstats-1.0.1.122/6D6X6-2.5.105.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "51b5eb9c142a255f15d60a4f7f59254df612f911382834bfbba36cadfd89b696",
-  "releaseNotes": "6D6X6 2.5.104.0: исправлена регрессия удалённого управления — восстановлено корректное определение режима курсора DXGI, снижена нагрузка курсорной телеметрии и добавлен контроль живого WebRTC-канала без ложных переподключений."
+  "sha256": "139990a0214261553dfe5ea06b12a6a82e17b983d6f38a291250274853f560e7",
+  "releaseNotes": "6D6X6 2.5.105.0: устранён цикл разрывов видеотрансляции после нескольких секунд работы. Запрос ключевого кадра Viewer больше не блокирует текущую H.264-цепочку, IDR распознаётся непосредственно по NAL type 5 даже без MFT CleanPoint, а перезапуск выполняется только при подтверждённой длительной очереди RTP."
 }

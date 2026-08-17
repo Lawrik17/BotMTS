@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.121",
+  "version": "1.0.1.122",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.104.0-admin-0.0.0.115-botstats-1.0.1.121/BotStatsMTS-1.0.1.121-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.105.0-admin-0.0.0.116-botstats-1.0.1.122/BotStatsMTS-1.0.1.122-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b1636b980e4e91131163c250e0dbe89719406ef84de415414ae5f608112f3c0b",
-  "releaseNotes": "BotStats MTS 1.0.1.121: Viewer удалённого рабочего стола получил неблокирующую передачу управления, объединение частых событий мыши и устойчивое восстановление видео без прежних ложных циклов переподключения.",
+  "sha256": "816a4054a34c4f69424f8fa31891f617c04d7ab1cd662b9b7e2514eafbac105e",
+  "releaseNotes": "BotStats MTS 1.0.1.122: опубликован согласованный пакет Viewer для работы с 6D6X6 2.5.105.0; сохранены быстрый ввод и устойчивое восстановление прямого видеопотока.",
   "files": []
 }
