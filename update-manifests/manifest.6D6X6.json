@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.105.0",
+  "version": "2.5.106.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.105.0-admin-0.0.0.116-botstats-1.0.1.122/6D6X6-2.5.105.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.106.0-admin-0.0.0.117-botstats-1.0.1.123/6D6X6-2.5.106.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "139990a0214261553dfe5ea06b12a6a82e17b983d6f38a291250274853f560e7",
-  "releaseNotes": "6D6X6 2.5.105.0: устранён цикл разрывов видеотрансляции после нескольких секунд работы. Запрос ключевого кадра Viewer больше не блокирует текущую H.264-цепочку, IDR распознаётся непосредственно по NAL type 5 даже без MFT CleanPoint, а перезапуск выполняется только при подтверждённой длительной очереди RTP."
+  "sha256": "1d900a3c93ff92e75f96e7243f4ba6ac7e759b9ee4a7971210417f62fc1bed1e",
+  "releaseNotes": "6D6X6 2.5.106.0: устранены редкие микроподлагивания и ложные разрывы после ранее отброшенного видеокадра. Watchdog теперь учитывает только живую очередь RTP, короткие пики отправки выдерживаются без немедленного сброса H.264-цепочки, а в телеметрию добавлены текущая очередь, активная отправка и состояние восстановления."
 }

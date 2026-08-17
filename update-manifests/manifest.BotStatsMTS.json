@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.122",
+  "version": "1.0.1.123",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.105.0-admin-0.0.0.116-botstats-1.0.1.122/BotStatsMTS-1.0.1.122-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.106.0-admin-0.0.0.117-botstats-1.0.1.123/BotStatsMTS-1.0.1.123-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "816a4054a34c4f69424f8fa31891f617c04d7ab1cd662b9b7e2514eafbac105e",
-  "releaseNotes": "BotStats MTS 1.0.1.122: опубликован согласованный пакет Viewer для работы с 6D6X6 2.5.105.0; сохранены быстрый ввод и устойчивое восстановление прямого видеопотока.",
+  "sha256": "3ebc4fa6e15d2d9c6857e77cb890ec4ee7acd2cc6854c74df0a832f1e911f6b7",
+  "releaseNotes": "BotStats MTS 1.0.1.123: согласованный пакет Viewer для 6D6X6 2.5.106.0; управление сеансом и прямой WebRTC-маршрут сохранены без изменений.",
   "files": []
 }
