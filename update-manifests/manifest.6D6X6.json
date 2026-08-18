@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.107.0",
+  "version": "2.5.108.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.107.0-admin-0.0.0.117-botstats-1.0.1.124/6D6X6-2.5.107.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.108.0-admin-0.0.0.118-control-watchdog/6D6X6-2.5.108.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "b56dc31f7dee12abf6125f1af081af94598bafb7bc90baac7032451c50dd5968",
-  "releaseNotes": "6D6X6 2.5.107.0: исправлен запуск клиентского агента после обновления. При повышении прав предыдущий процесс заранее освобождает single-instance mutex, поэтому elevated-копия больше не завершается сразу. Служба контролирует реальное IPC-подключение, а не только наличие PID, и через 60 секунд перезапускает зависший интерактивный агент. Архив собран заново полным self-contained пакетом и проверен запуском после распаковки."
+  "sha256": "75d5019a33841577d7b09d117ddade869f0dbb4d46099686e191ee5152916e34",
+  "releaseNotes": "6D6X6 2.5.108.0: Host подтверждает только реально применённые события клавиатуры и мыши, контролирует зависание медиапередачи и сериализует отправку всех WebRTC data channel сообщений, чтобы параллельные файлы, курсор и управление не блокировали общий SCTP-канал."
 }
