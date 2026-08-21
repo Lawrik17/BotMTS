@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.118",
+  "version": "0.0.0.119",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.108.0-admin-0.0.0.118-control-watchdog/AdminClient-0.0.0.118-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.109.0-admin-0.0.0.119-botstats-1.0.1.125-native-v2/AdminClient-0.0.0.119-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "817efeb04877672b99c4e976f40a1c14cdc2680a939d40bf639d799adc4f9ded",
-  "releaseNotes": "AdminClient 0.0.0.118: удалённый рабочий стол отслеживает фактически применённый ввод и живой канал управления, показывает реальный декодированный FPS и немедленно создаёт новое соединение при подтверждённом зависании управления или видеопотока.",
+  "sha256": "59749737ce5f04518c62ee58aa73908565a66de85752ca1acc30aa582c9514db",
+  "releaseNotes": "AdminClient 0.0.0.119: удалённый рабочий стол использует проверенный NativeV2 ABI 2.4 как основной маршрут, нативный D3D11/Media Foundation Viewer и аварийный Legacy fallback при неудаче probe или восстановления медиатракта.",
   "files": []
 }
