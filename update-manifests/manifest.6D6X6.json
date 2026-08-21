@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.109.0",
+  "version": "2.5.110.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.109.0-admin-0.0.0.119-botstats-1.0.1.125-native-v2/6D6X6-2.5.109.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.110.0-admin-0.0.0.120-botstats-1.0.1.126-fogplay-xhr-native-v2/6D6X6-2.5.110.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "8b7cb913f9f6e9d787357c156d06b3b60811ef626d343a494de1e9a7d33e4cc1",
-  "releaseNotes": "6D6X6 2.5.109.0: полный self-contained GameRemote Host включает NativeV2 ABI 2.4, DXGI-захват, GPU BGRA-NV12, аппаратный H.264, отдельный звук и ввод, файловый канал, общий capture/encoder для трёх администраторов и восстановление default/winlogon с аварийным Legacy fallback."
+  "sha256": "5d10bb51150aab3cceaa7027aea71c0d61c43fa7748a6651dd2ecd5b603c0880",
+  "releaseNotes": "6D6X6 2.5.110.0: полный self-contained пакет удалённого управления содержит актуальные Service, CaptureWorker, GameRemote Host и NativeV2; сохранены DXGI/GPU H.264, звук, ввод, файловый канал, multi-viewer, восстановление default/winlogon и Legacy fallback."
 }

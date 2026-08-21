@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.125",
+  "version": "1.0.1.126",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.109.0-admin-0.0.0.119-botstats-1.0.1.125-native-v2/BotStatsMTS-1.0.1.125-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.110.0-admin-0.0.0.120-botstats-1.0.1.126-fogplay-xhr-native-v2/BotStatsMTS-1.0.1.126-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d2361bb23cf1fd7fcef44445e7b03758e8a6c23cf5f12d9059035b599fefb5d1",
-  "releaseNotes": "BotStats MTS 1.0.1.125: общий Viewer переведён на проверенный NativeV2 ABI 2.4 с нативным декодированием, управлением, звуком, файловым каналом, multi-viewer и аварийным Legacy fallback.",
+  "sha256": "8d284614ef2818d0d86873fb0a740f99d86697fa724960c609af945f94e540ca",
+  "releaseNotes": "BotStats MTS 1.0.1.126: сбор игровых сессий FogPlay переведён на актуальный XHR endpoint /merchant/sessions/; загрузочная оболочка больше не считается пустой страницей, поддержаны текущая и прежняя разметка таблицы. Включён актуальный NativeV2 удалённого управления.",
   "files": []
 }

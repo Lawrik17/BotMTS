@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.119",
+  "version": "0.0.0.120",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.109.0-admin-0.0.0.119-botstats-1.0.1.125-native-v2/AdminClient-0.0.0.119-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.110.0-admin-0.0.0.120-botstats-1.0.1.126-fogplay-xhr-native-v2/AdminClient-0.0.0.120-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "59749737ce5f04518c62ee58aa73908565a66de85752ca1acc30aa582c9514db",
-  "releaseNotes": "AdminClient 0.0.0.119: удалённый рабочий стол использует проверенный NativeV2 ABI 2.4 как основной маршрут, нативный D3D11/Media Foundation Viewer и аварийный Legacy fallback при неудаче probe или восстановления медиатракта.",
+  "sha256": "92a74b9c947d0293037bc04e82152102b0f0f169ab9b49bf3c3c87b57cb0f443",
+  "releaseNotes": "AdminClient 0.0.0.120: включены актуальные изменения NativeV2 Viewer и удалённого управления; пакет содержит проверенный нативный медиатракт и аварийный Legacy fallback.",
   "files": []
 }
