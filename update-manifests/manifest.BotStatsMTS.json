@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.128",
+  "version": "1.0.1.129",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.112.0-admin-0.0.0.122-botstats-1.0.1.128-nightly-session-catchup/BotStatsMTS-1.0.1.128-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.129-nightly-window-0001-0300/BotStatsMTS-1.0.1.129-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d36ecf70d03f3f2bf403bf8e998fc7bd4f29677bacaafbf22cc3c4cf3cd9e54d",
-  "releaseNotes": "BotStats MTS 1.0.1.128: добавлен возобновляемый ночной досбор сессий FogPlay за предыдущий день через XHR-таблицу, сохранение позиции между перезапусками, безопасная синхронизация с основным и мягким сбором, мгновенное отключение ночного прохода и наглядные счётчики найденных и добавленных сессий.",
+  "sha256": "bccbd387110ba1c201b03a5ac870aadfe6ff630a0c5a260e60c2cd6cbcfe450a",
+  "releaseNotes": "BotStats MTS 1.0.1.129: ночной досбор сессий ограничен окном 00:01–03:00. После 03:00 новые страницы не запрашиваются, checkpoint сохраняется и проход продолжается в следующее разрешённое окно.",
   "files": []
 }
