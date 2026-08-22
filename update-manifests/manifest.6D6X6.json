@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.110.0",
+  "version": "2.5.111.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.110.0-admin-0.0.0.120-botstats-1.0.1.126-fogplay-xhr-native-v2/6D6X6-2.5.110.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.111.0-admin-0.0.0.121-botstats-1.0.1.127-cursor-dxgi-fix/6D6X6-2.5.111.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "5d10bb51150aab3cceaa7027aea71c0d61c43fa7748a6651dd2ecd5b603c0880",
-  "releaseNotes": "6D6X6 2.5.110.0: полный self-contained пакет удалённого управления содержит актуальные Service, CaptureWorker, GameRemote Host и NativeV2; сохранены DXGI/GPU H.264, звук, ввод, файловый канал, multi-viewer, восстановление default/winlogon и Legacy fallback."
+  "sha256": "373c99f95deabcf83fab7003afe4d5dd532c3054b6072ccbb12762409092e42c",
+  "releaseNotes": "6D6X6 2.5.111.0: Host передаёт фактический DXGI-режим указателя, не кодирует cursor-only события повторно и вводит движения с MOUSEEVENTF_MOVE_NOCOALESCE; полный self-contained пакет включает проверенные Service, CaptureWorker, GameRemote Host и NativeV2 ABI 2.4."
 }
