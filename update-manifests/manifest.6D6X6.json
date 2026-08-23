@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.115.0",
+  "version": "2.5.116.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.115.0-admin-0.0.0.125-botstats-1.0.1.132-native-v2-fullrate/6D6X6-2.5.115.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.116.0-admin-0.0.0.126-botstats-1.0.1.133-native-v2-input-recovery/6D6X6-2.5.116.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "4583d47780fab2efe88b37e10e5509a8fe8a44a28ac48634ef72ed897d45c85d",
-  "releaseNotes": "6D6X6 2.5.115.0: NativeV2 передаёт неизменившийся кадр по штатному pacer без idle-подавления; обновлённая DLL ABI 2.4 включена в Service/GameRemote.Host."
+  "sha256": "066ba6432a8f34b570c86aedd20b7bba45f6551c2e45542c9943e3dec20ce1d4",
+  "releaseNotes": "6D6X6 2.5.116.0: управление резервируется через reliable Control и диагностируется end-to-end; recovery декодера удаляет повреждённую GOP и возобновляет показ только с чистого IDR; постоянные 60 FPS сохранены."
 }

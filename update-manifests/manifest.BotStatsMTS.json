@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.132",
+  "version": "1.0.1.133",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.115.0-admin-0.0.0.125-botstats-1.0.1.132-native-v2-fullrate/BotStatsMTS-1.0.1.132-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.116.0-admin-0.0.0.126-botstats-1.0.1.133-native-v2-input-recovery/BotStatsMTS-1.0.1.133-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "94f83b940a1549a37666cc9819ade413347bad0b6704e86eb91f428e5d05c8ba",
-  "releaseNotes": "BotStats MTS 1.0.1.132: NativeV2 без idle-подавления и с recovery декодера только после подтверждённого stall; пакет содержит DLL ABI 2.4 SHA-256 e019433eb449c9a5fa19e8d94dc86133568425c2634253b5c3d6afa22f8e34f3.",
+  "sha256": "a3c477ea9b39368370a8b8cec70d8c4ac72abce39e7f69f231b63d9aec0dab6d",
+  "releaseNotes": "BotStats MTS 1.0.1.133: pointer-ввод дублируется контрольными точками по reliable Control, добавлены capture/ack/input-health логи; NativeV2 ABI 2.4 SHA-256 b2e42a423681b937768b0a8cb346b7ca85b586ab474b1351923520aa01aceb5f.",
   "files": []
 }
