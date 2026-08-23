@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.133",
+  "version": "1.0.1.134",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.116.0-admin-0.0.0.126-botstats-1.0.1.133-native-v2-input-recovery/BotStatsMTS-1.0.1.133-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.117.0-admin-0.0.0.127-botstats-1.0.1.134-native-v2-local-cursor/BotStatsMTS-1.0.1.134-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a3c477ea9b39368370a8b8cec70d8c4ac72abce39e7f69f231b63d9aec0dab6d",
-  "releaseNotes": "BotStats MTS 1.0.1.133: pointer-ввод дублируется контрольными точками по reliable Control, добавлены capture/ack/input-health логи; NativeV2 ABI 2.4 SHA-256 b2e42a423681b937768b0a8cb346b7ca85b586ab474b1351923520aa01aceb5f.",
+  "sha256": "98b7abd656f41463fde8f13f66ae549703251664ddff110a25d278a9aaae0ce9",
+  "releaseNotes": "BotStats MTS 1.0.1.134: управляющий NativeV2 Viewer использует мгновенный локальный Win32 cursor, пассивные Viewer — click-through overlay; быстрые cursor updates защищены sequence/checkpoint. UI раздельно показывает decoder→present и Host capture→encode; NativeV2 ABI 2.4 SHA-256 1bde4ef58ec2a2fa74ed6b10b53b7b12ea634182fcea59c9919410017c1dfc97.",
   "files": []
 }

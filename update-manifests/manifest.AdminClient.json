@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.126",
+  "version": "0.0.0.127",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.116.0-admin-0.0.0.126-botstats-1.0.1.133-native-v2-input-recovery/AdminClient-0.0.0.126-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.117.0-admin-0.0.0.127-botstats-1.0.1.134-native-v2-local-cursor/AdminClient-0.0.0.127-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "5b36c59a606ffd6f84e86a122537712a17de6b20d3e85362a5c1fe3fee7d21fc",
-  "releaseNotes": "AdminClient 0.0.0.126: pointer-ввод дублируется контрольными точками по reliable Control, добавлены capture/ack/input-health логи; NativeV2 ABI 2.4 SHA-256 b2e42a423681b937768b0a8cb346b7ca85b586ab474b1351923520aa01aceb5f.",
+  "sha256": "c5cac007c9d5a57fce0ee86497e554bf11ac76b66acb5ae784ccb2f4e5b2d02f",
+  "releaseNotes": "AdminClient 0.0.0.127: управляющий NativeV2 Viewer использует мгновенный локальный Win32 cursor, пассивные Viewer — click-through overlay; быстрые cursor updates защищены sequence/checkpoint. UI раздельно показывает decoder→present и Host capture→encode; NativeV2 ABI 2.4 SHA-256 1bde4ef58ec2a2fa74ed6b10b53b7b12ea634182fcea59c9919410017c1dfc97.",
   "files": []
 }
