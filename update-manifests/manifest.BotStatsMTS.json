@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.131",
+  "version": "1.0.1.132",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.114.0-admin-0.0.0.124-botstats-1.0.1.131-native-v2-quality-ceiling/BotStatsMTS-1.0.1.131-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.115.0-admin-0.0.0.125-botstats-1.0.1.132-native-v2-fullrate/BotStatsMTS-1.0.1.132-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d2d578a0e2aff97c484520406e6cb9ed8fc4e5e14add01e72d6be7331ae25202",
-  "releaseNotes": "BotStats MTS 1.0.1.131: синхронизирован актуальный NativeV2 ABI 2.4 и исправления управления качеством удалённого сеанса.",
+  "sha256": "94f83b940a1549a37666cc9819ade413347bad0b6704e86eb91f428e5d05c8ba",
+  "releaseNotes": "BotStats MTS 1.0.1.132: NativeV2 без idle-подавления и с recovery декодера только после подтверждённого stall; пакет содержит DLL ABI 2.4 SHA-256 e019433eb449c9a5fa19e8d94dc86133568425c2634253b5c3d6afa22f8e34f3.",
   "files": []
 }

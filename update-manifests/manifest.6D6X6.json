@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.114.0",
+  "version": "2.5.115.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.114.0-admin-0.0.0.124-botstats-1.0.1.131-native-v2-quality-ceiling/6D6X6-2.5.114.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.115.0-admin-0.0.0.125-botstats-1.0.1.132-native-v2-fullrate/6D6X6-2.5.115.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "6601b7d00cd0d0b426ef41ae1d2aac42823e01b80dd6d3ef6a8a3322a9623924",
-  "releaseNotes": "6D6X6 2.5.114.0: операторская смена битрейта/FPS становится новым потолком congestion control; SetQuality сериализован с rate-control callback и передаётся владельцу shared relay. Проверен реальный переход 60 → 30 → 60 и стабильные 60 fps."
+  "sha256": "4583d47780fab2efe88b37e10e5509a8fe8a44a28ac48634ef72ed897d45c85d",
+  "releaseNotes": "6D6X6 2.5.115.0: NativeV2 передаёт неизменившийся кадр по штатному pacer без idle-подавления; обновлённая DLL ABI 2.4 включена в Service/GameRemote.Host."
 }
