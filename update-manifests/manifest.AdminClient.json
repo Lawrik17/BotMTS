@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.123",
+  "version": "0.0.0.124",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.113.0-admin-0.0.0.123-botstats-1.0.1.130-native-v2-latency/AdminClient-0.0.0.123-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.114.0-admin-0.0.0.124-botstats-1.0.1.131-native-v2-quality-ceiling/AdminClient-0.0.0.124-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "1e3be83dbece3619fc7200293c7150885e86e4edc9c2e2ed2a1ce0a030a9369f",
-  "releaseNotes": "AdminClient 0.0.0.123: синхронизирован NativeV2 ABI 2.4 для низкой задержки видео и ввода; включены актуальные исправления интерфейса и управления из рабочей копии.",
+  "sha256": "5d30a7bd4dce7f7b51a029c2536e6c78c31adcdeab720bccf91c84241b514b7f",
+  "releaseNotes": "AdminClient 0.0.0.124: синхронизирован актуальный NativeV2 ABI 2.4 и исправления управления качеством удалённого сеанса.",
   "files": []
 }

@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.130",
+  "version": "1.0.1.131",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.113.0-admin-0.0.0.123-botstats-1.0.1.130-native-v2-latency/BotStatsMTS-1.0.1.130-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.114.0-admin-0.0.0.124-botstats-1.0.1.131-native-v2-quality-ceiling/BotStatsMTS-1.0.1.131-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "bfee108bba5058f19771282ff5132dec3fb798794eccfaf7dcc45ef67302b992",
-  "releaseNotes": "BotStats MTS 1.0.1.130: синхронизирован NativeV2 ABI 2.4 и включены актуальные исправления серверной логики из рабочей копии.",
+  "sha256": "d2d578a0e2aff97c484520406e6cb9ed8fc4e5e14add01e72d6be7331ae25202",
+  "releaseNotes": "BotStats MTS 1.0.1.131: синхронизирован актуальный NativeV2 ABI 2.4 и исправления управления качеством удалённого сеанса.",
   "files": []
 }
