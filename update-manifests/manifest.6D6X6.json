@@ -1,9 +1,9 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.112.0",
+  "version": "2.5.113.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.112.0-admin-0.0.0.122-botstats-1.0.1.128-nightly-session-catchup/6D6X6-2.5.112.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.113.0-admin-0.0.0.123-botstats-1.0.1.130-native-v2-latency/6D6X6-2.5.113.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "4a0c60af1511b28acff8ab6a01cee2e49878fefdd0fb8e44d63d0ffb12cfb243",
-  "releaseNotes": "6D6X6 2.5.112.0: актуальная сборка клиента и удалённого управления; полный self-contained пакет включает проверенные Service, CaptureWorker, GameRemote Host, NativeV2 и runtime всех вспомогательных Apps и лаунчеров."
+  "sha256": "49a09e9d52c235fc9f6b611b83e2d5732ac7594a7f11a155ff5eee9e51e76f5c",
+  "releaseNotes": "6D6X6 2.5.113.0: обновлён NativeV2-тракт удалённого управления — исправлены темп захвата кадров, управление очередями и битрейтом, а ввод мыши вынесен в отдельный высокочастотный поток; полный self-contained пакет содержит Service, CaptureWorker, GameRemote Host и ABI 2.4."
 }

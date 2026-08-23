@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.129",
+  "version": "1.0.1.130",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/botstats-1.0.1.129-nightly-window-0001-0300/BotStatsMTS-1.0.1.129-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.113.0-admin-0.0.0.123-botstats-1.0.1.130-native-v2-latency/BotStatsMTS-1.0.1.130-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "bccbd387110ba1c201b03a5ac870aadfe6ff630a0c5a260e60c2cd6cbcfe450a",
-  "releaseNotes": "BotStats MTS 1.0.1.129: ночной досбор сессий ограничен окном 00:01–03:00. После 03:00 новые страницы не запрашиваются, checkpoint сохраняется и проход продолжается в следующее разрешённое окно.",
+  "sha256": "bfee108bba5058f19771282ff5132dec3fb798794eccfaf7dcc45ef67302b992",
+  "releaseNotes": "BotStats MTS 1.0.1.130: синхронизирован NativeV2 ABI 2.4 и включены актуальные исправления серверной логики из рабочей копии.",
   "files": []
 }

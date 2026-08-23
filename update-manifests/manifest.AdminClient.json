@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.122",
+  "version": "0.0.0.123",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.112.0-admin-0.0.0.122-botstats-1.0.1.128-nightly-session-catchup/AdminClient-0.0.0.122-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.113.0-admin-0.0.0.123-botstats-1.0.1.130-native-v2-latency/AdminClient-0.0.0.123-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c9ec9d2ba1afc3adeae05443ec44abd19c3fee1ae7660742c6098a5c0466af81",
-  "releaseNotes": "AdminClient 0.0.0.122: в разделе сбора отзывов показаны состояние и прогресс ночного досбора сессий за предыдущий день; добавлена применяемая без перезапуска галочка включения ночного прохода.",
+  "sha256": "1e3be83dbece3619fc7200293c7150885e86e4edc9c2e2ed2a1ce0a030a9369f",
+  "releaseNotes": "AdminClient 0.0.0.123: синхронизирован NativeV2 ABI 2.4 для низкой задержки видео и ввода; включены актуальные исправления интерфейса и управления из рабочей копии.",
   "files": []
 }
