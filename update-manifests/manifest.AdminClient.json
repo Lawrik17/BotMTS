@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.127",
+  "version": "0.0.0.128",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.117.0-admin-0.0.0.127-botstats-1.0.1.134-native-v2-local-cursor/AdminClient-0.0.0.127-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-low-latency/AdminClient-0.0.0.128-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "c5cac007c9d5a57fce0ee86497e554bf11ac76b66acb5ae784ccb2f4e5b2d02f",
-  "releaseNotes": "AdminClient 0.0.0.127: управляющий NativeV2 Viewer использует мгновенный локальный Win32 cursor, пассивные Viewer — click-through overlay; быстрые cursor updates защищены sequence/checkpoint. UI раздельно показывает decoder→present и Host capture→encode; NativeV2 ABI 2.4 SHA-256 1bde4ef58ec2a2fa74ed6b10b53b7b12ea634182fcea59c9919410017c1dfc97.",
+  "sha256": "afc86aa7fa20a8df2d06cf1d13666884a3b64f04244ba08d04b5d082b973e8f3",
+  "releaseNotes": "AdminClient 0.0.0.128: NativeV2 Viewer использует исправленный low-latency H.264 MFT-декодер и playout 0–30 мс; UI раздельно показывает jitter buffer, очередь до MFT, decode и present, а также фактический backend. NativeV2 ABI 2.4 SHA-256 c8deedc1330160cf0a574e17d8ec310f404e02b80ed3a37dd454baea9299fe5a.",
   "files": []
 }

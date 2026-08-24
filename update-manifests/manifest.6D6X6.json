@@ -1,9 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.117.0",
+  "version": "2.5.118.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.117.0-admin-0.0.0.127-botstats-1.0.1.134-native-v2-local-cursor/6D6X6-2.5.117.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-low-latency/6D6X6-2.5.118.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "5d6ca7f5c43f06a874b819032842013f0a9ea7c10dd026e0cb9b508503b7afca",
-  "releaseNotes": "6D6X6 2.5.117.0: при отдельном DXGI pointer курсор исключён из видеокадра и показывается локально на Viewer; cursor state идёт по быстрому каналу с reliable checkpoint и защитой от переупорядочивания. Добавлена раздельная capture→encode и decoder→present телеметрия; для реально embedded pointer сохранён безопасный video fallback."
+  "sha256": "0b0a444095063ac241ed64a4bbc7fbaabf039d60a062f5d5f59369a8b2ef81e9",
+  "releaseNotes": "6D6X6 2.5.118.0: исправлен low-latency режим H.264 MFT-декодера; приёмный playout ограничен диапазоном 0–30 мс; телеметрия раздельно показывает jitter buffer, очередь до MFT, decode и present, а также фактический backend. NativeV2 ABI 2.4 SHA-256 c8deedc1330160cf0a574e17d8ec310f404e02b80ed3a37dd454baea9299fe5a.",
+  "files": []
 }
