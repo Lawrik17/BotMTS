@@ -2,9 +2,9 @@
   "appId": "AdminClient",
   "version": "0.0.0.128",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-low-latency/AdminClient-0.0.0.128-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-vbv-fix/AdminClient-0.0.0.128-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "afc86aa7fa20a8df2d06cf1d13666884a3b64f04244ba08d04b5d082b973e8f3",
-  "releaseNotes": "AdminClient 0.0.0.128: NativeV2 Viewer использует исправленный low-latency H.264 MFT-декодер и playout 0–30 мс; UI раздельно показывает jitter buffer, очередь до MFT, decode и present, а также фактический backend. NativeV2 ABI 2.4 SHA-256 c8deedc1330160cf0a574e17d8ec310f404e02b80ed3a37dd454baea9299fe5a.",
+  "sha256": "01fc7ceaa03de971a8a0396e75e3a103e946397b57583e9abdbe2901f0933004",
+  "releaseNotes": "AdminClient 0.0.0.128: NativeV2 H.264 HRD/VBV исправлен до постоянных двух кадров при любом битрейте; стартовые MFT и RTP настройки совпадают, same-value apply выдаёт recovery IDR. UI раздельно показывает jitter buffer, очередь до MFT, decode и present. NativeV2 ABI 2.4 SHA-256 26b2097c11f7f381ba852a3487aae99c804a814e0831e53f0682888f6dd7d95b.",
   "files": []
 }

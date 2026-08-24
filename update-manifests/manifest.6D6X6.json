@@ -2,9 +2,9 @@
   "appId": "6D6X6",
   "version": "2.5.118.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-low-latency/6D6X6-2.5.118.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-vbv-fix/6D6X6-2.5.118.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "0b0a444095063ac241ed64a4bbc7fbaabf039d60a062f5d5f59369a8b2ef81e9",
-  "releaseNotes": "6D6X6 2.5.118.0: исправлен low-latency режим H.264 MFT-декодера; приёмный playout ограничен диапазоном 0–30 мс; телеметрия раздельно показывает jitter buffer, очередь до MFT, decode и present, а также фактический backend. NativeV2 ABI 2.4 SHA-256 c8deedc1330160cf0a574e17d8ec310f404e02b80ed3a37dd454baea9299fe5a.",
+  "sha256": "2f50847271564475bdbecbb8f1a7a80a1cf5a454a81ea98927bb11c024d48d10",
+  "releaseNotes": "6D6X6 2.5.118.0: H.264 HRD/VBV теперь задаётся в байтах как два кадра и пересчитывается при каждом изменении битрейта; стартовые MFT и RTP настройки совпадают, полный и same-value apply выдаёт recovery IDR. Телеметрия раздельно показывает jitter buffer, очередь до MFT, decode и present. NativeV2 ABI 2.4 SHA-256 26b2097c11f7f381ba852a3487aae99c804a814e0831e53f0682888f6dd7d95b.",
   "files": []
 }

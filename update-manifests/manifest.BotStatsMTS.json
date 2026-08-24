@@ -2,9 +2,9 @@
   "appId": "BotStatsMTS",
   "version": "1.0.1.135",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-low-latency/BotStatsMTS-1.0.1.135-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-vbv-fix/BotStatsMTS-1.0.1.135-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "1e1f44ad0b8cab54cfdecb545212a41f893ba13028d062f6d2ead462eb3d06d2",
-  "releaseNotes": "BotStatsMTS 1.0.1.135: NativeV2 Viewer использует исправленный low-latency H.264 MFT-декодер и playout 0–30 мс; UI раздельно показывает jitter buffer, очередь до MFT, decode и present, а также фактический backend. NativeV2 ABI 2.4 SHA-256 c8deedc1330160cf0a574e17d8ec310f404e02b80ed3a37dd454baea9299fe5a.",
+  "sha256": "3ad4ad703cc076dcb4f79a812126f9ff38cb12e8c96a3f006499cdfa54f15d20",
+  "releaseNotes": "BotStatsMTS 1.0.1.135: NativeV2 H.264 HRD/VBV исправлен до постоянных двух кадров при любом битрейте; стартовые MFT и RTP настройки совпадают, same-value apply выдаёт recovery IDR. UI раздельно показывает jitter buffer, очередь до MFT, decode и present. NativeV2 ABI 2.4 SHA-256 26b2097c11f7f381ba852a3487aae99c804a814e0831e53f0682888f6dd7d95b.",
   "files": []
 }
