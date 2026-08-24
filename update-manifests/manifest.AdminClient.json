@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.130",
+  "version": "0.0.0.131",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.120.0-admin-0.0.0.130-botstats-1.0.1.137-native-v2-stun/AdminClient-0.0.0.130-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.121.0-admin-0.0.0.131-botstats-1.0.1.138-native-v2-host-latency-uac/AdminClient-0.0.0.131-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "0e45c93b10fc6ecfc38d73f0932e48bded41f620b2199100f36b0eaa2ac6d5e7",
-  "releaseNotes": "AdminClient 0.0.0.130: восстановлен запуск NativeV2 в LAN при недоступном STUN-маршруте. Ошибки ICE candidate 701 для отдельного STUN URL или сокета теперь диагностические и не отменяют рабочие host-кандидаты; low-latency decoder, playout 0–30 мс и двухкадровый H.264 VBV сохранены. LegacyV1 не изменялся. NativeV2 SHA-256 39f6bda2695f3c1c25d99664c22b1f400ca9fe81b7fc25e04bc117628969d4c2.",
+  "sha256": "16cd70a7ba54d07b79c9378587c6914367ce637a37ccee544866d2428be31c76",
+  "releaseNotes": "AdminClient 0.0.0.131: NativeV2 Viewer отделяет render queue от фактического Present и использует DXGI AllowTearing при поддержке драйвером, устраняя зависимый от размера окна vblank wait. В tooltip выведена полная Host-разбивка DXGI/MFT/encode/RTP и recovery NACK/PLI/FIR; decoder recovery показывает реальные queue/drop/reset counters. Координаты absolute и raw relative mouse дополнены телеметрией размера viewport. TURN не добавлялся. NativeV2 SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
   "files": []
 }
