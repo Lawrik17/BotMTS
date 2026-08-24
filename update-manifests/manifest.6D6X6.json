@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.118.0",
+  "version": "2.5.119.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-vbv-fix/6D6X6-2.5.118.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.119.0-admin-0.0.0.129-botstats-1.0.1.136-native-v2-stun/6D6X6-2.5.119.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "2f50847271564475bdbecbb8f1a7a80a1cf5a454a81ea98927bb11c024d48d10",
-  "releaseNotes": "6D6X6 2.5.118.0: H.264 HRD/VBV теперь задаётся в байтах как два кадра и пересчитывается при каждом изменении битрейта; стартовые MFT и RTP настройки совпадают, полный и same-value apply выдаёт recovery IDR. Телеметрия раздельно показывает jitter buffer, очередь до MFT, decode и present. NativeV2 ABI 2.4 SHA-256 26b2097c11f7f381ba852a3487aae99c804a814e0831e53f0682888f6dd7d95b.",
+  "sha256": "f9dc9957e4182a511f658e01228095d437a4f9ddb9c5fb18ed594cabe1eab8d1",
+  "releaseNotes": "6D6X6 2.5.119.0: единый NativeV2 ABI 2.5 объединяет обе LAN-правки: low-latency decoder (VT_BOOL AVLowLatencyMode, MF_LOW_LATENCY, playout 0–30 мс и разделённая телеметрия) и H.264 VBV размером ровно два кадра с пересчётом при смене битрейта и CodecAPI до media-type negotiation. На Host и Viewer до создания PeerConnection добавлен публичный STUN stun.l.google.com:19302. TURN и NativeV2 UPnP в этот релиз не входят. NativeV2 SHA-256 a28afd9438939fd69a55a091f6f0ddb09fcc5ba7ff732e9a63380de1afb64081.",
   "files": []
 }

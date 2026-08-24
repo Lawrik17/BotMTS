@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.128",
+  "version": "0.0.0.129",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.118.0-admin-0.0.0.128-botstats-1.0.1.135-native-v2-vbv-fix/AdminClient-0.0.0.128-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.119.0-admin-0.0.0.129-botstats-1.0.1.136-native-v2-stun/AdminClient-0.0.0.129-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "01fc7ceaa03de971a8a0396e75e3a103e946397b57583e9abdbe2901f0933004",
-  "releaseNotes": "AdminClient 0.0.0.128: NativeV2 H.264 HRD/VBV исправлен до постоянных двух кадров при любом битрейте; стартовые MFT и RTP настройки совпадают, same-value apply выдаёт recovery IDR. UI раздельно показывает jitter buffer, очередь до MFT, decode и present. NativeV2 ABI 2.4 SHA-256 26b2097c11f7f381ba852a3487aae99c804a814e0831e53f0682888f6dd7d95b.",
+  "sha256": "ef26698437fe4f6c7f008d7cec9e51927cb49071e886ea38e4af8a4518162f20",
+  "releaseNotes": "AdminClient 0.0.0.129: единый NativeV2 ABI 2.5 объединяет low-latency decoder с playout 0–30 мс и разделённой телеметрией, двухкадровый H.264 VBV с пересчётом при смене битрейта и STUN stun.l.google.com:19302 до создания PeerConnection на Viewer. TURN и NativeV2 UPnP в этот релиз не входят. NativeV2 SHA-256 a28afd9438939fd69a55a091f6f0ddb09fcc5ba7ff732e9a63380de1afb64081.",
   "files": []
 }
