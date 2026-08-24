@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.136",
+  "version": "1.0.1.137",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.119.0-admin-0.0.0.129-botstats-1.0.1.136-native-v2-stun/BotStatsMTS-1.0.1.136-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.120.0-admin-0.0.0.130-botstats-1.0.1.137-native-v2-stun/BotStatsMTS-1.0.1.137-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "56e6d425c88d20f9d242eb4b7c106de5d5f599813575cbf346e95077f477a829",
-  "releaseNotes": "BotStatsMTS 1.0.1.136: единый NativeV2 ABI 2.5 объединяет low-latency decoder с playout 0–30 мс и разделённой телеметрией, двухкадровый H.264 VBV с пересчётом при смене битрейта и STUN stun.l.google.com:19302 до создания PeerConnection на Viewer. TURN и NativeV2 UPnP в этот релиз не входят. NativeV2 SHA-256 a28afd9438939fd69a55a091f6f0ddb09fcc5ba7ff732e9a63380de1afb64081.",
+  "sha256": "319af17edb84fe3bc580fb7c7c0b617b04d74caeef8b388e206e0d9f295445b4",
+  "releaseNotes": "BotStatsMTS 1.0.1.137: восстановлен запуск NativeV2 в LAN при недоступном STUN-маршруте. Ошибки ICE candidate 701 для отдельного STUN URL или сокета теперь диагностические и не отменяют рабочие host-кандидаты; low-latency decoder, playout 0–30 мс и двухкадровый H.264 VBV сохранены. LegacyV1 не изменялся. NativeV2 SHA-256 39f6bda2695f3c1c25d99664c22b1f400ca9fe81b7fc25e04bc117628969d4c2.",
   "files": []
 }
