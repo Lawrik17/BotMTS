@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.131",
+  "version": "0.0.0.132",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.121.0-admin-0.0.0.131-botstats-1.0.1.138-native-v2-host-latency-uac/AdminClient-0.0.0.131-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-long-gop-tray-start/AdminClient-0.0.0.132-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "16cd70a7ba54d07b79c9378587c6914367ce637a37ccee544866d2428be31c76",
-  "releaseNotes": "AdminClient 0.0.0.131: NativeV2 Viewer отделяет render queue от фактического Present и использует DXGI AllowTearing при поддержке драйвером, устраняя зависимый от размера окна vblank wait. В tooltip выведена полная Host-разбивка DXGI/MFT/encode/RTP и recovery NACK/PLI/FIR; decoder recovery показывает реальные queue/drop/reset counters. Координаты absolute и raw relative mouse дополнены телеметрией размера viewport. TURN не добавлялся. NativeV2 SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
+  "sha256": "1c845ba071a06a8ac9760e025f6e9145ef1ede8d508dc0c87f738b1e395542bb",
+  "releaseNotes": "AdminClient 0.0.0.132: synchronized compatible Viewer package for the GameRemote GOP/IDR release. NativeV2 ABI 2.5 remains unchanged, SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
   "files": []
 }

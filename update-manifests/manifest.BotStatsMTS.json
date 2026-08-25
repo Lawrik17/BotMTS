@@ -1,10 +1,10 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.138",
+  "version": "1.0.1.139",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.121.0-admin-0.0.0.131-botstats-1.0.1.138-native-v2-host-latency-uac/BotStatsMTS-1.0.1.138-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-long-gop-tray-start/BotStatsMTS-1.0.1.139-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "29d01e3c3d50720d0326bd8df54532a2267967041ff1c45dcdb7d6b6064b5f81",
-  "releaseNotes": "BotStatsMTS 1.0.1.138: NativeV2 Viewer отделяет render queue от фактического Present и использует DXGI AllowTearing при поддержке драйвером, устраняя зависимый от размера окна vblank wait. В tooltip выведена полная Host-разбивка DXGI/MFT/encode/RTP и recovery NACK/PLI/FIR; decoder recovery показывает реальные queue/drop/reset counters. Координаты absolute и raw relative mouse дополнены телеметрией размера viewport. TURN не добавлялся. NativeV2 SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
+  "sha256": "9035869e86253b9fa8b94951ac3146a5a26bca453491e815031c5bae12074a62",
+  "releaseNotes": "BotStatsMTS 1.0.1.139: restored tray-only startup. The main window is created without Show or Activate and opens only by an explicit tray action, so startup does not display a window or take focus. Includes the compatible GameRemote Viewer package; NativeV2 ABI 2.5 remains unchanged, SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
   "files": []
 }

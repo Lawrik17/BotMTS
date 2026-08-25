@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.123.0",
+  "version": "2.5.125.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.123.0-gameremote-host-system-uac-live-verified/6D6X6-2.5.123.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-long-gop-tray-start/6D6X6-2.5.125.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "f1c5bf6993b4cae8fdf179900f1a972b55b0345fa72b352b0d43a92108e1cd3d",
-  "releaseNotes": "6D6X6 2.5.123.0: Host снова запускается службой с повышенными правами под LocalSystem. Исправлен Unicode-контракт STARTUPINFO.lpDesktop для CreateProcessAsUserW; добавлены явная подготовка ACL winsta0\\default для SYSTEM, Unicode environment block, корректный рабочий каталог Host и 45-секундный таймаут холодного старта self-contained Host. Control IPC разрешён SYSTEM, Administrators и Authenticated Users. На X22 живой проверкой подтверждены NativeV2 и LegacyV1 через службу, автоматическое выравнивание изображения после запуска и применение изменения битрейта без ручного повторного переключения. Сохранены Host-телеметрия DXGI/MFT/RTP, DXGI AllowTearing, presentMode и recovery NACK/PLI/FIR. NativeV2 ABI 2.5 SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
+  "sha256": "753dfbca8ece31d606276c560857be0480bf2a6c5332aba3323ac5eaaf3cc2fb",
+  "releaseNotes": "6D6X6 2.5.125.0: H.264 hardware MFT uses an effectively infinite GOP (8388607 pictures), removing periodic IDR bursts while preserving explicit recovery IDR requests from PLI/FIR, reliable control and quality changes. Peak-constrained VBR uses a 150 ms bitrate-scaled buffer. NativeV2 ABI 2.5 remains unchanged, SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
   "files": []
 }
