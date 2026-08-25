@@ -1,0 +1,12 @@
+{
+  "appId": "AdminClient",
+  "version": "0.0.0.135",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.130.0-admin-0.0.0.135-botstats-1.0.1.142-native-v2-multiviewer-recovery/AdminClient-0.0.0.135-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "fab74bdf539caf8472be7e74c3d5fa7b55bf844c5e58b7d326a5a2b1195b190f",
+  "nativeV2Sha256": "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "AdminClient 0.0.0.135: согласованный NativeV2 ABI 2.6 для multi-viewer recovery; Viewer сохраняет исходный media timestamp общего H.264 потока и совместим с автоматическим пересчётом Host.",
+  "files": []
+}
