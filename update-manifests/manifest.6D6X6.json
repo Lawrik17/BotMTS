@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.127.0",
+  "version": "2.5.128.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.127.0-gameremote-windows11-input-token/6D6X6-2.5.127.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.128.0-tray-start-native-v2-abi26-full/6D6X6-2.5.128.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "0e493e16f32885e41af4a533e74fb6407ff1ff372404a649c5413fe4924461d7",
-  "releaseNotes": "6D6X6 2.5.127.0: Host на winsta0\\default запускается только с токеном интерактивного пользователя; SYSTEM оставлен только для winsta0\\winlogon. При провале user-launch сеанс теперь завершается с явной ошибкой, без тихого SYSTEM-fallback и состояния «картинка есть, мыши нет». Исправление действует для NativeV2 и LegacyV1 на Windows 11. Сохранены NativeV2 ABI 2.6, прямые LAN/UPnP/STUN-кандидаты релиза 2.5.126.0; TURN не используется.",
+  "sha256": "7a9075bffc853530cea8052fd2ca72717c488f531b9cac2eb140f2bd686d47ce",
+  "releaseNotes": "6D6X6 2.5.128.0: исправлен запуск клиента скрытым в трей — окно создаётся явно без StartupUri и больше не показывается повторно WPF после HideToTray(). В пакет включён полный NativeV2 ABI 2.6, поэтому прямое обновление с 2.5.125.0 безопасно и не зависит от предварительной установки 2.5.126.0. Сохранены UPnP/STUN-кандидаты и запуск Host с токеном интерактивного пользователя из 2.5.126.0–2.5.127.0.",
   "files": []
 }
