@@ -1,10 +1,12 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.128.0",
+  "version": "2.5.129.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.128.0-tray-start-native-v2-abi26-full/6D6X6-2.5.128.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-windowed-low-latency-input-telemetry/6D6X6-2.5.129.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "7a9075bffc853530cea8052fd2ca72717c488f531b9cac2eb140f2bd686d47ce",
-  "releaseNotes": "6D6X6 2.5.128.0: исправлен запуск клиента скрытым в трей — окно создаётся явно без StartupUri и больше не показывается повторно WPF после HideToTray(). В пакет включён полный NativeV2 ABI 2.6, поэтому прямое обновление с 2.5.125.0 безопасно и не зависит от предварительной установки 2.5.126.0. Сохранены UPnP/STUN-кандидаты и запуск Host с токеном интерактивного пользователя из 2.5.126.0–2.5.127.0.",
+  "sha256": "f5eb344ef8e5aa1c6c3eb538f0867c5bf65e1c4e76c2d49a2ca3d9e9c72260f1",
+  "nativeV2Sha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "6D6X6 2.5.129.0: скрытый запуск теперь предварительно создаёт HWND и выполняет layout/hit-test, поэтому после восстановления из трея элементы окна остаются кликабельными. NativeV2 Host добавляет системную телеметрию движения мыши: число вставленных событий, изменение реальной позиции курсора, окно под курсором, capture-окно и menu owner.",
   "files": []
 }

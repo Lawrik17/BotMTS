@@ -1,10 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.140",
+  "version": "1.0.1.141",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.126.0-admin-0.0.0.133-botstats-1.0.1.140-native-v2-upnp-direct/BotStatsMTS-1.0.1.140-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-windowed-low-latency-input-telemetry/BotStatsMTS-1.0.1.141-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "26bbd61399e1d6ad48302c33a77472d13b0d6e9fd99c92fb6f03aeda4c05f932",
-  "releaseNotes": "BotStatsMTS 1.0.1.140: NativeV2 Viewer ABI 2.6 использует узкий четырёхпортовый ICE UDP range, открывает UPnP mapping для фактически собранного IPv4 host-кандидата и добавляет внешний address:port как srflx. LAN host-кандидаты и STUN сохранены; ошибки UPnP/STUN нефатальны. TURN не используется; symmetric NAT и CGNAT без доступного public mapping всё ещё могут исключить прямое соединение. NativeV2 SHA-256 28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a.",
+  "sha256": "b5f3fab6dfa6afb095cc590e3e356196c7930cf2c8911cd9d489b8b8710aedaf",
+  "nativeV2Sha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "BotStatsMTS 1.0.1.141: NativeV2 Viewer использует низколатентный Present(0) и в обычном, и в развёрнутом окне. Размер swap chain сверяется с фактическим client rect перед каждым кадром, поэтому изменение размера больше не требует ручного переключения битрейта для восстановления вывода.",
   "files": []
 }

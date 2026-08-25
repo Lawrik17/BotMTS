@@ -1,10 +1,12 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.133",
+  "version": "0.0.0.134",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.126.0-admin-0.0.0.133-botstats-1.0.1.140-native-v2-upnp-direct/AdminClient-0.0.0.133-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-windowed-low-latency-input-telemetry/AdminClient-0.0.0.134-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "aa90f4f9ebb876f54cc9d4a9a8410e0b76f2ea5d8a6aafed6d00747251efc6ab",
-  "releaseNotes": "AdminClient 0.0.0.133: NativeV2 Viewer ABI 2.6 использует узкий четырёхпортовый ICE UDP range, открывает UPnP mapping для фактически собранного IPv4 host-кандидата и добавляет внешний address:port как srflx. LAN host-кандидаты и STUN сохранены; ошибки UPnP/STUN нефатальны. TURN не используется; symmetric NAT и CGNAT без доступного public mapping всё ещё могут исключить прямое соединение. NativeV2 SHA-256 28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a.",
+  "sha256": "e8c5c27430d5f30d1ac147c52b41f5b7e59538d140c772bc2ae215e91644ef16",
+  "nativeV2Sha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "AdminClient 0.0.0.134: NativeV2 Viewer использует низколатентный Present(0) и в обычном, и в развёрнутом окне. Размер swap chain сверяется с фактическим client rect перед каждым кадром, поэтому изменение размера больше не требует ручного переключения битрейта для восстановления вывода.",
   "files": []
 }
