@@ -2,9 +2,9 @@
   "appId": "6D6X6",
   "version": "2.5.125.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-long-gop-tray-start/6D6X6-2.5.125.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-native-v2-gop-keyframe-startup/6D6X6-2.5.125.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-immediate-client-start-20260816-v140/Updater.exe",
-  "sha256": "753dfbca8ece31d606276c560857be0480bf2a6c5332aba3323ac5eaaf3cc2fb",
-  "releaseNotes": "6D6X6 2.5.125.0: H.264 hardware MFT uses an effectively infinite GOP (8388607 pictures), removing periodic IDR bursts while preserving explicit recovery IDR requests from PLI/FIR, reliable control and quality changes. Peak-constrained VBR uses a 150 ms bitrate-scaled buffer. NativeV2 ABI 2.5 remains unchanged, SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
+  "sha256": "128b13e43ee1ca0be0bb05b0fcbde11c1874d87f38d7abd249ee665d10fdf65c",
+  "releaseNotes": "6D6X6 2.5.125.0: GOP 8388607 во всех трёх encoder paths устраняет периодический IDR-импульс; исправленный CODECAPI_AVEncVideoForceKeyFrame возвращает рабочий keyframe recovery в managed fallback. Включены startup/UAC-правки 2.5.123.0: LocalSystem Host в интерактивной session/desktop, ACL winsta0\\default и winsta0\\winlogon, CreateProcessAsUserW, Unicode STARTUPINFO и увеличенный таймаут запуска. Исправлен старт потока после ручного изменения bitrate. Сохранены low-latency decoder, VBV, Host DXGI/MFT/RTP telemetry и recovery NACK/PLI/FIR. NativeV2 ABI 2.5 SHA-256 fc8091f78d3b88972410f4faf2d0711bd60ca7c742d879c9a808382692429ad4.",
   "files": []
 }

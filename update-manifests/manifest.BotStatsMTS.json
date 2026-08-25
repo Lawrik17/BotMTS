@@ -2,9 +2,9 @@
   "appId": "BotStatsMTS",
   "version": "1.0.1.139",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-long-gop-tray-start/BotStatsMTS-1.0.1.139-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-native-v2-gop-keyframe-startup/BotStatsMTS-1.0.1.139-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "9035869e86253b9fa8b94951ac3146a5a26bca453491e815031c5bae12074a62",
-  "releaseNotes": "BotStatsMTS 1.0.1.139: restored tray-only startup. The main window is created without Show or Activate and opens only by an explicit tray action, so startup does not display a window or take focus. Includes the compatible GameRemote Viewer package; NativeV2 ABI 2.5 remains unchanged, SHA-256 494fbf955febf469e022febc47ea3b236b4740fe0c3e8f4ab6ad265431adc1b5.",
+  "sha256": "2002c45d01d4b112c309dc240277fa737fbc51f25a49d11442737d8108826c58",
+  "releaseNotes": "BotStatsMTS 1.0.1.139: Viewer сохраняет low-latency decoder и DXGI AllowTearing с раздельным режимом windowed/maximized и явным presentMode. Tooltip показывает Host DXGI/MFT/encode/RTP, render/Present и recovery NACK/PLI/FIR counters. GOP 8388607 убирает двухсекундную пульсацию, а исправленный GUID CODECAPI_AVEncVideoForceKeyFrame возвращает рабочий запрос ключевого кадра в managed fallback. Запуск приложения снова скрытый, только в системный трей. TURN не добавлялся. NativeV2 SHA-256 fc8091f78d3b88972410f4faf2d0711bd60ca7c742d879c9a808382692429ad4.",
   "files": []
 }
