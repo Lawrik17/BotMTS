@@ -2,11 +2,11 @@
   "appId": "6D6X6",
   "version": "2.5.129.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-windowed-low-latency-input-telemetry/6D6X6-2.5.129.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-native-v2-gcc-recovery/6D6X6-2.5.129.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "f5eb344ef8e5aa1c6c3eb538f0867c5bf65e1c4e76c2d49a2ca3d9e9c72260f1",
-  "nativeV2Sha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
+  "sha256": "dc44edb23f0c1074ff450d933d99dcbd013022ffc5b6166d8b406d1138f72e7b",
+  "nativeV2Sha256": "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.129.0: скрытый запуск теперь предварительно создаёт HWND и выполняет layout/hit-test, поэтому после восстановления из трея элементы окна остаются кликабельными. NativeV2 Host добавляет системную телеметрию движения мыши: число вставленных событий, изменение реальной позиции курсора, окно под курсором, capture-окно и menu owner.",
+  "releaseNotes": "6D6X6 2.5.129.0: NativeV2 быстрее восстанавливает оценку пропускной способности после delay-overuse и поддерживает актуальную оценку на малоподвижном рабочем столе периодическими ALR-пробами. Delay-based защита от реального затора сохранена; нижняя граница битрейта не завышалась.",
   "files": []
 }

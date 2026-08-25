@@ -2,11 +2,11 @@
   "appId": "BotStatsMTS",
   "version": "1.0.1.141",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-windowed-low-latency-input-telemetry/BotStatsMTS-1.0.1.141-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-native-v2-gcc-recovery/BotStatsMTS-1.0.1.141-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "b5f3fab6dfa6afb095cc590e3e356196c7930cf2c8911cd9d489b8b8710aedaf",
-  "nativeV2Sha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
+  "sha256": "92f5fc8a8e32155ef3fc7796ab506d4011bcd6ad8c8feebb062896b6d3cf7feb",
+  "nativeV2Sha256": "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.141: NativeV2 Viewer использует низколатентный Present(0) и в обычном, и в развёрнутом окне. Размер swap chain сверяется с фактическим client rect перед каждым кадром, поэтому изменение размера больше не требует ручного переключения битрейта для восстановления вывода.",
+  "releaseNotes": "BotStatsMTS 1.0.1.141: согласованный NativeV2 GCC recovery; Viewer-лог теперь содержит source/send/BWE, текущую pacer queue, размеры access units и интервалы их поступления для точной диагностики всплесков.",
   "files": []
 }
