@@ -1,10 +1,10 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.125.0",
+  "version": "2.5.126.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-native-v2-gop-keyframe-startup/6D6X6-2.5.125.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.126.0-admin-0.0.0.133-botstats-1.0.1.140-native-v2-upnp-direct/6D6X6-2.5.126.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "128b13e43ee1ca0be0bb05b0fcbde11c1874d87f38d7abd249ee665d10fdf65c",
-  "releaseNotes": "6D6X6 2.5.125.0: GOP 8388607 во всех трёх encoder paths устраняет периодический IDR-импульс; исправленный CODECAPI_AVEncVideoForceKeyFrame возвращает рабочий keyframe recovery в managed fallback. Включены startup/UAC-правки 2.5.123.0: LocalSystem Host в интерактивной session/desktop, ACL winsta0\\default и winsta0\\winlogon, CreateProcessAsUserW, Unicode STARTUPINFO и увеличенный таймаут запуска. Исправлен старт потока после ручного изменения bitrate. Сохранены low-latency decoder, VBV, Host DXGI/MFT/RTP telemetry и recovery NACK/PLI/FIR. NativeV2 ABI 2.5 SHA-256 fc8091f78d3b88972410f4faf2d0711bd60ca7c742d879c9a808382692429ad4.",
+  "sha256": "1064efdc3a8b7593439d494e7af5ae91428a295e57fb932cf880ce4c4a763f81",
+  "releaseNotes": "6D6X6 2.5.126.0: NativeV2 ABI 2.6 ограничивает ICE UDP allocator диапазоном Host UdpPort..UdpPort+3. Служебный UPnP mapping теперь публикуется как дополнительный IPv4 srflx-кандидат с фактически связанным портом; LAN host-кандидаты и STUN сохранены. Ошибки UPnP/STUN, включая ICE 701, нефатальны. TURN не используется; symmetric NAT и CGNAT без доступного public mapping всё ещё могут исключить прямое соединение. NativeV2 SHA-256 28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a.",
   "files": []
 }

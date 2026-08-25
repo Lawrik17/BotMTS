@@ -1,10 +1,10 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.132",
+  "version": "0.0.0.133",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.125.0-admin-0.0.0.132-botstats-1.0.1.139-native-v2-gop-keyframe-startup/AdminClient-0.0.0.132-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.126.0-admin-0.0.0.133-botstats-1.0.1.140-native-v2-upnp-direct/AdminClient-0.0.0.133-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "6d2f6e4540f532b5914936e9044319b2ff218a1609e5d9b7396676bab87d505a",
-  "releaseNotes": "AdminClient 0.0.0.132: Viewer сохраняет low-latency decoder и DXGI AllowTearing с раздельным режимом windowed/maximized и явным presentMode. Tooltip показывает Host DXGI/MFT/encode/RTP, render/Present и recovery NACK/PLI/FIR counters. GOP 8388607 убирает двухсекундную пульсацию, а исправленный GUID CODECAPI_AVEncVideoForceKeyFrame возвращает рабочий запрос ключевого кадра в managed fallback. TURN не добавлялся. NativeV2 SHA-256 fc8091f78d3b88972410f4faf2d0711bd60ca7c742d879c9a808382692429ad4.",
+  "sha256": "aa90f4f9ebb876f54cc9d4a9a8410e0b76f2ea5d8a6aafed6d00747251efc6ab",
+  "releaseNotes": "AdminClient 0.0.0.133: NativeV2 Viewer ABI 2.6 использует узкий четырёхпортовый ICE UDP range, открывает UPnP mapping для фактически собранного IPv4 host-кандидата и добавляет внешний address:port как srflx. LAN host-кандидаты и STUN сохранены; ошибки UPnP/STUN нефатальны. TURN не используется; symmetric NAT и CGNAT без доступного public mapping всё ещё могут исключить прямое соединение. NativeV2 SHA-256 28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a.",
   "files": []
 }
