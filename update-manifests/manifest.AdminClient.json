@@ -1,14 +1,12 @@
 {
-    "appId":  "AdminClient",
-    "version":  "0.0.0.138",
-    "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.143.0-admin-0.0.0.138-botstats-1.0.1.145-signed-uiaccess/AdminClient-0.0.0.138-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256":  "160deb488be7b53036f6730dc400ca8fb6aa93f7716e2a6d9b9c789dd7039370",
-    "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
-    "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.138: согласованный NativeV2 ABI 2.6 для подписанного UIAccess Host и независимых H.264-потоков; функция потоков выключена по умолчанию. Полная self-contained сборка, PublishTrimmed=false.",
-    "files":  [
-
-              ]
+  "appId": "AdminClient",
+  "version": "0.0.0.139",
+  "minimumVersion": "0.0.0.5",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.144.0-admin-0.0.0.139-botstats-1.0.1.146-clipboard-security-reboot/AdminClient-0.0.0.139-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "3bd74ed7b7d8b129fa88770d0a552c78c7a85032e12b342b577816c156594b5d",
+  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "AdminClient 0.0.0.139: двусторонняя синхронизация текстового буфера GameRemote и поддержка отдельного типа Security для защитных перезагрузок Defender. Тем, кто еще не обновлялся до 2.5.143.0, перед обновлением нужно добавить C:\\Program Files\\6D6X в исключения ShadowDefender. Полная self-contained сборка, PublishTrimmed=false; NativeV2 не изменен.",
+  "files": []
 }
