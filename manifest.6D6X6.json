@@ -1,14 +1,12 @@
 {
-    "appId":  "6D6X6",
-    "version":  "2.5.136.0",
-    "minimumVersion":  "0.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.136.0-autostart-duplicate-silent-full-untrimmed/6D6X6-2.5.136.0-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-    "sha256":  "f0fb2d12073a88c1e701985a8f316c2c1bcc6e896ed83e824a89d9115eae65a8",
-    "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
-    "nativeV2Abi":  "2.6",
-    "releaseNotes":  "6D6X6 2.5.136.0: автоматические запуски клиента от 6D6X6Service и аварийного ярлыка теперь помечаются аргументом --automatic-start. Если такой запуск оказывается вторым экземпляром, он тихо завершается и не разворачивает окно уже работающего клиента; ручной повторный запуск по-прежнему активирует окно. Существующие аварийные ярлыки обновляются с новым аргументом, а признак сохраняется при UAC-перезапуске. Оба пути фиксируются в журнале. Ожидание готовности Windows и логика аварийного ярлыка сохранены. Полная self-contained сборка без trimming; NativeV2 ABI 2.6 без изменений.",
-    "files":  [
-
-              ]
+  "appId": "6D6X6",
+  "version": "2.5.137.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.137.0-log-retention-cleanup-full-untrimmed/6D6X6-2.5.137.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "sha256": "82c3bf0c01229a4b2d1af31b63136bb748d82c1eef4cbc6f16f2c65c8fbd55c1",
+  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "6D6X6 2.5.137.0: добавлена фоновая автоочистка журналов старше трёх суток по времени последней записи. Проверка выполняется при старте клиента и затем раз в 24 часа. Убираются только известные журналы клиента, службы, Remote Desktop Host, Updater и AutoLogin; текущий дневной журнал клиента и занятые файлы пропускаются, а итог записывается одной строкой с числом удалённых файлов и освобождённым объёмом. Сохранены отложенный автостарт, логика аварийного ярлыка, признак автоматического запуска и ожидание iSCSI. Полная self-contained сборка с PublishTrimmed=false; NativeV2 ABI 2.6 побитно без изменений относительно 2.5.136.0.",
+  "files": []
 }
