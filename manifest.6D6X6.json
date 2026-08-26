@@ -1,14 +1,12 @@
 {
-    "appId":  "6D6X6",
-    "version":  "2.5.141.0",
-    "minimumVersion":  "0.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.141.0-subscriber-startup-recovery/6D6X6-2.5.141.0-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-    "sha256":  "6edc95bdd7fa137ceae5162eb0442802fc49f441b6aec208bf31e575d0d91f5c",
-    "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
-    "nativeV2Abi":  "2.6",
-    "releaseNotes":  "6D6X6 2.5.141.0: Host получил одну попытку локального восстановления NativeV2-транспорта для relay-подписчика при неудачной стартовой оценке. Триггер использует время от первого relayed access unit, активный relay throughput, провал BWE/целевого битрейта, задержку pacer и явную очередь не менее 1000 мс; окно 0,35–8 секунд. Восстановление меняет только локальный RTP-транспорт подписчика и не запрашивает общее качество, поэтому поведение владельца, быстрый путь с одним зрителем, защита сильного зрителя и потолок 30 Мбит/с сохранены. В журнале фиксируются роль, признак, очередь до восстановления и очередь на следующем замере. Включены исправления состояния игровой сессии 2.5.140.0 и все изменения 2.5.139.0. Полная win-x64 self-contained сборка, PublishTrimmed=false. NativeV2 ABI 2.6 побитно не изменена.",
-    "files":  [
-
-              ]
+  "appId": "6D6X6",
+  "version": "2.5.142.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.142.0-stream-events-session-detector/6D6X6-2.5.142.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "sha256": "5e70d6c09a129124115e1ff95b9e173c962c8183929a44f2c96c3521bdbc64c5",
+  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "6D6X6 2.5.142.0: признак живой игровой сессии переведён с количества UDP-сокетов на постоянный монитор событий startStream и Stream stop в журнале rds-wrtc с подтверждением соединениями и подавлением дребезга. Добавлены обработка ротации, усечения, недоступности, повреждения и смены формата журнала, безопасное завершение при пропавшем stop-событии и консервативный fallback, чтобы не пропустить реального игрока. Четыре служебных сокета больше не создают сессию на исправном или новом читаемом журнале. Запросы текущей игры и времени начала вне подтверждённого стрима возвращают пустое значение, поэтому лаунчеры автовхода не показываются как игра на свободной машине. Сохранено Host-only восстановление скорости relay-подписчика из 2.5.141.0 и все изменения 2.5.140.0. Полная win-x64 self-contained сборка, PublishTrimmed=false. NativeV2 ABI 2.6 побитно не изменена.",
+  "files": []
 }
