@@ -1,12 +1,14 @@
 {
-  "appId": "6D6X6",
-  "version": "2.5.131.0",
-  "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.131.0-tray-start-full-untrimmed/6D6X6-2.5.131.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "76d94f7d60140489846f277ee08915599e132a1b769828e0ad8592c6d82b39a1",
-  "nativeV2Sha256": "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
-  "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.131.0: запуск строго скрытым в трей; подавлена гонка двух автозапусков через Startup и Service; восстановление из трея сохраняет интерактивность окна. Полная self-contained сборка без trimming, с Service и NativeV2 ABI 2.6.",
-  "files": []
+    "appId":  "6D6X6",
+    "version":  "2.5.132.0",
+    "minimumVersion":  "0.0.0.0",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.132.0-service-startup-only-full-untrimmed/6D6X6-2.5.132.0-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+    "sha256":  "f8e52970dc4674dca011bb9da27b95c42e1544f9f8f88fc62b7a2142319562be",
+    "nativeV2Sha256":  "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
+    "nativeV2Abi":  "2.6",
+    "releaseNotes":  "6D6X6 2.5.132.0: устранён двойной автозапуск клиента. Ярлык Startup удаляется только после проверки работающей автоматической службы, корректной раскладки клиента и подтверждённого IPC; при отсутствии, остановке, отключении или неисправности службы аварийный ярлык сохраняется либо создаётся. Убрано 15-секундное подавление активации второго запуска, single-instance защита сохранена. Полная self-contained сборка без trimming, с Service и NativeV2 ABI 2.6.",
+    "files":  [
+
+              ]
 }
