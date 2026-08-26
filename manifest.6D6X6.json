@@ -1,14 +1,12 @@
 {
-    "appId":  "6D6X6",
-    "version":  "2.5.133.0",
-    "minimumVersion":  "0.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.133.0-windows-ready-first-start-full-untrimmed/6D6X6-2.5.133.0-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-    "sha256":  "dd57097bc8e2c4d545eaae928ce36b821b1419a836fb62c5e3adf582dd9414a7",
-    "nativeV2Sha256":  "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
-    "nativeV2Abi":  "2.6",
-    "releaseNotes":  "6D6X6 2.5.133.0: первый запуск клиента службой после загрузки Windows теперь выполняется только когда MSiSCSI имеет статус Running и панель задач Shell_TrayWnd создана explorer.exe в целевой пользовательской сессии. На уже готовой системе проверка проходит сразу, без фиксированной задержки. Ожидание ограничено 180 сек, после чего клиент всё равно запускается; watchdog-перезапуски после первого запуска gate не проходят. Полная self-contained сборка без trimming, с Service и NativeV2 ABI 2.6.",
-    "files":  [
-
-              ]
+  "appId": "6D6X6",
+  "version": "2.5.134.0",
+  "minimumVersion": "0.0.0.0",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.134.0-admin-0.0.0.136-botstats-1.0.1.143-native-v2-mft-vendor-selection/6D6X6-2.5.134.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "sha256": "4c38c2240807aff9f7fd35d979209f8dc4edc017e318586729b3ccff504d62ae",
+  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
+  "nativeV2Abi": "2.6",
+  "releaseNotes": "6D6X6 2.5.134.0: включает отложенный первый запуск клиента после полной готовности Windows из 2.5.133.0 (MSiSCSI=Running и Shell_TrayWnd целевой explorer.exe, потолок ожидания 180 сек) и vendor-aware выбор аппаратного H.264 MFT по видеоадаптеру захвата. При нескольких MFT сначала пробуется совпадающий vendor, затем остальные кандидаты; для единственного кандидата прежний порядок сохранён. Добавлены fallback по кандидатам, диагностика стадии/HRESULT и корректный стартовый watchdog по FirstFrameProduced. Полная self-contained сборка без trimming, NativeV2 ABI 2.6.",
+  "files": []
 }

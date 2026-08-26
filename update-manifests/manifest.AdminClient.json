@@ -1,12 +1,12 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.134",
+  "version": "0.0.0.136",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.129.0-admin-0.0.0.134-botstats-1.0.1.141-native-v2-gcc-recovery/AdminClient-0.0.0.134-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.134.0-admin-0.0.0.136-botstats-1.0.1.143-native-v2-mft-vendor-selection/AdminClient-0.0.0.136-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "82f9042a30ef49b13fb8b2ebfaf8b038b6ca266043a02ed26c4d6450dabefe5d",
-  "nativeV2Sha256": "fecacd133216a693be3c580358ab95228aa25bf1408e7cf8cb49a500adfd9f9f",
+  "sha256": "b75b804e9c8f5cc5814e719a13c1b12d00613b235ae17f178d8505e5e68271cc",
+  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "AdminClient 0.0.0.134: согласованный NativeV2 GCC recovery; Viewer-лог теперь содержит source/send/BWE, текущую pacer queue, размеры access units и интервалы их поступления для точной диагностики всплесков.",
+  "releaseNotes": "AdminClient 0.0.0.136: согласованный полный Viewer-пакет NativeV2 ABI 2.6 для релиза 6D6X6 2.5.134.0 с vendor-aware выбором аппаратного H.264 MFT, fallback и диагностикой стадии/HRESULT; протокол, битрейт и число поверхностей не изменялись. Полная self-contained сборка без trimming.",
   "files": []
 }
