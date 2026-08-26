@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.146",
+  "version": "1.0.1.147",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.144.0-admin-0.0.0.139-botstats-1.0.1.146-clipboard-security-reboot/BotStatsMTS-1.0.1.146-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.147.0-admin-0.0.0.140-botstats-1.0.1.147-cursor-viewport/BotStatsMTS-1.0.1.147-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "cbb1883025e2010588cb6c43ad956a399bd710a92c3dd5f7bf32fddac8ed3a21",
+  "sha256": "175081768e07f75705509b1c7021d22757c0fc0838c39a005be3378eb70c6fa3",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.146: двусторонняя синхронизация текстового буфера GameRemote и поддержка отдельного типа Security для защитных перезагрузок Defender. Тем, кто еще не обновлялся до 2.5.143.0, перед обновлением нужно добавить C:\\Program Files\\6D6X в исключения ShadowDefender. Полная self-contained сборка, PublishTrimmed=false; NativeV2 не изменен.",
+  "releaseNotes": "BotStatsMTS 1.0.1.147: исправлено смещение курсора Viewer при масштабировании и несовпадении пропорций кадра и окна. Отрисовка, абсолютный и относительный ввод, курсор и letterbox согласованы через единый viewport-transform; resize учитывается сразу.",
   "files": []
 }
