@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.148.0",
+  "version": "2.5.149.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.148.0/6D6X6-2.5.148.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.149.0/6D6X6-2.5.149.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "f7a7e9be6dd90cc2e7f7cfd4ff7ebc7ed478f449190e343275041db32d33b19b",
+  "sha256": "b1a26b0145f4e26eb089b5da329a1ca752530bc1fcc5970497cc0e0440a07908",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.148.0: машина больше не показывает «Занят», когда за ней никого нет — занятость определяется по реальному потоку данных, а не по открытым соединениям rds-wrtc. На конкретном ПК трассировку можно сразу отключить локальным переключателем в настройках; служба раз в сутки пишет в журнал фактические CPU, working set/private memory и счётчики ETW. Исправление координат курсора из 2.5.147.0 и NativeV2 ABI 2.6 сохранены.",
+  "releaseNotes": "Измеритель трафика раньше фактически не работал из-за ошибки разбора ответа службы, поэтому занятость определялась старым способом. В 6D6X6 2.5.149.0 измеритель действительно включён и занятость определяется по трафику: даты передаются в ISO-8601 или null, legacy /Date(...)/ поддерживается, а повреждение одного поля больше не переводит весь измеритель в Unavailable. Проверены startup и состояние Active/Available на бинарниках, распакованных из релизного ZIP. NativeV2 ABI 2.6 не изменён.",
   "files": []
 }
