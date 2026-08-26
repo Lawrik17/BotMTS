@@ -3,11 +3,11 @@
   "version": "2.5.145.0",
   "minimumVersion": "0.0.0.0",
   "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.145.0-clipboard-security-uiaccess-token-launch/6D6X6-2.5.145.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-fleet-signed-20260826/Updater.exe",
   "sha256": "ccd5209e9289dc1ed97bc2de2d3f4a2ac4a0f4af0c074dfbbe72a9cc2088555d",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Исправляющий релиз 2.5.145.0 объединяет двустороннюю синхронизацию текстового буфера GameRemote, защиту Defender с отдельным порогом 8 коротких Security-перезагрузок и аварийным fallback, а также запуск UIAccess Host службой через primary token с TokenUIAccess=1 и CreateProcessAsUser. Версия 2.5.144.0 была ошибочно опубликована дважды с разными сборками; устанавливать 2.5.144.0 не нужно, используйте 2.5.145.0. NativeV2 ABI 2.6 побитно не изменён.",
+  "releaseNotes": "6D6X6 2.5.145.0. Исправлен bootstrap обновления: updaterUrl указывает на Updater.exe, подписанный доверенным сертификатом парка. Остальное содержимое релиза не изменено.",
   "files": []
 }
