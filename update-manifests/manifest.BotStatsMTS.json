@@ -1,12 +1,14 @@
 {
-  "appId": "BotStatsMTS",
-  "version": "1.0.1.144",
-  "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/reboot-safety-2.5.138.0-0.0.0.137-1.0.1.144/BotStatsMTS-1.0.1.144-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f4d07f6c46f5c742b2416242cef627c9c4721eb66f40d0b6aa85b53afd957936",
-  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
-  "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.144: сервер принимает вторичную копию состояния защиты от циклических перезагрузок, восстанавливает её только при отсутствии или повреждении локального файла и отображает статус в общем списке ПК. Добавлены критическое уведомление о входе в аварию и отдельное уведомление о снятии; публичная видимость машины не меняется. Недоступность сервера не мешает запуску клиента. Полная self-contained сборка, PublishTrimmed=false; NativeV2 ABI 2.6 побитно без изменений.",
-  "files": []
+    "appId":  "BotStatsMTS",
+    "version":  "1.0.1.145",
+    "minimumVersion":  "1.0.0.0",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.143.0-admin-0.0.0.138-botstats-1.0.1.145-signed-uiaccess/BotStatsMTS-1.0.1.145-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+    "sha256":  "9ce7645f9bd6e04e0a720286d46b415895a9749e1a171382d88503492ea010fa",
+    "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
+    "nativeV2Abi":  "2.6",
+    "releaseNotes":  "BotStatsMTS 1.0.1.145: согласованный NativeV2 ABI 2.6 для подписанного UIAccess Host и независимых H.264-потоков; функция потоков выключена по умолчанию. Полная self-contained сборка, PublishTrimmed=false.",
+    "files":  [
+
+              ]
 }
