@@ -1,12 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.142.0",
+  "version": "2.5.145.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.142.0-stream-events-session-detector/6D6X6-2.5.142.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.145.0-clipboard-security-uiaccess-token-launch/6D6X6-2.5.145.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "5e70d6c09a129124115e1ff95b9e173c962c8183929a44f2c96c3521bdbc64c5",
-  "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
+  "sha256": "ccd5209e9289dc1ed97bc2de2d3f4a2ac4a0f4af0c074dfbbe72a9cc2088555d",
+  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
+  "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.142.0: признак живой игровой сессии переведён с количества UDP-сокетов на постоянный монитор событий startStream и Stream stop в журнале rds-wrtc с подтверждением соединениями и подавлением дребезга. Добавлены обработка ротации, усечения, недоступности, повреждения и смены формата журнала, безопасное завершение при пропавшем stop-событии и консервативный fallback, чтобы не пропустить реального игрока. Четыре служебных сокета больше не создают сессию на исправном или новом читаемом журнале. Запросы текущей игры и времени начала вне подтверждённого стрима возвращают пустое значение, поэтому лаунчеры автовхода не показываются как игра на свободной машине. Сохранено Host-only восстановление скорости relay-подписчика из 2.5.141.0 и все изменения 2.5.140.0. Полная win-x64 self-contained сборка, PublishTrimmed=false. NativeV2 ABI 2.6 побитно не изменена.",
+  "releaseNotes": "Исправляющий релиз 2.5.145.0 объединяет двустороннюю синхронизацию текстового буфера GameRemote, защиту Defender с отдельным порогом 8 коротких Security-перезагрузок и аварийным fallback, а также запуск UIAccess Host службой через primary token с TokenUIAccess=1 и CreateProcessAsUser. Версия 2.5.144.0 была ошибочно опубликована дважды с разными сборками; устанавливать 2.5.144.0 не нужно, используйте 2.5.145.0. NativeV2 ABI 2.6 побитно не изменён.",
   "files": []
 }
