@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.143",
+  "version": "1.0.1.144",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.134.0-admin-0.0.0.136-botstats-1.0.1.143-native-v2-mft-vendor-selection/BotStatsMTS-1.0.1.143-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/reboot-safety-2.5.138.0-0.0.0.137-1.0.1.144/BotStatsMTS-1.0.1.144-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "d5694a3ac54a60c0f7bb1c4ca972269e883d0c63fb8b9e6dce89d79272d7b35f",
+  "sha256": "f4d07f6c46f5c742b2416242cef627c9c4721eb66f40d0b6aa85b53afd957936",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.143: согласованный полный Viewer-пакет NativeV2 ABI 2.6 для релиза 6D6X6 2.5.134.0 с vendor-aware выбором аппаратного H.264 MFT, fallback и диагностикой стадии/HRESULT; протокол, битрейт и число поверхностей не изменялись. Полная self-contained сборка без trimming.",
+  "releaseNotes": "BotStatsMTS 1.0.1.144: сервер принимает вторичную копию состояния защиты от циклических перезагрузок, восстанавливает её только при отсутствии или повреждении локального файла и отображает статус в общем списке ПК. Добавлены критическое уведомление о входе в аварию и отдельное уведомление о снятии; публичная видимость машины не меняется. Недоступность сервера не мешает запуску клиента. Полная self-contained сборка, PublishTrimmed=false; NativeV2 ABI 2.6 побитно без изменений.",
   "files": []
 }
