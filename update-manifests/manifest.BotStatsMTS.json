@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.148",
+  "version": "1.0.1.149",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.141-botstats-1.0.1.148-manifest-hotfix/BotStatsMTS-1.0.1.148-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.143-botstats-1.0.1.149-ultrawide-viewport/BotStatsMTS-1.0.1.149-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "a445f74e2e6e39cf5708283fc50818d6aa61ea760ce4d1111c435010ba383fff",
+  "sha256": "678cd6316f8350858f5567811a1b92540af25a27c93a70b75d1eb75829d0dde0",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.148: исправлен критический сбой запуска из-за некорректного GUID supportedOS во встроенном Windows manifest. Добавлена сборочная проверка GUID в application manifest.",
+  "releaseNotes": "BotStatsMTS 1.0.1.149: исправлено масштабирование relative input в WebView2 fallback по фактическому render rect; native D3D11 ввод и курсор привязаны к реально установленному DestRect. Добавлены renderRect-телеметрия и регрессия 1920x1080 -> 3440x1325.",
   "files": []
 }
