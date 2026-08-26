@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.147",
+  "version": "1.0.1.148",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.147.0-admin-0.0.0.140-botstats-1.0.1.147-cursor-viewport/BotStatsMTS-1.0.1.147-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.141-botstats-1.0.1.148-manifest-hotfix/BotStatsMTS-1.0.1.148-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "175081768e07f75705509b1c7021d22757c0fc0838c39a005be3378eb70c6fa3",
+  "sha256": "a445f74e2e6e39cf5708283fc50818d6aa61ea760ce4d1111c435010ba383fff",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.147: исправлено смещение курсора Viewer при масштабировании и несовпадении пропорций кадра и окна. Отрисовка, абсолютный и относительный ввод, курсор и letterbox согласованы через единый viewport-transform; resize учитывается сразу.",
+  "releaseNotes": "BotStatsMTS 1.0.1.148: исправлен критический сбой запуска из-за некорректного GUID supportedOS во встроенном Windows manifest. Добавлена сборочная проверка GUID в application manifest.",
   "files": []
 }
