@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.149",
+  "version": "1.0.1.150",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.143-botstats-1.0.1.149-ultrawide-viewport/BotStatsMTS-1.0.1.149-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.150.0-admin-0.0.0.144-botstats-1.0.1.150-file-clipboard/BotStatsMTS-1.0.1.150-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "678cd6316f8350858f5567811a1b92540af25a27c93a70b75d1eb75829d0dde0",
+  "sha256": "f7aa795a212d73e019befde189654a10f57fdd2a9496c21e61c2d1a401d14a5f",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.149: исправлено масштабирование relative input в WebView2 fallback по фактическому render rect; native D3D11 ввод и курсор привязаны к реально установленному DestRect. Добавлены renderRect-телеметрия и регрессия 1920x1080 -> 3440x1325.",
+  "releaseNotes": "BotStatsMTS 1.0.1.150: раньше с удалённого ПК через буфер обмена синхронизировался только текст — Ctrl+C по файлам не передавал их вообще. Теперь файлы и каталоги появляются в локальном буфере как виртуальные файлы, а содержимое скачивается при вставке. Сохранено исправление сверхширокого экрана из 1.0.1.149; NativeV2 ABI 2.6 не изменён.",
   "files": []
 }
