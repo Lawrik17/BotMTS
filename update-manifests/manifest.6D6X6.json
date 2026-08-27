@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.150.0",
+  "version": "2.5.151.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.150.0-admin-0.0.0.144-botstats-1.0.1.150-file-clipboard/6D6X6-2.5.150.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.151.0/6D6X6-2.5.151.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "e04d2835b8e32e81ed6ccddb020db917603767828861e818f8a45de9b9a00343",
+  "sha256": "5912f4cd33ca89f8c0a7ff623d8ac1d6097305c2dff8eeab7df5518652a68df2",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.150.0: исправлена передача файлов из буфера удалённого ПК. Раньше автоматическая синхронизация распознавала только текст, поэтому Ctrl+C по файлам ничего не передавал. Теперь Host распознаёт CF_HDROP, сообщает Viewer список файлов и каталогов и передаёт их содержимое при вставке. Включает исправление измерителя трафика из 2.5.149.0; NativeV2 ABI 2.6 не изменён.",
+  "releaseNotes": "6D6X6 2.5.151.0 восстанавливает определение занятости по фактическому объёму трафика rds-wrtc: Active подтверждается порогами total/outbound в 3 из 4 секунд, а адреса, порты и соединения используются только как вспомогательные признаки. Постоянный малошумящий TCP-канал не создаёт ложную занятость. Проверены lifecycle, IPC 5/5, startup probe и service smoke; NativeV2 ABI 2.6 не изменён.",
   "files": []
 }
