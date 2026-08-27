@@ -2,11 +2,11 @@
   "appId": "BotStatsMTS",
   "version": "1.0.1.151",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/BotStatsMTS-1.0.1.151-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/Updater.exe",
-  "sha256": "93ccd27dc21519f035443581f238094a0a43de4f7d0a162ea58cfadbe9cfcde0",
-  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232A19D7246FC4CEEAC367481C903F",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.153.0-admin-0.0.0.145-botstats-1.0.1.151-input-unblock/BotStatsMTS-1.0.1.151-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
+  "sha256": "f4ca6f07ef2d6c26a4ee2c71275da7c9397fe0bc6e34a6bd0180d8e1b10067cf",
+  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.151: отдельный LAN UpdateRelay с SHA-256 cache и HTTP Range, привязкой только к выбранному LAN IPv4, прогревом cache, лимитом три одновременные передачи и ограничением скорости. В настройках добавлено одно поле адреса relay с проверкой доступности; в панели отображаются источник и длительность загрузки.",
+  "releaseNotes": "BotStatsMTS 1.0.1.151: устранена блокировка ввода за D3D11-отрисовкой. Координаты читаются из атомарно заменяемого immutable viewport snapshot и продолжают пересчитываться, даже если VideoProcessorBlt или Present заняты. При resize snapshot обновляется сразу; ultrawide offset и relative scale не откатываются.",
   "files": []
 }
