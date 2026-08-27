@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.146.0",
+  "version": "2.5.152.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.146.0-updater-bootstrap-self-heal/6D6X6-2.5.146.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-fleet-signed-20260826/Updater.exe",
-  "sha256": "44a280b8ad54ba280237e719a97b6309e86c0d8dba3fe55df75e61c8147178a9",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.152.0/6D6X6-2.5.152.0-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "sha256": "23506d21d55a4d9a35df9ba7b92687a8dca57d2eaad0cd79f035dfc63a8a7c38",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.146.0 устраняет блокировку обновлений. Текущие клиенты получают подписанный bootstrap Updater через updaterUrl. После миграции LocalSystem-служба сама скачивает пакет, проверяет SHA-256, извлекает и проверяет подпись Apps/Updater.exe, атомарно заменяет установленный файл и запускает обновление. На переходный период разрешён fallback только для известных официальных legacy Updater по встроенному whitelist SHA-256; произвольный неподписанный executable отклоняется. NativeV2 ABI 2.6 побитно не изменён.",
+  "releaseNotes": "6D6X6 2.5.152.0 исправляет восстановление сохранённой сессии при старте: клиент до 15 секунд ждёт достоверный ETW snapshot и продолжает старую сессию только при подтверждённом Active. При Idle либо таймауте старая сессия закрывается одним идемпотентным EndSession с устойчивым requestId, после постановки события в надёжную очередь локальное состояние очищается. Проверены lifecycle/RDS checks и startup probe; NativeV2 ABI 2.6 не изменён.",
   "files": []
 }

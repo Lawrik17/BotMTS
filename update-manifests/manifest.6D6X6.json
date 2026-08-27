@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.151.0",
+  "version": "2.5.152.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.151.0/6D6X6-2.5.151.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.152.0/6D6X6-2.5.152.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "5912f4cd33ca89f8c0a7ff623d8ac1d6097305c2dff8eeab7df5518652a68df2",
+  "sha256": "23506d21d55a4d9a35df9ba7b92687a8dca57d2eaad0cd79f035dfc63a8a7c38",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.151.0 восстанавливает определение занятости по фактическому объёму трафика rds-wrtc: Active подтверждается порогами total/outbound в 3 из 4 секунд, а адреса, порты и соединения используются только как вспомогательные признаки. Постоянный малошумящий TCP-канал не создаёт ложную занятость. Проверены lifecycle, IPC 5/5, startup probe и service smoke; NativeV2 ABI 2.6 не изменён.",
+  "releaseNotes": "6D6X6 2.5.152.0 исправляет восстановление сохранённой сессии при старте: клиент до 15 секунд ждёт достоверный ETW snapshot и продолжает старую сессию только при подтверждённом Active. При Idle либо таймауте старая сессия закрывается одним идемпотентным EndSession с устойчивым requestId, после постановки события в надёжную очередь локальное состояние очищается. Проверены lifecycle/RDS checks и startup probe; NativeV2 ABI 2.6 не изменён.",
   "files": []
 }
