@@ -2,12 +2,12 @@
   "appId": "6D6X6",
   "version": "2.5.153.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/6D6X6-2.5.153.0-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/Updater.exe",
-  "sha256": "a2b2c1b49ec5b5cb15dcc7ffb1bf6a4a300e9f2d2eb056e14fc8e00fcdff2b74",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.153.0-admin-0.0.0.145-botstats-1.0.1.151-input-unblock/6D6X6-2.5.153.0-win-x64-selfcontained-udp-rollback-v2.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+  "sha256": "4cf17379a8c782d0446a3550e3d0d3f6ead553187c1d0bb140428412f1e51eb0",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.153.0: загрузка обновлений через LAN UpdateRelay с автоматическим fallback на GitHub, полная SHA-256 проверка пакета, подписанный Updater.exe, Range/resume, увеличенные таймауты и jitter повторов. Источник и длительность загрузки передаются в BotStats.",
+  "releaseNotes": "6D6X6 2.5.153.0: срочный откат определения занятости к историческому GetUdpConnections/HasEnoughConnections по UDP owner-таблицам процесса rds-wrtc. ETW-детектор сохранён в коде, выключен по умолчанию и больше не участвует в решениях о занятости, восстановлении сессии, self-heal и обновлении MTS. Сохранены сбросы isBotVideoActive/isStartSession; старая сессия после перезапуска продолжается только при UDP-подтверждении. NativeV2 ABI 2.6 и current/legacy SHA-256 не изменены.",
   "files": []
 }
