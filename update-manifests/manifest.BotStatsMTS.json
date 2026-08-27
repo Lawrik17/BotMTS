@@ -1,12 +1,12 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.150",
+  "version": "1.0.1.151",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.150.0-admin-0.0.0.144-botstats-1.0.1.150-file-clipboard/BotStatsMTS-1.0.1.150-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-  "sha256": "f7aa795a212d73e019befde189654a10f57fdd2a9496c21e61c2d1a401d14a5f",
-  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/BotStatsMTS-1.0.1.151-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.153.0/Updater.exe",
+  "sha256": "93ccd27dc21519f035443581f238094a0a43de4f7d0a162ea58cfadbe9cfcde0",
+  "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232A19D7246FC4CEEAC367481C903F",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.150: раньше с удалённого ПК через буфер обмена синхронизировался только текст — Ctrl+C по файлам не передавал их вообще. Теперь файлы и каталоги появляются в локальном буфере как виртуальные файлы, а содержимое скачивается при вставке. Сохранено исправление сверхширокого экрана из 1.0.1.149; NativeV2 ABI 2.6 не изменён.",
+  "releaseNotes": "BotStatsMTS 1.0.1.151: отдельный LAN UpdateRelay с SHA-256 cache и HTTP Range, привязкой только к выбранному LAN IPv4, прогревом cache, лимитом три одновременные передачи и ограничением скорости. В настройках добавлено одно поле адреса relay с проверкой доступности; в панели отображаются источник и длительность загрузки.",
   "files": []
 }
