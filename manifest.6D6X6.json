@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.154.0",
+  "version": "2.5.157.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/2.5.154.0/6D6X6-2.5.154.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.157.0-autologin-startup-fix/6D6X6-2.5.157.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "83bcafb0075b913eed4c67b089b86c822d02acbff7415849d3c55b2331e36e5c",
+  "sha256": "6f3800e2cc63c5c4512fbd2270b22fa02d05ff4aa510e64f3d120f44c6ab88a2",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.154.0: восстановлен полный состав Apps по 2.5.151.0; встроен сертификат UIAccess; очистка versions оставляет текущую и одну предыдущую; распаковка самовосстанавливает коллизии файла и каталога; занятость rds-wrtc определяется по UDP с калибровкой покоя; после перезагрузки сессия продолжается только при достоверном подтверждении, source none исключён.",
+  "releaseNotes": "6D6X6 2.5.157.0: автологин ожидает стабильную оболочку с ограниченными таймаутами; исправлены EA EC:10007 и перезапуск EA от обычного пользователя. GameRemote Host обязательно подписан для UIAccess, устанавливает публичный сертификат в LocalMachine\\Root, самовосстанавливает защищённую папку и очищает старые versions. Сохранены плоский состав Apps с launcher, самолечение пакета и определение занятости по UDP с калибровкой покоя.",
   "files": []
 }
