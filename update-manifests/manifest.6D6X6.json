@@ -1,13 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.155.0",
+  "version": "2.5.156.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.155.0-iscsi-ea-startup/6D6X6-2.5.155.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.156.0-autologin-startup-fix/6D6X6-2.5.156.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "4073e49cf8d45867363b32df083c5c655d29faa66ef1aa18dd6bd13cca95a277",
+  "sha256": "9da027d568b8db46a17c24d6d7fd96df9a672bd6045940213ed46c03d5c8cb66",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.155.0: восстановлен строгий порядок запуска iSCSI -> подготовка постоянного тома -> вход EA и подтверждение автономного режима -> MTS. Определение iSCSI дополнено MSFT_Disk BusType=9, резервной WMI-проверкой и диагностикой службы/сессии. Стартовый автологин EA больше не завершается молча: выполняются повторные попытки, а MTS остаётся заблокирован до готовности EA.",
+  "releaseNotes": "6D6X6 2.5.156.0: автоматический запуск после Windows выполняет полный цикл EA только после готовности iSCSI и стабильного интерактивного рабочего стола. EaLauncher по-прежнему запускается с повышенными правами, после успешного входа EA перезапускается от обычного пользователя и подтверждается автономный режим; MTS остаётся заблокирован до завершения последовательности.",
   "files": []
 }
