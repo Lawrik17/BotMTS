@@ -1,14 +1,13 @@
 {
   "appId": "6D6X6",
-  "version": "2.5.158.0",
+  "version": "2.5.159.0",
   "minimumVersion": "0.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.158.0-autologin-lifecycle-fix/6D6X6-2.5.158.0-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.159.0-selfcontained-apps/6D6X6-2.5.159.0-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-  "sha256": "6aaea6007cf25fff462308594478a650668e51d372caf7d827cba486b7567304",
+  "sha256": "8bfca184b55a4506f51f40d719a8d0985ebea65268adc294e35f039bbcf4a3e5",
   "nativeV2Sha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "6D6X6 2.5.158.0: вызов ScheduleAutoStart перенесён в жизненный цикл приложения, больше не зависит от видимости MainWindow и ApplicationIdle; факт вызова синхронно записывается в журнал. Сохранены ограничения времени стартовой цепочки, ожидание отрисованной панели задач перед EA, исправления EA EC:10007 и перезапуска от обычного пользователя, блокировка MTS до подтверждённого входа, подписанный UIAccess Host с установкой и восстановлением доверенного сертификата, обязательная подпись Release-сборки, плоский Apps с launcher, самолечение распаковки, очистка старых versions, UDP-калибровка занятости и запрет продолжения сессии от неподтверждённого источника.",
+  "releaseNotes": "6D6X6 2.5.159.0: все вспомогательные программы в Apps публикуются как self-contained win-x64 и запускаются без установленного .NET. Логика приложений не изменялась.",
   "files": []
 }
-
