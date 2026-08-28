@@ -4,7 +4,7 @@
     "minimumVersion":  "0.0.0.0",
     "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.164.0-ea-offline-complete/6D6X6-2.5.163.0-win-x64-selfcontained.zip",
     "fileName":  "6D6X6-2.5.163.0-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.164.0-ea-offline-complete/Updater.exe",
     "sha256":  "7ab84ed27cf5fe030ba7fac11597fad57b6ab35a75f4b9e9aa39d75e323bda43",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
