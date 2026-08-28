@@ -5,7 +5,7 @@
     "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.164.0-ea-offline-complete/6D6X6-2.5.164.0-win-x64-selfcontained.zip",
     "fileName":  "6D6X6-2.5.164.0-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.164.0-ea-offline-complete/Updater.exe",
-    "sha256":  "3fdc2510cf22c190eb742422365208bd545a7c4c5dc13b8da9d58f2f0ad5cb2e",
+    "sha256":  "97d312ed3109003fc51e263e4e6a0987663bbad07641f880da399829bb34b4f1",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2Abi":  "2.6",
@@ -17,7 +17,7 @@
                   },
                   {
                       "path":  "6D6X6.dll",
-                      "sha256":  "ddd8b7d180d9e37d03a08021f917adea81423a92135170174076d2f77a308efe"
+                      "sha256":  "c3c37935272ca7ce5d31f0d43fffe2b70e123e4f62223f32bea16e3a87dc5d18"
                   },
                   {
                       "path":  "6D6X6.dll.config",
@@ -29,7 +29,7 @@
                   },
                   {
                       "path":  "6D6X6.pdb",
-                      "sha256":  "31603919e7fd9bc7b4423bfcea78eceb4fe60d92f4ecf1bfad76db779c61ab58"
+                      "sha256":  "a571db17617a97871f23f0b9559a816a498fe3f76af88e4431b48b531507ced0"
                   },
                   {
                       "path":  "6D6X6.runtimeconfig.json",
@@ -6865,7 +6865,7 @@
                   },
                   {
                       "path":  "Service/6D6X6.Service.exe",
-                      "sha256":  "efd5760a80f83eeea0a14bc470554ee44d2fd6133eee2fb858ff408d8afd734f"
+                      "sha256":  "0b1b279cee8153ae1e32c9acf89e91f4af7df13b645b25f7e996dd95c2f9a69e"
                   },
                   {
                       "path":  "Service/6D6X6.Service.exe.config",
@@ -6873,11 +6873,11 @@
                   },
                   {
                       "path":  "Service/6D6X6.Service.log",
-                      "sha256":  "ff7081bac1f2f7cbac4a14b778482937d8276659e8a0173bc8b7e27ca23e55f0"
+                      "sha256":  "c577c493e37a171fffb0079d5f462a37088d67e1a5cd2ba1b6a6109b6a3afd13"
                   },
                   {
                       "path":  "Service/6D6X6.Service.pdb",
-                      "sha256":  "9c9e3e6e0327f451acbac0002f261da119248b1d9dae9f7f2bc9232204a42d0f"
+                      "sha256":  "d2c9b1dbdb262b62a2b82d1e3b323f32f5753bbbfd4c8713d6da05bdf0764854"
                   },
                   {
                       "path":  "Service/BlackSharp.Core.dll",
