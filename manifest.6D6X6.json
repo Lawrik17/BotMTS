@@ -1,15 +1,15 @@
 {
     "appId":  "6D6X6",
-    "version":  "2.5.163.0",
+    "version":  "2.5.164.0",
     "minimumVersion":  "0.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.163.0-offline-click-retry/6D6X6-2.5.163.0-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/6d6x-2.5.164.0-ea-offline-complete/6D6X6-2.5.163.0-win-x64-selfcontained.zip",
     "fileName":  "6D6X6-2.5.163.0-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-resumable-download-20260825/Updater.exe",
-    "sha256":  "72845c851cc9e5a10d9c772d55906de9c8cf07b0890a1753f9aa2b2bd3ff6453",
+    "sha256":  "7ab84ed27cf5fe030ba7fac11597fad57b6ab35a75f4b9e9aa39d75e323bda43",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "6D6X6 2.5.163.0: если переход EA app в автономный режим не подтверждён после нажатия, клиент повторяет нажатие на уже открытом окне до 6 раз с паузой 2 секунды. Перезапуск EA сохранён только для отсутствующего окна, не отвечающего приложения и ошибки EC:10007.",
+    "releaseNotes":  "6D6X6 2.5.164.0: все три цикла подтверждения автономного режима EA выполняют до 6 попыток с паузой 2 секунды; занятость определяется напрямую через GetUdpConnections без дополнительных надстроек; проверка подписи Updater отсутствует в службе и клиенте; Apps содержит полный эталонный состав владельца — 603 из 603 файлов.",
     "files":  [
                   {
                       "path":  "6D6X6.deps.json",
@@ -25,7 +25,7 @@
                   },
                   {
                       "path":  "6D6X6.exe",
-                      "sha256":  "a9b10169d733842bb56bd4a1a2dd4a8586aa3da05b763bbe36735c60b0631f4f"
+                      "sha256":  "da16ef259dc6e59894e8fa10d77591e6eed1885f243616d15afbaa339d9c0da1"
                   },
                   {
                       "path":  "6D6X6.pdb",
@@ -89,7 +89,7 @@
                   },
                   {
                       "path":  "Apps/CloseMTS.exe",
-                      "sha256":  "aed353c140b608916e630c9e1e27d2f852f9e629ee3daa92b69942161a5d0045"
+                      "sha256":  "72e65634677130f1c00900e28d9238837ca63a887039aa5ccd63a8296a1352d3"
                   },
                   {
                       "path":  "Apps/CloseMTS.exe.config",
@@ -1325,7 +1325,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "f60f202fc5f7899fd25031e3cb91181c055ac0c4b1127e6aa8499cc2d1ac8efb"
+                      "sha256":  "e77a7816c549f3afb7890f2a9aeebea023f70cd8fc7c407d2340da2b994fcbc7"
                   },
                   {
                       "path":  "Apps/Updater.runtimeconfig.json",
@@ -1361,7 +1361,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/7zp.exe",
-                      "sha256":  "baee39659ccbbe4d6fbbce22bed099c8f1ede43fa0f6b27cddb26d45dd2fb4ed"
+                      "sha256":  "7719713656fe698a015f48edcf6bde399c67d790157eff337bfc1978a1e9c110"
                   },
                   {
                       "path":  "Apps/win-x64/7zp.runtimeconfig.json",
@@ -1545,7 +1545,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/Defender.exe",
-                      "sha256":  "192d53132ae413cb4cf583cf6eeae2ea0d08cb064a11d34147837fa7821e6017"
+                      "sha256":  "93ab339c82b862136005e137d803a66993d36bd178d4021d86ee0c2e00c7daa7"
                   },
                   {
                       "path":  "Apps/win-x64/Defender.runtimeconfig.json",
@@ -1565,7 +1565,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/DefenderOffOn.exe",
-                      "sha256":  "d2dc3a7a060381fffb33e4f57949201cc70b9aa4988a7ce6e170ed5dda85b288"
+                      "sha256":  "74589d7d797d85084877dff691ca9f8b047d8fdc71fac07ad424840e073d8164"
                   },
                   {
                       "path":  "Apps/win-x64/DefenderOffOn.runtimeconfig.json",
@@ -1585,7 +1585,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/DefenderOnOff.exe",
-                      "sha256":  "1f24d625931c2391cda397e8e08a40a85e48c6b652ecd0b93da978ee3dcb7f08"
+                      "sha256":  "73c339bb331b01d00dd5d43c1158ced799c108eec69da9223188a0d90f7d2c73"
                   },
                   {
                       "path":  "Apps/win-x64/DefenderOnOff.runtimeconfig.json",
@@ -1605,7 +1605,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/dexc.exe",
-                      "sha256":  "328b064a553b486fc7d42ff2ca9b9c6f8140baa9e962085d32450d403e4923ae"
+                      "sha256":  "9a9ee4af1da805b6fbdb3752bc379b62f03bf1cee2eda92377dd65aab2ba6bf0"
                   },
                   {
                       "path":  "Apps/win-x64/dexc.runtimeconfig.json",
@@ -3157,7 +3157,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/UpdateApp.exe",
-                      "sha256":  "304f98aa0f834b323751ddd83b66977a910cee166569dbd3ed459bf2d30193e4"
+                      "sha256":  "4f4d9861e6a4b30700b53d35842521744f30085ddc05e2ae501f2894d3a790d0"
                   },
                   {
                       "path":  "Apps/win-x64/UpdateApp.runtimeconfig.json",
@@ -3177,7 +3177,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/UpdateBot.exe",
-                      "sha256":  "c530176b572c1643ba776d626fdc6220f57e020f3865ceff0df3dde379a12786"
+                      "sha256":  "69728c551c32c7489119ade48fac78ce3f36ce6552c9d06a28c04f73093ff5a7"
                   },
                   {
                       "path":  "Apps/win-x64/UpdateBot.runtimeconfig.json",
@@ -3197,7 +3197,7 @@
                   },
                   {
                       "path":  "Apps/win-x64/UpdateBS.exe",
-                      "sha256":  "6f3ffbe88f6596338c0d470015609fd8eb848794f77a083ceff7b764a54348ec"
+                      "sha256":  "f742a66bee759447855e200d42a8927bcb82c6607da86b9c421d53d6cd96a013"
                   },
                   {
                       "path":  "Apps/win-x64/UpdateBS.runtimeconfig.json",
@@ -3369,11 +3369,11 @@
                   },
                   {
                       "path":  "AutoLogin.dll",
-                      "sha256":  "f771587baf16df7786af69ee303aa4b98e104de9229e55f57d7810834fa0e1ad"
+                      "sha256":  "df5811596814944af66ac16e2652fadccc829e824b1dd3d53516f08065e7f3a2"
                   },
                   {
                       "path":  "AutoLogin.pdb",
-                      "sha256":  "1e654df5045d6141026ba9d31beff21ca20b692d02339fcfa72cb2fd9f81cdfe"
+                      "sha256":  "2b57a916842f45fc02e996420070f688f52aa765bd0b2fdbac961286b33774c2"
                   },
                   {
                       "path":  "BlackSharp.Core.dll",
@@ -3493,7 +3493,7 @@
                   },
                   {
                       "path":  "launcher/EA/EaLauncher.exe",
-                      "sha256":  "7adc9eb41cfe06e0114e8d7e9a2d2bed50d7073fc8970abeb446a155a1e62939"
+                      "sha256":  "499d792ab2874c8db0146976c02123d1a91ebbcd69ac185bd55dd1d7808df26c"
                   },
                   {
                       "path":  "launcher/EA/EaLauncher.pdb",
@@ -3565,7 +3565,7 @@
                   },
                   {
                       "path":  "launcher/EA/win-x64/AutoLogin.dll",
-                      "sha256":  "f771587baf16df7786af69ee303aa4b98e104de9229e55f57d7810834fa0e1ad"
+                      "sha256":  "df5811596814944af66ac16e2652fadccc829e824b1dd3d53516f08065e7f3a2"
                   },
                   {
                       "path":  "launcher/EA/win-x64/clretwrc.dll",
@@ -3741,7 +3741,7 @@
                   },
                   {
                       "path":  "launcher/EA/win-x64/EaLauncher.exe",
-                      "sha256":  "be3ead550ca31022a37a79821ae2e454019bb179cfccf1420b6318490953ebb0"
+                      "sha256":  "e9eedae5794d2485e2deef9a02173de45caf54162d4a8773582caa432dadeabc"
                   },
                   {
                       "path":  "launcher/EA/win-x64/EaLauncher.runtimeconfig.json",
@@ -5521,7 +5521,7 @@
                   },
                   {
                       "path":  "launcher/Ubisoft/UbisoftLauncher.exe",
-                      "sha256":  "8e82d363825f3a96dea5baeadb3e10fc6828c6390bac9ac4d978dbcd51ac5997"
+                      "sha256":  "0bf092ebb956e669f503a613b0d9ceef8bde949b7c0f495c01b6936063fe77c7"
                   },
                   {
                       "path":  "launcher/Ubisoft/UbisoftLauncher.runtimeconfig.json",
@@ -5537,7 +5537,7 @@
                   },
                   {
                       "path":  "launcher/Ubisoft/win-x64/AutoLogin.dll",
-                      "sha256":  "f771587baf16df7786af69ee303aa4b98e104de9229e55f57d7810834fa0e1ad"
+                      "sha256":  "df5811596814944af66ac16e2652fadccc829e824b1dd3d53516f08065e7f3a2"
                   },
                   {
                       "path":  "launcher/Ubisoft/win-x64/clretwrc.dll",
@@ -6493,7 +6493,7 @@
                   },
                   {
                       "path":  "launcher/Ubisoft/win-x64/UbisoftLauncher.exe",
-                      "sha256":  "d143dfd4c939bf975b1d9210a1485a4c0ddb7fae0f822480e24c70beff0d7334"
+                      "sha256":  "24ac7fe0f6efc02fe755cfcfa8a5dab8683f10ad3201482d7deb6873fd328fb9"
                   },
                   {
                       "path":  "launcher/Ubisoft/win-x64/UbisoftLauncher.runtimeconfig.json",
@@ -6861,11 +6861,11 @@
                   },
                   {
                       "path":  "Service/6D6X6.CaptureWorker.exe",
-                      "sha256":  "f72282542754f18fb094149c0bb0a61585fc40edf76d8d97e16146d94c8d68cf"
+                      "sha256":  "0b0d3cd53a0d9a2cbf72cf6a281805371cb99abdfb194e7844cf127be057777c"
                   },
                   {
                       "path":  "Service/6D6X6.Service.exe",
-                      "sha256":  "f85e542759886c640374c9e11488b7ec97a86133a691d6cf0e5f7bd15b6c54df"
+                      "sha256":  "1e4ec82282b80cd5bb95e8f4c058a2ed14b6d8e4df7b448efaa49501c751c778"
                   },
                   {
                       "path":  "Service/6D6X6.Service.exe.config",
@@ -6873,7 +6873,7 @@
                   },
                   {
                       "path":  "Service/6D6X6.Service.log",
-                      "sha256":  "440c42f365264cf6b0db32bd24aa253b4f2b17d917fd3d703638daad29da9934"
+                      "sha256":  "376f3122f43f35ad9750e1a9bb17a88f7a6520c438ea794e53964feaf63c2a92"
                   },
                   {
                       "path":  "Service/6D6X6.Service.pdb",
@@ -7221,15 +7221,15 @@
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "08b0413816c3dc99ac99d46416e5173dd9f8d4e739065f777fbc439dac44a122"
+                      "sha256":  "b1eea7f573d9f24e5e4a7c6a886f203467c4b3e5b6fbe1892c1771cf3cafb475"
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.files.p7s",
-                      "sha256":  "81c7afda445f0028f75eb2c6e9df1afe54581f912efd822d29c25b50d9beb266"
+                      "sha256":  "d4976d359b207f3dd947c45e5b0a38e256aab7c592b663c95be8faaeff73c7d7"
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.files.sha256",
-                      "sha256":  "6e197606c890bf4dc86fe26c44c5f06e998b7fdf7f57da9ceb48e3fe0d5e66af"
+                      "sha256":  "a978273e1b378c6d6494b8162025e79ffc24adee61619521b865ca6874b781e2"
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.pdb",
@@ -7249,7 +7249,7 @@
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "8ec2c6f3976623d0aaf37728688e01d7f5398bc95accd6e663425433c2fbf57e"
+                      "sha256":  "ec9f55ee040007d245bb22d62016d5f0b2ad02c0cd8016dcff7bee19c2977e6f"
                   },
                   {
                       "path":  "Service/GameRemote.Host/GameRemote.Host.Standard.pdb",
