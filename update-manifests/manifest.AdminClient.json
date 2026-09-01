@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.148",
+    "version":  "0.0.0.149",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/AdminClient-0.0.0.148-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/Updater.exe",
-    "sha256":  "75f889887e4e523589946660ace76879cbcd67708d5d05cd5440bfc10c354303",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.149-botstats-1.0.1.155-signed-internal-updater-fix/AdminClient-0.0.0.149-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.149-botstats-1.0.1.155-signed-internal-updater-fix/Updater.exe",
+    "sha256":  "6981e799d6ee7b8b7ec81529a7673990941a7aed9a99dbf6937296e60d45b376",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.148: исправлены обновление строк узлов без сброса выбора и папки, фоновые проверки и кнопки Steam/EA; исправлены распаковка RAR и сценарии Steam/EA. Пакет содержит подписанный автономный Updater.exe.",
+    "releaseNotes":  "AdminClient 0.0.0.149: пересобран пакет обновления; Apps/Updater.exe внутри ZIP подписан сертификатом BotStatsMTS Release Signing.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "5359162ee72fba5453d392ab6e21b512064ae18a85764be135fa1947dab18bd2"
+                      "sha256":  "6fb02626a64199228a5084fe4ce85af3d51ca534625b149377856fb6f0429ca2"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "e2432519ba4d375b2f190d5b8a9b70838537f0beb8a638522ccbccffb7af06f6"
+                      "sha256":  "9f1e1e1751fccde45803eee8cedc3439bdaf6793f082dc2adc97eacddbea7de7"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "89a0caf87b25496537d0313bc5039fd4cdf621d8a999118c79a62bc001f82804"
+                      "sha256":  "08475cc74ee6e0c03b75e2d40705882d76d564a54fa7e79e7ddf2359c7ae2581"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "bcbee0ef88021611a59fd4bf5dd159392296f01e15d15279dcb0fdbcbf55336a"
+                      "sha256":  "a6b744f14c134613986b13fa0ded191890490b3a30d7b5ca64cc35e5249f588e"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "7f2d9c919382a6784a90524878f2d885649aae75911ec7f5e4e27fe8e028bd8f"
+                      "sha256":  "6d3fa48eca3083a7cda8f8b27967d38e3a456e7c94fc3108a1e044115234002b"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1314,5 +1314,5 @@
                       "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.148-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.149-win-x64-selfcontained.zip"
 }

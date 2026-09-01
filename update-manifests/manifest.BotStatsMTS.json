@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.154",
+    "version":  "1.0.1.155",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/BotStatsMTS-1.0.1.154-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/Updater.exe",
-    "sha256":  "5c4c8f14f7e61db27e51f9e658a8153143a2e29910c3d0482464e21c22e07615",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.149-botstats-1.0.1.155-signed-internal-updater-fix/BotStatsMTS-1.0.1.155-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.149-botstats-1.0.1.155-signed-internal-updater-fix/Updater.exe",
+    "sha256":  "3ed37c394f69409eaf2049eea7f6a0e69b447c79fe56c459c05a014c0de94a79",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.154: исправлены обновление строк узлов без сброса выбора и папки, фоновые проверки и кнопки Steam/EA; автопроверка источников больше не оставляет расписание в прошлом, статус содержит время начала, добавлен game-delivery.log; исправлены распаковка RAR и сценарии Steam/EA. Пакет содержит подписанный автономный Updater.exe.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.155: пересобран пакет обновления; Apps/Updater.exe внутри ZIP подписан сертификатом BotStatsMTS Release Signing.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "e1f7cef32695fe8dd663de4aefd05f573596b3df4ebf98a48df961f17a2039f8"
+                      "sha256":  "9c6d9a9aecd339b099c530686048a4b0edf56842e1abe08dc6bbfc482754fb16"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "4b50fd0ac7777a3a7646718b6faea60ffe1eea225ef76746d9808b2a1cf090b9"
+                      "sha256":  "455053098662d1b2e954169b6a62ecdb1ca162fe19eceb2b3381601438da24b0"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "66ea4f164e26db90bcae4e7c26054e73df3b0dc2d0b44934674a1abb6858ef5e"
+                      "sha256":  "d8886fe3a442bf0cbf29491ae43339370fbe3e1c7ebe9d0e0650ec6b221b0c33"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "7f2d9c919382a6784a90524878f2d885649aae75911ec7f5e4e27fe8e028bd8f"
+                      "sha256":  "6d3fa48eca3083a7cda8f8b27967d38e3a456e7c94fc3108a1e044115234002b"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1671,7 +1671,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/win-x64/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "95b2b39991c6b43549021040585d870ed429ee880ae66acf659e9c0a67464ec9"
+                      "sha256":  "f6c6f953450013b189483eedac0f291e9f5fe8550817edabb3aba97d33229ac1"
                   },
                   {
                       "path":  "ServerManagement.Agent/win-x64/BotStats.ServerManagement.Agent.pdb",
@@ -2494,5 +2494,5 @@
                       "sha256":  "bb2f363643035ebb6b481111d7404aebdcafd4b334d501910e200d06d25eb6d7"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.154-win-x64-selfcontained.zip"
+    "fileName":  "BotStatsMTS-1.0.1.155-win-x64-selfcontained.zip"
 }
