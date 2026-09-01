@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.153",
+    "version":  "1.0.1.154",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.147-botstats-1.0.1.153-game-delivery-fixes/BotStatsMTS-1.0.1.153-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256":  "5dd84381b8a78f3ceb60df5ffaad23b053664eb1e033a409ba75b36af59225e6",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/BotStatsMTS-1.0.1.154-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/Updater.exe",
+    "sha256":  "5c4c8f14f7e61db27e51f9e658a8153143a2e29910c3d0482464e21c22e07615",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.153: исправлен раздел «Загрузка игр». Выбор узлов и введённые папки сохраняются при обновлении снимков; автопроверка источников больше не зависает после отключения раздела и журналирует запуск, задания и итоги; добавлен game-delivery.log с ротацией. Распаковка поддерживает 7-Zip, UnRAR и WinRAR. Ошибки путей Steam-библиотек выводятся в снимке. Для EA app расширено распознавание команд обновления и возврата в сетевой режим, включая всплывающие окна процесса.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.154: исправлены обновление строк узлов без сброса выбора и папки, фоновые проверки и кнопки Steam/EA; автопроверка источников больше не оставляет расписание в прошлом, статус содержит время начала, добавлен game-delivery.log; исправлены распаковка RAR и сценарии Steam/EA. Пакет содержит подписанный автономный Updater.exe.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "70f00123d69c9908831c51a14628fdd0108b2e2ee0d5444d51d55f62c1d3e368"
+                      "sha256":  "e1f7cef32695fe8dd663de4aefd05f573596b3df4ebf98a48df961f17a2039f8"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "30a13758db66884947c37bf7accd5a0f078f9b761e6b12eef913e26eb1bd9189"
+                      "sha256":  "4b50fd0ac7777a3a7646718b6faea60ffe1eea225ef76746d9808b2a1cf090b9"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "2393539be97c5a87807a4b0154752c8ceda9e32b95a8c739c1e4d35c76f81bd0"
+                      "sha256":  "66ea4f164e26db90bcae4e7c26054e73df3b0dc2d0b44934674a1abb6858ef5e"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -539,11 +539,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "b37dc1ed2c5349a825319a29ee1ff564e6e49e50b592e8d51ba902cfe2330ddc"
+                      "sha256":  "efa1a704148826dd863474b08185c9dcabf21f08a380b3aa1b19bfaf173c78d4"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "5daf554f1f7d6654b58578c98b0e71dacdec8de8e5658b853bac0fc0ae6a703e"
+                      "sha256":  "a506d2d3d43113f26d490e750da21d03cece1b6723ae85222e445c9e65fa65a8"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1422,6 +1422,10 @@
                       "sha256":  "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
                   },
                   {
+                      "path":  "Apps/Updater.exe",
+                      "sha256":  "7f2d9c919382a6784a90524878f2d885649aae75911ec7f5e4e27fe8e028bd8f"
+                  },
+                  {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
                       "sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
                   },
@@ -1667,7 +1671,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/win-x64/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "dc23dd24ac31c8792fafcfb8ff537288ec165458ca28706a85386f4c3c501cc6"
+                      "sha256":  "95b2b39991c6b43549021040585d870ed429ee880ae66acf659e9c0a67464ec9"
                   },
                   {
                       "path":  "ServerManagement.Agent/win-x64/BotStats.ServerManagement.Agent.pdb",
@@ -2490,5 +2494,5 @@
                       "sha256":  "bb2f363643035ebb6b481111d7404aebdcafd4b334d501910e200d06d25eb6d7"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.153-win-x64-selfcontained.zip"
+    "fileName":  "BotStatsMTS-1.0.1.154-win-x64-selfcontained.zip"
 }

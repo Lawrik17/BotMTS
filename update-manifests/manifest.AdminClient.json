@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.147",
+    "version":  "0.0.0.148",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.147-botstats-1.0.1.153-game-delivery-fixes/AdminClient-0.0.0.147-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/updater-cleanup-20260723/Updater.exe",
-    "sha256":  "359bf73d9752fa9e7db10111052e13bb0a142f9ea87967d2d316a5a5f248af67",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/AdminClient-0.0.0.148-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.148-botstats-1.0.1.154-game-delivery-updater-fix/Updater.exe",
+    "sha256":  "75f889887e4e523589946660ace76879cbcd67708d5d05cd5440bfc10c354303",
     "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.147: в разделе «Загрузка игр» строки узлов обновляются на месте. Выбор узлов и введённые папки больше не сбрасываются при секундном обновлении экрана и сохраняются при временном исчезновении узла из снимка.",
+    "releaseNotes":  "AdminClient 0.0.0.148: исправлены обновление строк узлов без сброса выбора и папки, фоновые проверки и кнопки Steam/EA; исправлены распаковка RAR и сценарии Steam/EA. Пакет содержит подписанный автономный Updater.exe.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "627159a4ec551e81c5ef1b48610bb1b56e4c429c75e35b251b9184254a3ab9aa"
+                      "sha256":  "5359162ee72fba5453d392ab6e21b512064ae18a85764be135fa1947dab18bd2"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "be8bec4468e8930a776f4a42f4b04ad44efb98b3f89076e8f50c754eea2d09d8"
+                      "sha256":  "e2432519ba4d375b2f190d5b8a9b70838537f0beb8a638522ccbccffb7af06f6"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "efaab2b2dac89cf018fb3f2cc765396552ab705640deb1074ed806bf51af7848"
+                      "sha256":  "89a0caf87b25496537d0313bc5039fd4cdf621d8a999118c79a62bc001f82804"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "02e06be3b6edceb3fdc4696edb33f659dae22bf93b1bf303116b1caf87625a41"
+                      "sha256":  "bcbee0ef88021611a59fd4bf5dd159392296f01e15d15279dcb0fdbcbf55336a"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -363,11 +363,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "b37dc1ed2c5349a825319a29ee1ff564e6e49e50b592e8d51ba902cfe2330ddc"
+                      "sha256":  "efa1a704148826dd863474b08185c9dcabf21f08a380b3aa1b19bfaf173c78d4"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "5daf554f1f7d6654b58578c98b0e71dacdec8de8e5658b853bac0fc0ae6a703e"
+                      "sha256":  "a506d2d3d43113f26d490e750da21d03cece1b6723ae85222e445c9e65fa65a8"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1210,6 +1210,10 @@
                       "sha256":  "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
                   },
                   {
+                      "path":  "Apps/Updater.exe",
+                      "sha256":  "7f2d9c919382a6784a90524878f2d885649aae75911ec7f5e4e27fe8e028bd8f"
+                  },
+                  {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
                       "sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
                   },
@@ -1310,5 +1314,5 @@
                       "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.147-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.148-win-x64-selfcontained.zip"
 }
