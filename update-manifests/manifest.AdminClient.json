@@ -1,141 +1,41 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.152",
+    "version":  "0.0.0.153",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.152-botstats-1.0.1.158-steam-delete-and-selective-scan/AdminClient-0.0.0.152-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/admin-0.0.0.152-botstats-1.0.1.158-steam-delete-and-selective-scan/Updater.exe",
-    "sha256":  "ed607f7ac9e2c4d1130f13d3b92249caee860a41504f4b853ee2d8f5ea4ac22f",
-    "nativeV2Sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260904-botstats-1.0.1.159-admin-0.0.0.153-6d6x-2.5.185.0/AdminClient-0.0.0.153-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260904-botstats-1.0.1.159-admin-0.0.0.153-6d6x-2.5.185.0/Updater.exe",
+    "sha256":  "ec05639f79007512ba8c4c480819780ff564a56ad1f11291846075daf5fe207b",
+    "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.152: добавлены удаление Steam-игр и выборочная проверка Steam/EA; исправлены красный стиль удаления, сопоставление карточек EA, обновление torrent-очереди, подсказки статуса и журналирование.",
+    "releaseNotes":  "AdminClient 0.0.0.153: удалённый рабочий стол обоих серверов BotStats, встроенный чат администраторов, выгрузка логов серверов и клиентских ПК, обновлённый раздел загрузки игр с удалением Steam/EA и выборочной проверкой.",
     "files":  [
-                  {
-                      "path":  "Apps/Updater.exe",
-                      "sha256":  "04a46c8f19afd939371c7c243c9739b810e3bfe8c4c586a8598d077643e72471"
-                  },
-                  {
-                      "path":  "NativeV2/GameRemote.NativeV2.dll",
-                      "sha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
-                  },
-                  {
-                      "path":  "NativeV2/GameRemote.NativeV2.manifest.json",
-                      "sha256":  "440a8693b668246bc8b565a07708f6fdc12d223b11edd8a173f84ab4081c336f"
-                  },
-                  {
-                      "path":  "NativeV2/LICENSE.libwebrtc.txt",
-                      "sha256":  "5d57f76601b87e2069605ccef52e5caaa5eeb7a2f76e34aa65a0102637d28376"
-                  },
-                  {
-                      "path":  "NativeV2/THIRD_PARTY_NOTICES.libwebrtc.md",
-                      "sha256":  "45b6b4e1cb48fb647716aab296fcc3aee1fcc3ceec95a9adb31d2650c44c3618"
-                  },
-                  {
-                      "path":  "NativeV2/WEBRTC_REVISION.txt",
-                      "sha256":  "1b8a3ec79cefcc8abff4c7d383abd285ca920ba4e2d313a1bbffd81703fcabed"
-                  },
-                  {
-                      "path":  "ru/Microsoft.VisualBasic.Forms.resources.dll",
-                      "sha256":  "c38aa3a15f6993775bd91e8411e3350bdf15b8a20ed49bd4267ebde55e25d67f"
-                  },
-                  {
-                      "path":  "ru/PresentationCore.resources.dll",
-                      "sha256":  "2b5b4c6798f2cbcece30cbebe8cd43ccb1e40600329092467c29a49753d74243"
-                  },
-                  {
-                      "path":  "ru/PresentationFramework.resources.dll",
-                      "sha256":  "b4c81c63e89d819ac5f2bb232373f15c80e4a98dd3a924a905b4519535ffc496"
-                  },
-                  {
-                      "path":  "ru/PresentationUI.resources.dll",
-                      "sha256":  "c46992815ec208b0c4107f208566dfb5720cd846e923864c22a61fc8b3e2340d"
-                  },
-                  {
-                      "path":  "ru/ReachFramework.resources.dll",
-                      "sha256":  "c32c4a1c304bb14644f34c554bfd0f0d7947e74c72b49ff5420f6645c6ce444f"
-                  },
-                  {
-                      "path":  "ru/System.Windows.Controls.Ribbon.resources.dll",
-                      "sha256":  "cbde140e9bc4835088fbc0e9ed7952b1bd7362241bb06cb92106e03bbf4151b4"
-                  },
-                  {
-                      "path":  "ru/System.Windows.Forms.Design.resources.dll",
-                      "sha256":  "1001b196135968493353966eded2c8d1306f8474a1417baf922041a77d8c9edb"
-                  },
-                  {
-                      "path":  "ru/System.Windows.Forms.Primitives.resources.dll",
-                      "sha256":  "31e9b140f0082e8a5d7ef5859a8cb8499fd1c70ac0d07aa7ba631d5ef7de450f"
-                  },
-                  {
-                      "path":  "ru/System.Windows.Forms.resources.dll",
-                      "sha256":  "5ed62527ccf36312888bbf5b9096d637c444ae4a9e26f6e8277dd996e6b8f0f6"
-                  },
-                  {
-                      "path":  "ru/System.Windows.Input.Manipulations.resources.dll",
-                      "sha256":  "4a94488985b9f3f4a0f8e5168d8fd69d99b1651600e530e7a61de2347c223ebf"
-                  },
-                  {
-                      "path":  "ru/System.Xaml.resources.dll",
-                      "sha256":  "8f0356ffcd0fd10c2dd2bfb94f42caf57bd26500dfb1d23a5079e639b533a2c9"
-                  },
-                  {
-                      "path":  "ru/UIAutomationClient.resources.dll",
-                      "sha256":  "c7be1090c9603ed320e7c22562536ab85764f13add5821cd294cf22e6e7e524a"
-                  },
-                  {
-                      "path":  "ru/UIAutomationClientSideProviders.resources.dll",
-                      "sha256":  "afabfc705398511daaf7950f56be1079beab727e806e70d99577e1491cb95268"
-                  },
-                  {
-                      "path":  "ru/UIAutomationProvider.resources.dll",
-                      "sha256":  "cea2ee041ad30131e502905fbe97c3ab7362a7da6b84a4fb06013204fc1f704c"
-                  },
-                  {
-                      "path":  "ru/UIAutomationTypes.resources.dll",
-                      "sha256":  "4b463c96f8f9546d9610c41d65fb912c6188d4b9450e24e005d71f3b626e4a11"
-                  },
-                  {
-                      "path":  "ru/WindowsBase.resources.dll",
-                      "sha256":  "696c530b25da8621714d22ef8e137ccc4634755f077ea064d7c95b8e403c6393"
-                  },
-                  {
-                      "path":  "ru/WindowsFormsIntegration.resources.dll",
-                      "sha256":  "1eef9b6721f7c1b28870320b7dc3c84eedaeafc08aee30146e2511625c0345cb"
-                  },
-                  {
-                      "path":  "runtimes/win-arm64/native/WebView2Loader.dll",
-                      "sha256":  "0248fea0db36db65e8727ea26d6998c4fe0d76aa0498e78482ed6903e0061142"
-                  },
-                  {
-                      "path":  "runtimes/win-x64/native/WebView2Loader.dll",
-                      "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
-                  },
-                  {
-                      "path":  "runtimes/win-x86/native/WebView2Loader.dll",
-                      "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
-                  },
                   {
                       "path":  "Accessibility.dll",
                       "sha256":  "ca47c553bde2c213d73f8f61fa3fd62af9c0fef68f8a5ae7df8f97fec483c786"
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "0275842fa1dbba947b2903c8e06348624ac27afc99d8b5cce86c1a46347a0b94"
+                      "sha256":  "0d9d52541a93cb1e226a9763516d6841abf7e5866266bcd3c31122b316e27af4"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "421c9428d93350696c259bce32bb325229f9188974322db7493db9213aa4a5ca"
+                      "sha256":  "c3915ab9288e10e69c5dfc8f8a5320badc0547e2fcdf7c5246fa8b5741e4853e"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "8882cf1625517f7c665152a32cd03abd7e0bec388f655a51ffcabd64d8b9fdad"
+                      "sha256":  "2f824521a03fc4944d3fade2e37fe7866a0b13ec3865b96f80568076db3c16a1"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "1597957083fa52aba71d5e4013855fb2a584a69b520bff435eb62bcc2c45b2c7"
+                      "sha256":  "75b9111c1a26871bf0b867c88fe9287e7d556ac5bd818a590e1afc4d9afd00df"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
                       "sha256":  "61f950ab74cc9ce3a9e77707aa378924703dc070e89be5933a588d1cafbccbe8"
+                  },
+                  {
+                      "path":  "Apps/Updater.exe",
+                      "sha256":  "cb7afed98dbde2db3407fe7a1cb2f565338c5d1147d91cf983eeb43573a29896"
                   },
                   {
                       "path":  "BouncyCastle.Cryptography.dll",
@@ -163,11 +63,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "820f22ab615b75aa6d9cb5b2d5e3141d9edfdf480a0e077da5e6db4cbf422add"
+                      "sha256":  "5327cf7e18a6c050895ea5e88a00125e5aa921db0adbc1870e0451af883c4ce8"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "2c0f693c956dfd540e190eb503cb89332b64f86a455b05fbee3ecbd31bd83f1d"
+                      "sha256":  "d9c7f59b96d2b3a11a4a8ef032dd9ae5713b000f102ff9d3d61090079729e316"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -211,35 +111,35 @@
                   },
                   {
                       "path":  "FogPlayParser.Core.dll",
-                      "sha256":  "b2b7d49b828ee0ae98bdbf2689db7cd17f8d2804d70c9199a8ae286c51adb629"
+                      "sha256":  "5f5d39dd871b38d59e3e5c7fb91d75025a7632b4f92e0ae52bd5ba74b87be2d6"
                   },
                   {
                       "path":  "FogPlayParser.Core.pdb",
-                      "sha256":  "8d61bbc72935278f7688b58f54d131cb2b50699ec4f9131ee78f0d768cae59d7"
+                      "sha256":  "1844729edf5d41a2b3d816d6d35de5da16078eaa7d16b63bb77543e7de7b7354"
                   },
                   {
                       "path":  "FogPlayParser.UI.dll",
-                      "sha256":  "47d823750b3df0b79b5024ba40334cc432c4f2a9dd721ad8e8b28cf4791b549b"
+                      "sha256":  "7953deb45554671070783d96a65d1787dc8b6f3ec9e956b9a1071575a167121c"
                   },
                   {
                       "path":  "FogPlayParser.UI.pdb",
-                      "sha256":  "38212985805d076a97696a2c321265c681aa771a0cb02799f852616ec2da5c95"
+                      "sha256":  "106883b6b9cdd681a24c2fff22547dcd1e9175234f301db8590b83f17c34d6c9"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.dll",
-                      "sha256":  "774951c80b1e9a4703b3fc7c836e822a8d8cf7c89355697bf5b9552863770189"
+                      "sha256":  "a694b8d71ac8a1059dba97d4403c3c7516140e442f4d431ffff26ec8009df1e3"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.pdb",
-                      "sha256":  "8a063b469d3c0c018e4a8d35df32c00e5d15cfa8e8ef4f3a725ce5450f971937"
+                      "sha256":  "1841882ef191f173bfaa5511f458fa2031ef6ecd8c6460364a3844a4d5abeae1"
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "e551a54923d5097524bdd6b03bce615b2f36bb3ceaa0e4c82234e7361c86ea13"
+                      "sha256":  "103859873c11948a88e44d24cf10f64d12fc10e5cd40f9ea2d8225101a1c689c"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "af6cf6f0ed289932a6649b6d226c170570bb133bf3e40cd965d60987a88b24a1"
+                      "sha256":  "8eea874ceae48158a62484e3d705c04e4783dd925ed3fc8dee62e0233c240897"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -362,6 +262,26 @@
                       "sha256":  "2d67e87859ecaeb15c4dd621b0983f1a9ad3e2aa9b11624c018a43e6d6b06bec"
                   },
                   {
+                      "path":  "NativeV2/GameRemote.NativeV2.dll",
+                      "sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc"
+                  },
+                  {
+                      "path":  "NativeV2/GameRemote.NativeV2.manifest.json",
+                      "sha256":  "0a2173f2cdfd6f9677c30f3d21c5aef9109d0de8341e3fcfef0c40bc92b66135"
+                  },
+                  {
+                      "path":  "NativeV2/LICENSE.libwebrtc.txt",
+                      "sha256":  "5d57f76601b87e2069605ccef52e5caaa5eeb7a2f76e34aa65a0102637d28376"
+                  },
+                  {
+                      "path":  "NativeV2/THIRD_PARTY_NOTICES.libwebrtc.md",
+                      "sha256":  "45b6b4e1cb48fb647716aab296fcc3aee1fcc3ceec95a9adb31d2650c44c3618"
+                  },
+                  {
+                      "path":  "NativeV2/WEBRTC_REVISION.txt",
+                      "sha256":  "1b8a3ec79cefcc8abff4c7d383abd285ca920ba4e2d313a1bbffd81703fcabed"
+                  },
+                  {
                       "path":  "NAudio.Asio.dll",
                       "sha256":  "ca03780217139b37f7f5b6921d59defb8d24988315b16b167a77fa88caa7d00f"
                   },
@@ -406,26 +326,6 @@
                       "sha256":  "6e08a42418bde7132b0c7708d4a1ad3583dbce200cfa2b4a5178a1557451a7fb"
                   },
                   {
-                      "path":  "PresentationFramework-SystemCore.dll",
-                      "sha256":  "6a589d37966ebd20a83cd939c3594b58c21ef266e80bb2498b311c37f039184d"
-                  },
-                  {
-                      "path":  "PresentationFramework-SystemData.dll",
-                      "sha256":  "7bf49779033bf5761125189f42a48d90d4cd7da64b1e0018703309b87b85fdc4"
-                  },
-                  {
-                      "path":  "PresentationFramework-SystemDrawing.dll",
-                      "sha256":  "a98e7c68cbdda25ed8af4cfb3a706d12690966816e8f36e6fdd80e5c2535d276"
-                  },
-                  {
-                      "path":  "PresentationFramework-SystemXml.dll",
-                      "sha256":  "0a706294c1fda2a032b3f9b36bfa2598037de55baac9500b8082e59879eda13d"
-                  },
-                  {
-                      "path":  "PresentationFramework-SystemXmlLinq.dll",
-                      "sha256":  "f152525fc4c97b8cd9e90757c2f6994773b5c403e739f7208d86aeaef2424ceb"
-                  },
-                  {
                       "path":  "PresentationFramework.Aero.dll",
                       "sha256":  "b46e827da11d413f6d90060118f2eac18f8bdf321d3a9c75993f21fdd582b042"
                   },
@@ -454,6 +354,26 @@
                       "sha256":  "263ae84f12763565854ba0b5d6dc9ef18b06c8de91b70b61fe3b0ad8153c87a9"
                   },
                   {
+                      "path":  "PresentationFramework-SystemCore.dll",
+                      "sha256":  "6a589d37966ebd20a83cd939c3594b58c21ef266e80bb2498b311c37f039184d"
+                  },
+                  {
+                      "path":  "PresentationFramework-SystemData.dll",
+                      "sha256":  "7bf49779033bf5761125189f42a48d90d4cd7da64b1e0018703309b87b85fdc4"
+                  },
+                  {
+                      "path":  "PresentationFramework-SystemDrawing.dll",
+                      "sha256":  "a98e7c68cbdda25ed8af4cfb3a706d12690966816e8f36e6fdd80e5c2535d276"
+                  },
+                  {
+                      "path":  "PresentationFramework-SystemXml.dll",
+                      "sha256":  "0a706294c1fda2a032b3f9b36bfa2598037de55baac9500b8082e59879eda13d"
+                  },
+                  {
+                      "path":  "PresentationFramework-SystemXmlLinq.dll",
+                      "sha256":  "f152525fc4c97b8cd9e90757c2f6994773b5c403e739f7208d86aeaef2424ceb"
+                  },
+                  {
                       "path":  "PresentationNative_cor3.dll",
                       "sha256":  "66e5d8d49f9645fd67c12324e0e947b8646779b502a3bc475e3a3aeb650e20bb"
                   },
@@ -466,12 +386,84 @@
                       "sha256":  "3a3e191d33344a61230491ea53d5d5d43c9ce0a28f5b1f33fd191aca1dfc63d3"
                   },
                   {
+                      "path":  "ru/Microsoft.VisualBasic.Forms.resources.dll",
+                      "sha256":  "c38aa3a15f6993775bd91e8411e3350bdf15b8a20ed49bd4267ebde55e25d67f"
+                  },
+                  {
+                      "path":  "ru/PresentationCore.resources.dll",
+                      "sha256":  "2b5b4c6798f2cbcece30cbebe8cd43ccb1e40600329092467c29a49753d74243"
+                  },
+                  {
+                      "path":  "ru/PresentationFramework.resources.dll",
+                      "sha256":  "b4c81c63e89d819ac5f2bb232373f15c80e4a98dd3a924a905b4519535ffc496"
+                  },
+                  {
+                      "path":  "ru/PresentationUI.resources.dll",
+                      "sha256":  "c46992815ec208b0c4107f208566dfb5720cd846e923864c22a61fc8b3e2340d"
+                  },
+                  {
+                      "path":  "ru/ReachFramework.resources.dll",
+                      "sha256":  "c32c4a1c304bb14644f34c554bfd0f0d7947e74c72b49ff5420f6645c6ce444f"
+                  },
+                  {
+                      "path":  "ru/System.Windows.Controls.Ribbon.resources.dll",
+                      "sha256":  "cbde140e9bc4835088fbc0e9ed7952b1bd7362241bb06cb92106e03bbf4151b4"
+                  },
+                  {
+                      "path":  "ru/System.Windows.Forms.Design.resources.dll",
+                      "sha256":  "1001b196135968493353966eded2c8d1306f8474a1417baf922041a77d8c9edb"
+                  },
+                  {
+                      "path":  "ru/System.Windows.Forms.Primitives.resources.dll",
+                      "sha256":  "31e9b140f0082e8a5d7ef5859a8cb8499fd1c70ac0d07aa7ba631d5ef7de450f"
+                  },
+                  {
+                      "path":  "ru/System.Windows.Forms.resources.dll",
+                      "sha256":  "5ed62527ccf36312888bbf5b9096d637c444ae4a9e26f6e8277dd996e6b8f0f6"
+                  },
+                  {
+                      "path":  "ru/System.Windows.Input.Manipulations.resources.dll",
+                      "sha256":  "4a94488985b9f3f4a0f8e5168d8fd69d99b1651600e530e7a61de2347c223ebf"
+                  },
+                  {
+                      "path":  "ru/System.Xaml.resources.dll",
+                      "sha256":  "8f0356ffcd0fd10c2dd2bfb94f42caf57bd26500dfb1d23a5079e639b533a2c9"
+                  },
+                  {
+                      "path":  "ru/UIAutomationClient.resources.dll",
+                      "sha256":  "c7be1090c9603ed320e7c22562536ab85764f13add5821cd294cf22e6e7e524a"
+                  },
+                  {
+                      "path":  "ru/UIAutomationClientSideProviders.resources.dll",
+                      "sha256":  "afabfc705398511daaf7950f56be1079beab727e806e70d99577e1491cb95268"
+                  },
+                  {
+                      "path":  "ru/UIAutomationProvider.resources.dll",
+                      "sha256":  "cea2ee041ad30131e502905fbe97c3ab7362a7da6b84a4fb06013204fc1f704c"
+                  },
+                  {
+                      "path":  "ru/UIAutomationTypes.resources.dll",
+                      "sha256":  "4b463c96f8f9546d9610c41d65fb912c6188d4b9450e24e005d71f3b626e4a11"
+                  },
+                  {
+                      "path":  "ru/WindowsBase.resources.dll",
+                      "sha256":  "696c530b25da8621714d22ef8e137ccc4634755f077ea064d7c95b8e403c6393"
+                  },
+                  {
+                      "path":  "ru/WindowsFormsIntegration.resources.dll",
+                      "sha256":  "1eef9b6721f7c1b28870320b7dc3c84eedaeafc08aee30146e2511625c0345cb"
+                  },
+                  {
+                      "path":  "runtimes/win-x64/native/WebView2Loader.dll",
+                      "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
+                  },
+                  {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "7da3da3034c7a81bdfe975b739c522f448b06a99dc330316efc663ea8a5f65df"
+                      "sha256":  "188de932005988e99833ccaf4b6c5429588862a428bf8a254666d4fa7d0a407e"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "3ed2321e49bc4f2bd08eb845d7be6c8f55b05db62b8fe679d26fdca06f288aa3"
+                      "sha256":  "7037dcdd5a27ea3e89cb24e4efb065aea61cee059ca1a4136adecb5107add03a"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1314,5 +1306,5 @@
                       "sha256":  "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.152-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.153-win-x64-selfcontained.zip"
 }
