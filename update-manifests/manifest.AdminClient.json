@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.153",
+    "version":  "0.0.0.154",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260904-botstats-1.0.1.159-admin-0.0.0.153-6d6x-2.5.185.0/AdminClient-0.0.0.153-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260904-botstats-1.0.1.159-admin-0.0.0.153-6d6x-2.5.185.0/Updater.exe",
-    "sha256":  "ec05639f79007512ba8c4c480819780ff564a56ad1f11291846075daf5fe207b",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260905-botstats-1.0.1.160-admin-0.0.0.154-6d6x-2.5.186.0/AdminClient-0.0.0.154-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260905-botstats-1.0.1.160-admin-0.0.0.154-6d6x-2.5.186.0/Updater.exe",
+    "sha256":  "a1e94a8313cc7cdaadeb5b29f04c89c24e68ecb94359d5bb328e882dd57de0aa",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.153: удалённый рабочий стол обоих серверов BotStats, встроенный чат администраторов, выгрузка логов серверов и клиентских ПК, обновлённый раздел загрузки игр с удалением Steam/EA и выборочной проверкой.",
+    "releaseNotes":  "AdminClient 0.0.0.154: согласован с серверным удалённым столом BotStatsMTS 1.0.1.160; подключение к обоим серверам, чат администраторов и путь управления клубными ПК сохранены.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,27 +15,23 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "0d9d52541a93cb1e226a9763516d6841abf7e5866266bcd3c31122b316e27af4"
+                      "sha256":  "bcac8167667922ff644de47ca84e0b33c2166067b5967ebe1e9a55decc06b6ff"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "c3915ab9288e10e69c5dfc8f8a5320badc0547e2fcdf7c5246fa8b5741e4853e"
+                      "sha256":  "d23223c4d5b858f44c4caa8bf630474553837056bdea6603cda0746e81c856e2"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "2f824521a03fc4944d3fade2e37fe7866a0b13ec3865b96f80568076db3c16a1"
+                      "sha256":  "ff3f5b5c09017affb53889d5b9d8969ece871269c088746709edef0329d1fd43"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "75b9111c1a26871bf0b867c88fe9287e7d556ac5bd818a590e1afc4d9afd00df"
+                      "sha256":  "df7d56c42ccdd80d5b1fe85326ab8f892e75fcb67b6e532c39ce59980b2c30c2"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
                       "sha256":  "61f950ab74cc9ce3a9e77707aa378924703dc070e89be5933a588d1cafbccbe8"
-                  },
-                  {
-                      "path":  "Apps/Updater.exe",
-                      "sha256":  "cb7afed98dbde2db3407fe7a1cb2f565338c5d1147d91cf983eeb43573a29896"
                   },
                   {
                       "path":  "BouncyCastle.Cryptography.dll",
@@ -63,11 +59,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "5327cf7e18a6c050895ea5e88a00125e5aa921db0adbc1870e0451af883c4ce8"
+                      "sha256":  "c3a3475c618cc618f5486bbfb11b8b8086a87728e59366695946847bbcd01b22"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "d9c7f59b96d2b3a11a4a8ef032dd9ae5713b000f102ff9d3d61090079729e316"
+                      "sha256":  "10eeddd668d78e34023d7fd27df4bf56e3ed8fd672c1eb40ecc6c69cd07288a7"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -111,35 +107,35 @@
                   },
                   {
                       "path":  "FogPlayParser.Core.dll",
-                      "sha256":  "5f5d39dd871b38d59e3e5c7fb91d75025a7632b4f92e0ae52bd5ba74b87be2d6"
+                      "sha256":  "fb8a6281a6370ac37067e55dc823c2171521f9733990af2a036bb184c0cb1442"
                   },
                   {
                       "path":  "FogPlayParser.Core.pdb",
-                      "sha256":  "1844729edf5d41a2b3d816d6d35de5da16078eaa7d16b63bb77543e7de7b7354"
+                      "sha256":  "7bfd749b784123b28dccf8543a23c4ae193edbc6ecfe27d4dd11553411de19af"
                   },
                   {
                       "path":  "FogPlayParser.UI.dll",
-                      "sha256":  "7953deb45554671070783d96a65d1787dc8b6f3ec9e956b9a1071575a167121c"
+                      "sha256":  "e85e353064d71347e22da1ecdbf56b18458b35b729f7dd9d2afa51efe74cb6ba"
                   },
                   {
                       "path":  "FogPlayParser.UI.pdb",
-                      "sha256":  "106883b6b9cdd681a24c2fff22547dcd1e9175234f301db8590b83f17c34d6c9"
+                      "sha256":  "ebb4fec43e962d285ba9553ca1f6bb13272917a7e92cdf8872ac1a557921a43e"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.dll",
-                      "sha256":  "a694b8d71ac8a1059dba97d4403c3c7516140e442f4d431ffff26ec8009df1e3"
+                      "sha256":  "4d8cbd263d9a167ecb61d0517a1dac5ca392937613d2ea3d543dd07cbccfe454"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.pdb",
-                      "sha256":  "1841882ef191f173bfaa5511f458fa2031ef6ecd8c6460364a3844a4d5abeae1"
+                      "sha256":  "76114287aa8c1f1d5363999fde360a2b4b8797efb81c3525215facacc52c2bd8"
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "103859873c11948a88e44d24cf10f64d12fc10e5cd40f9ea2d8225101a1c689c"
+                      "sha256":  "cfce26990eef3629837dc5703e6f1704e11d5a1edee4eb6f17e14387adeedc08"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "8eea874ceae48158a62484e3d705c04e4783dd925ed3fc8dee62e0233c240897"
+                      "sha256":  "81938c32720d953904606dde6ef9a1cb44054bb4a73f9e6545281dd72aa0a9ef"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -459,11 +455,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "188de932005988e99833ccaf4b6c5429588862a428bf8a254666d4fa7d0a407e"
+                      "sha256":  "03117ece05d761b965ceb0696a668dd59e389df7b3fa286dfd76e61b9e395cb3"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "7037dcdd5a27ea3e89cb24e4efb065aea61cee059ca1a4136adecb5107add03a"
+                      "sha256":  "b78658aa05f7d5f7c348cf27b544b80b59daacaf05edbd2910832ddadba5dc74"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1306,5 +1302,5 @@
                       "sha256":  "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.153-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.154-win-x64-selfcontained.zip"
 }
