@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.157",
+  "version": "0.0.0.158",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.163-admin-0.0.0.157-6d6x-2.5.189.0/AdminClient-0.0.0.157-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.163-admin-0.0.0.157-6d6x-2.5.189.0/Updater.exe",
-  "sha256": "3d734c3212a760b4a7b90dda2b79d79d6170b2cbe343bda4173bb14d9781bb80",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.164-admin-0.0.0.158-6d6x-2.5.190.0/AdminClient-0.0.0.158-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.164-admin-0.0.0.158-6d6x-2.5.190.0/Updater.exe",
+  "sha256": "38a66817d97c6ee60edf54eb504db9fed48e0c10ab58345cd200881b6b808af4",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "AdminClient 0.0.0.157: Исправлено обновление серверов: Updater останавливает и восстанавливает BotStatsServerManagementAgent, сохраняет server-management-agent.json и iSCSI_Config.json, выполняет максимально возможный откат с отчётом об ошибках. Установщик исправляет binPath до обновления службы и устанавливает виртуальный монитор. Серверный удалённый стол использует консольный сеанс, GDI, программный H.264, libwebrtc и отдельный поток курсора; RDP-сеансы исключены. Добавлены диагностика CCD, пробуждение консоли и автоматическое включение Amyuni usbmmidd v2 при отсутствии активного вывода. Оригинальные файлы драйвера и License.txt сохранены без изменений. Пакет GameRemote.Host подписан для uiAccess/UAC.",
+  "releaseNotes": "AdminClient 0.0.0.158: В пакеты BotStatsMTS и AdminClient включён Apps/Updater.exe. Все три пакета содержат тот же подписанный Updater, что опубликован по updaterUrl. AppSelfUpdater использует updaterUrl при невозможности получить обновлятор из пакета. Отказ программного H.264-кодировщика сменить битрейт больше не обрывает серверную трансляцию. Сохранены NativeV2 ABI 2.6, подписанные пакеты uiAccess и оригинальные девять файлов Amyuni.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,23 +15,27 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "fb520b250164343355c3d273a7897c194f0785e648372652094d1ad04448daa8"
+      "sha256": "6e26eed5b0d3c3faf8ffaa2a5026c05fa133903dd829d3aa250b6aca950b6aea"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "0745864df21f7b39936711fe36056ba4ebfc079fed921317045b044bc5d231a8"
+      "sha256": "06d19d720ea545e8b8557f53303ec24b60d154289a8ae355b56e36ba7b0a0289"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "c23a586485d010b1fcc37968f103bb2a3370a9100e5f04f4d94e39160599a1a4"
+      "sha256": "4e5810d1699e809c892fb2adc51bc68b5b11607a229c142444a6b57b0bcc4d5f"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "cfc4d61854277d7568a81ded057b3bbf060e5909e41c06a0292f73ae81eb2fb5"
+      "sha256": "d6d9922497a7f1c47d68082855c9625ed994ad7033e6b1d153633c42950f0299"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
       "sha256": "61f950ab74cc9ce3a9e77707aa378924703dc070e89be5933a588d1cafbccbe8"
+    },
+    {
+      "path": "Apps/Updater.exe",
+      "sha256": "0402de4f5663489daea3d9fb4e7ae02b2df1fed4e1db207975bf940e9fe97177"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -59,11 +63,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "558d274b24d4b1850b9834171ce3f0286c0daf173ff9e48a44faab0777c6999d"
+      "sha256": "7687a2378a01cf6cb56932ab6026525e1ef8d20d7c12a0f9caafdbdbbcd9232a"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "c5fe3f7257640bcac8bb465728753d98ea7134a0eafdcc31085cf25f10ab631c"
+      "sha256": "5096ffe096b26e428786fdf4eb96f80ab491142094979cb9f978a84866902494"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -107,35 +111,35 @@
     },
     {
       "path": "FogPlayParser.Core.dll",
-      "sha256": "30a439807b29368d263902eb40b687b9bbafb4a8947374d1ad89c361832fa7f0"
+      "sha256": "e02ddf796486c4a28edfa9d66932182a783ae13e3ee9dd6371f3e2eeb9d70cb1"
     },
     {
       "path": "FogPlayParser.Core.pdb",
-      "sha256": "3aeaf8d66fed6786130ae8dba259ae1a2b08456b15801c8a3ea6f3fa34b2037b"
+      "sha256": "ed9cbfc8fab0e833ed0964adf5154b09201c91d091015b3662c49e5616310357"
     },
     {
       "path": "FogPlayParser.UI.dll",
-      "sha256": "64526708a1599926e58faf0d8929d9cb8c252385b8e30cfb55131d7707484272"
+      "sha256": "6fd6ec18298cc6182c38fc7ade46a9294624da41f8abbc9d6cd0a9197bf4e23e"
     },
     {
       "path": "FogPlayParser.UI.pdb",
-      "sha256": "ce30122464df5052c7916de50db6dcd41592d925512c724dcd99224ee7fc2a1a"
+      "sha256": "4cc817ed0dd02c8467bfc6a742cfaddb640eb2f7beeb52a8c32f88e12bc61ffe"
     },
     {
       "path": "GameRemote.NativeV2.Managed.dll",
-      "sha256": "b40632eab003e7f1ac974899e3d15b7d8f81c16455c094a097a598f0581ffbbf"
+      "sha256": "f3498d83053c798a5cf098c0c2fb500b562bf82b17d437d3ca99655de0c809fc"
     },
     {
       "path": "GameRemote.NativeV2.Managed.pdb",
-      "sha256": "9f89db9d050cf4663cf685f9985e365420309fd6bd31dcd89a6aa61e3f5e1fa0"
+      "sha256": "bbeb9c6865407056bb452ce35543a38af302da07a7c8690ffbba53e120d59939"
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "f3253bfd60420db6a11594603ac7a54d60e4c6762544a4f366f7d3c81875670b"
+      "sha256": "f8671abc9f5b6384d11808a0bfa4d431eb36bff2d694897b81af5e0a87d205b4"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "af69a815a377e04ba1b9e7c00e6b3047431c33914578b0a2a4cb704bba73b3b8"
+      "sha256": "c35964bb2aed7543273bddcdd5063ac60793b18e4007f826c4600a902af5f15c"
     },
     {
       "path": "hostfxr.dll",
@@ -463,11 +467,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "5c9fcdf1bbe340b8a9b9e5c6c789548d8cc0020f20d36f203597b5abd29a380a"
+      "sha256": "38556cb53ea84604fff59f76f9b19b5849a8baaea6a675bc79cbb316c80d8c8e"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "c47aef3fe1215596bf1050d5e394ec5ff706f76aec4a8206ad71bc3574ba7f5a"
+      "sha256": "80ca0f666360631aecba417eb6c102e62a7e3d2b7d835a2fa35339fcc95e272b"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1310,5 +1314,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.157-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.158-win-x64-selfcontained.zip"
 }
