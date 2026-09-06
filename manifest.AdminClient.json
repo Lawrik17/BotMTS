@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.156",
+  "version": "0.0.0.157",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260905-botstats-1.0.1.162-admin-0.0.0.156-6d6x-2.5.188.0/AdminClient-0.0.0.156-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260905-botstats-1.0.1.162-admin-0.0.0.156-6d6x-2.5.188.0/Updater.exe",
-  "sha256": "2cc4d0391e3b6ef5260da7681a158ba880f8e26b01214106274d84e1d6f8811b",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.163-admin-0.0.0.157-6d6x-2.5.189.0/AdminClient-0.0.0.157-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260906-botstats-1.0.1.163-admin-0.0.0.157-6d6x-2.5.189.0/Updater.exe",
+  "sha256": "3d734c3212a760b4a7b90dda2b79d79d6170b2cbe343bda4173bb14d9781bb80",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "AdminClient 0.0.0.156: Служба автоматически отключает NativeV2 на сервере без пригодного видеоадаптера: хост сразу отказывает, зритель переходит на рабочий движок. Режим курсора показан в окне и журнале; настройка «Свой курсор вместо удалённого» включает локальную отрисовку и сохраняется между запусками. Если удалённый курсор остаётся в видео, могут быть видны две стрелки — тогда настройку следует выключить.",
+  "releaseNotes": "AdminClient 0.0.0.157: Исправлено обновление серверов: Updater останавливает и восстанавливает BotStatsServerManagementAgent, сохраняет server-management-agent.json и iSCSI_Config.json, выполняет максимально возможный откат с отчётом об ошибках. Установщик исправляет binPath до обновления службы и устанавливает виртуальный монитор. Серверный удалённый стол использует консольный сеанс, GDI, программный H.264, libwebrtc и отдельный поток курсора; RDP-сеансы исключены. Добавлены диагностика CCD, пробуждение консоли и автоматическое включение Amyuni usbmmidd v2 при отсутствии активного вывода. Оригинальные файлы драйвера и License.txt сохранены без изменений. Пакет GameRemote.Host подписан для uiAccess/UAC.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "b8baa546d0be041f55858a35b52daeddb3039f8cbf7c6763f2be4fffb131c46a"
+      "sha256": "fb520b250164343355c3d273a7897c194f0785e648372652094d1ad04448daa8"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "01e22167b30583ba72c20d4f50bf92c49888fee3c03fd82111dae44279c3a8c9"
+      "sha256": "0745864df21f7b39936711fe36056ba4ebfc079fed921317045b044bc5d231a8"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "67565d7d8a12b9ed183a5608df85d14a5d2b237baefd4ead52b19a926dc6555a"
+      "sha256": "c23a586485d010b1fcc37968f103bb2a3370a9100e5f04f4d94e39160599a1a4"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "106bf26c701642e5595b2160802bf18aece947a04c80f6edcac70f930ed5118f"
+      "sha256": "cfc4d61854277d7568a81ded057b3bbf060e5909e41c06a0292f73ae81eb2fb5"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -59,11 +59,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "331b9ed6ad4ea9a9ed13c00ddbffbda07c2cb1fa2c27c3e801d545531974de51"
+      "sha256": "558d274b24d4b1850b9834171ce3f0286c0daf173ff9e48a44faab0777c6999d"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "3101028cddddb8ce257fee4e120fa932a77684b6f14c9b3944561bbfb0bc93aa"
+      "sha256": "c5fe3f7257640bcac8bb465728753d98ea7134a0eafdcc31085cf25f10ab631c"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -107,35 +107,35 @@
     },
     {
       "path": "FogPlayParser.Core.dll",
-      "sha256": "4d40667a721ac93d49e92bf5e49af29355ba393ecf44b02f17f28e74c374e1bb"
+      "sha256": "30a439807b29368d263902eb40b687b9bbafb4a8947374d1ad89c361832fa7f0"
     },
     {
       "path": "FogPlayParser.Core.pdb",
-      "sha256": "6596be385f31af4e195b88b9349a40a3b518d72749fd28f27672ce348a622c1c"
+      "sha256": "3aeaf8d66fed6786130ae8dba259ae1a2b08456b15801c8a3ea6f3fa34b2037b"
     },
     {
       "path": "FogPlayParser.UI.dll",
-      "sha256": "e75787f3d877cc4bd288a8341eefa8252f93c354569d6297be12bcc3541ad13a"
+      "sha256": "64526708a1599926e58faf0d8929d9cb8c252385b8e30cfb55131d7707484272"
     },
     {
       "path": "FogPlayParser.UI.pdb",
-      "sha256": "1d5319c8d5ddc6b6854f1f7bf809571c5fc3bae1434aef4a355914b727b689bb"
+      "sha256": "ce30122464df5052c7916de50db6dcd41592d925512c724dcd99224ee7fc2a1a"
     },
     {
       "path": "GameRemote.NativeV2.Managed.dll",
-      "sha256": "0e86406e00b2cc78c9c16b17b0c7d7c2518e9c4085161841aac2ff66360e6d33"
+      "sha256": "b40632eab003e7f1ac974899e3d15b7d8f81c16455c094a097a598f0581ffbbf"
     },
     {
       "path": "GameRemote.NativeV2.Managed.pdb",
-      "sha256": "b3293422df33efeb25eb7015c997b9d6d38a8fe1262caeacc731a597fae3cff2"
+      "sha256": "9f89db9d050cf4663cf685f9985e365420309fd6bd31dcd89a6aa61e3f5e1fa0"
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "50781bbae7bb27df5c5dfd47ca1fadd8088dc37e39c55c52a615afc5fc9aa0bc"
+      "sha256": "f3253bfd60420db6a11594603ac7a54d60e4c6762544a4f366f7d3c81875670b"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "c9ab3e33e2988e0cbbe105b520f1a259bf31e48fd8168f62d4cdf6ff79055c7c"
+      "sha256": "af69a815a377e04ba1b9e7c00e6b3047431c33914578b0a2a4cb704bba73b3b8"
     },
     {
       "path": "hostfxr.dll",
@@ -463,11 +463,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "6062eea60d424c17ae9f1495c5d10ccb2859b78cc0eef30e3b30f5fdbaa019ae"
+      "sha256": "5c9fcdf1bbe340b8a9b9e5c6c789548d8cc0020f20d36f203597b5abd29a380a"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "406c2d02330f34713c1574b4617756a0cde26179699a2ed967b66fdcfde32a4f"
+      "sha256": "c47aef3fe1215596bf1050d5e394ec5ff706f76aec4a8206ad71bc3574ba7f5a"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1310,5 +1310,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.156-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.157-win-x64-selfcontained.zip"
 }
