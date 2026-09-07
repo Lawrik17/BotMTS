@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.166",
+  "version": "0.0.0.167",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.172-admin-0.0.0.166-6d6x-2.5.198.0/AdminClient-0.0.0.166-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.172-admin-0.0.0.166-6d6x-2.5.198.0/Updater.exe",
-  "sha256": "35a3b5ad30dcd92fb7985be5902f834c0bb13e21cf990a7e9a15c840855324a3",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.173-admin-0.0.0.167-6d6x-2.5.199.0/AdminClient-0.0.0.167-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.173-admin-0.0.0.167-6d6x-2.5.199.0/Updater.exe",
+  "sha256": "2f1fb5fddae452da7b0328b92dc209b1d6429b61c3093c101c28ac98d166274e",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "AdminClient 0.0.0.166: Server display detection now falls back to GDI desktop dimensions when CCD and device enumeration return no outputs in the SYSTEM winlogon desktop context. Failure diagnostics include examined, attached, and GDI desktop dimensions. The same signed Apps/Updater.exe is included in all three packages and manifests.",
+  "releaseNotes": "AdminClient 0.0.0.167: Server desktop capture now overlaps GDI capture with H.264 encoding through two alternating DIB buffers, caches input-desktop validation for 500 ms, and logs BitBlt/StretchBlt and GdiFlush separately. An active RDP session is selected only for the same account as the console user, with automatic console fallback after RDP disconnect; other users' RDP sessions remain excluded. The same signed Apps/Updater.exe is included in all three packages and manifests.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "3358a0e208ebf686877acfa27d5fc10041baaaf4dfcd3a4f71fea9d79e5f706a"
+      "sha256": "97e2e4f2a01bbdf84acfae2189afc3b0891ccec735f192e36c6dea2e003e225f"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "af3f9ee04988944bc74d26889ff9b0f287b63d0f8532d88159c5f1e5ea5d6f12"
+      "sha256": "421fa5f1cc2529e8e47af6dfef34b02fff30173d0eb171ba72fc29339fd87ee9"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "df2b7d61aee1daf0afb22911fb82a2183a4482811e981921e987b708284c433e"
+      "sha256": "e7d5305d0d49f35ac618876b4af1f6f7403be4eb83cba2f86aed2c61b6487bd7"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "7d25248dd88564af62fb9a7fea73ae1df803ca9d7d4b15e5277e55f85484b41d"
+      "sha256": "6d271ea0d75c79b35aecd3281b1ee6f1688958f0f2d6ee719a0f87ec4b247e15"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "6369be35a5b14b2edb6716fc5aea956befa3d64ea4a2e6ba23dbaa63c1ab9e65"
+      "sha256": "f5a2e098bff9c670fabfa3c433ec37c7afbeae05c255292cb9c2d2da52da4843"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -63,11 +63,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "1c847c34d47d3229dab7f5ce15806d774e30acd6a6d129f4e5e4c6fe64655c04"
+      "sha256": "2c9401b912f266502d727ad6ae631281aca86fb5beb7f866acea8e276490e323"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "4faf5b943d77cc0eb063f34d6a8ecf07d1013f0f4bb656d0ffa55219b7b6da70"
+      "sha256": "36c667c0e9647641b21d14c798a99d21556530590003b6abdbf0af6560b40e8d"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -111,35 +111,35 @@
     },
     {
       "path": "FogPlayParser.Core.dll",
-      "sha256": "404f36aa60b5a2984eac911b8a3ba19773783647d3c3529681127fd72d022947"
+      "sha256": "acd164f5b3ce1f5f4c718c160fcbcea79d11d600ec66c05f372d198dd88b76f6"
     },
     {
       "path": "FogPlayParser.Core.pdb",
-      "sha256": "84f831b7fc29df4a5575ab604d83a65813c856de2fa3626c215e913ec6fbfe84"
+      "sha256": "b905564fc4a7e89434cdf957591517ba7215f2fbe7260dc1a93bb0644875c88d"
     },
     {
       "path": "FogPlayParser.UI.dll",
-      "sha256": "91087ee99cdd4aa004c11524bb426fcb5e9c0d836832dfb2cf9e0eb8f678268a"
+      "sha256": "3f0b188f5517c24dc89b6522ae946e605ab795047de8bd78dd7aa2f93011c4e9"
     },
     {
       "path": "FogPlayParser.UI.pdb",
-      "sha256": "84f3c94cf2dd7c35705727214bc92ed4229381957bef10b1e5e31f2ba15c4bd7"
+      "sha256": "2fe347e540bdad3fda9cf606f17e490ba6980f87b01febdaa23b5e23aa2f1bfd"
     },
     {
       "path": "GameRemote.NativeV2.Managed.dll",
-      "sha256": "43015d19facc0dde3c624af55374d77cb533a56c9508f4719843ec2fe8e1c4eb"
+      "sha256": "a96cedfb8a1cb841df6e0362733a7e6704bd71dcf4dc1b0ff7b176e3c49f4a08"
     },
     {
       "path": "GameRemote.NativeV2.Managed.pdb",
-      "sha256": "905d50c7f3e9218534ad64153056674bc64f23addc36967dc02a4197990258b2"
+      "sha256": "308473e4ff140b6d22dd572e0a28d566bc043317056bd348ca83c8f821a30d46"
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "f741f3b7e09366a043088b1eef42a569c1ce95a605ead4b4d675acb38c362d14"
+      "sha256": "e26d7e5f97366a34c17335ef1318c219a70566da2a6adb0fc6a0c5561b2b7dba"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "99bcd8e6a680e19dac03e84c1912c1828334037898b5129077f98e4142593db6"
+      "sha256": "d9bc8bc0ee8ab7b2244875ed8e3c69b338cd230f9130e21067c6761808c77bf5"
     },
     {
       "path": "hostfxr.dll",
@@ -467,11 +467,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "cfeb02f80273ae7833e9d87f378082e7eea1587aa8a469692a7ceaa2ab081481"
+      "sha256": "41832700149072b0236e3a57807146c2818e7c18f484c920a4ae7eb0f2b7e3e9"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "7bf016db7a1df28cb5c3e15f34dd1c1c3531240dfbf38667d3e879fe32965640"
+      "sha256": "603dbfc6a2a6418eb510fa3ce03dd83407382325f047f2df9fb80e3a5bc03d64"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1314,5 +1314,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.166-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.167-win-x64-selfcontained.zip"
 }
