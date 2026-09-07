@@ -1,13 +1,13 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.169",
+  "version": "1.0.1.170",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.169-admin-0.0.0.163-6d6x-2.5.195.0/BotStatsMTS-1.0.1.169-win-x64-selfcontained.zip",
-  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.169-admin-0.0.0.163-6d6x-2.5.195.0/Updater.exe",
-  "sha256": "67ddf8cf8dc0d4239f9573101acb27b58729f8e8153997edd4b38f6889ace36d",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.170-admin-0.0.0.164-6d6x-2.5.196.0/BotStatsMTS-1.0.1.170-win-x64-selfcontained.zip",
+  "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260907-botstats-1.0.1.170-admin-0.0.0.164-6d6x-2.5.196.0/Updater.exe",
+  "sha256": "0440f78506f1de2908910dc10c46e291d5b7061ade65aeb9f6d6fc92ee9f80db",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "BotStatsMTS 1.0.1.169: В пакеты BotStatsMTS и AdminClient включён Apps/Updater.exe. Все три пакета содержат тот же подписанный Updater, что опубликован по updaterUrl. AppSelfUpdater использует updaterUrl при невозможности получить обновлятор из пакета. Отказ программного H.264-кодировщика сменить битрейт больше не обрывает серверную трансляцию. Сохранены NativeV2 ABI 2.6, подписанные пакеты uiAccess и оригинальные девять файлов Amyuni.",
+  "releaseNotes": "BotStatsMTS 1.0.1.170: Updater preserves session files and other machine data during cleanup: .session, .cache, .state, .flag, .log, .bak, .cer, .pfx, .torrent, .fresume, .txt, .md, .sqlite-wal and .sqlite-shm. The same signed Apps/Updater.exe is included in all three packages and manifests.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -19,15 +19,15 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "43f0217b73bdde3afc8bed4f376073e030cdd585ce2c0659ee0da66751bc97c5"
+      "sha256": "073871b93b4c35c19c0247d8a84be6616901fa83b9479ab8dce57f6f9d7ece68"
     },
     {
       "path": "BotStatsMTS.deps.json",
-      "sha256": "1ce7a963644009852c516b0c8b572c967ec90ea25fab909c9f7bbb2f9896a750"
+      "sha256": "2665559e4838161bfbcd6b6a4d75e2de3fe92f7b28cf882040b24667ebce1a18"
     },
     {
       "path": "BotStatsMTS.dll",
-      "sha256": "bd52fa9540db370ef035c54c649997a3b39ba4082e8335eae6d3f326b41f2092"
+      "sha256": "344b0e38c1d5962432f897b20de2eadb2808054aaba9bfada8beab66c68f172c"
     },
     {
       "path": "BotStatsMTS.dll.config",
@@ -35,11 +35,11 @@
     },
     {
       "path": "BotStatsMTS.exe",
-      "sha256": "dd57df061592e8e37e3cd43b3e0b3f6c8b89c2e27a6ececa5650cfb669eb1fa8"
+      "sha256": "8dbd1f259e188672818d5cc22a2ad77a9ffa77db3a74ff90f7f5c8909ddb1ac4"
     },
     {
       "path": "BotStatsMTS.pdb",
-      "sha256": "fadc84a447f64ed4e193838dcc1724b15b183f172b3741d5d4e90b9fa4012e66"
+      "sha256": "22c7bd1e28ac3425f10b6474967c924aec5d4e56af66651bab88ec8d8f2052b3"
     },
     {
       "path": "BotStatsMTS.runtimeconfig.json",
@@ -63,11 +63,11 @@
     },
     {
       "path": "ClusterPeer.dll",
-      "sha256": "cea3d391c9b039f68f5d38a7126c9d3886551369226a550689df26727869c806"
+      "sha256": "7d621843b157f3ee026ecc61370963c9339c911bb5ce23b1cdbb266b9c144c6b"
     },
     {
       "path": "ClusterPeer.pdb",
-      "sha256": "9d712957ed3a19912003d808105ac69202365b88275c639dbdcb0a04110d9292"
+      "sha256": "cb6a68b2bb99a7d785737412190d32d8eb9b4b2323771e77ef4c93c4a87fdf53"
     },
     {
       "path": "Common.Logging.Core.dll",
@@ -79,11 +79,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "c487ecaa11019c25c0dac781261f40c7cb91232db9c179ebb25b958595e71692"
+      "sha256": "5b87788db3ffcf719798e72cd8a1d2c2a40c63300e614f38e1767f48ae97376a"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "75fd53c40ee23a36779029016d6d53cc01b91949a65eba9ac1a2e8aa4755becf"
+      "sha256": "1f2ddba448e40c3357b4b95b8e9705af0724fa93945a734f08fc1ea713a0d203"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -111,11 +111,11 @@
     },
     {
       "path": "Deployment.Core.dll",
-      "sha256": "a0ee1e0c2e21797f293e9692bc96fa37213be86e6e665f5f7f1007f35c5a2f9f"
+      "sha256": "050b3c1d28f9f6c30b750d3a8be35c2e67052209ee3600397fbe2764330c2ca6"
     },
     {
       "path": "Deployment.Core.pdb",
-      "sha256": "274acd2f95489380b0547e12b72aae9309f11a6dca31fd5cc43a21fdb318e785"
+      "sha256": "7071137eba70bf93de79f1a36170f3e53554ec3d7e7a8655bb2d0a964a5f39c8"
     },
     {
       "path": "DirectWriteForwarder.dll",
@@ -147,51 +147,51 @@
     },
     {
       "path": "FogPlayParser.Core.dll",
-      "sha256": "94a7e4a5c7d7f5312b3d4e4250ff23f759c0679c40c4a4b661702cc2aa9c3dee"
+      "sha256": "041c2e69147441e56005572835a6ff465ece692ec5f555c6d28cc220f03eb0a2"
     },
     {
       "path": "FogPlayParser.Core.pdb",
-      "sha256": "2554d923b86cf9a8fe5b931a424676960106624714c8db0ad65c38892371e728"
+      "sha256": "074b9ac1eabdfc3aaebbb7d4be21c42d36e5e32f151afb57b3520c50b3d62707"
     },
     {
       "path": "FogPlayParser.UI.dll",
-      "sha256": "ac43a8eb26743e8ed8b403e5a05b714fa2beedf78e5f0191811c2d6f23b61f3f"
+      "sha256": "af57e887740986ed24cb8669d581790ed90b4c6845849920f01c219bf1b054c5"
     },
     {
       "path": "FogPlayParser.UI.pdb",
-      "sha256": "470da3b80313977d8a6ad4042ba95513d00d2fee1416fd6200743a414964f89f"
+      "sha256": "ec6c1c6f6259160ea6dc66f8e21ea4dffcd41295c803ff1082d0bef49879e196"
     },
     {
       "path": "GameCatalog.Core.dll",
-      "sha256": "243da80d2eac027a0ce48f1a884904b9c0391c382892b44f6720eaa6d1a565a1"
+      "sha256": "accf5d7a8754b804071ba61286b4c6ff1a9211c046111842875df69f9d393ecc"
     },
     {
       "path": "GameCatalog.Core.pdb",
-      "sha256": "2dfdbbd5124658a68226727a804794e5130162b2fa447f56803c3c68a5af7268"
+      "sha256": "45972cb55d2d4e99c5c28997cd4807b8d0e625a52c71f404ed36e2339520eff7"
     },
     {
       "path": "GameDelivery.Node.dll",
-      "sha256": "3d062adbd71e1c7ae0888d6d56f2191675455c2997a0986f6d3f30642c33e7d8"
+      "sha256": "18510c0e8c4648c79d761c39a3b272b28720a75d9fa341e3fe09d8e72b89a462"
     },
     {
       "path": "GameDelivery.Node.pdb",
-      "sha256": "734dbb43e167dcc32551e2654af7ec807d10cc96cabd76dca484624309f1a7ea"
+      "sha256": "b67185028cf8d1f134ec08a2cf441a47c8dedb67f2bdc27810defa2eb1021c39"
     },
     {
       "path": "GameRemote.NativeV2.Managed.dll",
-      "sha256": "62887615ab55bc1c3c9d001eb4673bb8530170ca910421f68c08b7245b786c99"
+      "sha256": "5f2aadb8c6ce8295ea2c92da82da29d2842300209db36c98c7904c0af2906f14"
     },
     {
       "path": "GameRemote.NativeV2.Managed.pdb",
-      "sha256": "a4c3a906cd5d1507201b5ebc89b35ca723a92d62984f2b5d16448a08f942c561"
+      "sha256": "01939f5f17326b90364e638d061d59d6e9959eab27fdb9c914d71c64f071d097"
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "0c75fefc14782e2f1a3fdd49ce9760e4a8dd1cef3627efee4a1307074fbd498e"
+      "sha256": "46f5302a2a7fbc7e2201209f487607003a97aa8971603e37b817fa789159e47d"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "f5d4266f4fbe266312560634375bea5e9a65cf82b800bebd78e0258da6ac1916"
+      "sha256": "90a1e126a49a3fbf632f44aeee26294a8746bffb43b770041d97069e2c8ffb94"
     },
     {
       "path": "hostfxr.dll",
@@ -479,11 +479,11 @@
     },
     {
       "path": "Platform.Core.dll",
-      "sha256": "7ca62b0b90483b7f7a525f1d38b32cd65ea291f388667700605fef3562f8ee58"
+      "sha256": "c04ee815c31d4e150f8b5d2a66ed18eaf8a2244d3130651c3e7d7880780cc281"
     },
     {
       "path": "Platform.Core.pdb",
-      "sha256": "723113e12896b09c1efcb8cc60891608502fe8eb15b4666ad73d4dac0d45a0c8"
+      "sha256": "19a84d3a5bd275ff73f8bab30b4602195bb8678b47d281b30e45935e324555b3"
     },
     {
       "path": "PresentationCore.dll",
@@ -643,19 +643,19 @@
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.deps.json",
-      "sha256": "108b069e1679c1acdacabd356e7f0ae63a0e79545bed6caa7d21b92f13c6759b"
+      "sha256": "bda3f6ea7669df57444a2b959514934a4f32884d33ad382fd75429a97e78c773"
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.dll",
-      "sha256": "2da2a51bef00edc2c050e65954ad42e66bd2c70cf35824ca706dad4a562af056"
+      "sha256": "238f5be3aa9151a8cb27ec2b6e76e9a0c9e25ec28db86b923b148451fd3ed5f9"
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-      "sha256": "ade4cc22bf4838a2371c81c4bddb7d8e8474288642325eb03388385f70888417"
+      "sha256": "d34a264a298d59cdd6f90011a4ce79fd86ee2b14a736366148d078ae452d9cb7"
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
-      "sha256": "1bf7a302d0d3f26f8f9965e1f11e25d98a4100c00c450ee84b273424b43af30a"
+      "sha256": "b824ac86e2390d415f2e30f3610a8b948bc80e6a77457a6d97fb32fb739abb0e"
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.runtimeconfig.json",
@@ -675,11 +675,11 @@
     },
     {
       "path": "ServerManagement.Agent/CommonModels.dll",
-      "sha256": "1aad803ec10817bcc36e1138308e5f45751e9018fe86c3662fe7c223b20dc3fb"
+      "sha256": "72aba341585e96d5cc8eb3aa277838e70b9ce00af5b883450c5be74ff76d03ba"
     },
     {
       "path": "ServerManagement.Agent/CommonModels.pdb",
-      "sha256": "7adb0dd406111286f0148ad16d82d9f8f7e46ffbe467682587e0191018212109"
+      "sha256": "f7177c4c9544959c314358793bd81ff391bb1f71db741351cb70f09cd106a5f8"
     },
     {
       "path": "ServerManagement.Agent/coreclr.dll",
@@ -695,11 +695,11 @@
     },
     {
       "path": "ServerManagement.Agent/Deployment.Core.dll",
-      "sha256": "3da51f42b489939ec3458c35543b99d2057c98cb26cef12aa7ce76e2eeb83022"
+      "sha256": "4fd1699b0ed798dec5aedca27f8f9c874bd45786f5a371d13b3d8d2b63920c78"
     },
     {
       "path": "ServerManagement.Agent/Deployment.Core.pdb",
-      "sha256": "34fc453542316ab90d31812d866d671c2980e6225ff888b6b8a4dfbed4ef4830"
+      "sha256": "5243991fcd2f8d69f6625aea8842dd3b1c80ec10baee444ecd3c2e1e6185da9e"
     },
     {
       "path": "ServerManagement.Agent/FFmpeg.AutoGen.dll",
@@ -1031,27 +1031,27 @@
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.deps.json",
-      "sha256": "0d431414029cc81ce3c650b39af2072219bd27c72b3439e0129e3029b9630a07"
+      "sha256": "b437d9eda0bed4f8d84add59e47be4f645a50e1a8d0435094c72feb3ca5d1640"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.dll",
-      "sha256": "23ed12bcb6834aacc74e61cf75c3e94180231597a66548606d6b78a7445dcdfd"
+      "sha256": "cfe5f7aec6bd8ea30071fb49cfa2345b1700e9fd7e6d4fb55ffff380e7f15763"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-      "sha256": "a19b26693ace3369bc3c2512c290163551cdb4db5d26b42e76f46101527b968b"
+      "sha256": "697b38e496879dad05e7219c9103532564c9bdc948f19cc6cc21723f12158a80"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.files.p7s",
-      "sha256": "23cb8d15d678bd7d9e43e1c6a8f49f8a8e94502c96b10d87d42024d58f22e42d"
+      "sha256": "fa83e2c5fc9d6f675f11a1b5cf0c3c56c34d77ea0c7e04d4f0771fd9677b20d5"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.files.sha256",
-      "sha256": "bab71a245ff3f8ea45c23f7598c99eb8fe5a3789063f6b1bf8ddba3811999a97"
+      "sha256": "5803cc1032b6a7d80a150c443401e8ce02b36db88dfaaeda7624042cd452fbc7"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
-      "sha256": "a465c8c010eb447efd37d35e3354083df7820c440527c72b7003dad05a939336"
+      "sha256": "ca7243113679459e79d795641a2ef27a5664c755265cff149911b4bdefbe7b8c"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.runtimeconfig.json",
@@ -1059,19 +1059,19 @@
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.deps.json",
-      "sha256": "eaef5a1bd700ac352a72a7fc4a65a8bb0973bbef3abda35c12dd7827682cc332"
+      "sha256": "cb5156dd677c240216c4495351ba11b27de812a7785365162a5c14fa1cd2ad67"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.dll",
-      "sha256": "99cf84b76785272abbe69332ba6e553b2354544a644d77ea70e3d479ddc9a8eb"
+      "sha256": "f5f265079b3f0b0e0fc153c3b1b5352069c6f596c713fb5e5dcdfb4f87843384"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-      "sha256": "5dc7c213c24edfd267ea7fa7126a36569fb07bec6914160273f3e29c727a6e70"
+      "sha256": "d6d383ee952a6a21e0e9dae983f19016f4f981f09e700fa612e615db89261fc8"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
-      "sha256": "d7bc86869c3639130cfb643e05288b9309c65a57972a79e3fc9391ec9c89c35c"
+      "sha256": "97dd730679ff2c7623de811bb8c62e1013824bb5dd2895299d2aed4d3d6aa48d"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.runtimeconfig.json",
@@ -1079,11 +1079,11 @@
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.NativeV2.Managed.dll",
-      "sha256": "b8da89da27adc0623f0c8d3b50b3059bc30693619742d54a2e88b146e52a2b2d"
+      "sha256": "0537cfe2db0373657fa893ad7756390c049e4ece22b0c1aa5f9ebb9985f06873"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.NativeV2.Managed.pdb",
-      "sha256": "1156fba84ae5b25598d169db19146f7cac8405b0bee155f7515b9b751b2e477e"
+      "sha256": "0e6580955c63a58e2caadd88c855bd17d81829eeb5717e4ef88e43caf49f3067"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/hostfxr.dll",
@@ -2867,11 +2867,11 @@
     },
     {
       "path": "ServerManagement.Agent/Platform.Core.dll",
-      "sha256": "17da9754ba79f4345a864c7ec2f1ae89a8a1aed1077a1bde637ea7775aee43ac"
+      "sha256": "4571685a827068c52a36f636e30eb79b8271dda23142a9ebe082b9d2a300e2a0"
     },
     {
       "path": "ServerManagement.Agent/Platform.Core.pdb",
-      "sha256": "81063547b2beaa7d465b6efc81f2eb3cdbb2173b82dfd5ad96fe27e58f2e08d4"
+      "sha256": "2e40517edba7429a219fedd6a633d627699f68b445a7c4d1187531cb90447c5d"
     },
     {
       "path": "ServerManagement.Agent/PowerShell/BotStats.ServerManagement.psm1",
@@ -3559,11 +3559,11 @@
     },
     {
       "path": "ServerManagement.Agent/Torrent.Core.dll",
-      "sha256": "ce1e78efa730e323b8d8602b7eb3e0bf198cdc0adde7717362e25d0467f8a3c3"
+      "sha256": "7abfe0c0c7c787d2747ea06468de03b845777bb87229b99fd3529df6585d3178"
     },
     {
       "path": "ServerManagement.Agent/Torrent.Core.pdb",
-      "sha256": "9b89bb6109016081e71418efe01fd40627692720b8437be158934b8e1e9d776a"
+      "sha256": "db0cb1d19b66aab44e88c2bf6f27f3d0dc2c94cd15ceea7d1ee5fa03630244d8"
     },
     {
       "path": "ServerManagement.Agent/VirtualDisplay/deviceinstaller.exe",
@@ -3607,11 +3607,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "e0af53d135a7fe2033aef7ee67b4d59de30dd658217581b522d4488d443caa46"
+      "sha256": "15ceeb63771de1cddfba157a6b16b4c45d55bf18ce9ef206248e01dacd43e9ba"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "a8f836c1d25a0f26813b6f5e61d2fbb1642d9a611e26af60207a02bc3222a95a"
+      "sha256": "ef178367f1613255c0cf044f24b2d4138441abd6fa7fb4273b5b4c0f5968fcc0"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -4415,19 +4415,19 @@
     },
     {
       "path": "Torrent.Core.dll",
-      "sha256": "81b954b0f4abc084d2995b397c674605186b68f9175718f769a8a66bb315a909"
+      "sha256": "e70126a7dc7663b12453dafbdaf03426a6d5f260324e75f60073b5e4f5c68724"
     },
     {
       "path": "Torrent.Core.pdb",
-      "sha256": "7566f72504af8c178a823f182e5f93129bc96ecc96d704ad7bc65fab68515db7"
+      "sha256": "5d3124054f1f4aac1241c56d5d5b481647bbc0bc315c2ba3bd960c6cfd55f340"
     },
     {
       "path": "Torrent.MonoTorrent.dll",
-      "sha256": "3540d5b03474d0f220c310a8255b5337852825a2e5014e7066c7ee951db85fa8"
+      "sha256": "b3ee11cbcac01cbdbccca93f0d2da73b6799210d04ca0ae13fbd8bd8a4f836f6"
     },
     {
       "path": "Torrent.MonoTorrent.pdb",
-      "sha256": "1b10ff8943851820bb9eed64a7edbf1bee6467fa72b20293dd02a57a05bfbd9f"
+      "sha256": "a884457f71e43ab972c7fb825259d564f853cb4825b22ccc8a3439912d1bb187"
     },
     {
       "path": "UIAutomationClient.dll",
@@ -4490,7 +4490,7 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "BotStatsMTS-1.0.1.169-win-x64-selfcontained.zip",
+  "fileName": "BotStatsMTS-1.0.1.170-win-x64-selfcontained.zip",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2OfferCompatSha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
