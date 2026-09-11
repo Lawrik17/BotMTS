@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.174",
+    "version":  "1.0.1.175",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911-botstats-1.0.1.174-admin-0.0.0.168-6d6x-2.5.200.0/BotStatsMTS-1.0.1.174-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911-botstats-1.0.1.174-admin-0.0.0.168-6d6x-2.5.200.0/Updater.exe",
-    "sha256":  "130fabb5ce3b64d73f7560dce1eecc7375db6ad484e9889ea98d2ee6d9ed6beb",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911-botstats-1.0.1.175-admin-0.0.0.169-6d6x-2.5.201.0/BotStatsMTS-1.0.1.175-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911-botstats-1.0.1.175-admin-0.0.0.169-6d6x-2.5.201.0/Updater.exe",
+    "sha256":  "08a9d2a0e57de83867f2a870b0fe3318e1cceee580af06fe4ab983ec35a00ce5",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.174: Server remote desktop now captures through DXGI Desktop Duplication instead of GDI, lifting the ~29 FPS BitBlt ceiling; duplication is reopened automatically when Windows takes it away on desktop switches (user logon, Ctrl+Alt+Del, resolution change) instead of falling back to GDI for the rest of the session. Once ICE selects a private low-RTT route, the session starts at the operator ceiling and keeps an interactive floor, with transport bounds and encoder target moved in one transaction so the pacer never drains a source that produces faster than it may send. Connection setup no longer repeats per connection: the signed Host folder is hashed once at service start, the firewall rule is verified from the registry, UPnP mappings live for the service lifetime with lease renewal, and service initialization runs in parallel.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.175: Fixes the server remote desktop dropping its picture when the user signs in. Desktop switches (sign-in, Ctrl+Alt+Del, resolution change) answer with several distinct HRESULTs; 0x887A0001 and 0x80070005 are now treated as retry conditions rather than failures, and duplication is reopened instead of being disabled for the rest of the session. A failed first probe no longer disables DXGI permanently: capture runs on GDI and keeps retrying, since the Host starts exactly while the desktop is in transition. On the Viewer side, reconnecting to a BotStats server no longer falls back to the legacy pipeline the server rejects, which previously made every later attempt fail until AdminClient was restarted; and a server reconnect now retries while the Host restarts on the new desktop, instead of giving up on the first dropped control channel.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "43963cb81996fe57fbe5783bc1d249946933d77e38a418a6b352a258c411b3a3"
+                      "sha256":  "f6f18d56e16edcd2bbae6cfffd028e9e7ec5f8840e77b9dc09913f3f017af6b2"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "981014328300e56bc4410e1f064243f4281a63c76cde279aa8d561b816249356"
+                      "sha256":  "0680cda3bddfcb93f894d6608bdf35ee28e2da12f4761f0166d2fbdff58d45a0"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "51b42d45a00053caa00a4f7fac46fd291f50415c33eb8e8b9c660977e3bf4be2"
+                      "sha256":  "4989af3f8cab10b1f64b9433a8d1f09fb289bd2b6566be83189ba197a1706849"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -183,11 +183,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "7ff953924369139885febb7f5a513b72db04392b3bfa008028236070c20c443d"
+                      "sha256":  "1c42a28f4912241a48ea4a799c8e2f8d6195a426f72168a27e36d338fbdc56e8"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "f31c8d98a8d49bc91e4b100496faf25f4172b43394e93f9d7bb8d647bc7c8d9c"
+                      "sha256":  "3cc5f70518a9e7b20dfa7ac9b4faba6d66df228592bdb6d1b1858f6f39d5b407"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "dae36f365b401b63a611f839d055c994b89daca12bd4fd513bd14c030894725c"
+                      "sha256":  "3af45f57e4e9424d0dc24b42f56f96cd8c19f0342e32aa34c0c67a03b6a6c4ed"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1535,7 +1535,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "91301e1d8ac430f5d64c75ae5b3e7357c1434c5184d526c44350b0ecb04fef69"
+                      "sha256":  "21d637259351b54028510c16e6634ca3379c5cbfe677501d3736b4ba02ac463d"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2415,15 +2415,15 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.dll",
-                      "sha256":  "1cbb5d146e3758a64806e4de6206f8bcae24f68bae2e2cc780bd63405999ce35"
+                      "sha256":  "b45d3cf0f1d23709e56b98dfd342ae8b07bac6e7598e72afb1aa26c8de0e8e59"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "463370bab3bc190426748737c0dd2697b1d5ca786818cbefbd324f0a465c85ca"
+                      "sha256":  "685c1f2f1d6350acfb8994d74ada76b0ed52d31b983532340581a79a9e7ee828"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
-                      "sha256":  "83a548d3aa9e132483291b63699d72b3255d0d13c19b5563b61aa291ee99dddc"
+                      "sha256":  "92fae1f995c3f6badffc50c2ff005a79bbc344960ad2f32689d0da74818151e1"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.runtimeconfig.json",
@@ -2435,15 +2435,15 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.dll",
-                      "sha256":  "03d118a2625624021ec0338ce6846e682506cd9b87855a666f913651b3f4804c"
+                      "sha256":  "01aa6cfb807663c91d07ee7a8edd68efe748c0bcaee5425555080ee4e3198013"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "1376bbea4656a8fd71eaac180a0882da335f1df2ca7e0a1899886a99b8aafaa3"
+                      "sha256":  "01928678373e80badb36b48ef578369b1085e8735b7d2bcd2e7d691cf4b30fab"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
-                      "sha256":  "bbf2f792ce4f9f7280f2cf18f254c224889e9826e5c30306c2c2571d79858f21"
+                      "sha256":  "9352cdd721c2df3b35c98bbee65d497ff609af1d7a353c38d8cb73f4dd64ec6c"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.runtimeconfig.json",
@@ -4482,7 +4482,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.174-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.175-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
