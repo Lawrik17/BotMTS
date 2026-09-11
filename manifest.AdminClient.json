@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.170",
+    "version":  "0.0.0.171",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911b-botstats-1.0.1.176-admin-0.0.0.170-6d6x-2.5.202.0/AdminClient-0.0.0.170-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911b-botstats-1.0.1.176-admin-0.0.0.170-6d6x-2.5.202.0/Updater.exe",
-    "sha256":  "e260318bab946bb70dec00eec94eec4aa815d642ac6ff889c95bf86784eaa10e",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911c-botstats-1.0.1.177-admin-0.0.0.171-6d6x-2.5.203.0/AdminClient-0.0.0.171-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911c-botstats-1.0.1.177-admin-0.0.0.171-6d6x-2.5.203.0/Updater.exe",
+    "sha256":  "072682719ecb94947169fa449e4f42637a8a0a2daaeca3032dce280011f2e559",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.170: Fixes two cursors on the server desktop and lifts the frame ceiling. The Amyuni virtual monitor has no hardware pointer, so Windows draws the cursor into the frame itself; the Host nevertheless always told the Viewer the pointer came separately, and the Viewer drew a second one. The Host now reports the pointer mode DXGI actually observes. Frame capture waited up to 20 ms for a new desktop frame while a 60 fps frame lasts 16.7 ms; since capture and encoding overlap, that wait alone held the session near 50 fps. The wait is now 3 ms and the previous frame is reused when nothing changed. The software H.264 encoder is also biased towards speed, which costs nothing visible at the bitrates a local network sustains.",
+    "releaseNotes":  "AdminClient 0.0.0.171: Fixes the duplicated cursor for real and raises the frame rate without touching image quality. The pointer mode the Host reported was overwritten by the native WebRTC engine, which does not capture the server screen at all, and the field holding the value from each frame was only updated on subscribers, never on the session owner. Both paths are fixed, so the Viewer no longer draws a second cursor over the one the virtual monitor already painted into the frame. The software H.264 encoder now uses all cores but one, cutting encode time below the 16.7 ms a 60 fps frame allows. The Viewer settings offer 3440x1440 and 3840x2160 in addition to the existing modes.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "599926a83878dd86d110f88db0b2134f10fa15de44b75489e78a3119476c050a"
+                      "sha256":  "52af7db65abe0b7f08342b302b393c90c04de11f62f4645b411b5fb74947a628"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "b2e1b6a63c8d9694b173792bf30c338307514ba6b845c9176d43018796f30b67"
+                      "sha256":  "384a96c2837b51036534d623c23eba031c2883fd888471ebfa6c3b115c646ef2"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "e453796e63908dc75e9b2561a4513fd0618196efa70745320d986dd4622d0284"
+                      "sha256":  "ad7de1420ce779f206ee6c2b1377b23e39d4426f82e703bd3412d7f818ee8017"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "c641708257d807c69d743569dfc3f2e27c5545fab95d4cfc4294a705727fb283"
+                      "sha256":  "af30f85387d9c2365e1c59c9559e6938b11a9fea8762942e10548f4b463560e2"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -131,11 +131,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "1c42a28f4912241a48ea4a799c8e2f8d6195a426f72168a27e36d338fbdc56e8"
+                      "sha256":  "4a703bc3b59b1ea84d2d419fc98338b8a208b6f784e7f68563baca17883c88d4"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "3cc5f70518a9e7b20dfa7ac9b4faba6d66df228592bdb6d1b1858f6f39d5b407"
+                      "sha256":  "c5e06c2ca5182199c97342a51dd083d6d0497b47910c2591e2ced40a5dccdb5b"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "7a2acd7ea036c7c89534c275ee1389d18cfcc4d02be10cab775a1038c7b30f1b"
+                      "sha256":  "078a1d9d8062a870ae267055902fe6f373ce67858c7fd03215deda952c4d7257"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1314,5 +1314,5 @@
                       "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.170-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.171-win-x64-selfcontained.zip"
 }
