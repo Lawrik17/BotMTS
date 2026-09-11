@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.177",
+    "version":  "1.0.1.178",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911c-botstats-1.0.1.177-admin-0.0.0.171-6d6x-2.5.203.0/BotStatsMTS-1.0.1.177-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260911c-botstats-1.0.1.177-admin-0.0.0.171-6d6x-2.5.203.0/Updater.exe",
-    "sha256":  "719aaa8b3113a984ebbaeca9ba0af3ae537343323a9f255a850143ffc1890845",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912-botstats-1.0.1.178-admin-0.0.0.172-6d6x-2.5.204.0/BotStatsMTS-1.0.1.178-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912-botstats-1.0.1.178-admin-0.0.0.172-6d6x-2.5.204.0/Updater.exe",
+    "sha256":  "8c8426911db6b50a193ea60af016c593314537ad5dd839f40ff57c0fb9fb8435",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.177: Fixes the duplicated cursor for real and raises the frame rate without touching image quality. The pointer mode the Host reported was overwritten by the native WebRTC engine, which does not capture the server screen at all, and the field holding the value from each frame was only updated on subscribers, never on the session owner. Both paths are fixed, so the Viewer no longer draws a second cursor over the one the virtual monitor already painted into the frame. The software H.264 encoder now uses all cores but one, cutting encode time below the 16.7 ms a 60 fps frame allows. The Viewer settings offer 3440x1440 and 3840x2160 in addition to the existing modes.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.178: Makes the requested resolution real instead of a stretch, and removes the second cursor at its actual source. Capture only ever scales down, so asking for 2560x1440 or 3440x1440 on a 1920x1080 server screen changed nothing but the announced size: Full HD was encoded and the Viewer stretched it, losing sharpness and aspect ratio. The Host now asks the screen itself for the requested mode before capturing, and falls back to the current mode when the virtual monitor refuses. The duplicate cursor came from the Viewer setting that forces a local pointer: it overrode the Host, which had correctly reported the pointer was already painted into the frame. The Host decision now wins. A server session whose Host restarts on a desktop switch enters the existing reconnect wait instead of asking the operator to reopen the window.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "22b9adf75127b9f00397345491cd52fd994963f1d4c95da556498e826510f878"
+                      "sha256":  "61903dd600b6ddb25537cade96155d6fce307a164c102bfaa61e0fe0a50ac708"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "cb233daac845acb85d882cb0a4d743de2d717ecd125d6b2ff3981c9adaf88118"
+                      "sha256":  "9f7be3e8714d0cdc5046972a70bebdace1ae6d8bad7fb5e59ac90027c4a2e82f"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "b848dbc3a204bff75ea126340808e161ffb7380feef7fb789a1225e0f145b00b"
+                      "sha256":  "24f48598def338277fb8bb18576356d3139a0340b1a817727912ccd5747b31fe"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -183,11 +183,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "4a703bc3b59b1ea84d2d419fc98338b8a208b6f784e7f68563baca17883c88d4"
+                      "sha256":  "22453c1b7a8e3cc07c54725cf4462011134ef5493ca5f97e542c9a673404bdfa"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "c5e06c2ca5182199c97342a51dd083d6d0497b47910c2591e2ced40a5dccdb5b"
+                      "sha256":  "59b6e5accf5173508c403c6eb9ceb38b7d8cb98909c6f4f1aa380e8a64dd577b"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "3584517ac247efec226dff685a5cdf6e29d52c2f2337f0a0bcd24c8fd867a4e8"
+                      "sha256":  "c64a8bfcb07019997895ff9ee8f5f7123227b92dd98370700fca96d158aed995"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1535,7 +1535,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "7ddf8cd060198332afe4fa6a4bc49eb31b797000923f57c10d547fc7319d29c0"
+                      "sha256":  "52aec6640e5c825c0b052c1f3f43b02066c56655478c77e1c6b6723f9b559319"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2415,15 +2415,15 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.dll",
-                      "sha256":  "6a3be5e6dda512d07a3520544f6ac3f13c7f07d2f2bfbb328aaaa93312a80821"
+                      "sha256":  "905c963f087b4769dd421c9f59fa4d6c3a24104ada775ce7a2ce39fcd6b824f4"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "a04a9ff8571d0aa47335a25b17c4519611f8322c6981bfaa684d12d966e40421"
+                      "sha256":  "18eb778ee6ad8d097eb218780586d5c42ca6d530299d3e10732608583c7aa10d"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
-                      "sha256":  "6306fe25738fa7c9276f715b2a642aba22f1c94bf60c9382957a512c86288cd6"
+                      "sha256":  "9d9fc89fe95ce5c5c68403867716f33dc84250bdc1049e99eb5c420a5e6ae092"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.runtimeconfig.json",
@@ -2435,15 +2435,15 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.dll",
-                      "sha256":  "4770b497fd87aa0c5c56230c69a5a39b75ca46ee4c81e591544e1fe47fa9e60f"
+                      "sha256":  "b0e5091b5e42a6f935728a2e2fb7b403548fe5d22a5b1e2a122b8442a5029728"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "1e7e838bbcf85d811a3389be495b976b1ac68b789877e9cfeccc5be5e073059a"
+                      "sha256":  "57c6f2510bc8d9d214a80a1a568fc593be4c024eb8dd3e8fe683579cf7098b69"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
-                      "sha256":  "fb4902af3850dc016b26b6b765a5d56d09428e77f7fc17ba9018c4f90361e825"
+                      "sha256":  "b309bdd63899231565e4298e486a106515361352d5483a33462725bf90eb77b2"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.runtimeconfig.json",
@@ -4482,7 +4482,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.177-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.178-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
