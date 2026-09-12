@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.173",
+    "version":  "0.0.0.174",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912b-botstats-1.0.1.179-admin-0.0.0.173-6d6x-2.5.205.0/AdminClient-0.0.0.173-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912b-botstats-1.0.1.179-admin-0.0.0.173-6d6x-2.5.205.0/Updater.exe",
-    "sha256":  "4c211815c255e5d78e7d420ba754c7b3747c8c370eba8777d9ae0f649792e782",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912c-botstats-1.0.1.180-admin-0.0.0.174-6d6x-2.5.206.0/AdminClient-0.0.0.174-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912c-botstats-1.0.1.180-admin-0.0.0.174-6d6x-2.5.206.0/Updater.exe",
+    "sha256":  "e52631237110a949725781d7a7d27506764b906c22ac8fb4936d97ea6cddd588",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.173: Changing resolution no longer requires closing the window: the Viewer recreates the session itself, because the Host rebuilds capture and encoder for a new size and refuses to switch mid-session. The duplicate cursor is fixed at the source - desktop duplication claims the pointer arrives separately, but the Amyuni virtual monitor paints it into the frame anyway, so that claim is no longer trusted and the Viewer never draws a second one. After a failed ICE restart on a server the Viewer now starts a new session instead of waiting for manual reconnection: the old Host is gone, replaced by a new one on the new desktop. The virtual display installer also registers ultrawide modes (3440x1440, 2560x1080), which the driver does not offer by default, and the Host logs which hardware H.264 encoders the machine actually has.",
+    "releaseNotes":  "AdminClient 0.0.0.174: Frames per second on the server desktop: converting each captured frame to the encoder colour format was a single-threaded pass over every pixel, and it sat inside the frame encoding budget - 6.5 ms of it on a 2560x1440 frame. It is now split into bands across cores and takes under 2 ms, with output verified byte for byte identical to the previous code on eight frame sizes, scaled and unscaled. The server has no graphics card at all (Microsoft Basic Display Adapter only) and no hardware H.264 encoder, so the CPU path is the only path and this is where the frames come from. The Viewer title now shows the resolution actually being received instead of the one requested: the screen reported 3440x1440 while the server was refused that mode by its virtual monitor and really sent 2560x1440. A second ultrawide option (2752x1152) keeps the 21:9 shape with a third fewer pixels, for those who prefer smoothness over sharpness.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "755776ffe6969de61c056e3505618c1c5a31c93f76797276d75a48338283b143"
+                      "sha256":  "e6c2ee53f826f58178f93ca1e0a7cf902717fb978f6f718854851784ee6f5b4c"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "4bf3583e62618a825bccdfb8b3b0e01bdb0ce8c26ff19e77fe159945d9c032e1"
+                      "sha256":  "c81e23df891c8ea6101738fa8d86b08edb95907a08a335826a1c275bc488bcf2"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "2e182da3e5b5bfe4344e5756c9e5c3dd867ceb18306f71df4305cb73a080b4bf"
+                      "sha256":  "7fa2a6b55983ba974192563801cad71feb68e7f168babeb7c6be73b228c2a400"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "dbe433630abe58b73a240ca43c5233b1af2abb1795eaec505fdd4e0b65e780eb"
+                      "sha256":  "3fcecf37ec3752f17fc4f9232dc4da815a338da36a974ef921b15ecc47a2e490"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -131,11 +131,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "aca7e5206f96629a7e62d485a45ecea2c5cba1895ba6d6c0438c39eaa3eb8b83"
+                      "sha256":  "4aeadc232eb71864c1efad85c6b2e24ded87a3fc58f9dc6b50756ab39f1254c3"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "90634c913d86b2c505417617fd00fe80a136e910938a77caf0509d24a607a08a"
+                      "sha256":  "b929cd31f20c07c1980eea33a35c82547abcba2376cf45576a393be9708b5513"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "4c322204483ea828e78c91afc3c1fba5e979ca75a538adc7bd7a8811db26f7a7"
+                      "sha256":  "08eed9db26cbe8fd2cf3c5203d5a4032b8a5dcba47d9537603e785dc2d975547"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1314,5 +1314,5 @@
                       "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.173-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.174-win-x64-selfcontained.zip"
 }
