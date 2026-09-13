@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.175",
+    "version":  "0.0.0.176",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912d-botstats-1.0.1.181-admin-0.0.0.175-6d6x-2.5.207.0/AdminClient-0.0.0.175-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260912d-botstats-1.0.1.181-admin-0.0.0.175-6d6x-2.5.207.0/Updater.exe",
-    "sha256":  "ca4c23f90b94d742704a107dfe6ca55b25849044aee10d5dc7ba403122d5df96",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913-botstats-1.0.1.182-admin-0.0.0.176-6d6x-2.5.208.0/AdminClient-0.0.0.176-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913-botstats-1.0.1.182-admin-0.0.0.176-6d6x-2.5.208.0/Updater.exe",
+    "sha256":  "d42cdd49e600e85a16fc4e586017d28e8c8ec5ae87fe93917f510945b623f94d",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.175: The server desktop is no longer re-encoded while nothing on it moves. Desktop duplication reports a frame only when the picture changes - pointer movement included - and stays silent otherwise; until now a silent tick reused the previous frame and pushed it through the encoder anyway, sixty times a second, which is exactly the work RDP never does. A frame is still sent once a second to keep the stream alive, and on any change or key frame request encoding resumes immediately. Since the decoded frame rate honestly drops while the screen is still, the Host now tells the Viewer so and the title says so in words instead of showing a frightening number. The virtual display installer had its order wrong: it wrote the mode list before running install, and install re-applies usbmmIdd.inf, which restores the factory list and erased the ultrawide modes - the list is now written after install and before the monitor is created.",
+    "releaseNotes":  "AdminClient 0.0.0.176: The remote desktop screen is split into zones: servers and gaming PCs are no longer one heap, the heading counts only the total, and connected/busy counts now describe the gaming PCs they actually refer to. The placeholder shown until a screenshot arrives used to draw a monitor - inside a card that is itself drawn as a monitor - and is now a gamepad over a lit backdrop; the screen interior is no longer flat grey, so a machine that is online stops looking switched off. The page background is untouched. The EA Security Violation dialog is also closed outside the hourly check: closing it was something only the hourly pass could do and only while it ran, so a dialog appearing afterwards stayed on screen until the next hour. A watchdog now clears it every ten seconds - the window only, never anyone else|s process - and stays silent while the hourly pass runs, because closing the dialog before that pass sees it would let a failed game launch count as a success.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "fe7c97078d0772d0bd5e1204a775afb955d39e6586bcf1a87da276dbf218b3f2"
+                      "sha256":  "16643cf70de5648b96c020444db37362b13e71e30f3f8e40c634e1325c62bc64"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "51a35e0439b679ebfaa4b76c81bd98a72205697ceba37d32e6d7aaa3aae9ca34"
+                      "sha256":  "28c8755638b74b0e616091baac03acc5454e4c886704b771acd157e3ac22a9b1"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "c2df5403cd8e40410a5393780d19d01dbfa728264c31b71360e021c2aff8d38a"
+                      "sha256":  "a84405191e5a8ab6261722ce3bbb2997c9cc0044a39c512659a5d212f020db8f"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "9575f84bc4f3367cb4f054833985dd2345a63533deb0e3cf9f65e7dd0921a416"
+                      "sha256":  "814cc5074aa6dbcc407ada5f89576de03572ef2227e8f1b4685846f2230ef692"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -131,11 +131,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "416cf7d68dc76f87631a6f10d0d799d5255f1fe692c14467fa818b8d7262e04e"
+                      "sha256":  "53574c0cd9daf940b211e929a2fb3a84c1cc676b1e36b6c34cfe9d12c368bebb"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "08be4899c035aa4efce71d9a2c2eb4b862206d4e2cc09e70403e375785710eeb"
+                      "sha256":  "6142e90257aee06ec38f13cab9410ace85c0d61228bd4db092ec523353157e90"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "74cdbe77a21b9fa50e376815f68732463dd21e79c001dd33186b066bd3cc4301"
+                      "sha256":  "974e709c4c2f03ec52e02989a3e1232ee9df874ae853ecede28ecae032f5eb06"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1314,5 +1314,5 @@
                       "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.175-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.176-win-x64-selfcontained.zip"
 }
