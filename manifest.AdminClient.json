@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.178",
+    "version":  "0.0.0.179",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/AdminClient-0.0.0.178-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/Updater.exe",
-    "sha256":  "ebdfe9cfa715ade3a0357c88e2f3f35cc14193fc3c5bcbcfb2ea9067aecef061",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/AdminClient-0.0.0.179-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/Updater.exe",
+    "sha256":  "f6b164ed638218b14c03fc8ff863b155101a18d2b02448027065db81a78d36cc",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.178: Game delivery section reports server refusals instead of silently showing an empty result - adding a torrent, changing target disks, queueing Steam or EA updates and job actions now say what went wrong. Steam queueing shows the server\u0027s own summary. Server disk usage is shown on the dashboard.",
+    "releaseNotes":  "AdminClient 0.0.0.179: The EA game list is updated in place instead of being rebuilt every two seconds, so a tick on a game no longer disappears under your hand. EA queueing shows the server\u0027s own summary of what was and was not queued.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "813518a00b7b74291ae113cb2a14b393912e78fa3b7cb9476985fac265c82a47"
+                      "sha256":  "1fc64eb03367b17ed05b14333b4f964bd987d5e7d92bf5793ed7f6064d191158"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "b2679c4953e1c410c3493ab1885c23d8a5810084a6d7ce8f9528ff8b00bf6e65"
+                      "sha256":  "976a78f565a78fbc78d51dcf35a5724170724ae153a21be4796fbfe11b465ac9"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "d2442eeb80ae8c06557d5f5c2fc846cba4a94c2f1b9703687347797f60f9deae"
+                      "sha256":  "1825f808509bcb37161a6288c84e7f603dc53537914a25f11a07734c0114705d"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "2186fc651276c8a94aee0ff652755f065e4261bc833ce6fb68ec8efe69175974"
+                      "sha256":  "a701a576dd40e751f7d6b43deb4a67de5ef8e0565c644deba9e430f651724dab"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -363,11 +363,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "2fbc73a2712c3210be4a4e4a54e09b55d13defc370f6c7ce367babb58504884f"
+                      "sha256":  "0b2c33e10038e6f1d7d2e109cfee0892b5896e68454b632126dc68cc60ee9084"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "282af38094d2e0ec0d31d3636a18c7d515ed27ef2de3c02caf75fb58111ff5da"
+                      "sha256":  "ae79254848cb4adb3286244dde75ab0041537991d79049f8a780e0827e203f72"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "57d79c8d28b53a585d12956b41c5c824063432c0e14c59607cdf1252df86a124"
+                      "sha256":  "9c1c5acb0d2fe123660ffb342fb81338411edc1d68c530f0fd6ebf676f35c81c"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.178-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.179-win-x64-selfcontained.zip"
 }

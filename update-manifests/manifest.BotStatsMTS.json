@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.184",
+    "version":  "1.0.1.185",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/BotStatsMTS-1.0.1.184-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/Updater.exe",
-    "sha256":  "c49ba689a1d33ce32df8b2a72ceb9f361f848cddc640db52c73ffd9a4a4dba42",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/BotStatsMTS-1.0.1.185-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/Updater.exe",
+    "sha256":  "5e29ace2618351a818ed6f939b3df11b96a3afc529e1ff6482d8ae5774677171",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.184: Game delivery section overhaul. Approval is idempotent again, so a repeated approve no longer breaks automatic installation and no longer floods the operator with a Critical alert every five minutes; a stuck job is now removed from the queue even when the node no longer knows it. Every server call in the section reports refusals instead of swallowing them into an empty snapshot, so a button that cannot do its job says why. Steam version checks fall back to SteamCMD (public branch buildid) when the public API stays silent - it answered for barely a third of the library; queueing reports what was queued, what already stood there and which AppIDs are missing from the snapshot, and warns when no Steam account with a stored password is configured. EA no longer dead-ends on several matching cards and retries the return to offline mode. The same build is no longer re-downloaded every hour, and the section snapshot is cached for 1.5 seconds so the view stops fighting the installer for the database. Server disk usage is now shown on the dashboard.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.185: EA checks now wait for EA app to be ready. The window opens immediately but keeps the \"Connecting to EA app\" screen for seconds - on a cold start, up to a minute - and the Library button does not exist yet. The pass used to walk that empty window, find nothing, and record every game as \"exact card not found\", wiping the cards it had recognised before. Now it waits for the Library button and for the library to actually show its cards, and if the window never gets there it says so instead of overwriting what was known. Queueing an EA update reports its result the same way Steam already does: how many were queued, how many already stood there, how many need no update or have no recognised card - a button that queues nothing no longer looks like a job that appeared and vanished.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "9c3795ea4a533ad0391dbdb3ec601807463f72fae5b70fab7a02802ad47d5bdb"
+                      "sha256":  "e1b65becbb8944f9d72b647bcf478bfe65ce47cde3372a8bc0e9e1953f9f0ad9"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "92e9aed922d3cb089eb3a6f4d2eb1bdf61da753e7a2a4c83f6b819d9932c3ccb"
+                      "sha256":  "c7b862fc85622209f8f011293ac520abc7cd75c188e2bb82f3e9b255770268d2"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "df347b9961158a6c3ba548d9b0dc6d08b82ab4427ad650d0b1e5c2f242aa2dec"
+                      "sha256":  "feec94a95d4fbd4f43785bccaca8fb9965c8798571d14d8edfc20cf77247849a"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -167,11 +167,11 @@
                   },
                   {
                       "path":  "GameDelivery.Node.dll",
-                      "sha256":  "532fc1d8b67f2eb807df9c29368584e2a196679a2d59084d6a52537ccc1a92dd"
+                      "sha256":  "fb22315d2ae9a5e42c85d90c2ac76f1990ece02cff38899f0cd94b2adc627293"
                   },
                   {
                       "path":  "GameDelivery.Node.pdb",
-                      "sha256":  "9e52bdc05ee806b10bd807f473c8563a6fd312da5542da7d80c42c201d2b550d"
+                      "sha256":  "c54ebc3b785d6ad10951c091693d6417cb61e309c3ed13a9be404bcf9baf129a"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.dll",
@@ -539,11 +539,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "2fbc73a2712c3210be4a4e4a54e09b55d13defc370f6c7ce367babb58504884f"
+                      "sha256":  "0b2c33e10038e6f1d7d2e109cfee0892b5896e68454b632126dc68cc60ee9084"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "282af38094d2e0ec0d31d3636a18c7d515ed27ef2de3c02caf75fb58111ff5da"
+                      "sha256":  "ae79254848cb4adb3286244dde75ab0041537991d79049f8a780e0827e203f72"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "cc4f2b93f12aa47d8443597364e6f0ccaa16c34ec7913215e1c83526b494c3ff"
+                      "sha256":  "715e9f3bff56971086a8375e2c928fdf94dfc8a1e917268732c7e3d4184c5dc5"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1527,7 +1527,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "cb535618c1365e82f2cb3e64c772fe3c364c777efdf3ab707699726035edd615"
+                      "sha256":  "1f85f8acd8a08e9f1f2861b6ecde3c961216164fd6a3411c104461c62b9b6764"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2411,7 +2411,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "331ae13c6f38922009fef3acb0cdd7d922c63bb726259bc3c30212c5dd464c62"
+                      "sha256":  "d445c15f43c528486315b37e96bb880435f7a5441578cd39a7586b5430787a96"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -2431,7 +2431,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "2cf82f512b856c485b95fc8de0fb72c7c5fd8210e2d243217c6a859f9b78217b"
+                      "sha256":  "0f0f0b77069dbc0a94414131e628ca1c78b3441d516a2bd9631c761d492e0177"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -4474,7 +4474,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.184-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.185-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
