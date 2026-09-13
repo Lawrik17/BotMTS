@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.177",
+    "version":  "0.0.0.178",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913b-botstats-1.0.1.183-admin-0.0.0.177-6d6x-2.5.209.0/AdminClient-0.0.0.177-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913b-botstats-1.0.1.183-admin-0.0.0.177-6d6x-2.5.209.0/Updater.exe",
-    "sha256":  "7fca5039e79de36fe415264f6934ddd166b39a3621ffe12a50c6956d0a188e0c",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/AdminClient-0.0.0.178-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913c-botstats-1.0.1.184-admin-0.0.0.178-6d6x-2.5.210.0/Updater.exe",
+    "sha256":  "ebdfe9cfa715ade3a0357c88e2f3f35cc14193fc3c5bcbcfb2ea9067aecef061",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.177: Soft collection now reads in the direction it actually runs. The pass walks from fresh sessions towards old ones - page one is today, then deeper - but the window showed the period the other way round, from the old edge to the fresh one. The fields swapped places, so the date the pass starts from stands first and the range reads 07.04.2026 - 01.11.2025. The day being processed is also visible now: it was kept nowhere, and a page number says nothing about dates. The service records the day of the sessions it is reading, writes a journal line on every change of day, and the window shows it beside the status while the pass runs.",
+    "releaseNotes":  "AdminClient 0.0.0.178: Game delivery section reports server refusals instead of silently showing an empty result - adding a torrent, changing target disks, queueing Steam or EA updates and job actions now say what went wrong. Steam queueing shows the server\u0027s own summary. Server disk usage is shown on the dashboard.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "a4b238c08fde21f8c86107c6b3d0826175066b7092be76b5ddcbfe997c3c721c"
+                      "sha256":  "813518a00b7b74291ae113cb2a14b393912e78fa3b7cb9476985fac265c82a47"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "2adcc5ef3f0c9a84c5f8c491ee84023d8712f2d491df3b01e937510063c5bcb8"
+                      "sha256":  "b2679c4953e1c410c3493ab1885c23d8a5810084a6d7ce8f9528ff8b00bf6e65"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "ac8da8b95a84169a39c59f073c2f65aa690a8827f8e8183dc8bb70d100fa697b"
+                      "sha256":  "d2442eeb80ae8c06557d5f5c2fc846cba4a94c2f1b9703687347797f60f9deae"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "9103dd8b17d6c83d83019e1ddfb43feb19d0cde9afc8553d38b2c9976e7b8383"
+                      "sha256":  "2186fc651276c8a94aee0ff652755f065e4261bc833ce6fb68ec8efe69175974"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -59,11 +59,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "d2a416c0c9fd8ad3e5c175e7352f6510da65083a185a48b502288b4169d2e101"
+                      "sha256":  "c0bbf0976a2b337972fce552529bd8ca05ed02690e53249c802905a63c1c4e25"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "8819dc46f725c35c74f34ca1f720fbce324ff1186b1abd1afa1a865f55d3bd03"
+                      "sha256":  "4e98ef77cf6336d47d54ec127a63de65f6ad8a7108d23bb3d1e2c2b3c8081010"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -107,35 +107,35 @@
                   },
                   {
                       "path":  "FogPlayParser.Core.dll",
-                      "sha256":  "2220afe5404f6920c18cf52be82451cbbc9d59e4a79ab6f568cffe76b6793020"
+                      "sha256":  "763300a5cc9fe1358d0f71c70df7a5bcf2e7188c99433800f16373f0fccaddf7"
                   },
                   {
                       "path":  "FogPlayParser.Core.pdb",
-                      "sha256":  "68e62bfad46391311598af6d3c489cfadb4ffb03524718e806304599bdcaa5cb"
+                      "sha256":  "fe2fef87a7b55ba201c3a0df4c1c528e4a5231122b30a463215e27ef39b9514a"
                   },
                   {
                       "path":  "FogPlayParser.UI.dll",
-                      "sha256":  "ca171ca1f5819a2c7d17e23f146d0ecdf22f786101ace080e51b3f1a0b8063a6"
+                      "sha256":  "adda95811ff4a81976ba953bf374e743a1cb2581d90bc0ed327337bc33268526"
                   },
                   {
                       "path":  "FogPlayParser.UI.pdb",
-                      "sha256":  "7aa29cf04f40ced92af6a87bb9c594d4e167e6a54c8727450b1896f213037118"
+                      "sha256":  "af19402ca3aa6997e295149d993968e8ee4ae1e519b38bd96102ecbe8b6c712b"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.dll",
-                      "sha256":  "f52bed4d3db5a59014d223185d229a595665ae009a9bcabc7aaa3f3849467b7f"
+                      "sha256":  "ca70b6e25c8be1002b20b6dfbaacbb654c274af2b857a58b81cc2e66b914caa3"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.pdb",
-                      "sha256":  "ddbaf252a280cda8cc350e2d2412199a03d771779378d61379a17a6ce215b91c"
+                      "sha256":  "ae2ef79f4e0f3da4eaa6f94fbd8116cc07a7433c6cbce699e10bc77f48e9a2c0"
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "e7065fe583ef85d087c2eb205fc4340db78573a12e735ab4c4783b79b7e0a005"
+                      "sha256":  "fdcf97a6dadb933592d3cff03036302773b24b06a818268b4178ca65da800ad6"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "980e486ac9c8e5f45d0ef90a235b8f39547e453ceea6b19db8d4a49cc1202235"
+                      "sha256":  "4f03f909ba30966bf41a3c3753d9c131e60d5ff05c493e36924ac9eeb84e4a96"
                   },
                   {
                       "path":  "hostfxr.dll",
@@ -363,11 +363,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "8e77db9ee44f44f1c6f9f58ce087eb436e38334ee58b5567b494225bbb002686"
+                      "sha256":  "2fbc73a2712c3210be4a4e4a54e09b55d13defc370f6c7ce367babb58504884f"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "a177e862d9c10734b7cef796bee6235a71eadfe7c880b8960b14dbac0ddd176a"
+                      "sha256":  "282af38094d2e0ec0d31d3636a18c7d515ed27ef2de3c02caf75fb58111ff5da"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "517b4e90dd917fc177de8132b20ff5b6a7f9cc7acf313a7685f04b0e3fb068ac"
+                      "sha256":  "57d79c8d28b53a585d12956b41c5c824063432c0e14c59607cdf1252df86a124"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1302,17 +1302,9 @@
                       "sha256":  "1eef9b6721f7c1b28870320b7dc3c84eedaeafc08aee30146e2511625c0345cb"
                   },
                   {
-                      "path":  "runtimes/win-arm64/native/WebView2Loader.dll",
-                      "sha256":  "0248fea0db36db65e8727ea26d6998c4fe0d76aa0498e78482ed6903e0061142"
-                  },
-                  {
                       "path":  "runtimes/win-x64/native/WebView2Loader.dll",
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
-                  },
-                  {
-                      "path":  "runtimes/win-x86/native/WebView2Loader.dll",
-                      "sha256":  "9873644f2668960d66e19d0c62f7812b1b3f35c1f53e8cd61edbb1be311666b0"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.177-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.178-win-x64-selfcontained.zip"
 }
