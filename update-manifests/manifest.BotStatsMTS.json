@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.185",
+    "version":  "1.0.1.186",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/BotStatsMTS-1.0.1.185-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260913d-botstats-1.0.1.185-admin-0.0.0.179-6d6x-2.5.211.0/Updater.exe",
-    "sha256":  "5e29ace2618351a818ed6f939b3df11b96a3afc529e1ff6482d8ae5774677171",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260915-botstats-1.0.1.186-admin-0.0.0.180-6d6x-2.5.212.0/BotStatsMTS-1.0.1.186-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260915-botstats-1.0.1.186-admin-0.0.0.180-6d6x-2.5.212.0/Updater.exe",
+    "sha256":  "52b60fb2d1f7b7804134483d4a9264bf600191e53f57996b6e5b6d4a748f2e7f",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.185: EA checks now wait for EA app to be ready. The window opens immediately but keeps the \"Connecting to EA app\" screen for seconds - on a cold start, up to a minute - and the Library button does not exist yet. The pass used to walk that empty window, find nothing, and record every game as \"exact card not found\", wiping the cards it had recognised before. Now it waits for the Library button and for the library to actually show its cards, and if the window never gets there it says so instead of overwriting what was known. Queueing an EA update reports its result the same way Steam already does: how many were queued, how many already stood there, how many need no update or have no recognised card - a button that queues nothing no longer looks like a job that appeared and vanished.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.186: Library checks no longer die on the command channel\u0027s timeout. Walking EA app or polling Steam for every game takes minutes, while the channel gives up after a little over two - the window reported \"the server did not answer\" while the check was still running. Both scans now start in the background and answer immediately; progress shows in the section itself. SteamCMD output is read line by line, so a running update reports what it is doing - \"Загрузка 42% (1,2 ГБ из 2,9 ГБ)\" - instead of a console working invisibly. EA no longer calls a game ambiguous when every match carries the same name: those are the tile, its title and its button, one card, so the most specific node with an action wins.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "e1b65becbb8944f9d72b647bcf478bfe65ce47cde3372a8bc0e9e1953f9f0ad9"
+                      "sha256":  "b7dc856605b8e4792a1ab4b4f541512870aeb3dab985ee8ea427599f37dadea8"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "c7b862fc85622209f8f011293ac520abc7cd75c188e2bb82f3e9b255770268d2"
+                      "sha256":  "2af71a37d78e9d14443609e19cbc988ee2d7406dcc6270413b6e85317aae250f"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "feec94a95d4fbd4f43785bccaca8fb9965c8798571d14d8edfc20cf77247849a"
+                      "sha256":  "f968baa5875b6c59d9c2986107eee5882b4e201681432b88ba8fdca1f1470daf"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -167,11 +167,11 @@
                   },
                   {
                       "path":  "GameDelivery.Node.dll",
-                      "sha256":  "fb22315d2ae9a5e42c85d90c2ac76f1990ece02cff38899f0cd94b2adc627293"
+                      "sha256":  "f9bd2fa3949fec42dc3f715f2fc699233d8c3f87dcc798125be3c6d0f4c92b3a"
                   },
                   {
                       "path":  "GameDelivery.Node.pdb",
-                      "sha256":  "c54ebc3b785d6ad10951c091693d6417cb61e309c3ed13a9be404bcf9baf129a"
+                      "sha256":  "e86002b12640bd753e10e2f789ff3416e8df05e48003f2b4432fae92dcaf69d3"
                   },
                   {
                       "path":  "GameRemote.NativeV2.Managed.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "715e9f3bff56971086a8375e2c928fdf94dfc8a1e917268732c7e3d4184c5dc5"
+                      "sha256":  "19dfa0051525803e72501de44b0815f85f9f4c51d782776ea249933ce76f2ea9"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1527,7 +1527,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "1f85f8acd8a08e9f1f2861b6ecde3c961216164fd6a3411c104461c62b9b6764"
+                      "sha256":  "b9c0d88f053a9ae4208bf9b7f7920a62fc94d2ff87926d0e2883716b125a2928"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2411,7 +2411,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "d445c15f43c528486315b37e96bb880435f7a5441578cd39a7586b5430787a96"
+                      "sha256":  "0dd8ab605bcd165f2e225a7b4b73aa9cc20de30fc753b3a508f4df64d4ccd9c8"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -2431,7 +2431,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "0f0f0b77069dbc0a94414131e628ca1c78b3441d516a2bd9631c761d492e0177"
+                      "sha256":  "a02998a12941b61c7e3118bd2e00e5eab95b5054b041ce737296d5619fb55d21"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -4474,7 +4474,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.185-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.186-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
