@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.180",
+    "version":  "0.0.0.181",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260915-botstats-1.0.1.186-admin-0.0.0.180-6d6x-2.5.212.0/AdminClient-0.0.0.180-win-x64-selfcontained.zip",
-    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260915-botstats-1.0.1.186-admin-0.0.0.180-6d6x-2.5.212.0/Updater.exe",
-    "sha256":  "11ab8b5f227e9a0c3109a2d7fd2e8828aeabb266e7fc2526dc26a5fcca948d21",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260923-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.213.0/AdminClient-0.0.0.181-win-x64-selfcontained.zip",
+    "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260923-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.213.0/Updater.exe",
+    "sha256":  "ea643116de4c09af73f0b10a0eafc059028f00d3b2d7fb05eef5b8645b0f0bab",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.180: Version bump for the coordinated release; the game delivery fixes ride on the server side.",
+    "releaseNotes":  "AdminClient 0.0.0.181: Version bump for the coordinated release.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "96610b8e12b7123287baf94a3b1f4cc9645abf729b730bff1076e13c48377764"
+                      "sha256":  "72537eb3449d7e89cbcf520a91e08a1011fdc506684367e77b8098cdc7c61923"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "02d7219ce351bdccd7255647b069653730662657f2b5794c6365b7386d458314"
+                      "sha256":  "fbdb94ac38fa6fbcf7558bf8750511554431dbee00316fa7b04087b3da714252"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "f7ef6a52f21331f5c78f3a983a44575760fc9093ae21226cd590d5ba1e7c84fa"
+                      "sha256":  "4ed7b3e47c652d46b02cce07b94a849140def29ea5169dc42ce8f1176272e5f0"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "65983efe4b6aab923cfe12a839992ab452e17f5a7e35a43be37e14b75eeb8f11"
+                      "sha256":  "947c110452c72a459ea187460e6f5b65907e4984f129e3811f04b741ab84b500"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "14c107d5efbac4f382733fee8e3ffbf647d54fba4b1ddfa43f0c417078c30d73"
+                      "sha256":  "d2483360a841c16f4ace1a6d173f275855ef04221b0872d9ef6c06104be90d4f"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.180-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.181-win-x64-selfcontained.zip"
 }
