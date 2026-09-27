@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.184",
+    "version":  "0.0.0.185",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260927-botstats-1.0.1.191-admin-0.0.0.184-6d6x-2.5.219.0/AdminClient-0.0.0.184-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260927-botstats-1.0.1.192-admin-0.0.0.185-6d6x-2.5.219.0/AdminClient-0.0.0.185-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "48e82d6527c7b6f3baf8d38af2ec01e25f19c3e43f513119a943113ae1533135",
+    "sha256":  "b6ca665897910f0a176b13e3145545e49284dbfcc9ea2663aff34c42cd9bbb4e",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.184: payouts collection indicator and stop button, IP page redesigned with the journal as a full-width table, balance without kopecks.",
+    "releaseNotes":  "AdminClient 0.0.0.185: stats session tiles without false starts, IP journal rows toggle on click, excluded IPs field grows with text.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "fe5bad9c2b9afbaa456865bc7cb1a78ecf2b46162c6524ee7bae57fd8f7454d6"
+                      "sha256":  "d3263668526441adda15bcdbb8df431b54db2e6933d66d486ae857192674b36d"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "db85d7cef00c748bd2674d486262a6e2fbcc3ee737caef97a1fd6d618b0725a1"
+                      "sha256":  "3e485f20772768f0a051724d8557a388cc035e0eba0dbf7be8aeb2b23ea03ac7"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "4646f6ca1d24c153d2f55fa2d93df549707db4dc6855978ec4a73d9e6a6be038"
+                      "sha256":  "c265db0e347faa1a8d81c8d628045266d94686241343dec042d6d6d04acc5479"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "cc42b6b70a8a5663d7f8ed5a46ed8004cf5f1c28bbcda6686198357f041a7cb1"
+                      "sha256":  "5da0bf45f2e56a694c467aac4370bc4a658d200d0fb0125a8d88e501ffab411b"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "f301d67e64bbf2830b34551691655d7498dbe549f9aae4396a4152f0b38d6844"
+                      "sha256":  "0dc70186ae3babecbb66c53af17be3e51ccd8d70cc38106b9d434badc19c4f0c"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "eaee70119725fbe2dd21c7cb997f5dea5487b09e5404460122e05a1c1d4a2060"
+                      "sha256":  "bef323b24bdca9d524a2c1ea5d7fe0d8b77cfeea15c47ea144f16e54dad1f661"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "727855afe5370b0c117e6a33c36935dda1fbf82839f87c43abb93a37aed5c4b1"
+                      "sha256":  "17d03322a972db727cb910dbf50471ac52c498b864ff2275f27657dc2f35c3dc"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.184-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.185-win-x64-selfcontained.zip"
 }
