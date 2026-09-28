@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.197",
+    "version":  "1.0.1.198",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260928-botstats-1.0.1.197-admin-0.0.0.189-6d6x-2.5.221.0/BotStatsMTS-1.0.1.197-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260929-botstats-1.0.1.198-admin-0.0.0.189-6d6x-2.5.221.0/BotStatsMTS-1.0.1.198-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "6d11e1f156c047afd4a8719499686eb2c5d52c0a82f594add2798624bf24817c",
+    "sha256":  "b9bc420d1734ecf768ae80604ca4aab68e5426d9552e6a95e5a342d44dd2274c",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.197: one freeze logic for add/edit/delete/sync/folders (Auto, Off, On, Keep) with player check (tasks wait for the reboot after the session); one sync path for BotStats, AdminClient and Telegram, including folder transfer; catalog delete from PCs uses Auto.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.198: server A/B link no longer floods itself with resends and no longer drops on a single late message; clock skew is logged; database snapshots for server B work again; server link and storage alerts go to the technical chat; the service install button works when BotStats is in Program Files.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "95124db508db6af3150bc84c1d1da318e3896966852c07db65b84bf37caebd28"
+                      "sha256":  "a06f120fe6292aa26bb46d55fe1305d9a09d25d14f839d825444a69f248f7ff5"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "13f6502d7e289f7f05b5e6b3ea96d1d98bba285da00641c8726474fcdb03c1e7"
+                      "sha256":  "187fb6f2b17b78d660a5f54afbaba6976936f3cd154e34261c97e00207ed21a8"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "40886178f0170cee37982f32b853aeaef37b1fb1035712cc6b85caf668856bb2"
+                      "sha256":  "468e1d64f01d4727808e55e52d3eb21203c2c69e040510d11fc757fe646b6f59"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -47,11 +47,11 @@
                   },
                   {
                       "path":  "ClusterPeer.dll",
-                      "sha256":  "251a062b9c1bf6402261a65c07df7f6632420a0c8417a5b06157630d0a2eab75"
+                      "sha256":  "34da8d9e416891daea63b2d6598ec04e1fa8f84cc76d9d2073b96e03c3b0a073"
                   },
                   {
                       "path":  "ClusterPeer.pdb",
-                      "sha256":  "18f182582f1e42ada86e407057b5c81956461557b4d6a0d67978384b46c8bb47"
+                      "sha256":  "f6b2675787ac8b338ec6a9193884fba6965ad3efe4ef720ca52a66a4de945c1d"
                   },
                   {
                       "path":  "Common.Logging.Core.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "d74accf3b3d494634b9627c3ba0c99fb0eb35b48ca41d2066795e43f9ef7fd8d"
+                      "sha256":  "d05a063971edb08a41b716c95f6347c42b25de9700dee6a8dff4eff235cd0634"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1527,7 +1527,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "665585f9db1e2620bf8457a0a9a93c6a8d898c62450da5cc8cf51599dfbda7bb"
+                      "sha256":  "969b8669135f1c2d861dda7d12cf91f01949a5053049e86fdae34cd28cabea78"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -1563,7 +1563,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/Install-ServerManagementAgent.ps1",
-                      "sha256":  "3b52291201bf93af9ae057b626710f3f0862eaa77ebaaaf333cb2e72ed68e4a3"
+                      "sha256":  "ead5a62756bd38fd4757fe020b8921a487c64ffb5bf4478669c4d26037665789"
                   },
                   {
                       "path":  "ServerManagement.Agent/Install-VirtualDisplay.ps1",
@@ -2391,7 +2391,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "1b9685d01df767e56d5edf8f08ea24705dbef2ce96109dac2e1252da43bb14cd"
+                      "sha256":  "12bab5926c516fab6ea3f828c4b44614dc93721f1467807c999b7af38f3cfe25"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -2411,7 +2411,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "fd9c81197cbc017085da717ab9fd06882bce4b2d26785abe26cba21f8e108732"
+                      "sha256":  "ecf765695d139289b257bcbd322eaf14777b9e7ffde3edf4d47248b8a7680de7"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -4474,7 +4474,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.197-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.198-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
