@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.189",
+    "version":  "0.0.0.190",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260928-botstats-1.0.1.197-admin-0.0.0.189-6d6x-2.5.221.0/AdminClient-0.0.0.189-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261002-botstats-1.0.1.202-admin-0.0.0.190-6d6x-2.5.222.0/AdminClient-0.0.0.190-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "b441fdbf43d5c9337d2b64a89692817cdb9cdf0e215b27aaa718bbdd3a1034b1",
+    "sha256":  "15854ea6a5ef82feff0b6352c310ac466a9138d6e66bb4adcdb38f508477a03f",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.189: four freeze modes (Auto, Off, On, Keep) in Games and Sync; edit passes the freeze mode and shortcuts.",
+    "releaseNotes":  "AdminClient 0.0.0.190: reboot protection column shows the block type, when it clears (2 hours of uptime) and the class of the last reboot (operator, update, freeze, game task).",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "597b9aef9f2920d6a8d04acff3da88d59dccbeddf1b5b1ab1a2824a278bd0d15"
+                      "sha256":  "e9a5e9476cac5b7799f624c59e4a519d5bdde91d34558dac334d3ecbf8e693a0"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "82bc3b8ba1ecab7f1fe71f4a260683ba4c41b78d4c280b0811125122d4c9a7b8"
+                      "sha256":  "17f025c3354fccb580df6eab722de5bcaee10a57259236081e31a51705faafe3"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "d9c15bfb69ae8f0f0e6df3ea428c0a240fb3766ecca17254ebd7e53e142be4a2"
+                      "sha256":  "ffaacff4b33e0ff9bfea35221e61cc0a000a0a7f2a74c164049d139d49dd5ba9"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "5f9c251af6be469b6888a6a50a23448f14abd9d2b432696b51917056a22e14b0"
+                      "sha256":  "7bff9255ef64890312b08dbee0f1c30bef3a4a87caa77c5020dc59335f38d06b"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -47,11 +47,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "210caf1755c9ea69a179231a13f30fa8134e7322d6f17448f32b5d78f72931ae"
+                      "sha256":  "ffb9607d4c7ed5ffc96f347c7b9d574affe84ef26b109857f5425af2763a3c43"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "77d789ec9b895bae58247695f967ad56985816e5cd3fd55fee67f8911b96cc14"
+                      "sha256":  "3d72fc6f7a87fb8c88cb8f9772c8792df74713bf174b5ee5b04157e7894e5593"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -111,11 +111,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "cb79c130fe7ac27dcb2113a2c6c32436802270632878f6734f7860e0180db1f4"
+                      "sha256":  "2f306834bc1b8ab5462175b8d9d32b53f617f8504b4738241a5cb4e82c11144a"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "c60a096a5b18e3f8fefe2ad2c4a479fdd6ce31993c0a50235627f313fd0931a4"
+                      "sha256":  "201eacb9587dfcb3599b0125e613fd0510104c9d5ae4080650c545e0625d9679"
                   },
                   {
                       "path":  "HtmlAgilityPack.dll",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "f74107f0aec74eed90358eadba8872f0b0fb3c3795c0e9e7223579bc5bcadf5d"
+                      "sha256":  "51840b6b1f560fc69540eefbfcab1b9fc288ebc56d5e6219e88a15f7f161f5b5"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "e13bf26a27c11bcb0cdba4a19a0256855a25745a93d34d691839f1325f44e74b"
+                      "sha256":  "59326faa8b94af36bf032d07b8895709db85d0195ace8a893d12caa82094c433"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "40a7eaba04ec59e3e4364bf246f6ce21aacdea38cc3564b1ca9c426fac07cbec"
+                      "sha256":  "873f2b8ca22fb3639f400ca43ff576af4ae357d66eed15995a9f8dc727c499a4"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.189-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.190-win-x64-selfcontained.zip"
 }
