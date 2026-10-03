@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.191",
+    "version":  "0.0.0.192",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261003-botstats-1.0.1.203-admin-0.0.0.191-6d6x-2.5.223.0/AdminClient-0.0.0.191-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261003b-botstats-1.0.1.204-admin-0.0.0.192-6d6x-2.5.223.0/AdminClient-0.0.0.192-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "f173f511f3636f87b79f76a877df9cd5b099d1e9ecb6cbc6013e35f21173c5be",
+    "sha256":  "2c3c281a0079a9aefacbc008f3ef50ddf53939596ee6e5ed57ccd95f6b847f6c",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.191: manual reboot-protection unblock from the PC list context menu; reboot protection tooltip shows disk recovery reboots.",
+    "releaseNotes":  "AdminClient 0.0.0.192: Game Delivery: Steam status banner like EA - current check/update with progress, last and next check.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "ff06e89f0875b048828186f9372c45bdcde855ad73d06266ed0d996149dc9106"
+                      "sha256":  "106fdfb841ebcea646da35aff1e8d51e9f0fb3164aea8a9571fa1301fff1cee8"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "133c51797b66e61736da3564bb25587da35ef6b2cbe4dcb43dfa552926bb76ce"
+                      "sha256":  "c8d22fe739cc1c6246bcab5398a687b71150cec415be338c6a3db13ca248a4a5"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "2343cfc8e227cf43126e70e4a631c54523051dbd884f6587dba102b635e09514"
+                      "sha256":  "6f0b538b05ba8729cf23c34a753f561833d727328a17b30b7d5eeff889eec159"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "86270c632f8ef0e5b26fdb76fa96b565a28c1a6df597139007b92f7ac5ac331f"
+                      "sha256":  "fa1a39eba6dbb262021b9140f21812174c6756a59f5e0fafae9e601d13bc0789"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "a69101eac3aeb9dd789d501d6899ea65e3ce532e41e7c7201e78e2491237749b"
+                      "sha256":  "0a260f839b185a978012c3cb7b9f9ee2a5df54f8ab4f0dd9b4b8ba7c6fa41467"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "2a76eadb147be46a599dc5f417e57557b9c88af2ee6739b2aade2fc09bec520f"
+                      "sha256":  "546dfaee5469a9c101a9ca38bed2e52cf16b650b9e1df34bba60ab7d6c352848"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "0d813d884fbbfba66b490a5413f9a6844dd3ae3f43d8c784f18c89c42f5a76d9"
+                      "sha256":  "ab0f85005507062512ff8671a8f37db05255901b28ea8981ab4bc8e2cf13cb5c"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.191-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.192-win-x64-selfcontained.zip"
 }
