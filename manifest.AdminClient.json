@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.194",
+    "version":  "0.0.0.195",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261004b-botstats-1.0.1.206-admin-0.0.0.194-6d6x-2.5.225.0/AdminClient-0.0.0.194-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261004c-botstats-1.0.1.207-admin-0.0.0.195-6d6x-2.5.225.0/AdminClient-0.0.0.195-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "50298cf96df24190b16f8ebcccbb134bf605250c5b8f89c89b6b949fe84e210b",
+    "sha256":  "928bfc2e7a01c2779aec886d7e8f97fd78df461f713a5b33648497094efcc3ed",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.194: MTS Fog Play tab: video adapter and display drop-downs, separate GUID/key buttons, Restart MTS; new MTS Library tab; styling fixes.",
+    "releaseNotes":  "AdminClient 0.0.0.195: tab headers no longer clipped (theme matches BotStats).",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "d4d5f8b3f65f0dedb66c9b84db7bf83ff1eea9629f7aec2a560ac1a18b80d31b"
+                      "sha256":  "278867ceec642c8421a46f9c104d98be60a9f18fae715333b13fbf871fa40287"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "9758b031f2f197b6df9241a50f8f968a1dcb6b41e79749f5425cfb56e85648eb"
+                      "sha256":  "6e9d83ba4a322f61c90288f1d65da8866d7f21ae960ff9e413abf81a5b5ad66b"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "05a2ab4d9de699c812e09b3be0f446dd432ee2e1f9f470a4ca0ff64d1ceb130c"
+                      "sha256":  "766e733f715700567d4525d5ea8b23a4e2729c90f79d5cd006716fd331d0fc1c"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "cdefbc7029cf47e3d1e89636fcef3969c0c4e06e7cec773e8990fe40833da5b8"
+                      "sha256":  "d31176bbd8044cb3d9527db9fa7d2a4563e17b9a39e3595180f4bc162c7bace5"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "8e55edff1f0341276d08a7fe1392d6376cd910440e4152e8f1b3f37d331dc618"
+                      "sha256":  "327523e9e0961371925132321fdf41af6cea96c5346715cbdcb6141f923dda7d"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "8d2c2cf3a3a64d2e5142fb13b08dd60fcd507da2ec974a654ee2b8e4139e641c"
+                      "sha256":  "1d5a9320e5ad2a84b7dbd16ad1c2e66bda73d49915c08e9cbc5ad7707b2eaf20"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "e5ec55dd73de3315baf471eed938955a61767db862ac5692d8e97d330445dca8"
+                      "sha256":  "bd4e6c22a5824adb81b75bccacfd5e678ec1b9882c43828b99f784418f44875c"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.194-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.195-win-x64-selfcontained.zip"
 }
