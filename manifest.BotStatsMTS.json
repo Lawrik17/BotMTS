@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.210",
+    "version":  "1.0.1.211",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261005-botstats-1.0.1.210-admin-0.0.0.198-6d6x-2.5.226.0/BotStatsMTS-1.0.1.210-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261005b-botstats-1.0.1.211-admin-0.0.0.199-6d6x-2.5.227.0/BotStatsMTS-1.0.1.211-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "5f6f924a138858dfbd24eeb9ecf812c9cbadcf3071c266ec0653508bbdad5a20",
+    "sha256":  "1abdb9fa2efc869f3f7da7785f54baf0b67e9060c8c9c2295bfa9cb180abd64b",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.210: AutoLogin for Steam, Epic Games and Ubisoft Connect; Remember me option for Ubisoft and Epic (profile is cleared when off); Epic and Ubisoft codes from mail (ubi.com sender, newest code within 2 minutes); MTS apply button no longer stuck after switching PC.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.211: AutoLogin Steam account list shows account names.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "0fe66b41a606c8ede69789f8389cae84b3572f2705f28f1829c5bfe44643457b"
+                      "sha256":  "91243f9f45a5e398efa6c813961aeaeb1fcaee40c7df65bcc6095a1b3d413cc0"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "c8f838eba3672f24ea01dfde2e62934fe9066e711ada9324e71ea6908c875219"
+                      "sha256":  "504aa6bb0da4a4fa15138358f69b6d5929af6461b376ad014c9eed8dd57ffba3"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "da095722ae02686dc3f70a6548cac34923027257c8d13d75daf4409cbdcf8163"
+                      "sha256":  "2f41a1b73a8025c692362803624dd75fce475abb786bd7c9f3726fd83ee4eccc"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -487,11 +487,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "67cd7292b272de95005a1597525acdb3d087569855f1fe4862a4f719893db7bd"
+                      "sha256":  "396876d8e0625d69c80cd4a1eb233c914fa6466461b750b3b7a086f09574a086"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "73003a3625130c0ad60ebc1d2923ad076f10fd71bee2ae27f71b0ba99ed4caa8"
+                      "sha256":  "1d2701d57efb1912d54ff14bdefb89f9a14e7ad418c7a094b200b4fd287be3a2"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "a85397c03feff1d0fbb426cbe3d45530808e1a172bac95be5102486b2c8f27f1"
+                      "sha256":  "5591558ea426785cff16956edff556c7f133b87a32e8f3ca0da3aac11b271b2a"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1527,7 +1527,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "f4b03dcd3115676a66f7cc2dfad598892b36ad02f6111c3b0328cf839ed34699"
+                      "sha256":  "ce9eb47eb08f21948c6138dc84fac65d4270eb34ba6e937393365568e15296f8"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2391,7 +2391,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "63c8b04267fcce34eb1df488379fee76524b18796f886267ca61b4ab6c967a4e"
+                      "sha256":  "a8a83f0e819ac3671487bd1908573c879a9ec4b3c25a69c374f6cfb26cdb1cc3"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -2411,7 +2411,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "75ce3037d7ede3b779cdf04582735fbd8f67221bcbccf0f8264f82ef67fec0ab"
+                      "sha256":  "fa8597db8355315a4eb393e8dd12db09d6f932fe87a9fddd54dc3111b73c977e"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -4474,7 +4474,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.210-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.211-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }

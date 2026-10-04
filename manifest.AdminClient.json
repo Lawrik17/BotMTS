@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.198",
+    "version":  "0.0.0.199",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261005-botstats-1.0.1.210-admin-0.0.0.198-6d6x-2.5.226.0/AdminClient-0.0.0.198-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261005b-botstats-1.0.1.211-admin-0.0.0.199-6d6x-2.5.227.0/AdminClient-0.0.0.199-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "530c2943c00038c2716517cf03d1a45c9b777563f6504cb41348282411f27266",
+    "sha256":  "4ceda694eb4d3b5fab75731c477e2c84a259f5eb608b4fdc40ec09031734c87e",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.198: AutoLogin settings for Steam, Epic Games and Ubisoft Connect with Remember me; MTS apply button no longer stuck after switching PC.",
+    "releaseNotes":  "AdminClient 0.0.0.199: AutoLogin Steam account list shows account names.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "20ecb8034cf8637008c2964a9a253e9d5888493a08751095d95e482ab796ce95"
+                      "sha256":  "a248de5798af57fcbf1a4e1b3cb9f5a38f78f22b3e66ae1ed4aa67456148f12f"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "c7720fe3d11a7224379e7cd3a0ac0f7f6d34913ba09d78d6fcf86e72af561db7"
+                      "sha256":  "4e762932cafddf26bc94ab184ab8fe3755e5c38541ffc239043c11be6da51b6e"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "f4e12b128612af6253f7a7e43e709f100452efb26f1f3d6f844eafa581575ed2"
+                      "sha256":  "e6fee2fc1aa8585883630c83b97cd69ad7973a0261573b62b926f45c9aca91e0"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "671f8e6fb872a78020cd6eea6060fa662486ba9c1229fe40587743248dfbced1"
+                      "sha256":  "02001258b3962b141f89c440f8edaea12c6a15c5368a8f6f217e626313ec720d"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "67cd7292b272de95005a1597525acdb3d087569855f1fe4862a4f719893db7bd"
+                      "sha256":  "396876d8e0625d69c80cd4a1eb233c914fa6466461b750b3b7a086f09574a086"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "73003a3625130c0ad60ebc1d2923ad076f10fd71bee2ae27f71b0ba99ed4caa8"
+                      "sha256":  "1d2701d57efb1912d54ff14bdefb89f9a14e7ad418c7a094b200b4fd287be3a2"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "a78161cc9aa2b0898c021e546f2760b6c82700ccb842db6d6a9a69ef54f82e66"
+                      "sha256":  "dd2b3460dc3be693a898172d0adc20808ea9d1773830833033537e8317811428"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.198-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.199-win-x64-selfcontained.zip"
 }
