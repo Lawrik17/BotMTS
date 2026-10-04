@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.197",
+    "version":  "0.0.0.198",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261004e-botstats-1.0.1.209-admin-0.0.0.197-6d6x-2.5.225.0/AdminClient-0.0.0.197-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261005-botstats-1.0.1.210-admin-0.0.0.198-6d6x-2.5.226.0/AdminClient-0.0.0.198-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "2fbc8a34e60574ac19d1d6c75206def0ba511c824c9812780aa84bb337283dca",
+    "sha256":  "530c2943c00038c2716517cf03d1a45c9b777563f6504cb41348282411f27266",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.197: server B fixes (server management, IP journal replica, tariffs), hot cluster toggle, Steam password status, MTS GUID raw view.",
+    "releaseNotes":  "AdminClient 0.0.0.198: AutoLogin settings for Steam, Epic Games and Ubisoft Connect with Remember me; MTS apply button no longer stuck after switching PC.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "1f5a688a761684fa8adc9dcd55c3348eae81173aa0031adf15fe6c05606db16f"
+                      "sha256":  "20ecb8034cf8637008c2964a9a253e9d5888493a08751095d95e482ab796ce95"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "c996506f3123b016166d562bceeaa942c670d229709fdb862d06cdeedd112791"
+                      "sha256":  "c7720fe3d11a7224379e7cd3a0ac0f7f6d34913ba09d78d6fcf86e72af561db7"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "909219ef6cb125885cfa42a3b91320387bcb6f9858b884d31a8e527515528253"
+                      "sha256":  "f4e12b128612af6253f7a7e43e709f100452efb26f1f3d6f844eafa581575ed2"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "ba2328ebfff628bcca8a241d7f7b34dbb7d5ed01e5c1dd39875135e8565ce461"
+                      "sha256":  "671f8e6fb872a78020cd6eea6060fa662486ba9c1229fe40587743248dfbced1"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -47,11 +47,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "d0f019a1741f26578b7deaf44f5c08de0c94cccab535571e73958b2262ea236f"
+                      "sha256":  "eb51e0dcc0d68842d5f1e82fc2bfe07af4bdaeb192c679e572d1e1b59ece19cf"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "c39ba42d608c388a416a2a5e55c33a5861d5bdc178b092cd2f5cf02aced15324"
+                      "sha256":  "078215860a514b7a9cf7a7be758215d58d53d172b3c5a69652f9cecf955c2c0f"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -111,11 +111,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "bb93fa447fc6db94c9e5b9b4743a1375bc89da590a01dbf081dee90678945964"
+                      "sha256":  "1fc5fde9e6db1fd5a3ce162845179dee54b4230c5664194bb3a357bf4ed7c488"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "f38e0684fcba7218babef46d8171c6f6e9141e53483f6eba27e3b348655d537c"
+                      "sha256":  "6bc8bbb02803fe662fd1fe66dc1b3c7567657a589408df0f21063a9ec5fc908a"
                   },
                   {
                       "path":  "HtmlAgilityPack.dll",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "a4f777ab14748f4f2ec4a514553353aca2c19ce9e12ea919ea62d2a179cf0e96"
+                      "sha256":  "67cd7292b272de95005a1597525acdb3d087569855f1fe4862a4f719893db7bd"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "8696b2d6ed8e5035ce08cd35e51a2ceb51d92e2e313061be294e75ee2c4a4acf"
+                      "sha256":  "73003a3625130c0ad60ebc1d2923ad076f10fd71bee2ae27f71b0ba99ed4caa8"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "232067997bfcaa11e153e51581f90fdc7f70c1129c50505f9e6a441ce4afe6c9"
+                      "sha256":  "a78161cc9aa2b0898c021e546f2760b6c82700ccb842db6d6a9a69ef54f82e66"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.197-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.198-win-x64-selfcontained.zip"
 }
