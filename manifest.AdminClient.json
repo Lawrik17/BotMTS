@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.196",
+    "version":  "0.0.0.197",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261004d-botstats-1.0.1.208-admin-0.0.0.196-6d6x-2.5.225.0/AdminClient-0.0.0.196-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261004e-botstats-1.0.1.209-admin-0.0.0.197-6d6x-2.5.225.0/AdminClient-0.0.0.197-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "019966b35046b58d312e24c700350c8e7195a1b1c15dc7ca0dcc0581e9e63803",
+    "sha256":  "2fbc8a34e60574ac19d1d6c75206def0ba511c824c9812780aa84bb337283dca",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.196: tab headers no longer clipped (tab template fix).",
+    "releaseNotes":  "AdminClient 0.0.0.197: server B fixes (server management, IP journal replica, tariffs), hot cluster toggle, Steam password status, MTS GUID raw view.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "e4762da5c69b0f7d191f47438040f87f41f9d9b89925ad5e47b8328e9e7562c6"
+                      "sha256":  "1f5a688a761684fa8adc9dcd55c3348eae81173aa0031adf15fe6c05606db16f"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "53f8241a42fa2e53caf62bdd46ed7618a13eaa2fd3cc710496252ee0f9b037a1"
+                      "sha256":  "c996506f3123b016166d562bceeaa942c670d229709fdb862d06cdeedd112791"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "320f99fdcdd792010fb8829441b4e22b80e3662d12d9b9d035b2e4c58e71a9ca"
+                      "sha256":  "909219ef6cb125885cfa42a3b91320387bcb6f9858b884d31a8e527515528253"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "b827114750e49cdff3a70dad034320c88dad540721d68efc6009844fd73bdaff"
+                      "sha256":  "ba2328ebfff628bcca8a241d7f7b34dbb7d5ed01e5c1dd39875135e8565ce461"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "327523e9e0961371925132321fdf41af6cea96c5346715cbdcb6141f923dda7d"
+                      "sha256":  "a4f777ab14748f4f2ec4a514553353aca2c19ce9e12ea919ea62d2a179cf0e96"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "1d5a9320e5ad2a84b7dbd16ad1c2e66bda73d49915c08e9cbc5ad7707b2eaf20"
+                      "sha256":  "8696b2d6ed8e5035ce08cd35e51a2ceb51d92e2e313061be294e75ee2c4a4acf"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "c74798cc4c03dd21ec140502b753f1bb091aa671c6184ac70dbbf176c39cdea5"
+                      "sha256":  "232067997bfcaa11e153e51581f90fdc7f70c1129c50505f9e6a441ce4afe6c9"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.196-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.197-win-x64-selfcontained.zip"
 }
