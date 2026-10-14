@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.201",
+    "version":  "0.0.0.202",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261010c-botstats-1.0.1.214-admin-0.0.0.201-6d6x-2.5.228.0/AdminClient-0.0.0.201-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261014-botstats-1.0.1.215-admin-0.0.0.202-6d6x-2.5.229.0/AdminClient-0.0.0.202-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "7ea4e136087c89fe151e092b67e392f5c41ff2cd73c6e275013b4be7487a9f98",
+    "sha256":  "55621b044396e8b6da53525c9f80b858e141277e0d011fd62b37238864f3ca7d",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.201: Connections journal, session window with charts and IP history, Telegram video links, evidence copy for MTS.",
+    "releaseNotes":  "AdminClient 0.0.0.202: compact video tiles with dates, click-to-copy fields, app-styled filters and MTS evidence button.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "f4a900cea05f37472717468e8a305dd010c7f916c1378183f7dcc3b3bc0ca127"
+                      "sha256":  "83b9a8749a999db1f97a36cd3228e2f608b276e630adf7232ad5f328f6924ac1"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "ccc7241d0520e342e376600f415b8ecc07bb91dd7f88f9ec7eef70c3a9c2dec4"
+                      "sha256":  "58bc92953ad126aa1a905f17f349777cb5efb860ae45f5e84900529a52dda9ac"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "031153744df038e800a8cac31015f5b9854fa0e68b63b19d9d80e3a011544325"
+                      "sha256":  "c7f3a1a3cf3e8ea32b5827d30b3905f861e0fa91fcc664323a0b36a94c603a43"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "2fe6ae9bee1df6daab1166c436976f7238dc3141d4c2fe53d1e17e57cee47b79"
+                      "sha256":  "5dbc18fcaaaff92ea8c39c0ced6545f7d1c50952fa81edbab2180b452e11681c"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "741bf21c37d21a7d58c4c642310c4dc4de28bd795158efb7dd50672b197b2117"
+                      "sha256":  "162d00f48a042bb5dc3efda30941426eb46ad08689e62c99e031c3f504fd31bf"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "97d36de011c5847589a49536caa2a735366fb83a53b29da53afb3be1ee033cba"
+                      "sha256":  "b517af3a19cdc606b49ba64e36ed4a43914f4cd05b950a9adfcddb9477d68e20"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "ade1da98051ed7cf2b0bbdf48d5dc2e9f4c1a2bccd0937ff3195f6534523974d"
+                      "sha256":  "c02350d3c1afe938c6565e1d0cadc67aa05ff271af4bd530ff640d7c8a9a4943"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.201-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.202-win-x64-selfcontained.zip"
 }
