@@ -1,13 +1,13 @@
 {
     "appId":  "BotStatsMTS",
-    "version":  "1.0.1.215",
+    "version":  "1.0.1.216",
     "minimumVersion":  "1.0.0.0",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261014-botstats-1.0.1.215-admin-0.0.0.202-6d6x-2.5.229.0/BotStatsMTS-1.0.1.215-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261023-botstats-1.0.1.216-admin-0.0.0.202-6d6x-2.5.230.0/BotStatsMTS-1.0.1.216-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "a97f5886535ddda16b4d514d98de9157d24cacc49b4f099b41b78365c8d62fb1",
+    "sha256":  "437434defb9658ddcf8686a5892ce95d35f32dd59351f711c13e3043f228c97e",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "BotStatsMTS 1.0.1.215: Telegram video links open the message inside the video topic; compact video tiles and click-to-copy fields in the session window.",
+    "releaseNotes":  "BotStatsMTS 1.0.1.216: Battle.net verification code is read correctly from HTML mail; main session collection no longer stays stuck after a site error.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "BotStatsMTS.dll",
-                      "sha256":  "25aa8521624348d96e9a502c9253c0d7848c398946681c39902e37b79a610d8a"
+                      "sha256":  "20382094dabf5a1b7d782634874e0833795a825db9c428414ccc4fba10013ebf"
                   },
                   {
                       "path":  "BotStatsMTS.dll.config",
@@ -31,11 +31,11 @@
                   },
                   {
                       "path":  "BotStatsMTS.exe",
-                      "sha256":  "1d7af6e159de539ad3cdc8f67a98a350d0a62c4dfc95b59b33ce5e91151f3ea5"
+                      "sha256":  "b4dd8c82fb9ab83d234a0d3a0ddf5e82cff64849e4a2522eff7f09102d934949"
                   },
                   {
                       "path":  "BotStatsMTS.pdb",
-                      "sha256":  "01f12ae58f36d3f7d4757a89a6c3138319238b73f2b2b65b8a893fdba559ca40"
+                      "sha256":  "ca37259b2dc1d8a899c48f8ddfc7a6716ca211894ed508e955af913f91b176ad"
                   },
                   {
                       "path":  "BotStatsMTS.runtimeconfig.json",
@@ -1423,7 +1423,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "0291def1b9912b4eab208d9318fb22bc9a5ac505e58015819f362f6cf28b49f0"
+                      "sha256":  "7604f04ad98795a330dd11995d9cbb06c03735ac2c51f2a3d8bb14db0337149b"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1527,7 +1527,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-                      "sha256":  "7ad7d33168972b29fa3de8b56081122c6effad4a935012c6df58a43253e104cb"
+                      "sha256":  "7b3e1cfc85353a68ccbc67c7081b2bcb0b77289d104c53558ee469b25e75d651"
                   },
                   {
                       "path":  "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -2391,7 +2391,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-                      "sha256":  "8cb5557d0681c9026510a2195d7130f8884563386adc2cfcd44ac775360f96da"
+                      "sha256":  "0112610b363db276cb254f7b9023458b843b175a411a867a1fae7333f181c0f9"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -2411,7 +2411,7 @@
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-                      "sha256":  "bc38f0ff7811f2f6c227d0c7f910bdb84e98f151b38244f2a6a23c2f80097a65"
+                      "sha256":  "05dbc9b9c8c2925b019ea63694a96d6b4256108ef6abb5bace06eb10ab0361e9"
                   },
                   {
                       "path":  "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -4474,7 +4474,7 @@
                       "sha256":  "dc135d675127113915a7e5aa9fe57c84edad6be41d0890b265ef124ab26ea9e3"
                   }
               ],
-    "fileName":  "BotStatsMTS-1.0.1.215-win-x64-selfcontained.zip",
+    "fileName":  "BotStatsMTS-1.0.1.216-win-x64-selfcontained.zip",
     "nativeV2LegacySha256":  "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
     "nativeV2OfferCompatSha256":  "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }
