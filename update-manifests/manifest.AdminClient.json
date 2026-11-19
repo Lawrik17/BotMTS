@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.209",
+    "version":  "0.0.0.210",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261116-botstats-1.0.1.223-admin-0.0.0.209-6d6x-2.5.235.0/AdminClient-0.0.0.209-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261119-botstats-1.0.1.224-admin-0.0.0.210-6d6x-2.5.236.0/AdminClient-0.0.0.210-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "c7ce091047d9193c44130196e7b2bdd50590dae120937337c4bca7e676f9a0f5",
+    "sha256":  "b36a75e51847354677e444066a3d79c19f5ba11ab80b35397eac91528c1f156c",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.209: Mining - miner list shows the miner name when collapsed.",
+    "releaseNotes":  "AdminClient 0.0.0.210: base disk compaction progress, clone space card with refresh-all, mining view fixes (GPU clock columns, Afterburner close while mining), unfreeze clears reboot block first.",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "77e979e4509ce751a1814a784d5f9d478d9b42139c3d543520e13b4b3e0502d7"
+                      "sha256":  "9fc517ee308fcef0d1b489e8ce8e37de4b223212586e92f94cadbe1633b78198"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "d8d688704fae5b3293c03293084e63c1fa1b18fb5b45259ef652221e3b112077"
+                      "sha256":  "47e06964d453e09fc1e845403e0a7434e40892dc7f7a4567fd261f209270ff7c"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "5ed5d55c6445ce52038ea78756d680dbe50acd830613410cb297d09494393941"
+                      "sha256":  "0af5ea0faf57f2a74adc2ec1da0be3454fca883d62f7cd55d4397ede983fa12c"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "e5a859ec02e811e3e8714a3a17db87766b05e7b69e6a7cc086e7ba1044befd3e"
+                      "sha256":  "f73f0c18da941c718328ccda34c793d0700c9d96f9d50d77e1ac7e942c1d3817"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -47,11 +47,11 @@
                   },
                   {
                       "path":  "CommonModels.dll",
-                      "sha256":  "4572fcc91ec6c8e99f84161453ec30c91c5ed5adc1eb66c3748ed057c720e31a"
+                      "sha256":  "c86a8c38199c67921ac1d155a41ba8f545d5719911cb91e04ca20a218e57b8c0"
                   },
                   {
                       "path":  "CommonModels.pdb",
-                      "sha256":  "a1557db2ed2439be72486bd0216ed493b843553f6fa99d8efbe8c803714a468f"
+                      "sha256":  "2a8f64911140ac9758f43084186145642724e2d95d141c18cae49615d6c81b6e"
                   },
                   {
                       "path":  "CommunityToolkit.Mvvm.dll",
@@ -111,11 +111,11 @@
                   },
                   {
                       "path":  "GameRemote.Viewer.dll",
-                      "sha256":  "3ebd72b4d251bfa28615204f951c457ddebbd2bd45b36ef4e01c4f892a9f1a7f"
+                      "sha256":  "e5547a126ea5c9b3a6be32a42cd2b0d1c98b6127c1496003075d7f2fd0e5727c"
                   },
                   {
                       "path":  "GameRemote.Viewer.pdb",
-                      "sha256":  "a318e206ff463e7bf3f22083ae3ff0074a9a7e804c5ac5c8cd41edaa59b13de2"
+                      "sha256":  "ba148b50248d3f1bc1d422112a4595b47c882e441034170ca605f39954b77558"
                   },
                   {
                       "path":  "HtmlAgilityPack.dll",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "d1dc30a539a9684b1c0d74f3ef91971d383f026ac04679dad02db73b26672938"
+                      "sha256":  "9620aae7b2b398584b91e7cea97089538606d6d3c6c4f25c2153dd823a2d372a"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "3e877ee1bdc9d739116f688842b3a5c55730bdf23821236ba0e9bcb4bedc9a31"
+                      "sha256":  "da0d1600f95092deb66e8162fa0e34308003eb30658ceca61a32fba9d3240519"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "dee7f55751bcc9bc6a67f642cf5775768c917a5ccd596ccfa56d76705e744a28"
+                      "sha256":  "df92a5dd0a5b149687e324df7d204107d319639d7ee55d5311b79ac39ef0c40b"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.209-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.210-win-x64-selfcontained.zip"
 }
