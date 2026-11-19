@@ -1,13 +1,13 @@
 {
     "appId":  "AdminClient",
-    "version":  "0.0.0.210",
+    "version":  "0.0.0.211",
     "minimumVersion":  "0.0.0.5",
-    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261119-botstats-1.0.1.224-admin-0.0.0.210-6d6x-2.5.236.0/AdminClient-0.0.0.210-win-x64-selfcontained.zip",
+    "downloadUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261119b-botstats-1.0.1.225-admin-0.0.0.211-6d6x-2.5.236.0/AdminClient-0.0.0.211-win-x64-selfcontained.zip",
     "updaterUrl":  "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-    "sha256":  "b36a75e51847354677e444066a3d79c19f5ba11ab80b35397eac91528c1f156c",
+    "sha256":  "0f5f794e9fe6ae59ec4e3b0b12f9c058c861390c709d97ea9a7df3befb246ae5",
     "nativeV2Sha256":  "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
     "nativeV2Abi":  "2.6",
-    "releaseNotes":  "AdminClient 0.0.0.210: base disk compaction progress, clone space card with refresh-all, mining view fixes (GPU clock columns, Afterburner close while mining), unfreeze clears reboot block first.",
+    "releaseNotes":  "AdminClient 0.0.0.211: mining GPU table shows visible input fields, centered clock values, themed checkboxes and centered expander icons (visual only).",
     "files":  [
                   {
                       "path":  "Accessibility.dll",
@@ -15,19 +15,19 @@
                   },
                   {
                       "path":  "AdminClient.deps.json",
-                      "sha256":  "9fc517ee308fcef0d1b489e8ce8e37de4b223212586e92f94cadbe1633b78198"
+                      "sha256":  "e42a0a36787d07266e2c397cec92807130500960f105217e49b16590495da680"
                   },
                   {
                       "path":  "AdminClient.dll",
-                      "sha256":  "47e06964d453e09fc1e845403e0a7434e40892dc7f7a4567fd261f209270ff7c"
+                      "sha256":  "40155c47ed85955b030fb7e5b2043d9c1df3b2a6fbc32ab19cc72ec38950ac25"
                   },
                   {
                       "path":  "AdminClient.exe",
-                      "sha256":  "0af5ea0faf57f2a74adc2ec1da0be3454fca883d62f7cd55d4397ede983fa12c"
+                      "sha256":  "53be3a6e5657571e5613ca488c626d3e0fbe0ed5f66648a5fbc92e9c6f31e565"
                   },
                   {
                       "path":  "AdminClient.pdb",
-                      "sha256":  "f73f0c18da941c718328ccda34c793d0700c9d96f9d50d77e1ac7e942c1d3817"
+                      "sha256":  "5b6a39a6ff8e45eb993aec59754f334aa645ae914d6f8b76e7407c5fe8d5f754"
                   },
                   {
                       "path":  "AdminClient.runtimeconfig.json",
@@ -315,11 +315,11 @@
                   },
                   {
                       "path":  "Shared.UI.dll",
-                      "sha256":  "9620aae7b2b398584b91e7cea97089538606d6d3c6c4f25c2153dd823a2d372a"
+                      "sha256":  "222fb82a8094ac42738b0fc61434b5e23487c532e69768bea7d63ade28dc292f"
                   },
                   {
                       "path":  "Shared.UI.pdb",
-                      "sha256":  "da0d1600f95092deb66e8162fa0e34308003eb30658ceca61a32fba9d3240519"
+                      "sha256":  "7e8b1cc3ac87e12d7d71138f45512d98319831e69984018a4a55ecf4c3fe84aa"
                   },
                   {
                       "path":  "SharpGen.Runtime.COM.dll",
@@ -1211,7 +1211,7 @@
                   },
                   {
                       "path":  "Apps/Updater.exe",
-                      "sha256":  "df92a5dd0a5b149687e324df7d204107d319639d7ee55d5311b79ac39ef0c40b"
+                      "sha256":  "4d31008b24f8715b6e7e659b0c3b0c806376f5423c8261d9b2ce0f0caa48dac1"
                   },
                   {
                       "path":  "NativeV2/GameRemote.NativeV2.dll",
@@ -1306,5 +1306,5 @@
                       "sha256":  "bb5fda5f2d3aae5e0977ab28d8a8a00acfd63d73748aaac32daf4fc6645b6677"
                   }
               ],
-    "fileName":  "AdminClient-0.0.0.210-win-x64-selfcontained.zip"
+    "fileName":  "AdminClient-0.0.0.211-win-x64-selfcontained.zip"
 }
