@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.216",
+  "version": "0.0.0.217",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261121-botstats-1.0.1.230-admin-0.0.0.216-6d6x-2.5.243.0/AdminClient-0.0.0.216-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261121-botstats-1.0.1.231-admin-0.0.0.217-6d6x-2.5.244.0/AdminClient-0.0.0.217-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "e517530c7b8d50e3d72ff3232bb2cea0b221065f6561c1bb673d3c465bcc07b0",
+  "sha256": "5b0410ce2d046cf43a7cdd24203f048549103b732224013a89825744ce3d3973",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Fixed ping-group error display. Added driver maintenance, cache learning, per-game scenarios, reports and rollback. Removed the MTS executable patch and automatic Microsoft Defender exclusion.",
+  "releaseNotes": "Per-PC normal and peak ping fields, driver updates and separate game warm-up library with scenario editing.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "d6016ab095d6b726da672a467e5eac00ffb1180a64554fb508ed84e8a8fe624c"
+      "sha256": "661a1d1937237f4f6a2199024b4adaeffc6e275eda387990e9e0ce7814d787b2"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "a122cea812f1681863d0ff9bc0304c35587d1277d92065d00752599fbe2bb61f"
+      "sha256": "f2aa1d38095a576eae2fb00112a3b69b0619018b3833a450acc2998a74fc454a"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "3cefeae06c3595eabd072715d08b3239c9b637420f5f41bd67783797c00455c0"
+      "sha256": "bb6df2ba4d0847d760f4ca33e2de4702c6de3b7916dc97d65dab60914109c9f4"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "d9fd77ac550d2ccaa64b0b72ebb7e7d34a87f00a932beb0902a16b515cd4dba1"
+      "sha256": "9163936767436e1ff53c45291ad4358b918686640b677760c56394596abbcf11"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "91993538dbbc99d5c38b7280d5dfbf825ebc3d79fd523ec68b819de095bdf419"
+      "sha256": "8c986b0421507d606f46a113cbf7a5d021ba85f1ef5a22c9bb13c7270bdfbbce"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -51,11 +51,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "a30d38e3d729804530b26a3f25308276cb872133609a1f0dbf01a66e18d268f9"
+      "sha256": "ef771ad7e4eda6b71a09f8cdadfa925abea71cc58b92a33349fcd2b61dae4360"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "b523585738df8794dd9627b48aa0ad7202a11fcc9fd8c9501d71cae9b7ded7ce"
+      "sha256": "9170fbed6578c616b5ef61af750a1a9f75a6e3679c7859693b90d1641ae8e4c5"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -115,11 +115,11 @@
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "06835318d3d40f7bd6638d62167a20155e2a22b060db336bbd4ff39a42793831"
+      "sha256": "aa8fbb32c823ce98d7d20292f72e95eb7649e8b4bffd240e241d6991d1bc6004"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "a24b3d17261c2719cb58a2676de42755cac9c45d9336979d15a00a572c3137f3"
+      "sha256": "b9af1cca3aba33f28e712367ca83b799c3fcc6218d2100ef0f38405464631a28"
     },
     {
       "path": "HtmlAgilityPack.dll",
@@ -339,11 +339,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "a6f1c7aaa4dc4e52194665bb0abcf8946e3418013541fdfe1f7fc3fa0a09552e"
+      "sha256": "df347a1db96576865a853bb4d003d1c249f987d31f6bfbc9d0a51b46e2b4682e"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "259297b06c1f2ae909ddd8b0c497c28002e278c233e1ecd4b72d7a98580975e3"
+      "sha256": "3b45770d52b29e6a83589cc24217da2a013ccb940349de35f8b38950d07a59d4"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1306,5 +1306,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.216-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.217-win-x64-selfcontained.zip"
 }
