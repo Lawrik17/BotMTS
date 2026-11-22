@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.221",
+  "version": "0.0.0.222",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.235-admin-0.0.0.221-6d6x-2.5.248.0/AdminClient-0.0.0.221-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.236-admin-0.0.0.222/AdminClient-0.0.0.222-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "52fb048048bc75546ff23df63a0627fbef92e8107eca506a20748d2ac03fd33e",
+  "sha256": "9992b0857952d88b10d07be384f0e9801ca9a87ad72ba946c20ca4e42900945b",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Отдельный статус петли Windows Update и восстановление ПК из меню управления.",
+  "releaseNotes": "Исправлены описание и подтверждение кнопки «Снять блок перезагрузок».",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "f16f1aeba71dcd42f16a60189d41be75550f49674e2c504b0647b4044557683c"
+      "sha256": "8314c48e298cdd9e98268d493c84d8b8c8202db81d966d65a6e321ef2d64d43a"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "4f1b961ff842bfa0a88aa263f06962b2e6aec8b7d307bc31b22ef70a39d97481"
+      "sha256": "9c867ae52898f06d82f6b220e0a3d8fd6f4142f6dfdc8b386a970e889cd7b465"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "110d5b019c0f3056091b66f287d9a7676b0d9835d9a98bf59146b67c7463665d"
+      "sha256": "e2f9de11eedda9922ee711ac6e5646c7e3e2e42338218a3e60995876a505c13b"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "ab8527263321865b26cbf6a0ea342b9dc7a7a81cf9de75f73f3b557b6e5a3e6f"
+      "sha256": "473c043653c8c53cd826205210c48d5a742fecc19dd172702089a44ab211283d"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "db928eb5bb2a2d1ba4f8a3c5786f2354f736428113bd2ef3a159d1c0c94e646f"
+      "sha256": "af7cb5fa916f1539abee5f693c97eb3d8db502f1864511c2f4c777c9d91d120e"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -339,11 +339,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "1ecc2c640d59c00ba361e992b030bbec5a91b895be7ba18d9f9362b5fdc44ba2"
+      "sha256": "e06b4055b42d7f568c4443072fe6750e38902c111bb4c4dcba23df529956f2ea"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "8a0447cca4258680a88cedee6da7d9314bb179a1e94212d772ef01e3bdbbbf43"
+      "sha256": "e91c947b05eb6eeca46c9b07aeb80ff4b616f3383219b99621c3748a1581af3a"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1306,5 +1306,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.221-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.222-win-x64-selfcontained.zip"
 }
