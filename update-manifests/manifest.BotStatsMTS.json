@@ -1,13 +1,13 @@
 {
   "appId": "BotStatsMTS",
-  "version": "1.0.1.233",
+  "version": "1.0.1.234",
   "minimumVersion": "1.0.0.0",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.233-admin-0.0.0.219-6d6x-2.5.246.0/BotStatsMTS-1.0.1.233-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.234-admin-0.0.0.220-6d6x-2.5.247.0/BotStatsMTS-1.0.1.234-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "e487cf3a8f76f12a002427032fdce13ae59e5820ddc4f4be4e84e614b0344f28",
+  "sha256": "2be82b43da3a4a8832fc917e321b9945fe9ce069aa94ef717fcdb447e27d50c6",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Управление играми: очередь прогрева по ПК, сервисный режим и недельные отчёты. Мониторинг места и автоматическое обновление клонов по томам. Исправлен подбор драйверов GeForce. Расширены статистика rgminer и разделы Telegram в личном чате.",
+  "releaseNotes": "Согласованный комплект 239 для проверок лицензий EA.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -19,7 +19,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "f88c08c711aa2de4d72b6eccb736e12e48b16b69a506f9e48250d54cb47b0ff0"
+      "sha256": "1f691083f20c823483ce5c65878e473706251bfcb3bd0be9edeb4aeef97e897b"
     },
     {
       "path": "BotStatsMTS.deps.json",
@@ -27,7 +27,7 @@
     },
     {
       "path": "BotStatsMTS.dll",
-      "sha256": "80b25100d846998d43229771ebc1d5e9b35e5c5841aa6acf2a29a3c65974176c"
+      "sha256": "dcfe89cffe0ddf70b58ae9428a83d8c3e58a1d7acbff03f6144e9899ecac56f8"
     },
     {
       "path": "BotStatsMTS.dll.config",
@@ -35,11 +35,11 @@
     },
     {
       "path": "BotStatsMTS.exe",
-      "sha256": "d2353b9fc8a8d8420e286c74c49be30d88d5f58f539e6e4ef9c8441413d86d64"
+      "sha256": "eab617d211989705067ab1f6230b688c8485f089267d33c02226c2d36c0720f5"
     },
     {
       "path": "BotStatsMTS.pdb",
-      "sha256": "93654982936ca9b15614b7945fd9abd9fd02645f3a7e4e3f2a1d35d659df4661"
+      "sha256": "a7117c20eecce4419653a24a25297aa7dee3774ca07717f8a58a6837eaed9722"
     },
     {
       "path": "BotStatsMTS.runtimeconfig.json",
@@ -531,7 +531,7 @@
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.exe",
-      "sha256": "ecc2639ce9d22102966c4bb55ce4ef70cb7458524b77a3272ea44492fee01295"
+      "sha256": "46032a781081f246d8dc3c8b769a6aa5ed8a654353968c26872e201915ecbfcd"
     },
     {
       "path": "ServerManagement.Agent/BotStats.ServerManagement.Agent.pdb",
@@ -607,7 +607,7 @@
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.exe",
-      "sha256": "35a5e5abaa682033ce36f2d98b845020f29eb7dd60782c919751a862fbb9a033"
+      "sha256": "6bc98f72eb990d3ac9b68e0bacd362ef3b83d265c39782ec47a1f677bd94a259"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.Standard.pdb",
@@ -627,7 +627,7 @@
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.exe",
-      "sha256": "0e834212bb8b6ab4547c0708f9e0d734d151efc6c6a2e4043356d7236cca16f7"
+      "sha256": "f4fa748b0048e780a0d841bded51ddbfbb0790d60192a9a1121d016e22efe2f2"
     },
     {
       "path": "ServerManagement.Agent/GameRemote.Host/GameRemote.Host.pdb",
@@ -4494,7 +4494,7 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "BotStatsMTS-1.0.1.233-win-x64-selfcontained.zip",
+  "fileName": "BotStatsMTS-1.0.1.234-win-x64-selfcontained.zip",
   "nativeV2LegacySha256": "28b3299fcbce2fa6a4a38ec52fcead6f66ecedb8f244d75688b6af4f9f0f681a",
   "nativeV2OfferCompatSha256": "0da7443cd083703987b3e9d72d8b7f9335232a19d7246fc4ceeac367481c903f"
 }

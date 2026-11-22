@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.219",
+  "version": "0.0.0.220",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.233-admin-0.0.0.219-6d6x-2.5.246.0/AdminClient-0.0.0.219-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.234-admin-0.0.0.220-6d6x-2.5.247.0/AdminClient-0.0.0.220-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "8d450a8e2b23dc6d6313c9e1e7a07a93e83af145ac6e55ea8a3f545a3596aded",
+  "sha256": "4f7286b8b335e15ab0901e05863224321000d48e29d778d995f981a41157b9e8",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Управление играми: сценарии, очередь прогрева и отчёты по отменам. Переключатель автообновления клонов, сортировка ПК по номеру и ширина колонок по содержимому, показатели rgminer в списке ПК.",
+  "releaseNotes": "Согласованный комплект 239 для проверок лицензий EA.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "8edeb69c742f43786a6281b48de042ef1bbba0bc9a9e1d0a008fa61adff7905d"
+      "sha256": "0e62f92494163f8152248b158ee90964c0d9151cb8f28e9f505aa15790fdce07"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "b6ac49c747a9c3d76fd4827d8ccab7e8be7a342a49f8db2343e0c2bdfe2bff90"
+      "sha256": "7d9d528711f1d2ce4ebfd224d08bd744d706b87365c522a8d23db26ac006bafb"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "b329f41088d410398ba00f48f2da0aa28a6901075665d124dad9c6acb1a6784d"
+      "sha256": "68c6eec5865ccc2f5bdf264fc8d9299c6cd4e3850c4f13cf00b322cf59a370e0"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "e89d1ff91299fa2cef9b85818822029639ae9fbf4bee2266df5c004fd14859cf"
+      "sha256": "de1b33a682a7e87b161fda65f0612cadd06233133440ff866c6117b3b0140cd2"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "fcd31fe0346b1578d7a4abe4b5b3540a27601e8926560aeb426924e3e6108bdc"
+      "sha256": "e0bbf748b7c8e985b5d5d110dcefa933ca51da74f0aaf88e796b69328088119a"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -1306,5 +1306,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.219-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.220-win-x64-selfcontained.zip"
 }
