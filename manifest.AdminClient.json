@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.222",
+  "version": "0.0.0.223",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261122-botstats-1.0.1.236-admin-0.0.0.222/AdminClient-0.0.0.222-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261123-botstats-1.0.1.237-admin-0.0.0.223-6d6x-2.5.250.0/AdminClient-0.0.0.223-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "9992b0857952d88b10d07be384f0e9801ca9a87ad72ba946c20ca4e42900945b",
+  "sha256": "af9b5fadd11d6c71ef0ca369b01fbf8dd2f93d52d0f8412d49210946ad885f56",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Исправлены описание и подтверждение кнопки «Снять блок перезагрузок».",
+  "releaseNotes": "Обновлены вкладки управления играми, выбор заданий и отображение ошибок в очереди прогрева.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "8314c48e298cdd9e98268d493c84d8b8c8202db81d966d65a6e321ef2d64d43a"
+      "sha256": "126d56d66c7a89edb49750f9fc980c876566f699f20aec4ef404d9317090e006"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "9c867ae52898f06d82f6b220e0a3d8fd6f4142f6dfdc8b386a970e889cd7b465"
+      "sha256": "71a7343d007db327d1d0c75f9e7d78eb48775c68a3896a58d025989c14c5b403"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "e2f9de11eedda9922ee711ac6e5646c7e3e2e42338218a3e60995876a505c13b"
+      "sha256": "ba8bb7ea5f1650774f95016a68abf6ab031551989bb5b5f1edb59b875011dee2"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "473c043653c8c53cd826205210c48d5a742fecc19dd172702089a44ab211283d"
+      "sha256": "0c1c8a9a85846933503a19ea09b7186fd8808aa42fa4e53fa1bc3209393b7216"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "Apps/Updater.exe",
-      "sha256": "af7cb5fa916f1539abee5f693c97eb3d8db502f1864511c2f4c777c9d91d120e"
+      "sha256": "78d34fc6da4b56f065aa863dd694649df32160f3619301a455e1c7630f270180"
     },
     {
       "path": "BouncyCastle.Cryptography.dll",
@@ -51,11 +51,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "4949f81c6a4ea4afc657dce10aaed16ddb984c74c4c3c0ae2cb304bbef08673d"
+      "sha256": "1e11a5a59392acb833db8521b4301a2bffc15fa990320f1ad11078c963395b6c"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "fbbfc5d64e6cf1f3143589ad9e9f9c1ad874fc0a9bd4c16b6f75a476ad07ef21"
+      "sha256": "a0494d9df604c4c499f0431a39863b6e5dbfe16c1f74644aa60fa7b98469ec73"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -115,11 +115,11 @@
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "6cb2aca85151e0ea3eddbe31dd1965c7fb9c5afa4c2dad43972e824432729745"
+      "sha256": "71ededfc8708eba4ede4c6d71a16dfaf4df17d3c4b1800e846a8b258316462e3"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "d9e3841ca6bdf82516a3e58564fa2b4d3aa419908380d253986dda615054c938"
+      "sha256": "b14ab41eaf33c79948f320da125a3cf658261142027f53ed4b14cbe221f5a38c"
     },
     {
       "path": "HtmlAgilityPack.dll",
@@ -339,11 +339,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "e06b4055b42d7f568c4443072fe6750e38902c111bb4c4dcba23df529956f2ea"
+      "sha256": "43d1ec70a9bbd018546afea6be2b47ee5e93000a7bb0b64daf619905d820407d"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "e91c947b05eb6eeca46c9b07aeb80ff4b616f3383219b99621c3748a1581af3a"
+      "sha256": "8cfbad862cd487bf7a2e4e360f9632aa89b4981a20e394ef49a74a95b95bea57"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1306,5 +1306,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.222-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.223-win-x64-selfcontained.zip"
 }
