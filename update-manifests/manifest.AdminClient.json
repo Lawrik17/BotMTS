@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.225",
+  "version": "0.0.0.226",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261124-botstats-1.0.1.239-admin-0.0.0.225-6d6x-2.5.252.0/AdminClient-0.0.0.225-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261124-botstats-1.0.1.240-admin-0.0.0.226-6d6x-2.5.253.0/AdminClient-0.0.0.226-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "ea33fc4db316b077f96ab018eb3990dc9db309732183a2eeab185bbca9b576e2",
+  "sha256": "838bf86b05e4c89b9688b0020e436f66faf18c0c75a67f71b9640ab7fd91e01c",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Совместимая версия админ-клиента для комплекта 245.",
+  "releaseNotes": "Админ-клиент комплекта 246 для управления домашними ПК.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "fd35300fb294d17dae92f8ddc8e100bed0833e9e621521ca7bbb275aa3c9c856"
+      "sha256": "158cc31a1f0ffd5fbbe22bb1ca8d72a5f5cc9c00c061d458fcaefecb0dbb1a5f"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "d73cb8615082c87478889ccee1719b63609ef9fe13d07a2553b6ea9ec3ed33bc"
+      "sha256": "8f2305bf45449a7b4ede5a4c64bb938ee16fff66ac48acade4861d3428c4d314"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "ee4004684e684fcc2153bef300a8bf52bbe3d6e8b13ee65b604100e88f0e542a"
+      "sha256": "c9d7e9e90307dc3feda24739d56e65af5c29360bfc9c282062a6941a5821b7e5"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "a9987fd8e3e3ed0c6a93a8ca0c26d5fa36e82d519333d04d485af079d6603558"
+      "sha256": "33b94775a324b1825351d3c1b16eb554300a3055e284bf09ac416cd9c2190751"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -51,11 +51,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "85ca5d04777ae6fe8131a625f9936283053408a57fb74ca39e6651e7e1550c5b"
+      "sha256": "35c7d37772b37d7109f5185470ebddeceed06cf91ed65996e34a7e995bd81303"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "6395bff7cc57beba8ba65bca0672bda16771e2d8b6269fd1939b9787db161d8e"
+      "sha256": "10aa9fac3878314c146cab533c39799faf0a48d3e37c469d8146a19ecc1218fd"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -115,11 +115,11 @@
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "56c8a71e2ff77ba93a7eff970684fb88b4446f65ad4ce7de7e48154a69d144a2"
+      "sha256": "a932fce5ed78cda008d8287fa60800f36ab806484352093e959cc1047d751580"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "218159317b43ca909209ae8a5cf7636bb6559af6c3b9bd37e9606542f58baa71"
+      "sha256": "0222b23136704c89ee74256866cb2795f45bd08a098990439337d5bb43548d0b"
     },
     {
       "path": "HtmlAgilityPack.dll",
@@ -339,11 +339,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "e18aad69b0ff66a033972b7648d61d21a04b6be587befaa1085d1528a3ce7d77"
+      "sha256": "ecb509c10defe7614ca91b22b46ca33fbf319bac04b3482eaefc3ab101ea6207"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "3c72e204aa86f4718394e7145b52df5f9d24c64ec7a23954775692d7ef99f138"
+      "sha256": "71397c2d28268bcbe8491c48ff7e3b7b2603867bece02db18583be56e28c2b03"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1306,5 +1306,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.225-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.226-win-x64-selfcontained.zip"
 }
