@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.227",
+  "version": "0.0.0.228",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261124-botstats-1.0.1.241-admin-0.0.0.227-6d6x-2.5.254.0/AdminClient-0.0.0.227-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261125-botstats-1.0.1.242-admin-0.0.0.228-6d6x-2.5.254.0/AdminClient-0.0.0.228-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "eb98ac925f74bef29b7d0dea70b7735bb48c85a246244dc24a00fdcfecffd8df",
+  "sha256": "6f9b63cc746754a491f1491281ac8d872ae350f5c6efd9e9ab3aaab9b43d7465",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Вкладки майнинга, настройки Kryptex, статистика по воркерам и моделям видеокарт. Имена домашних ПК отображаются полностью. Исправлена подпись недельного отчёта.",
+  "releaseNotes": "Отчёт Kryptex в Excel, сортировка воркеров по номеру ПК, обычный шрифт баланса и таблиц, увеличенные таблицы видеокарт и пинга.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "e8639e9d658c3e2aab9efb89d5eca3bbf6b33ab1a7d58d17474ee82c8492bc57"
+      "sha256": "7c7c497bba11294ac8f678e9594f6db6720834cf6c2b6cf7481f305b4dafa7ce"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "b4bdb98b9dbdf9f3b986fc35f45ce1ed3c185d03ff4e8924da79e23440c64f36"
+      "sha256": "b952efa970cdfa1dc646c1f9075084c87f46d1acf3ba42164bae440952d5cece"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "29a9fd4e9ff4591a0b21e3a38f982547cfeead3485e9730ed40e979e0537d93f"
+      "sha256": "22400d4d9492f8fc98ceed97246dd9e108643733684c08d5cef72964b78c4075"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "9f7a9e21803d6411d3652f9cdca7a505f1636fe20de0827adb49c2da286d8366"
+      "sha256": "a68d1b9b8ab0611efac99a36b12d53e4836c86e8e53c45aef51d051e9f90a489"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -43,11 +43,11 @@
     },
     {
       "path": "ClusterPeer.dll",
-      "sha256": "587c3e57b28a2ca2210ce169953ba77c442c7dd8fd16fcd319142997a29762bb"
+      "sha256": "a76ba853ce2e993236c160bde1d177c22833c42871e1a8a7e973801d519f8e64"
     },
     {
       "path": "ClusterPeer.pdb",
-      "sha256": "c48cd2f9410de21a49184f4303db69c710728b39a5a651d613d18491869c2f22"
+      "sha256": "837bc1235ea809775076b3574a0a73a3fd8592c8ca77cc9c7e3940f273a5633f"
     },
     {
       "path": "Common.Logging.Core.dll",
@@ -59,11 +59,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "286f72b1c6671199764401b94e4b215d635625eb590593594bc5e608bad13195"
+      "sha256": "1a7c53c7d501cf329f87a549b5b33c92b768f934c6085781efb83dfe7dd01d05"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "8383b509b1e1d0d0504de1dcf50fdd0a5c516ce1d4140948fa3e74418ee0476b"
+      "sha256": "836d48c22fa38975ff5aef0a49f65319efd9e654a7e94fec2669c220fcb26137"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -79,11 +79,11 @@
     },
     {
       "path": "Deployment.Core.dll",
-      "sha256": "505e286ff3e8aa5ee70982116543b0e501d8d46bfce5830c715602d206f80b63"
+      "sha256": "1b243580a9928c75cd6e87d8e2734edfe5c408afac2439bd9c41599c3ca889dc"
     },
     {
       "path": "Deployment.Core.pdb",
-      "sha256": "5c199957f55a1feaeb79422b0f4076d3a185e86c21d9d4138f74120a99bea45f"
+      "sha256": "772ea19ae67b20572c5b09b3adf0ff6f5a85cdbe2f3e1c2e11b6eec4e4d7bc2d"
     },
     {
       "path": "DirectWriteForwarder.dll",
@@ -131,11 +131,11 @@
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "40fba460cafc53ebe2f43d806e37dbaff20d569c4a7cf318e977d6769760540b"
+      "sha256": "fe9c0682e2ed78f6c5ecb4e1ac75f3c1361b22a65caeb41111286f37684185c3"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "edb360e5fc7f9ff9695159594b702d7e604304ca59469f2020d06acdefccf904"
+      "sha256": "1d750ac6284be13432d41ef0b8f5e45f9543e627f0e5edc42c50deb8ed7aa2cf"
     },
     {
       "path": "HtmlAgilityPack.dll",
@@ -283,11 +283,11 @@
     },
     {
       "path": "Platform.Core.dll",
-      "sha256": "d412869bc57c92391de9ab72cf58f442a040ad72ef41abc1e199e9dedb2ae00a"
+      "sha256": "93dca5584b10c459bba241b80d0bc9a776e030be2bd991ed5bb5a49826da5d14"
     },
     {
       "path": "Platform.Core.pdb",
-      "sha256": "feb1daacc4de383c6b7f51ff2cca670314cd8390349c525a55da100b05281fe8"
+      "sha256": "36a671a9572fb1098e9c759d1a665479e6e3aec626f2b16c37f1fe812e77c1fa"
     },
     {
       "path": "PresentationCore.dll",
@@ -367,11 +367,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "1ee46215435989c69d6bc41ee5ee578931369c74b2868c4caee8a3b29a06ae07"
+      "sha256": "54becb23171c981e9dc04c06089f71f6138f309d19a8c2645bb82f34b8db80e3"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "d5b0deddbbb49dbc99f9acac127d1222fff69e3d9698c782f559f9d9752ed00d"
+      "sha256": "58ad70a8de56e1870d9b6dd8a7dbb94fa93d04fa7cd122cb606f582fdc660485"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1151,11 +1151,11 @@
     },
     {
       "path": "Torrent.Core.dll",
-      "sha256": "72d7d3a9fd654798b83195e95e5ff94599e861cefeb6ec7c702e333bccebac94"
+      "sha256": "685e5ee8a0dcf22e6cd3a2d7ad9304d99c26654649dbbd47d66442feabebfc25"
     },
     {
       "path": "Torrent.Core.pdb",
-      "sha256": "776bf9dc7dcbad268c54c9082a75bc24c70e67d472005edfa13302a9e9f2f056"
+      "sha256": "f17be98ff2bb62855a8cbe96d1e4040602d31a0e64abe4f4acd414dcbe501868"
     },
     {
       "path": "UIAutomationClient.dll",
@@ -1346,5 +1346,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.227-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.228-win-x64-selfcontained.zip"
 }
