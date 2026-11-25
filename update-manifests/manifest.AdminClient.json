@@ -1,13 +1,13 @@
 {
   "appId": "AdminClient",
-  "version": "0.0.0.228",
+  "version": "0.0.0.229",
   "minimumVersion": "0.0.0.5",
-  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261125-botstats-1.0.1.242-admin-0.0.0.228-6d6x-2.5.254.0/AdminClient-0.0.0.228-win-x64-selfcontained.zip",
+  "downloadUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20261125-botstats-1.0.1.243-admin-0.0.0.229-6d6x-2.5.255.0/AdminClient-0.0.0.229-win-x64-selfcontained.zip",
   "updaterUrl": "https://github.com/Lawrik17/BotMTS/releases/download/coordinated-20260924-botstats-1.0.1.187-admin-0.0.0.181-6d6x-2.5.214.0/Updater.exe",
-  "sha256": "6f9b63cc746754a491f1491281ac8d872ae350f5c6efd9e9ab3aaab9b43d7465",
+  "sha256": "66748729a8c07d2e1bd68fe4e0bf31c043f4877c411e224cc56d4e1bd0b4a02a",
   "nativeV2Sha256": "80e680bc6aecd8b9974dfd6365d7f4cd8bb5f0295ad6e508c3c45992f06e80dc",
   "nativeV2Abi": "2.6",
-  "releaseNotes": "Отчёт Kryptex в Excel, сортировка воркеров по номеру ПК, обычный шрифт баланса и таблиц, увеличенные таблицы видеокарт и пинга.",
+  "releaseNotes": "Прогноз дохода на вкладке хешрейта и полностью видимые флажки выбора ПК.",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -15,19 +15,19 @@
     },
     {
       "path": "AdminClient.deps.json",
-      "sha256": "7c7c497bba11294ac8f678e9594f6db6720834cf6c2b6cf7481f305b4dafa7ce"
+      "sha256": "65f31e1146d96337e5dff5d965095f4e52efd0f85d443b72dd41b9a1716c2964"
     },
     {
       "path": "AdminClient.dll",
-      "sha256": "b952efa970cdfa1dc646c1f9075084c87f46d1acf3ba42164bae440952d5cece"
+      "sha256": "bb4a5dc4173e3feba5fbabf103abc7e0ac2bc9c8645f9dfd43fd674e21ef47cd"
     },
     {
       "path": "AdminClient.exe",
-      "sha256": "22400d4d9492f8fc98ceed97246dd9e108643733684c08d5cef72964b78c4075"
+      "sha256": "42f78966a878ef962e622a4852109832b53aa409d68e03828450cf6bfef98082"
     },
     {
       "path": "AdminClient.pdb",
-      "sha256": "a68d1b9b8ab0611efac99a36b12d53e4836c86e8e53c45aef51d051e9f90a489"
+      "sha256": "a9a898e71c48d11e00f78273ae0d7331c3db4d790d0a2939092a5bdddebcbe4f"
     },
     {
       "path": "AdminClient.runtimeconfig.json",
@@ -43,11 +43,11 @@
     },
     {
       "path": "ClusterPeer.dll",
-      "sha256": "a76ba853ce2e993236c160bde1d177c22833c42871e1a8a7e973801d519f8e64"
+      "sha256": "56c806f21f4c1d8c9032a32d68a1a9a6e28e362532e1aeecb5bf46daf10750e6"
     },
     {
       "path": "ClusterPeer.pdb",
-      "sha256": "837bc1235ea809775076b3574a0a73a3fd8592c8ca77cc9c7e3940f273a5633f"
+      "sha256": "c0298d67d7409d5cd1be953589fdd59b2d2871af0c7da6c26591e293f79d53f0"
     },
     {
       "path": "Common.Logging.Core.dll",
@@ -59,11 +59,11 @@
     },
     {
       "path": "CommonModels.dll",
-      "sha256": "1a7c53c7d501cf329f87a549b5b33c92b768f934c6085781efb83dfe7dd01d05"
+      "sha256": "19b729a8c73b5000c9d646daa37ab71994d4e405db3f420e175beb6bddbe3246"
     },
     {
       "path": "CommonModels.pdb",
-      "sha256": "836d48c22fa38975ff5aef0a49f65319efd9e654a7e94fec2669c220fcb26137"
+      "sha256": "e41c6ff877d814fccd6b247142eb0d4f2fa623448e4ef0e0433921188c17ccef"
     },
     {
       "path": "CommunityToolkit.Mvvm.dll",
@@ -79,11 +79,11 @@
     },
     {
       "path": "Deployment.Core.dll",
-      "sha256": "1b243580a9928c75cd6e87d8e2734edfe5c408afac2439bd9c41599c3ca889dc"
+      "sha256": "43f2575be1524df1c4547e8fc8a8accdbc11fb6162a6d21e374b57a0b7d35b96"
     },
     {
       "path": "Deployment.Core.pdb",
-      "sha256": "772ea19ae67b20572c5b09b3adf0ff6f5a85cdbe2f3e1c2e11b6eec4e4d7bc2d"
+      "sha256": "69184459eee78e4094f760a130226d47a24dee43ab72e9818bf08f4b99cf5d63"
     },
     {
       "path": "DirectWriteForwarder.dll",
@@ -131,11 +131,11 @@
     },
     {
       "path": "GameRemote.Viewer.dll",
-      "sha256": "fe9c0682e2ed78f6c5ecb4e1ac75f3c1361b22a65caeb41111286f37684185c3"
+      "sha256": "689c9b9c9a16e7c1b5b259e32e5d1e4466879b619d659c484fd9ea1205dfdeb7"
     },
     {
       "path": "GameRemote.Viewer.pdb",
-      "sha256": "1d750ac6284be13432d41ef0b8f5e45f9543e627f0e5edc42c50deb8ed7aa2cf"
+      "sha256": "2f84fa09060396da45775ce90b49a9e2ef850764550fe85645cc97c0bf701963"
     },
     {
       "path": "HtmlAgilityPack.dll",
@@ -283,11 +283,11 @@
     },
     {
       "path": "Platform.Core.dll",
-      "sha256": "93dca5584b10c459bba241b80d0bc9a776e030be2bd991ed5bb5a49826da5d14"
+      "sha256": "60a182d114717e034639b9f4e63634ea3b66d14eab80ff2c834f7bfd8ffcb9fb"
     },
     {
       "path": "Platform.Core.pdb",
-      "sha256": "36a671a9572fb1098e9c759d1a665479e6e3aec626f2b16c37f1fe812e77c1fa"
+      "sha256": "faea5fc124b35a22cea073c8a5f2feca93c0047022833a7157d6c4df2fc5cae7"
     },
     {
       "path": "PresentationCore.dll",
@@ -367,11 +367,11 @@
     },
     {
       "path": "Shared.UI.dll",
-      "sha256": "54becb23171c981e9dc04c06089f71f6138f309d19a8c2645bb82f34b8db80e3"
+      "sha256": "148862cba1d03fd6dc75af739b9a770be2590ebec25bf7e432ab0af11937cf39"
     },
     {
       "path": "Shared.UI.pdb",
-      "sha256": "58ad70a8de56e1870d9b6dd8a7dbb94fa93d04fa7cd122cb606f582fdc660485"
+      "sha256": "2bc128713d0c7aa9a73e1986e2245d3c69303bde013bf483fcb14d966c8e608c"
     },
     {
       "path": "SharpGen.Runtime.COM.dll",
@@ -1151,11 +1151,11 @@
     },
     {
       "path": "Torrent.Core.dll",
-      "sha256": "685e5ee8a0dcf22e6cd3a2d7ad9304d99c26654649dbbd47d66442feabebfc25"
+      "sha256": "5618c420b13051b70bdb933889eb8f88a7df70095a3178369bd46885cdb09d32"
     },
     {
       "path": "Torrent.Core.pdb",
-      "sha256": "f17be98ff2bb62855a8cbe96d1e4040602d31a0e64abe4f4acd414dcbe501868"
+      "sha256": "daca09d39b73d198bdd1bf7f2e4767f067bb2b7f00aaf438bd6417bca7559596"
     },
     {
       "path": "UIAutomationClient.dll",
@@ -1346,5 +1346,5 @@
       "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
     }
   ],
-  "fileName": "AdminClient-0.0.0.228-win-x64-selfcontained.zip"
+  "fileName": "AdminClient-0.0.0.229-win-x64-selfcontained.zip"
 }
